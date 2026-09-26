@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: If you use this software or the schema, please cite it.
+title: "Portolan Negative-Results Record (NRR) v0.2: schema, validator and pilot ingest of two published studies"
+authors:
+  - name: Portolan Software
+    email: contact@portolansoft.com
+version: 0.2.0
+date-released: 2026-09-26
+repository-code: https://github.com/portolansoft/nrr
+url: https://portolansoft.com/pilot
+license: Apache-2.0
+keywords: [negative results, provenance, RO-Crate, PROV, AI agents, scientific discovery]

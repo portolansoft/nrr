@@ -1,0 +1,91 @@
+# Names to resolve once online (scripts/resolve_ids.py). Table-1 drug names are added automatically.
+compounds:
+  # Supplementary Table 5 labels not in Table 1 (RPE-SC screen), plus controls and Arcadia reagents
+  - 740 Y-P
+  - AZD8055
+  - Celecoxib
+  - CHIR99021
+  - Cytochalasin D
+  - Diarylpropionitrile
+  - EHT1864
+  - Entinostat
+  - Everolimus
+  - G-1
+  - GAS6
+  - GW0742
+  - Honokiol
+  - Jasplakinolide
+  - MLN120B
+  - Omaveloxolone
+  - PRE-084
+  - RGD
+  - Roflumilast
+  - T0901317
+  - Tubastatin A
+  - Sulforaphane
+  - Beta-Ionone
+  - Dimethyl fumarate
+  - AICAR
+  - Tauroursodeoxycholic acid
+  - Hoechst 33342
+  - DAPI
+  - Nourseothricin
+  - Triton X-100
+  - Sucrose
+  - Alcalase
+  - GW4064
+  - LGM2605
+  - Vorinostat
+  - Bay K8644
+  - NECA
+  - PF-573228
+  - 4-phenylbutyric acid
+proteins: [MFGE8, PROS1, GAS6, ABCA1]
+ontology:
+  - dry age related macular degeneration
+  - age-related macular degeneration
+  - retinal pigment epithelial cell
+  - flow cytometry assay
+  - bulk RNA-seq assay
+  - phagocytosis
+  - electroporation
+  - polymerase chain reaction
+  - genotyping assay
+  - cell viability assay
+  - amplicon sequencing assay
+  - colony forming unit assay
+  - DNA sequencing assay
+  - cell wall
+  - homologous recombination
+cellLines: [ARPE-19]
+genes: [ABCA1, MFGE8, PROS1, GAS6]
+organizations: [Edison Scientific, Arcadia Science, Astera Institute, FutureHouse, Chlamydomonas Resource Center, Eye-Bank for Sight Restoration]
+rrids: [SCR_002285, SCR_015687, SCR_010519, SCR_015530, SCR_012919, SCR_001905, SCR_018931, SCR_002798, SCR_003070]
+dois:
+  - 10.1038/s41586-026-10652-y
+  - 10.48550/arXiv.2505.13400
+  - 10.57844/arcadia-pdu7-q2zz
+  - 10.5281/zenodo.22238548
+  - 10.57844/arcadia-61hk-a7gd
+  - 10.1093/g3journal/jkab114
+  - 10.1111/tpj.70140
+  - 10.57844/arcadia-35f0-3e16
+  - 10.1371/journal.pone.0232594
+  - 10.1016/j.crmeth.2023.100562
+  - 10.21769/bioprotoc.4705
+  - 10.1016/j.algal.2024.103435
+  - 10.1159/000495183
+  - 10.1007/s00253-022-11790-9
+  - 10.1007/s11033-020-05922-5
+  - 10.1016/j.mex.2025.103416
+  - 10.1104/pp.112.206672
+  - 10.1016/j.bbabio.2016.10.007
+  - 10.1016/j.tibtech.2025.04.019
+  - 10.1038/nbt.3437
+  - 10.1038/nbt.2647
+  - 10.1038/nmeth.2019
+  - 10.1101/2025.08.21.671244
+  - 10.1038/s41467-026-68562-6
+  - 10.1093/plphys/kiab418
+  - 10.1093/plphys/kiae427
+  - 10.3389/fpls.2020.00306

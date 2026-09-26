@@ -1,0 +1,67 @@
+# Wet-lab phagocytosis screens reported in Ghareeb et al. 2026 (Nature 655:497-505).
+# Every value carries the paper location it was taken from. Labels are the spellings used in the
+# supplementary workbook; `role` overrides come from the main text and figure legends.
+provenance:
+  workbook: raw/robin/supplementary/41586_2026_10652_MOESM3_ESM.xlsx
+  paper: doi:10.1038/s41586-026-10652-y
+assay:
+  label: RPE phagocytosis assay (pHrodo substrate, flow cytometry)
+  ontology: OBI:0000916          # flow cytometry assay
+  process: GO:0006909            # phagocytosis
+  protocol: "Methods, 'Phagocytosis assay': 60 min drug pre-treatment at 37 C, 5% CO2; substrate added; 3 h incubation; TrypLE; FACS buffer; Attune NxT"
+  vehicle: 0.5% DMSO
+  instrument: Attune NxT flow cytometer with Autosampler (Thermo Fisher A24858)
+  sensitivityStatement: "Reporting Summary, Sample size: pilot studies showed 3 replicates could reliably distinguish the positive control (MFGE8) from the vehicle control; RPE-SC screen used n = 4 to maximally use the clinical material"
+  test: "Dunnett's test versus DMSO, P < 0.05 (figure legends 2f, 4b, 4d)"
+  dataExclusions: "Reporting Summary: no data was excluded"
+  randomization: "Reporting Summary: N/A"
+  blinding: "Reporting Summary: not applied to the screens (blinding used only for the reference check)"
+screens:
+  - id: r1-arpe19
+    round: 1
+    title: Round 1 phagocytosis screen of Robin's candidates in ARPE-19 cells
+    sheet: Supp Table 3
+    sheetDescription: "Human analysis of round 1 flow cytometry data (ARPE-19 cells); Supplementary Fig. 13"
+    cellModel: {label: ARPE-19, identifier: "RRID:CVCL_0145", taxon: "NCBITaxon:9606", source: "ATCC CRL-2302", passage: "expanded 3 passages, frozen aliquots; grown to confluence + 7 days"}
+    substrate: pHrodo Deep Red E. coli BioParticles (Thermo Fisher A10010), 10 µL of 1 µg/µL per well
+    plates: ["250403_RPEassay plate1", "250403_RPEassay plate2", "250403_RPEassay plate3"]
+    wellsPerArm: 3
+    hits: [Y-27632]
+    hitsSource: "Main text 'ROCK inhibitor enhances phagocytosis' and Fig. 2f"
+    positiveControl: {label: MFGE8, expected: increase in pHrodo MFI}
+    finch:
+      dir: raw/robin/robin_output/dry_age-related_macular_degeneration_2025-05-28_16-51/data_analysis
+      trajectories: d20ee48e
+      consensus: cedcd4d6
+      note: "Finch results in the repository analyse the round-1 flow data (upload folder flow_250508); five parallel trajectories, three of which returned flow_results.csv, plus one consensus step"
+  - id: r2-arpe19
+    round: 2
+    title: Round 2 phagocytosis screen of Robin's candidates in ARPE-19 cells
+    sheet: Supp Table 4
+    sheetDescription: "Human analysis of round 2 flow cytometry data (ARPE-19 cells); Supplementary Fig. 15"
+    cellModel: {label: ARPE-19, identifier: "RRID:CVCL_0145", taxon: "NCBITaxon:9606", source: "ATCC CRL-2302"}
+    substrate: pHrodo Deep Red E. coli BioParticles (Thermo Fisher A10010)
+    plates: ["250403_RPEassay plate1", "250403_RPEassay plate2", "250403_RPEassay plate3"]
+    wellsPerArm: 3
+    hits: [Ripasudil]
+    hitsSource: "Main text 'A repurposed drug for dAMD': ripasudil 1.89-fold (human analysis 1.75-fold in text; Supp Table 4 mean 1.89); Fig. 4b"
+    referenceArm: {label: Y-27632, note: "round-1 hit carried into round 2 as an internal positive"}
+    positiveControl: {label: MFGE8, expected: increase in pHrodo MFI}
+    inhibitorControl: {label: Cytochalasin D, expected: decrease in pHrodo MFI, note: "actin polymerisation inhibitor; role inferred from its known mechanism and the observed 0.62x, not stated in the text"}
+  - id: rpesc
+    round: validation
+    title: Re-screen of all candidates in primary human RPE stem cells (RPE-SC) with pHrodo-labelled bovine rod outer segments
+    sheet: Supp Table 5
+    sheetDescription: "Human analysis of the RPE-SC phagocytosis screen; Supplementary Fig. 16; Extended Data Fig. 6"
+    cellModel: {label: RPE-SC (primary human RPE stem cells), identifier: null, taxon: "NCBITaxon:9606", source: "single donor older than 60 years, no known ocular conditions, Eye-Bank for Sight Restoration, New York", note: "no cell-line identifier; human-derived primary cells; only aggregate donor descriptors are recorded"}
+    substrate: bovine rod outer segments (Invision BioResources 98740) conjugated with pHrodo Red SE (Thermo Fisher P36600), 10 ROS per cell
+    plates: ["1", "2", "3", "4"]
+    wellsPerArm: 4
+    hits: [Ripasudil, Y-27632, KL001]
+    hitsSource: "Main text 'Validation in primary human RPE cells'; Fig. 4d; Extended Data Fig. 6 (Deep Research candidates: none were hits)"
+    positiveControl: {label: MFGE8, expected: increase in pHrodo MFI}
+    inhibitorControl: {label: Cytochalasin D, expected: decrease in pHrodo MFI, note: "role inferred, see r2-arpe19"}
+labelRoles:
+  DMSO: vehicle
+  MFGE8: positive-control
+  Cytochalasin D: inhibitor-control

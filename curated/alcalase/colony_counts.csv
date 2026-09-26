@@ -1,0 +1,29 @@
+treatment,culture,guide,electroporation,medium,plating_dilution,colonies,note,source
+Alcalase,flask,none,no,TAP,100x,35,,Table 4
+Alcalase,plate,none,no,TAP,100x,68,,Table 4
+GeneArt,flask,none,no,TAP,100x,TMTC,too many to count (> ~1200),Table 4
+GeneArt,plate,none,no,TAP,100x,TMTC,too many to count (> ~1200),Table 4
+Alcalase,flask,none,yes,TAP,100x,24,,Table 4
+Alcalase,plate,none,yes,TAP,100x,26,,Table 4
+GeneArt,flask,none,yes,TAP,100x,66,,Table 4
+GeneArt,plate,none,yes,TAP,100x,1197,,Table 4
+Alcalase,flask,none,yes,TAP+NAT,1x,4,no RNP no donor background,Table 4
+Alcalase,plate,none,yes,TAP+NAT,1x,3,no RNP no donor background,Table 4
+GeneArt,flask,none,yes,TAP+NAT,1x,0,no RNP no donor background,Table 4
+GeneArt,plate,none,yes,TAP+NAT,1x,0,no RNP no donor background,Table 4
+Alcalase,flask,CpSRP43_KO_g01,yes,TAP+NAT,1x,0,,Table 4
+Alcalase,plate,CpSRP43_KO_g01,yes,TAP+NAT,1x,4,,Table 4
+GeneArt,flask,CpSRP43_KO_g01,yes,TAP+NAT,1x,174,,Table 4
+GeneArt,plate,CpSRP43_KO_g01,yes,TAP+NAT,1x,860,,Table 4
+Alcalase,flask,CpSRP54_KO_g01,yes,TAP+NAT,1x,0,,Table 4
+Alcalase,plate,CpSRP54_KO_g01,yes,TAP+NAT,1x,4,,Table 4
+GeneArt,flask,CpSRP54_KO_g01,yes,TAP+NAT,1x,168,,Table 4
+GeneArt,plate,CpSRP54_KO_g01,yes,TAP+NAT,1x,1094,,Table 4
+Alcalase,flask,SRTA_KO_g01,yes,TAP+NAT,1x,15,,Table 4
+Alcalase,plate,SRTA_KO_g01,yes,TAP+NAT,1x,4,,Table 4
+GeneArt,flask,SRTA_KO_g01,yes,TAP+NAT,1x,121,,Table 4
+GeneArt,plate,SRTA_KO_g01,yes,TAP+NAT,1x,711,,Table 4
+Alcalase,flask,SRTA_KO_g02,yes,TAP+NAT,1x,16,,Table 4
+Alcalase,plate,SRTA_KO_g02,yes,TAP+NAT,1x,5,,Table 4
+GeneArt,flask,SRTA_KO_g02,yes,TAP+NAT,1x,236,,Table 4
+GeneArt,plate,SRTA_KO_g02,yes,TAP+NAT,1x,996,,Table 4

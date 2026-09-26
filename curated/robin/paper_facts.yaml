@@ -1,0 +1,90 @@
+# Statements transcribed from Ghareeb et al. 2026 with their location in the paper.
+publication:
+  doi: 10.1038/s41586-026-10652-y
+  title: A multi-agent system for automating scientific discovery
+  journal: Nature
+  volume: "655"
+  pages: "497-505"
+  received: "2025-05-23"
+  accepted: "2026-05-12"
+  publishedOnline: "2026-05-19"
+  versionOfRecord: "2026-07-01"
+  issueDate: "2026-07-09"
+  license: https://creativecommons.org/licenses/by-nc-nd/4.0/
+  preprint: {doi: 10.48550/arXiv.2505.13400, date: "2025-05-19"}
+  authors: [Ali E. Ghareeb, Benjamin Chang, Ludovico Mitchener, Angela Yiu, Caralyn J. Szostkiewicz, Dmytro Shved, Gavin J. Gyimesi, Jon M. Laurent, Samantha M. Wright, Muhammed T. Razzak, Andrew D. White, Silvia C. Finnemann, Michaela M. Hinks, Samuel G. Rodriques]
+  orcids: {"Angela Yiu": "https://orcid.org/0009-0001-6627-0420", "Silvia C. Finnemann": "https://orcid.org/0000-0001-9298-0736", "Samuel G. Rodriques": "https://orcid.org/0000-0002-2509-0861"}
+  competingInterests: "A.E.G., L.M., A.Y., C.J.S., J.M.L., S.M.W., A.D.W., M.M.H. and S.G.R. hold shares in Edison Scientific, a spin-out of FutureHouse"
+  funding: Eric and Wendy Schmidt
+operator:
+  name: FutureHouse
+  affiliation: FutureHouse, San Francisco, CA, USA
+  ror: null            # no ROR entry found 2026-09-25
+  dataDepositor: {name: "Edison Scientific, Inc.", ror: "https://ror.org/01p9amb16", note: "SRA study center_name"}
+code:
+  robin: {url: https://github.com/Future-House/robin, commit: 4a5cce310f3bc7663a67117db88af43b84733ffe, commitDate: "2026-04-21", license: Apache-2.0, sampleRuns: ["robin_output/dry_age-related_macular_degeneration_2025-05-28_16-51", "robin_output/dry_age-related_macular_degeneration_2025-05-29_12-11"]}
+  finch: {url: https://github.com/Future-House/finch, commit: aea66fdf2dd2be827727de50a73cae60dff59972, commitDate: "2026-04-18", license: Apache-2.0}
+  paperqa2: https://github.com/Future-House/paper-qa
+data:
+  sra: {bioproject: PRJNA1464762, secondary: SRP699478, runs: 29, firstPublic: "2026-05-15", centerName: "Edison Scientific, Inc.", title: "RNA-seq of ARPE-19 cells with/without beads"}
+  rpescRnaSeq: {deposited: false, note: "RPE-SC ripasudil RNA-seq (Plasmidsaurus 3' end counting) is shown in Supplementary Fig. 17; no accession is given in the Data availability statement"}
+models:
+  synthesis: {name: o4-mini, provider: OpenAI, role: hypothesis-generation, source: "Methods, Robin implementation"}
+  judge: {name: Claude 3.7 Sonnet, provider: Anthropic, role: ranking, source: "Methods, Robin implementation"}
+  judgePromptAuthor: {name: Gemini 2.5 Pro Preview, provider: Google, role: prompt-authoring, source: "Methods: expert pairwise preferences were given to Gemini 2.5 Pro Preview to generate the judge prompt"}
+  finchBase: {name: anthropic/claude-3-7-sonnet-20250219, provider: Anthropic, role: data-analysis, source: "Finch trajectory metadata (agent_name) in results_20250529_115604.json; Methods 'Finch evaluation'"}
+  crow: {name: Crow, provider: FutureHouse/Edison platform, base: PaperQA2, role: literature-search, source: "Methods; README: Crow and Falcon are now called 'Literature' on the Edison platform"}
+  falcon: {name: Falcon, provider: FutureHouse/Edison platform, base: PaperQA2, role: literature-search, source: "Methods"}
+  deepResearch: {name: Deep Research, provider: OpenAI, dateUsed: "2025-06", role: candidate-generation, source: "Methods, Comparison with OpenAI's Deep Research"}
+workflowConfig: {num_queries: 5, num_assays: 10, num_candidates: 30, source: "Main text 'Robin expedites hypothesis generation'"}
+cost:
+  crowUsdPerRun: 0.0963
+  falconUsdPerRun: 0.2142
+  costRunsN: 52
+  crowCallsPerRobinRun: 45
+  falconCallsPerRobinRun: 30
+  robinRunUsd: 10.76
+  robinRunUsdBreakdown: {crow: 4.33, falcon: 6.43}
+  papersSynthesised: 551
+  papersSynthesisedMinutes: 30
+  papersHumanHours: 294
+  humanHoursManualWorkflow: "359-424"
+  robinHoursWorkflow: "<2"
+  source: "Main text 'Robin expedites hypothesis generation', Table 1, Methods 'Cost analysis'"
+literatureCounts:
+  assayStagePapers: 151
+  candidateStagePapers: "~400"
+  source: "Main text 'Robin expedites hypothesis generation'"
+ranking:
+  method: "Bradley-Terry-Luce strength from LLM-judged pairwise comparisons (round robin for <= 25 hypotheses, else 300 random pairs); choix.ilsr_pairwise alpha=0.1"
+  judgeConcordance: "7.25 of top 10 matched experts' top 10 on average; judge intra-rater consistency 88% vs experts 61% (Supplementary Fig. 20)"
+rnaSeq:
+  experiment: "ARPE-19 cells treated with Y-27632 or vehicle, with or without pHrodo beads; RNA-seq proposed by Robin after round 1 (Fig. 3a)"
+  library: "NEBNext Poly(A) mRNA Magnetic Isolation Module (E7490) and NEBNext Ultra II Directional RNA Library Prep Kit (E7760); 1 µg total RNA input"
+  sequencing: "Illumina NextSeq 2000, 75 bp paired-end reads, P3 flow cell, 1% PhiX"
+  alignment: "HISAT2 --dta against GRCh38 (HISAT2 index built from GENCODE v44), 8 threads; samtools view/sort/index; featureCounts (Subread) paired-end mode with GENCODE v44 GTF -> gene_counts.txt (human-performed)"
+  dge: "DESeq2 v1.36.0 in R v4.2.0 on six samples (Y-27632 vs untreated), Wald test, biomaRt symbol mapping, EnhancedVolcano v1.14.0 thresholds |log2FC| > 1 and adjusted P < 0.05 (Finch-performed, 8 trajectories with consensus)"
+  headline: {gene: ABCA1, foldChange: 3, adjustedP: "2.13e-83", direction: up, source: "Main text 'Automated RNA-seq analysis'"}
+  goTerms: [actin filament organization, small GTPase-mediated signal transduction, autophagy]
+  consensus: "genes called in over 50% of the eight trajectories (Fig. 3c)"
+  rpescValidation: {cells: RPE-SC, treatment: ripasudil vs DMSO with or without ROS, n: 4, abca1Log2FC: [-0.55, -0.74], pValues: ["5.11e-5", "8.08e-5"], source: "Supplementary Fig. 17 legend (sign as printed; the legend calls ABCA1 'modestly upregulated')"}
+ablation:
+  crowAssayProposalsHallucinated: "0 of 15 proposals had hallucinated references"
+  o4miniAssayProposalsHallucinated: "44.5 +/- 6.37% (mean +/- s.e.m., n = 15)"
+  source: "Main text 'Validation of the Robin architecture'; Extended Data Fig. 4; Supplementary Tables 6-9"
+  finchRubric: {rnaSeq: "86 +/- 0%", flowCytometry: "100 +/- 0%", n: 3}
+  bixbench: {finch: "22.8 +/- 1.7%", sonnet37: "1.6 +/- 1.2%", questions: 170, statisticsSubset: "47.9 +/- 1.5%", bioinformaticsSubset: "15.3 +/- 2.0%"}
+deepResearch:
+  requested: 19
+  unique: 17
+  duplicates: [Resveratrol, GW3965]
+  hits: 0
+  didNotPropose: ROCK inhibition
+  prompt: "Supplementary Fig. 8 (same candidate generation prompt as Robin); 2-3 clarifying questions answered by the authors"
+  source: "Main text 'Validation of the Robin architecture'; Extended Data Fig. 6"
+priorArt:
+  y27632PhagocytosisRefs: ["35", "36", "37"]
+  mfge8Ref: "34"
+  circadianPhagocytosisRef: "43"
+  rockWetAmdRef: "44"
+  abca1ApoeRefs: ["38", "39", "40"]

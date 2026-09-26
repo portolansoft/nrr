@@ -1,0 +1,250 @@
+{
+ "1": {
+  "text": "Boiko, D. A., MacKnight, R., Kline, B. & Gomes, G. Autonomous chemical research with large language models. Nature 624 , 570–578 (2023). Central",
+  "doi": "10.1038/s41586-023-06792-0"
+ },
+ "2": {
+  "text": "Wang, E. et al. TxGemma: efficient and agentic LLMs for therapeutics. Preprint at https://doi.org/10.48550/arxiv.2504.06196 (2025).",
+  "doi": "10.48550/arxiv.2504.06196"
+ },
+ "3": {
+  "text": "Gottweis, J. et al. Towards an AI co-scientist. Preprint at https://doi.org/10.48550/arxiv.2502.18864 (2025).",
+  "doi": "10.48550/arxiv.2502.18864"
+ },
+ "4": {
+  "text": "Fleckenstein, M., Schmitz-Valckenberg, S. & Chakravarthy, U. Age-related macular degeneration: a review. JAMA 331 , 147–157 (2024). Central",
+  "doi": "10.1001/jama.2023.26074"
+ },
+ "5": {
+  "text": "Rein, D. B. et al. Forecasting age-related macular degeneration through the year 2050: the potential impact of new treatments. Arch. Ophthalmol. 127 , 533–540 (2009).",
+  "doi": "10.1001/archophthalmol.2009.58"
+ },
+ "6": {
+  "text": "Stephens, Z. D. et al. Big data: astronomical or genomical? PLoS Biol. 13 , e1002195 (2015). Central",
+  "doi": "10.1371/journal.pbio.1002195"
+ },
+ "7": {
+  "text": "Nurse, P. Biology must generate ideas as well as data. Nature 597 , 305 (2021).",
+  "doi": "10.1038/d41586-021-02480-z"
+ },
+ "8": {
+  "text": "Cheng, F., Ma, Y., Uzzi, B. & Loscalzo, J. Importance of scientific collaboration in contemporary drug discovery and development: a detailed network analysis. BMC Biol. 18 , 138 (2020). Central",
+  "doi": null
+ },
+ "9": {
+  "text": "Ingersoll, M. A. et al. BRAF inhibition protects against hearing loss in mice. Sci. Adv. 6 , eabd0561 (2020). Central",
+  "doi": "10.1126/sciadv.abd0561"
+ },
+ "10": {
+  "text": "Ingersoll, M. A. et al. Dabrafenib protects from cisplatin-induced hearing loss in a clinically relevant mouse model. JCI Insight 8 , e171140 (2023).",
+  "doi": null
+ },
+ "11": {
+  "text": "GlaxoSmithKline. Clinical trial results: a phase II (BRF113710) single-arm, open-label study of dabrafenib (GSK2118436) in previously treated BRAF mutant metastatic melanoma. EU Clinical Trials Register https://www.clinicaltrialsregister.eu/ctr-search/trial/2009-015297-36/results (2017).",
+  "doi": null
+ },
+ "12": {
+  "text": "US National Library of Medicine. ClinicalTrials.gov https://clinicaltrials.gov/study/NCT01153763 (2017).",
+  "doi": null
+ },
+ "13": {
+  "text": "Ribas, A. & Flaherty, K. T. BRAF targeted therapy changes the treatment paradigm in melanoma. Nat. Rev. Clin. Oncol. 8 , 426–433 (2011).",
+  "doi": "10.1038/nrclinonc.2011.69"
+ },
+ "14": {
+  "text": "Lahne, M. & Gale, J. E. Damage-induced activation of ERK1/2 in cochlear supporting cells is a hair cell death-promoting signal that depends on extracellular ATP and calcium. J. Neurosci. 28 , 4918–4928 (2008). Central",
+  "doi": "10.1523/JNEUROSCI.4914-07.2008"
+ },
+ "15": {
+  "text": "Berman, R. M. et al. Antidepressant effects of ketamine in depressed patients. Biol. Psychiatry 47 , 351–354 (2000).",
+  "doi": "10.1016/S0006-3223(99)00230-9"
+ },
+ "16": {
+  "text": "Petersen, R. C. & Stillman, R. C. (eds) Phencyclidine (PCP) Abuse: an Appraisal (National Institute on Drug Abuse, 1978).",
+  "doi": null
+ },
+ "17": {
+  "text": "Frye, R. E., Sequeira, J. M., Quadros, E. V., James, S. J. & Rossignol, D. A. Cerebral folate receptor autoantibodies in autism spectrum disorder. Mol. Psychiatry 18 , 369–381 (2013).",
+  "doi": "10.1038/mp.2011.175"
+ },
+ "18": {
+  "text": "Ramaekers, V. T., Blau, N., Sequeira, J. M., Nassogne, M.-C. & Quadros, E. V. Folate receptor autoimmunity and cerebral folate deficiency in low-functioning autism with neurological deficits. Neuropediatrics 38 , 276–281 (2008).",
+  "doi": "10.1055/s-2008-1065354"
+ },
+ "19": {
+  "text": "Sauerberg, P. et al. Novel functional M1 selective muscarinic agonists. Synthesis and structure-activity relationships of 3-(1,2,5-thiadiazolyl)-1,2,5,6-tetrahydro-1-methylpyridines. J. Med. Chem. 35 , 2274–2283 (1992).",
+  "doi": "10.1021/jm00090a019"
+ },
+ "20": {
+  "text": "Karuna Therapeutics, Inc. Form 10-K: annual report for the fiscal year ended December 31, 2019. U.S. Securities and Exchange Commission https://www.sec.gov/Archives/edgar/data/1771917/000156459020012311/krtx-10k_20191231.htm (2020).",
+  "doi": null
+ },
+ "21": {
+  "text": "Taylor, R. et al. Galactica: a large language model for science. Preprint at https://doi.org/10.48550/arxiv.2211.09085 (2022).",
+  "doi": "10.48550/arxiv.2211.09085"
+ },
+ "22": {
+  "text": "Giglou, H. B., D'Souza, J., & Auer, S. LLMs4Synthesis: Leveraging large language models for scientific synthesis. In Proc. 24th ACM/IEEE Joint Conference on Digital Libraries (JCDL) https://doi.org/10.1145/3677389.3702565 (Association for Computing Machinery, 2025).",
+  "doi": "10.1145/3677389.3702565"
+ },
+ "23": {
+  "text": "Agarwal, S. et al. LitLLM: a toolkit for scientific literature review. Preprint at https://doi.org/10.48550/arxiv.2402.01788 (2025).",
+  "doi": "10.48550/arxiv.2402.01788"
+ },
+ "24": {
+  "text": "Wang, Z. P., Bhandary, P., Wang, Y. & Moore, J. H. Using GPT-4 to write a scientific review article: a pilot evaluation study. BioData Min. 17 , 16 (2024). Central",
+  "doi": null
+ },
+ "25": {
+  "text": "Skarlinski, M. D. et al. Language agents achieve superhuman synthesis of scientific knowledge. Preprint at https://doi.org/10.48550/arxiv.2409.13740 (2024).",
+  "doi": "10.48550/arxiv.2409.13740"
+ },
+ "26": {
+  "text": "Huang, K. et al. Automated hypothesis validation with agentic sequential falsifications. In Proc. 42nd International Conference on Machine Learning (ICML) Vol. 267 (eds Singh, A. et al.) 25372–25437 (PMLR, 2025).",
+  "doi": null
+ },
+ "27": {
+  "text": "Lu, C. et al. Towards end-to-end automation of AI research. Nature 651 , 914–919 (2026).",
+  "doi": null
+ },
+ "28": {
+  "text": "Ifargan, T., Hafner, L., Kern, M., Alcalay, O. & Kishony, R. Autonomous LLM-driven research — from data to human-verifiable research papers. NEJM AI https://doi.org/10.1056/AIoa2400555 (2024).",
+  "doi": "10.1056/AIoa2400555"
+ },
+ "29": {
+  "text": "Yamada, Y. et al. The AI Scientist-v2: workshop-level automated scientific discovery via agentic tree search. Preprint at https://doi.org/10.48550/arxiv.2504.08066 (2025).",
+  "doi": "10.48550/arxiv.2504.08066"
+ },
+ "30": {
+  "text": "Chaves, J. M. Z. et al. Tx-LLM: a large language model for therapeutics. Preprint at https://doi.org/10.48550/arxiv.2406.06316 (2024).",
+  "doi": "10.48550/arxiv.2406.06316"
+ },
+ "31": {
+  "text": "Mitchener, L. et al. Bixbench: a comprehensive benchmark for LLM-based agents in computational biology. Preprint at https://doi.org/10.48550/arxiv.2503.00096 (2025).",
+  "doi": "10.48550/arxiv.2503.00096"
+ },
+ "32": {
+  "text": "Buniello, A. et al. Open Targets Platform: facilitating therapeutic hypotheses building in drug discovery. Nucleic Acids Res. 53 , D1467–D1475 (2024).",
+  "doi": "10.1093/nar/gkae1128"
+ },
+ "33": {
+  "text": "Narayanan, S. et al. Aviary: training language agents on challenging scientific tasks. Preprint at https://doi.org/10.48550/arxiv.2412.21154 (2024).",
+  "doi": "10.48550/arxiv.2412.21154"
+ },
+ "34": {
+  "text": "Nandrot, E. F. et al. Essential role for MFG-E8 as ligand for α v β 5 integrin in diurnal retinal phagocytosis. Proc. Natl Acad. Sci. USA 104 , 12005–12010 (2007). Central",
+  "doi": "10.1073/pnas.0704756104"
+ },
+ "35": {
+  "text": "Mao, Y. & Finnemann, S. C. Acute RhoA/Rho kinase inhibition is sufficient to restore phagocytic capacity to retinal pigment epithelium lacking the engulfment receptor MerTK. Cells 10 , 1927 (2021). Central",
+  "doi": "10.3390/cells10081927"
+ },
+ "36": {
+  "text": "Müller, C., Charniga, C., Temple, S. & Finnemann, S. C. Quantified F-actin morphology is predictive of phagocytic capacity of stem cell-derived retinal pigment epithelium. Stem Cell Rep. 10 , 1075–1087 (2018).",
+  "doi": "10.1016/j.stemcr.2018.01.017"
+ },
+ "37": {
+  "text": "Kozyrina, A. N. et al. Laminin-defined mechanical status modulates retinal pigment epithelium phagocytosis. EMBO Rep. 26 , 3357–3383 (2025).",
+  "doi": "10.1038/s44319-025-00475-9"
+ },
+ "38": {
+  "text": "Malek, G. et al. Apolipoprotein E allele-dependent pathogenesis: a model for age-related retinal degeneration. Proc. Natl Acad. Sci. USA 102 , 11900–11905 (2005). Central",
+  "doi": "10.1073/pnas.0503015102"
+ },
+ "39": {
+  "text": "Klaver, C. C. et al. Genetic association of apolipoprotein E with age-related macular degeneration. Am. J. Hum. Genet. 63 , 200–206 (1998). Central",
+  "doi": "10.1086/301901"
+ },
+ "40": {
+  "text": "McKay, G. J. et al. Evidence of association of APOE with age-related macular degeneration—a pooled analysis of 15 studies. Hum. Mutat. 32 , 1407–1416 (2011). Central",
+  "doi": "10.1002/humu.21577"
+ },
+ "41": {
+  "text": "Blenkinsop, T. A. et al. Human adult retinal pigment epithelial stem cell-derived RPE monolayers exhibit key physiological characteristics of native tissue. Invest. Ophthalmol. Vis. Sci. 56 , 7085–7099 (2015). Central",
+  "doi": "10.1167/iovs.14-16246"
+ },
+ "42": {
+  "text": "Croze, R. H. et al. ROCK inhibition extends passage of pluripotent stem cell-derived retinal pigmented epithelium. Stem Cells Transl. Med. 3 , 1066–1078 (2014). Central",
+  "doi": "10.5966/sctm.2014-0079"
+ },
+ "43": {
+  "text": "Lieffrig, S. A., Gyimesi, G., Mao, Y. & Finnemann, S. C. Clearance phagocytosis by the retinal pigment epithelial during photoreceptor outer segment renewal: molecular mechanisms and relation to retinal inflammation. Immunol. Rev. 319 , 81–99 (2023). Central",
+  "doi": "10.1111/imr.13264"
+ },
+ "44": {
+  "text": "Halasz, E. & Townes-Anderson, E. Rock inhibitors in ocular disease. ADMET DMPK 4 , 280–301 (2016).",
+  "doi": "10.5599/admet.4.4.331"
+ },
+ "45": {
+  "text": "Inana, G. et al. RPE phagocytic function declines in age-related macular degeneration and is rescued by human umbilical tissue derived cells. J. Transl. Med. 16 , 63 (2018). Central",
+  "doi": null
+ },
+ "46": {
+  "text": "Si, Z., Zheng, Y. & Zhao, J. The role of retinal pigment epithelial cells in age-related macular degeneration: phagocytosis and autophagy. Biomolecules 13 , 901 (2023). Central",
+  "doi": "10.3390/biom13060901"
+ },
+ "47": {
+  "text": "Kaarniranta, K. et al. Autophagy and heterophagy dysregulation leads to retinal pigment epithelium dysfunction and development of age-related macular degeneration. Autophagy 9 , 973–984 (2013). Central",
+  "doi": "10.4161/auto.24546"
+ },
+ "48": {
+  "text": "Gregoire, J. M., Zhou, L. & Haber, J. A. Combinatorial synthesis for AI-driven materials discovery. Nat. Synth. 2 , 493–504 (2023).",
+  "doi": "10.1038/s44160-023-00251-4"
+ },
+ "49": {
+  "text": "Baedeker, M., Ringel, M. S. & Möller, C. C. 2024 FDA approvals exceed average number but have lower sales projections. Nat. Rev. Drug Discov. 24 , 85–85 (2025).",
+  "doi": "10.1038/d41573-025-00014-0"
+ },
+ "50": {
+  "text": "Tenopir, C., King, D. W., Christian, L. & Volentine, R. Scholarly article seeking, reading, and use: a continuing evolution from print to electronic in the sciences and social sciences. Learn. Publ. 28 , 93–105 (2015).",
+  "doi": "10.1087/20150203"
+ },
+ "51": {
+  "text": "Hippel, T. V. & Hippel, C. V. To apply or not to apply: a survey analysis of grant writing costs and benefits. PLoS ONE 10 , e0118494 (2015).",
+  "doi": "10.1371/journal.pone.0118494"
+ },
+ "52": {
+  "text": "Sboner, A., Mu, X. J., Greenbaum, D., Auerbach, R. K. & Gerstein, M. B. The real cost of sequencing: higher than you think! Genome Biol. 12 , 125 (2011). Central",
+  "doi": null
+ },
+ "53": {
+  "text": "Anaconda. State of data science 2024 report. Anaconda https://www.anaconda.com/resources/report/state-of-data-science-report-2024 (2024).",
+  "doi": null
+ },
+ "54": {
+  "text": "Bradley, R. A. & Terry, M. E. Rank analysis of incomplete block designs: I. The method of paired comparisons. Biometrika 39 , 324–345 (1952).",
+  "doi": null
+ },
+ "55": {
+  "text": "Zheng, L. et al. Judging LLM-as-a-judge with MT-Bench and Chatbot Arena. In Advances in Neural Information Processing Systems (NeurIPS) (eds Oh, A. et al.) 46595–46623 (Curran Associates, 2023).",
+  "doi": null
+ },
+ "56": {
+  "text": "Liu, Y. et al. Aligning with human judgement: the role of pairwise preference in large language model evaluators. Preprint at https://doi.org/10.48550/arxiv.2403.16950 (2025).",
+  "doi": "10.48550/arxiv.2403.16950"
+ },
+ "57": {
+  "text": "Yao, S. et al. ReAct: synergizing reasoning and acting in language models. In Proc. 11th International Conference on Learning Representations (ICLR) (2023).",
+  "doi": null
+ },
+ "58": {
+  "text": "Dunn, K. C., Aotaki-Keen, A. E., Putkey, F. R. & Hjelmeland, L. M. ARPE-19, a human retinal pigment epithelial cell line with differentiated properties. Exp. Eye Res. 62 , 155–169 (1996).",
+  "doi": "10.1006/exer.1996.0020"
+ },
+ "59": {
+  "text": "Fernandes, M., McArdle, B., Schiff, L. & Blenkinsop, T. A. Stem cell-derived retinal pigment epithelial layer model from adult human globes donated for corneal transplants. Curr. Protoc. Stem Cell Biol. 45 , e53 (2018).",
+  "doi": "10.1002/cpsc.53"
+ },
+ "60": {
+  "text": "Love, M. I., Huber, W. & Anders, S. Moderated estimation of fold change and dispersion for RNA-seq data with DESeq2. Genome Biol. 15 , 550 (2014). Central",
+  "doi": null
+ },
+ "61": {
+  "text": "Durinck, S., Spellman, P. T., Birney, E. & Huber, W. Mapping identifiers for the integration of genomic datasets with the R/Bioconductor package biomaRt. Nat. Protoc. 4 , 1184–1191 (2009). Central",
+  "doi": "10.1038/nprot.2009.97"
+ },
+ "62": {
+  "text": "EnhancedVolcano: publication-ready volcano plots with enhanced colouring and labeling. Bioconductor https://bioconductor.org/packages/release/bioc/vignettes/EnhancedVolcano/inst/doc/EnhancedVolcano.html (2026).",
+  "doi": null
+ }
+}

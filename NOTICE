@@ -1,0 +1,10 @@
+Portolan NRR: schema, validator, converters and pilot corpus tooling
+Copyright 2026 Portolan Software
+
+Licensed under the Apache License, Version 2.0 (code) and CC BY 4.0 (schema documentation in schema/).
+
+Third-party material used at build time, not redistributed here:
+- Future-House/robin sample run outputs (Apache-2.0), fetched at the pinned commit by scripts/fetch_sources.py.
+- Nature supplementary workbook for doi:10.1038/s41586-026-10652-y (CC BY-NC-ND 4.0), downloaded for local use only.
+Vendored material:
+- raw/alcalase/: Caddell et al. 2026 (The Stacks, CC BY 4.0) and Zenodo record 22238548 (CC BY 4.0).

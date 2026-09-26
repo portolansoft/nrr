@@ -1,0 +1,26 @@
+[project]
+name = "portolan-nrr"
+version = "0.2.0"
+description = "Portolan Negative-Results Record (NRR): machine-readable schema, ingest pipeline, and pilot corpus"
+requires-python = ">=3.12"
+dependencies = [
+    "jsonschema>=4.23",
+    "openpyxl>=3.1",
+    "pypdf>=5",
+    "pyyaml>=6",
+    "requests>=2.32",
+]
+
+[dependency-groups]
+dev = ["pytest>=8"]
+
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["nrr"]
+package-dir = {"" = "src"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

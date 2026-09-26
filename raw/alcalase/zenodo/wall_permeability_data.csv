@@ -1,0 +1,11 @@
+Tube ID,Culture,Treament,Triton X-100 (0.05%),OD1 (662),OD2 (662),% efficiency
+1-,flask,M-N,minus,1.07,0.02,1.87%
+1,flask,M-N,plus,1.07,0.06,5.61%
+2,flask,Alcalase,plus,1.07,0.25,23.36%
+3,flask,GeneArt,plus,1.07,0.12,11.21%
+,,,,,,
+Tube ID,Culture,Treament,Triton X-100 (0.05%),OD1 (662),OD2 (662),% efficiency
+4-,plate,M-N,minus,1.74,0.13,7.47%
+4,plate,M-N,plus,1.74,0.12,6.90%
+5,plate,Alcalase,plus,1.74,0.38,21.84%
+6,plate,GeneArt,plus,1.74,0.19,10.92%

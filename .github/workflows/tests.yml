@@ -1,0 +1,13 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+      - run: uv sync
+      # Robin-study tests skip themselves unless raw/robin is fetched (see raw/README.md); the schema, rules,
+      # crate, resolver and Arcadia converter tests run here.
+      - run: uv run pytest -q
+      - run: uv run python build.py --study arcadia-alcalase --out /tmp/out

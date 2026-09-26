@@ -1,0 +1,5 @@
+colony_morphology,pcr_positive,pcr_screened,pcr_percent,amplicon_sequenced,edits_detected,inserts_detected,source
+small,36,45,80,17,0,0,Table 5
+medium,61,67,91,14,0,0,Table 5
+large,75,79,95,9,0,0,Table 5
+total,172,191,90,40,0,0,Table 5

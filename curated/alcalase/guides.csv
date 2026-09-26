@@ -1,0 +1,5 @@
+guide,locus_id,gene,alias,location,strand,local_offtargets,azimuth_score,pam,protospacer,mit_specificity,source
+CpSRP43_KO_g01,Cre04.g231026,CpSRP43,TLA3,exon 1,reverse,0,0.74,GGG,ACTAGGTACTCGACGCGCGG,100%,Table 1
+CpSRP54_KO_g01,Cre11.g479750,CpSRP54,TLA4,exon 1,reverse,0,0.73,AGG,AGGGCGCATACTGACCACGA,100%,Table 1
+SRTA_KO_g01,Cre10.g462200,SRTA,SRTA,exon 1,forward,0,0.668,CGG,AAAGGGCGTCAAGGAGCTAG,100%,Table 1
+SRTA_KO_g02,Cre10.g462200,SRTA,SRTA,exon 1,forward,0,0.612,CGG,AAGCCGAAGAAAAACCTTGG,100%,Table 1

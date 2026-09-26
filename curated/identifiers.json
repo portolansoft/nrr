@@ -1,0 +1,2474 @@
+{
+ "cellline:ARPE-19": {
+  "fetchedAt": "2026-09-26T01:51:13Z",
+  "identifier": "RRID:CVCL_0145",
+  "label": "ARPE-19",
+  "source": "Cellosaurus API",
+  "taxon": [
+   "NCBITaxon:9606"
+  ]
+ },
+ "citation:albrecht, p. et al. effects of dimethyl fumarate on neuroprotection and immunomo": {
+  "doi": "10.1186/1742-2094-9-163",
+  "fetchedAt": "2026-09-26T01:52:26Z",
+  "score": 54.853073,
+  "source": "Crossref query.bibliographic",
+  "title": "Effects of dimethyl fumarate on neuroprotection and immunomodulation"
+ },
+ "citation:aulakh, g. k. et al. inhibiting focal adhesion kinase (fak) blocks il-4 induced ": {
+  "doi": "10.1002/jlb.3ma1117-429r",
+  "fetchedAt": "2026-09-26T01:52:21Z",
+  "score": 124.96353,
+  "source": "Crossref query.bibliographic",
+  "title": "Inhibiting focal adhesion kinase (FAK) blocks IL-4 induced VCAM-1 expression and eosinophil recruitment in vitro and in vivo"
+ },
+ "citation:chhunchha, b. et al. sulforaphane-induced klf9/prdx6 axis acts as a molecular sw": {
+  "doi": "10.3390/cells8101159",
+  "fetchedAt": "2026-09-26T01:52:39Z",
+  "score": 134.57202,
+  "source": "Crossref query.bibliographic",
+  "title": "Sulforaphane-Induced Klf9/Prdx6 Axis Acts as a Molecular Switch to Control Redox Signaling and Determines Fate of Cells"
+ },
+ "citation:chung, e. j. et al. aicar suppresses tnf--induced complement factor b in rpe ce": {
+  "doi": "10.1038/s41598-017-17744-w",
+  "fetchedAt": "2026-09-26T01:52:03Z",
+  "score": 74.9079,
+  "source": "Crossref query.bibliographic",
+  "title": "AICAR suppresses TNF-α-induced complement factor B in RPE cells"
+ },
+ "citation:ciaramella, v. et al. activity and molecular targets of pioglitazone via blockad": {
+  "doi": "10.1186/s13046-019-1176-1",
+  "fetchedAt": "2026-09-26T01:52:35Z",
+  "score": 84.75636,
+  "source": "Crossref query.bibliographic",
+  "title": "Activity and molecular targets of pioglitazone via blockade of proliferation, invasiveness and bioenergetics in human NSCLC"
+ },
+ "citation:cui, r., tian, l., lu, d., li, h. & cui, j. exendin-4 protects human retinal pig": {
+  "doi": "10.1159/000504891",
+  "fetchedAt": "2026-09-26T01:52:05Z",
+  "score": 129.85281,
+  "source": "Crossref query.bibliographic",
+  "title": "Exendin-4 Protects Human Retinal Pigment Epithelial Cells from H&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;2&lt;/sub&gt;-Induced Oxidative Damage via Activation of NRF2 Signaling"
+ },
+ "citation:fang, y. et al. removal of rpe lipofuscin results in rescue from retinal degener": {
+  "doi": "10.1016/j.freeradbiomed.2022.02.025",
+  "fetchedAt": "2026-09-26T01:52:39Z",
+  "score": 125.01576,
+  "source": "Crossref query.bibliographic",
+  "title": "Removal of RPE lipofuscin results in rescue from retinal degeneration in a mouse model of advanced Stargardt disease: Role of reactive oxygen species"
+ },
+ "citation:hirota, t. et al. identification of small molecule activators of cryptochrome. s": {
+  "doi": "10.1126/science.1223710",
+  "fetchedAt": "2026-09-26T01:52:14Z",
+  "score": 60.772156,
+  "source": "Crossref query.bibliographic",
+  "title": "Identification of Small Molecule Activators of Cryptochrome"
+ },
+ "citation:ji, y., li, h., wang, f. & gu, l. pparβ/δ agonist gw501516 inhibits tumorigenici": {
+  "doi": "10.3389/fphar.2018.00648",
+  "fetchedAt": "2026-09-26T01:52:30Z",
+  "score": 141.08331,
+  "source": "Crossref query.bibliographic",
+  "title": "PPARβ/δ Agonist GW501516 Inhibits Tumorigenicity of Undifferentiated Nasopharyngeal Carcinoma in C666-1 Cells by Promoting Apoptosis"
+ },
+ "citation:jiang, q. et al. 4-phenylbutyric acid accelerates rehabilitation of barrier func": {
+  "doi": "10.1016/j.aninu.2021.02.003",
+  "fetchedAt": "2026-09-26T01:52:22Z",
+  "score": 109.65635,
+  "source": "Crossref query.bibliographic",
+  "title": "4-Phenylbutyric acid accelerates rehabilitation of barrier function in IPEC-J2 cell monolayer model"
+ },
+ "citation:jin, w. et al. drug repurposing flubendazole to suppress tumorigenicity via pcsk": {
+  "doi": "10.7150/ijbs.81415",
+  "fetchedAt": "2026-09-26T01:52:27Z",
+  "score": 110.447136,
+  "source": "Crossref query.bibliographic",
+  "title": "Drug Repurposing Flubendazole to Suppress Tumorigenicity via PCSK9-dependent Inhibition and Potentiate Lenvatinib Therapy for Hepatocellular Carcinoma"
+ },
+ "citation:kang, c.-h. et al. ¨-ionone attenuates lps-induced pro-inflammatory mediators su": {
+  "doi": "10.1016/j.tiv.2012.12.012",
+  "fetchedAt": "2026-09-26T01:52:23Z",
+  "score": 138.15022,
+  "source": "Crossref query.bibliographic",
+  "title": "β-Ionone attenuates LPS-induced pro-inflammatory mediators such as NO, PGE2 and TNF-α in BV2 microglial cells via suppression of the NF-κB and MAPK pathway"
+ },
+ "citation:lei, g., xia, y. & johnson, k. m. the role of akt-gsk-3 signaling and synaptic ": {
+  "fetchedAt": "2026-09-26T01:52:13Z",
+  "unresolved": true
+ },
+ "citation:li, p. et al. tudca attenuates intestinal injury and inhibits endoplasmic reticu": {
+  "doi": "10.1016/j.intimp.2019.05.050",
+  "fetchedAt": "2026-09-26T01:52:04Z",
+  "score": 144.96735,
+  "source": "Crossref query.bibliographic",
+  "title": "TUDCA attenuates intestinal injury and inhibits endoplasmic reticulum stress-mediated intestinal cell apoptosis in necrotizing enterocolitis"
+ },
+ "citation:liu, s. et al. lxr ligands induce apoptosis of egfr-tki-resistant human lung can": {
+  "doi": "10.3892/ol.2018.8182",
+  "fetchedAt": "2026-09-26T01:52:29Z",
+  "score": 106.507095,
+  "source": "Crossref query.bibliographic",
+  "title": "LXR ligands induce apoptosis of EGFR-TKI-resistant human lung cancer cells inï¿½vitro by inhibiting Akt-NF-κB activation"
+ },
+ "citation:maksimova, v. et al. histone methyltransferases as a new target for epigenetic a": {
+  "doi": "10.1134/s000629792307009x",
+  "fetchedAt": "2026-09-26T01:52:10Z",
+  "score": 85.00508,
+  "source": "Crossref query.bibliographic",
+  "title": "Histone Methyltransferases as a New Target for Epigenetic Action of Vorinostat"
+ },
+ "citation:manai, f. et al. trehalose modulates autophagy process to counteract gliadin cyt": {
+  "doi": "10.3390/cells8040348",
+  "fetchedAt": "2026-09-26T01:52:42Z",
+  "score": 98.42984,
+  "source": "Crossref query.bibliographic",
+  "title": "Trehalose Modulates Autophagy Process to Counteract Gliadin Cytotoxicity in an In Vitro Celiac Disease Model"
+ },
+ "citation:mccafferty, d. g. et al. chemistry and biology of the ramoplanin family of pepti": {
+  "doi": "10.1002/bip.10296",
+  "fetchedAt": "2026-09-26T01:52:37Z",
+  "score": 88.50716,
+  "source": "Crossref query.bibliographic",
+  "title": "Chemistry and biology of the ramoplanin family of peptide antibiotics"
+ },
+ "citation:metry, m. et al. biowaiver monographs for immediate release solid oral dosage fo": {
+  "doi": "10.1016/j.xphs.2021.01.011",
+  "fetchedAt": "2026-09-26T01:52:31Z",
+  "score": 104.159355,
+  "source": "Crossref query.bibliographic",
+  "title": "Biowaiver Monographs for Immediate Release Solid Oral Dosage Forms: Metformin Hydrochloride"
+ },
+ "citation:ohta, a. et al. in vitro induction of t cells that are resistant to a2 adenosine": {
+  "doi": "10.1111/j.1476-5381.2008.00019.x",
+  "fetchedAt": "2026-09-26T01:52:19Z",
+  "score": 82.99766,
+  "source": "Crossref query.bibliographic",
+  "title": "<i>In vitro</i>induction of T cells that are resistant to A<sub>2</sub>adenosine receptor‐mediated immunosuppression"
+ },
+ "citation:ray, b. et al. rivastigmine modifies the -secretase pathway and potentially ear": {
+  "doi": "10.1038/s41398-020-0709-x",
+  "fetchedAt": "2026-09-26T01:52:41Z",
+  "score": 86.971924,
+  "source": "Crossref query.bibliographic",
+  "title": "Rivastigmine modifies the α-secretase pathway and potentially early Alzheimer’s disease"
+ },
+ "citation:ren, y., cui, y.-n. & wang, h.-w. effects of different concentrations of nicotin": {
+  "doi": "10.4252/wjsc.v16.i2.163",
+  "fetchedAt": "2026-09-26T01:52:33Z",
+  "score": 113.48609,
+  "source": "Crossref query.bibliographic",
+  "title": "Effects of different concentrations of nicotinamide on hematopoietic stem cells cultured <i>in vitro</i>"
+ },
+ "citation:sartawi, z., ryan, k. b. & waeber, c. bone regenerative potential of the selecti": {
+  "doi": "10.1016/j.ejphar.2020.173262",
+  "fetchedAt": "2026-09-26T01:52:25Z",
+  "score": 166.21529,
+  "source": "Crossref query.bibliographic",
+  "title": "Bone regenerative potential of the selective sphingosine 1-phosphate receptor modulator siponimod: In vitro characterisation using osteoblast and endothelial cells"
+ },
+ "citation:sarıaydın, t., çal, t., aydın dilsiz, s., canpınar, h. & ündeger bucurgat, in vi": {
+  "doi": "10.26650/istanbuljpharm.2021.0079",
+  "fetchedAt": "2026-09-26T01:52:32Z",
+  "score": 159.45226,
+  "source": "Crossref query.bibliographic",
+  "title": "In vitro assessment of cytotoxic, apoptotic and  genotoxic effects of metformin"
+ },
+ "citation:schreiter, s. et al. a human retinal pigment epithelium-based screening platform": {
+  "doi": "10.1016/j.stemcr.2020.10.013",
+  "fetchedAt": "2026-09-26T01:52:07Z",
+  "score": 124.99287,
+  "source": "Crossref query.bibliographic",
+  "title": "A Human Retinal Pigment Epithelium-Based Screening Platform Reveals Inducers of Photoreceptor Outer Segments Phagocytosis"
+ },
+ "citation:semlali, a., papadakos, s., contant, c., zouaoui, i. & rouabhia, m. rapamycin in": {
+  "doi": "10.3389/fonc.2022.873447",
+  "fetchedAt": "2026-09-26T01:52:16Z",
+  "score": 168.0648,
+  "source": "Crossref query.bibliographic",
+  "title": "Rapamycin inhibits oral cancer cell growth by promoting oxidative stress and suppressing ERK1/2, NF-κB and beta-catenin pathways"
+ },
+ "citation:suleiman, l., muataz, y., négrier, c. & boukerche, h. protein s-mediated signal ": {
+  "doi": "10.1016/j.hemonc.2021.11.002",
+  "fetchedAt": "2026-09-26T01:52:36Z",
+  "score": 156.99367,
+  "source": "Crossref query.bibliographic",
+  "title": "Protein S-mediated signal transduction pathway regulates lung cancer cell proliferation, migration and angiogenesis"
+ },
+ "citation:sun, c.-c., chiu, h.-t., lin, y.-f., lee, k.-y. & pang, j.-h. s. y-27632, a rock": {
+  "doi": "10.1371/journal.pone.0144571",
+  "fetchedAt": "2026-09-26T01:52:01Z",
+  "score": 136.08322,
+  "source": "Crossref query.bibliographic",
+  "title": "Y-27632, a ROCK Inhibitor, Promoted Limbal Epithelial Cell Proliferation and Corneal Wound Healing"
+ },
+ "citation:torka, r. et al. activation of her3 interferes with antitumor effects of axl rec": {
+  "doi": "10.1016/j.neo.2014.03.009",
+  "fetchedAt": "2026-09-26T01:52:18Z",
+  "score": 130.80994,
+  "source": "Crossref query.bibliographic",
+  "title": "Activation of HER3 Interferes with Antitumor Effects of Axl Receptor Tyrosine Kinase Inhibitors: Suggestion of Combination Therapy"
+ },
+ "citation:wagner, a. e. et al. ascorbic acid partly antagonizes resveratrol mediated heme ": {
+  "doi": "10.1186/1472-6882-11-1",
+  "fetchedAt": "2026-09-26T01:52:11Z",
+  "score": 130.17947,
+  "source": "Crossref query.bibliographic",
+  "title": "Ascorbic acid partly antagonizes resveratrol mediated heme oxygenase-1 but not paraoxonase-1 induction in cultured hepatocytes - role of the redox-regulated transcription factor Nrf2"
+ },
+ "citation:yang, m. et al. ripasudil as a potential therapeutic agent in treating secondary": {
+  "doi": "10.3390/ijms25063229",
+  "fetchedAt": "2026-09-26T01:52:08Z",
+  "score": 101.62337,
+  "source": "Crossref query.bibliographic",
+  "title": "Ripasudil as a Potential Therapeutic Agent in Treating Secondary Glaucoma in HTLV-1-Uveitis: An In Vitro Analysis"
+ },
+ "citation:zhou, p. j. et al. immunomodulatory drug fty720 induces regulatory cd4+cd25+ t c": {
+  "doi": "10.1111/j.1365-2249.2009.03942.x",
+  "fetchedAt": "2026-09-26T01:52:06Z",
+  "score": 96.99036,
+  "source": "Crossref query.bibliographic",
+  "title": "Immunomodulatory drug FTY720 induces regulatory CD4+CD25+ T cells<i>in vitro</i>"
+ },
+ "compound:4-phenylbutyric acid": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C10H12O2",
+  "identifier": "pubchem:CID4775",
+  "inchikey": "OBKXEAXTFZPCHS-UHFFFAOYSA-N",
+  "iupac": "4-phenylbutanoic acid",
+  "label": "4-Phenylbutyric Acid",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:5'-n-ethylcarboxamidoadenosine": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C12H16N6O4",
+  "identifier": "pubchem:CID448222",
+  "inchikey": "JADDQZYHOWSFJD-FLNNQWSLSA-N",
+  "iupac": "(2S,3S,4R,5R)-5-(6-aminopurin-9-yl)-N-ethyl-3,4-dihydroxyoxolane-2-carboxamide",
+  "label": "Neca",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:740 y-p": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C141H222N43O39PS3",
+  "identifier": "pubchem:CID90488730",
+  "inchikey": "XCGMILZGRGEWHL-QYGSNONCSA-N",
+  "iupac": "(3S)-3-[[(2S)-2-[[(2S)-2-[[2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-6-amino-2-[[(2S,3S)-2-[[(2S)-5-amino-2-[[(2S)-2-amino-5-carbamimidamidopentanoyl]amino]-5-oxopentanoyl]amino]-3-methylpentanoyl]amino]hexanoyl]amino]-3-methylpentanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]-5-oxopentanoyl]amino]-4-oxobutanoyl]amino]-5-carbamimidamidopentanoyl]amino]-5-carbamimidamidopentanoyl]amino]-4-methylsulfanylbutanoyl]amino]hexanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]hexanoyl]amino]hexanoyl]amino]-3-hydroxypropanoyl]amino]-3-carboxypropanoyl]amino]acetyl]amino]acetyl]amino]-3-(4-phosphonooxyphenyl)propanoyl]amino]-4-methylsulfanylbutanoyl]amino]-4-[[(2S)-1-[[(1S)-1-carboxy-2-hydroxyethyl]amino]-4-methylsulfanyl-1-oxobutan-2-yl]amino]-4-oxobutanoic acid",
+  "label": "Pdgfr 740Y-P",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:aicar": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C9H15N4O8P",
+  "identifier": "pubchem:CID65110",
+  "inchikey": "NOTGFIUVDGNKRI-UUOKFMHZSA-N",
+  "iupac": "[(2R,3S,4R,5R)-5-(5-amino-4-carbamoylimidazol-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl dihydrogen phosphate",
+  "label": "AICA Ribotide",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:alcalase": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C45H68N10O15",
+  "identifier": "pubchem:CID3086051",
+  "inchikey": "VLKSXJAPRDAENT-OWGHDAAGSA-N",
+  "iupac": "3-[(3R,6R,9S,16S,19R,22S,25S)-3,9-bis(2-amino-2-oxoethyl)-16-[(1R)-1-hydroxyethyl]-19-(hydroxymethyl)-6-[(4-hydroxyphenyl)methyl]-13-octyl-2,5,8,11,15,18,21,24-octaoxo-1,4,7,10,14,17,20,23-octazabicyclo[23.3.0]octacosan-22-yl]propanoic acid",
+  "label": "Bacillomycin",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:azd8055": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C25H31N5O4",
+  "identifier": "pubchem:CID25262965",
+  "inchikey": "KVLFRAWTRWDEDF-IRXDYDNUSA-N",
+  "iupac": "[5-[2,4-bis[(3S)-3-methylmorpholin-4-yl]pyrido[2,3-d]pyrimidin-7-yl]-2-methoxyphenyl]methanol",
+  "label": "Azd8055",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:bay k8644": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C16H15F3N2O4",
+  "identifier": "pubchem:CID2303",
+  "inchikey": "ZFLWDHHVRRZMEI-UHFFFAOYSA-N",
+  "iupac": "methyl 2,6-dimethyl-5-nitro-4-[2-(trifluoromethyl)phenyl]-1,4-dihydropyridine-3-carboxylate",
+  "label": "Methyl 1,4-dihydro-2,6-dimethyl-5-nitro-4-(2-(trifluoromethyl)phenyl)-3-pyridinecarboxylate",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:beta-ionone": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C13H20O",
+  "identifier": "pubchem:CID638014",
+  "inchikey": "PSQYTAPXSHCGMF-BQYQJAHWSA-N",
+  "iupac": "(E)-4-(2,6,6-trimethylcyclohexen-1-yl)but-3-en-2-one",
+  "label": "I2-Ionone",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:bms777607": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C25H19ClF2N4O4",
+  "identifier": "pubchem:CID24794418",
+  "inchikey": "VNBRGSXVFBYQNN-UHFFFAOYSA-N",
+  "iupac": "N-[4-[(2-amino-3-chloro-4-pyridinyl)oxy]-3-fluorophenyl]-4-ethoxy-1-(4-fluorophenyl)-2-oxopyridine-3-carboxamide",
+  "label": "Bms-777607",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:celecoxib": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C17H14F3N3O2S",
+  "identifier": "pubchem:CID2662",
+  "inchikey": "RZEKVGVHFLEQIL-UHFFFAOYSA-N",
+  "iupac": "4-[5-(4-methylphenyl)-3-(trifluoromethyl)pyrazol-1-yl]benzenesulfonamide",
+  "label": "Celecoxib",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:chir99021": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C22H18Cl2N8",
+  "identifier": "pubchem:CID9956119",
+  "inchikey": "AQGNHMOJWBZFQQ-UHFFFAOYSA-N",
+  "iupac": "6-[2-[[4-(2,4-dichlorophenyl)-5-(5-methyl-1H-imidazol-2-yl)pyrimidin-2-yl]amino]ethylamino]pyridine-3-carbonitrile",
+  "label": "Laduviglusib",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:cytochalasin d": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C30H37NO6",
+  "identifier": "pubchem:CID5458428",
+  "inchikey": "SDZRWUKZFQQKKV-JHADDHBZSA-N",
+  "iupac": "[(1R,2R,3E,5R,7S,9E,11R,12S,14S,15R,16S)-16-benzyl-5,12-dihydroxy-5,7,14-trimethyl-13-methylidene-6,18-dioxo-17-azatricyclo[9.7.0.01,15]octadeca-3,9-dien-2-yl] acetate",
+  "label": "Cytochalasin D",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:dapi": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C16H15N5",
+  "identifier": "pubchem:CID2954",
+  "inchikey": "FWBHETKCLVMNFS-UHFFFAOYSA-N",
+  "iupac": "2-(4-carbamimidoylphenyl)-1H-indole-6-carboximidamide",
+  "label": "4',6-Diamidino-2-Phenylindole",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:diarylpropionitrile": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C15H13NO2",
+  "identifier": "pubchem:CID102614",
+  "inchikey": "GHZHWDWADLAOIQ-UHFFFAOYSA-N",
+  "iupac": "2,3-bis(4-hydroxyphenyl)propanenitrile",
+  "label": "2,3-bis(4-Hydroxyphenyl)propionitrile",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:dimethyl fumarate": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C6H8O4",
+  "identifier": "pubchem:CID637568",
+  "inchikey": "LDCRTTXIJACKKU-ONEGZZNKSA-N",
+  "iupac": "dimethyl (E)-but-2-enedioate",
+  "label": "Dimethyl Fumarate",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:eht1864": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C25H29Cl2F3N2O4S",
+  "identifier": "pubchem:CID9938202",
+  "inchikey": "LSECOAJFCKFQJG-UHFFFAOYSA-N",
+  "iupac": "2-(morpholin-4-ylmethyl)-5-[5-[7-(trifluoromethyl)quinolin-4-yl]sulfanylpentoxy]pyran-4-one;dihydrochloride",
+  "label": "Eht-1864",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:entinostat": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C21H20N4O3",
+  "identifier": "pubchem:CID4261",
+  "inchikey": "INVTYAOGFAGBOE-UHFFFAOYSA-N",
+  "iupac": "pyridin-3-ylmethyl N-[[4-[(2-aminophenyl)carbamoyl]phenyl]methyl]carbamate",
+  "label": "Entinostat",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:everolimus": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C53H83NO14",
+  "identifier": "pubchem:CID6442177",
+  "inchikey": "HKVAMNSJSFKALM-GKUWKFKPSA-N",
+  "iupac": "(1R,9S,12S,15R,16E,18R,19R,21R,23S,24E,26E,28E,30S,32S,35R)-1,18-dihydroxy-12-[(2R)-1-[(1S,3R,4R)-4-(2-hydroxyethoxy)-3-methoxycyclohexyl]propan-2-yl]-19,30-dimethoxy-15,17,21,23,29,35-hexamethyl-11,36-dioxa-4-azatricyclo[30.3.1.04,9]hexatriaconta-16,24,26,28-tetraene-2,3,10,14,20-pentone",
+  "label": "Everolimus",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:exendin-4": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C184H282N50O60S",
+  "identifier": "pubchem:CID56927919",
+  "inchikey": "HTQBXNHDCUEHJF-URRANESESA-N",
+  "iupac": "(4S)-5-[[2-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-5-amino-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-1-[[(2S)-6-amino-1-[[(2S)-4-amino-1-[[2-[[2-[(2S)-2-[[(2S)-1-[[(2S)-1-[[2-[[(2S)-1-[(2S)-2-[(2S)-2-[(2S)-2-[[(2S)-1-amino-3-hydroxy-1-oxopropan-2-yl]carbamoyl]pyrrolidine-1-carbonyl]pyrrolidine-1-carbonyl]pyrrolidin-1-yl]-1-oxopropan-2-yl]amino]-2-oxoethyl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]carbamoyl]pyrrolidin-1-yl]-2-oxoethyl]amino]-2-oxoethyl]amino]-1,4-dioxobutan-2-yl]amino]-1-oxohexan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-(1H-indol-3-yl)-1-oxopropan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-3-methyl-1-oxopentan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-5-carbamimidamido-1-oxopentan-2-yl]amino]-3-methyl-1-oxobutan-2-yl]amino]-1-oxopropan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-4-carboxy-1-oxobutan-2-yl]amino]-4-methylsulfanyl-1-oxobutan-2-yl]amino]-1,5-dioxopentan-2-yl]amino]-1-oxohexan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-4-methyl-1-oxopentan-2-yl]amino]-3-carboxy-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxopropan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-1-oxo-3-phenylpropan-2-yl]amino]-3-hydroxy-1-oxobutan-2-yl]amino]-2-oxoethyl]amino]-4-[[2-[[(2S)-2-amino-3-(1H-imidazol-4-yl)propanoyl]amino]acetyl]amino]-5-oxopentanoic acid",
+  "label": "Exendin-4",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:fingolimod": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C19H33NO2",
+  "identifier": "pubchem:CID107970",
+  "inchikey": "KKGQTZUTZRNORY-UHFFFAOYSA-N",
+  "iupac": "2-amino-2-[2-(4-octylphenyl)ethyl]propane-1,3-diol",
+  "label": "Fingolimod",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:flubendazole": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C16H12FN3O3",
+  "identifier": "pubchem:CID35802",
+  "inchikey": "CPEUVMUXAHMANV-UHFFFAOYSA-N",
+  "iupac": "methyl N-[6-(4-fluorobenzoyl)-1H-benzimidazol-2-yl]carbamate",
+  "label": "Flubendazole",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:g-1": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C21H18BrNO3",
+  "identifier": "pubchem:CID5322399",
+  "inchikey": "VHSVKVWHYFBIFJ-HKZYLEAXSA-N",
+  "iupac": "1-[(3aS,4R,9bR)-4-(6-bromo-1,3-benzodioxol-5-yl)-3a,4,5,9b-tetrahydro-3H-cyclopenta[c]quinolin-8-yl]ethanone",
+  "label": "rel-1-((3aR,4S,9bS)-4-(6-Bromo-1,3-benzodioxol-5-yl)-3a,4,5,9b-tetrahydro-3H-cyclopenta(c)quinolin-8-yl)ethanone",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:gas6": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "unresolved": true
+ },
+ "compound:gw0742": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C21H17F4NO3S2",
+  "identifier": "pubchem:CID9934458",
+  "inchikey": "HWVNEWGKWRGSRK-UHFFFAOYSA-N",
+  "iupac": "2-[4-[[2-[3-fluoro-4-(trifluoromethyl)phenyl]-4-methyl-1,3-thiazol-5-yl]methylsulfanyl]-2-methylphenoxy]acetic acid",
+  "label": "GW-0742",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:gw3965": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C33H31ClF3NO3",
+  "identifier": "pubchem:CID447905",
+  "inchikey": "NAXSRXHZFIBFMI-UHFFFAOYSA-N",
+  "iupac": "2-[3-[3-[[2-chloro-3-(trifluoromethyl)phenyl]methyl-(2,2-diphenylethyl)amino]propoxy]phenyl]acetic acid",
+  "label": "3-(3-(((2-Chloro-3-(trifluoromethyl)phenyl)methyl)(2,2-diphenylethyl)amino)propoxy)benzeneacetic acid",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:gw4064": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C28H22Cl3NO4",
+  "identifier": "pubchem:CID9893571",
+  "inchikey": "BYTNEISLBIENSA-MDZDMXLPSA-N",
+  "iupac": "3-[(E)-2-[2-chloro-4-[[3-(2,6-dichlorophenyl)-5-propan-2-yl-1,2-oxazol-4-yl]methoxy]phenyl]ethenyl]benzoic acid",
+  "label": "GW-4064",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:gw501516": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C21H18F3NO3S2",
+  "identifier": "pubchem:CID9803963",
+  "inchikey": "YDBLKRPLXZNVNB-UHFFFAOYSA-N",
+  "iupac": "2-[2-methyl-4-[[4-methyl-2-[4-(trifluoromethyl)phenyl]-1,3-thiazol-5-yl]methylsulfanyl]phenoxy]acetic acid",
+  "label": "GW 501516",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:hoechst 33342": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C27H28N6O",
+  "identifier": "pubchem:CID1464",
+  "inchikey": "PRDFBSVERLRRMY-UHFFFAOYSA-N",
+  "iupac": "2-(4-ethoxyphenyl)-6-[6-(4-methylpiperazin-1-yl)-1H-benzimidazol-2-yl]-1H-benzimidazole",
+  "label": "Bisbenzimide",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:honokiol": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C18H18O2",
+  "identifier": "pubchem:CID72303",
+  "inchikey": "FVYXIJYOAGAUQK-UHFFFAOYSA-N",
+  "iupac": "2-(4-hydroxy-3-prop-2-enylphenyl)-4-prop-2-enylphenol",
+  "label": "Honokiol",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:jasplakinolide": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C36H45BrN4O6",
+  "identifier": "pubchem:CID9831636",
+  "inchikey": "GQWYWHOHRVVHAP-DHKPLNAMSA-N",
+  "iupac": "(4R,7R,10S,13S,15E,17R,19S)-7-[(2-bromo-1H-indol-3-yl)methyl]-4-(4-hydroxyphenyl)-8,10,13,15,17,19-hexamethyl-1-oxa-5,8,11-triazacyclononadec-15-ene-2,6,9,12-tetrone",
+  "label": "Jasplakinolide",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:kl001": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C21H22N2O4S",
+  "identifier": "pubchem:CID2888648",
+  "inchikey": "OQAFDLPAPSSOHY-UHFFFAOYSA-N",
+  "iupac": "N-(3-carbazol-9-yl-2-hydroxypropyl)-N-(furan-2-ylmethyl)methanesulfonamide",
+  "label": "KL001",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:lgm2605": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C32H50O18",
+  "identifier": "pubchem:CID134694972",
+  "inchikey": "PZEOQHHOQBKPPR-FQFYGSMDSA-N",
+  "iupac": "(2R,3R)-2,3-bis[(4-hydroxy-3-methoxyphenyl)methyl]butane-1,4-diol;bis((2R,3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol)",
+  "label": "(2R,3R)-2,3-bis[(4-hydroxy-3-methoxyphenyl)methyl]butane-1,4-diol;bis((2R,3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol)",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:metformin": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C4H11N5",
+  "identifier": "pubchem:CID4091",
+  "inchikey": "XZWYZXLIPXDOLR-UHFFFAOYSA-N",
+  "iupac": "3-(diaminomethylidene)-1,1-dimethylguanidine",
+  "label": "Metformin",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:mfge8": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "unresolved": true
+ },
+ "compound:ml-sa1": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C22H22N2O3",
+  "identifier": "pubchem:CID2880983",
+  "inchikey": "KDDHBJICVBONAX-UHFFFAOYSA-N",
+  "iupac": "2-[2-oxo-2-(2,2,4-trimethyl-3,4-dihydroquinolin-1-yl)ethyl]isoindole-1,3-dione",
+  "label": "ML SA1",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:mln120b": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C19H15ClN4O2",
+  "identifier": "pubchem:CID9929127",
+  "inchikey": "ZNOLRTPMNMPLHY-UHFFFAOYSA-N",
+  "iupac": "N-(6-chloro-7-methoxy-9H-pyrido[3,4-b]indol-8-yl)-2-methylpyridine-3-carboxamide",
+  "label": "N-(6-chloro-7-methoxy-9H-beta-carbolin-8-yl)-2-methylnicotinamide",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:nicotinamide": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C6H6N2O",
+  "identifier": "pubchem:CID936",
+  "inchikey": "DFPAKSUCGFBDDF-UHFFFAOYSA-N",
+  "iupac": "pyridine-3-carboxamide",
+  "label": "Nicotinamide",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:nourseothricin": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C19H34N8O8",
+  "identifier": "pubchem:CID71720685",
+  "inchikey": "NRAUADCLPJTGSF-ZPGVOIKOSA-N",
+  "iupac": "[(2R,3S,4R,5R,6R)-6-[[(3aS,7R,7aS)-7-hydroxy-4-oxo-1,3a,5,6,7,7a-hexahydroimidazo[4,5-c]pyridin-2-yl]amino]-5-[[(3S)-3,6-diaminohexanoyl]amino]-4-hydroxy-2-(hydroxymethyl)oxan-3-yl] carbamate",
+  "label": "Nourseothricin",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:omaveloxolone": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C33H44F2N2O3",
+  "identifier": "pubchem:CID71811910",
+  "inchikey": "RJCWBNBKOKFWNY-IDPLTSGASA-N",
+  "iupac": "N-[(4aS,6aR,6bS,8aR,12aS,14aR,14bS)-11-cyano-2,2,6a,6b,9,9,12a-heptamethyl-10,14-dioxo-1,3,4,5,6,7,8,8a,14a,14b-decahydropicen-4a-yl]-2,2-difluoropropanamide",
+  "label": "N-(2-Cyano-3,12-dioxo-28-noroleana-1,9(11)-dien-17-yl)-2,2-difluoropropanamide",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:pf-573228": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C22H20F3N5O3S",
+  "identifier": "pubchem:CID11612883",
+  "inchikey": "HESLKTSGTIBHJU-UHFFFAOYSA-N",
+  "iupac": "6-[[4-[(3-methylsulfonylphenyl)methylamino]-5-(trifluoromethyl)pyrimidin-2-yl]amino]-3,4-dihydro-1H-quinolin-2-one",
+  "label": "PF-573228",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:pioglitazone": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C19H20N2O3S",
+  "identifier": "pubchem:CID4829",
+  "inchikey": "HYAFETHFCAUJAY-UHFFFAOYSA-N",
+  "iupac": "5-[[4-[2-(5-ethyl-2-pyridinyl)ethoxy]phenyl]methyl]-1,3-thiazolidine-2,4-dione",
+  "label": "Pioglitazone",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:pre-084": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C19H27NO3",
+  "identifier": "pubchem:CID126402",
+  "inchikey": "RQHKZUBCUZVZEF-UHFFFAOYSA-N",
+  "iupac": "2-morpholin-4-ylethyl 1-phenylcyclohexane-1-carboxylate",
+  "label": "2-(4-Morpholinyl)ethyl 1-phenylcyclohexanecarboxylate",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:pros1": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "unresolved": true
+ },
+ "compound:ramoplanin": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C106H170ClN21O30",
+  "identifier": "pubchem:CID16132338",
+  "inchikey": "FSBZBQUUCNYWOK-YIOPJBSBSA-N",
+  "iupac": "2-[[(2R)-2-[[(2S)-2-[[2-[[2-[[(2S,3S)-2-[[2-[[(2R)-5-amino-2-[[(2S)-2-[[(2S,3S)-2-[[(2R)-2-[[(2R)-2-[[(2R,3S)-2-[[(2R)-5-amino-2-[[(2R)-2-[[4-amino-2-[[(2S)-4-amino-2-[[(2Z,4Z)-octa-2,4-dienoyl]amino]-4-oxobutanoyl]amino]-4-oxobutanoyl]amino]-2-(4-hydroxycyclohexyl)acetyl]amino]pentanoyl]amino]-3-hydroxybutanoyl]amino]-2-(4-hydroxycyclohexyl)acetyl]amino]-2-(4-hydroxycyclohexyl)acetyl]amino]-3-hydroxybutanoyl]amino]-3-phenylpropanoyl]amino]pentanoyl]amino]-2-(4-hydroxycyclohexyl)acetyl]amino]-3-hydroxybutanoyl]amino]-2-(4-hydroxycyclohexyl)acetyl]amino]acetyl]amino]-4-methylpentanoyl]amino]propanoyl]amino]-2-(3-chloro-4-hydroxycyclohexyl)acetic acid",
+  "label": "Ramoplanin",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:rapamycin": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C51H79NO13",
+  "identifier": "pubchem:CID5284616",
+  "inchikey": "QFJCIRLUMZQUOT-HPLJOQBZSA-N",
+  "iupac": "(1R,9S,12S,15R,16E,18R,19R,21R,23S,24E,26E,28E,30S,32S,35R)-1,18-dihydroxy-12-[(2R)-1-[(1S,3R,4R)-4-hydroxy-3-methoxycyclohexyl]propan-2-yl]-19,30-dimethoxy-15,17,21,23,29,35-hexamethyl-11,36-dioxa-4-azatricyclo[30.3.1.04,9]hexatriaconta-16,24,26,28-tetraene-2,3,10,14,20-pentone",
+  "label": "Sirolimus",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:resveratrol": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C14H12O3",
+  "identifier": "pubchem:CID445154",
+  "inchikey": "LUKBXSAWLPMMSZ-OWOJBTEDSA-N",
+  "iupac": "5-[(E)-2-(4-hydroxyphenyl)ethenyl]benzene-1,3-diol",
+  "label": "Resveratrol",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:rgd": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C12H22N6O6",
+  "identifier": "pubchem:CID104802",
+  "inchikey": "IYMAXBFPHPZYIK-BQBZGAKWSA-N",
+  "iupac": "(2S)-2-[[2-[[(2S)-2-amino-5-(diaminomethylideneamino)pentanoyl]amino]acetyl]amino]butanedioic acid",
+  "label": "Arginine-glycine-aspartic acid",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:ripasudil": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C15H18FN3O2S",
+  "identifier": "pubchem:CID9863672",
+  "inchikey": "QSKQVZWVLOIIEV-NSHDSACASA-N",
+  "iupac": "4-fluoro-5-[[(2S)-2-methyl-1,4-diazepan-1-yl]sulfonyl]isoquinoline",
+  "label": "Ripasudil",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:roflumilast": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C17H14Cl2F2N2O3",
+  "identifier": "pubchem:CID449193",
+  "inchikey": "MNDBXUUTURYVHR-UHFFFAOYSA-N",
+  "iupac": "3-(cyclopropylmethoxy)-N-(3,5-dichloro-4-pyridinyl)-4-(difluoromethoxy)benzamide",
+  "label": "Roflumilast",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:rolipram": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C16H21NO3",
+  "identifier": "pubchem:CID5092",
+  "inchikey": "HJORMJIFDVBMOB-UHFFFAOYSA-N",
+  "iupac": "4-(3-cyclopentyloxy-4-methoxyphenyl)pyrrolidin-2-one",
+  "label": "Rolipram",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:simvastatin": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C25H38O5",
+  "identifier": "pubchem:CID54454",
+  "inchikey": "RYMZZMVNJRMUDD-HGQWONQESA-N",
+  "iupac": "[(1S,3R,7S,8S,8aR)-8-[2-[(2R,4R)-4-hydroxy-6-oxooxan-2-yl]ethyl]-3,7-dimethyl-1,2,3,7,8,8a-hexahydronaphthalen-1-yl] 2,2-dimethylbutanoate",
+  "label": "Simvastatin",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:siponimod": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C29H35F3N2O3",
+  "identifier": "pubchem:CID44599207",
+  "inchikey": "KIHYPELVXPAIDH-HNSNBQBZSA-N",
+  "iupac": "1-[[4-[(E)-N-[[4-cyclohexyl-3-(trifluoromethyl)phenyl]methoxy]-C-methylcarbonimidoyl]-2-ethylphenyl]methyl]azetidine-3-carboxylic acid",
+  "label": "Siponimod",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:soraprazan": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C21H25N3O3",
+  "identifier": "pubchem:CID213054",
+  "inchikey": "PWILYDZRJORZDR-MISYRCLQSA-N",
+  "iupac": "(7R,8R,9R)-7-(2-methoxyethoxy)-2,3-dimethyl-9-phenyl-7,8,9,10-tetrahydroimidazo[1,2-h][1,7]naphthyridin-8-ol",
+  "label": "Soraprazan",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:sucrose": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C12H22O11",
+  "identifier": "pubchem:CID5988",
+  "inchikey": "CZMRCDWAGMRECN-UGDNZRGBSA-N",
+  "iupac": "(2R,3R,4S,5S,6R)-2-[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol",
+  "label": "Sucrose",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:sulforaphane": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C6H11NOS2",
+  "identifier": "pubchem:CID5350",
+  "inchikey": "SUVMJBTUFCVSAD-UHFFFAOYSA-N",
+  "iupac": "1-isothiocyanato-4-methylsulfinylbutane",
+  "label": "Sulforaphane",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:t0901317": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C17H12F9NO3S",
+  "identifier": "pubchem:CID447912",
+  "inchikey": "SGIWFELWJPNFDH-UHFFFAOYSA-N",
+  "iupac": "N-[4-(1,1,1,3,3,3-hexafluoro-2-hydroxypropan-2-yl)phenyl]-N-(2,2,2-trifluoroethyl)benzenesulfonamide",
+  "label": "N-(2,2,2-Trifluoroethyl)-N-(4-(2,2,2-trifluoro-1-hydroxy-1-(trifluoromethyl)ethyl)phenyl)-benzenesulfonamide",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:tapi-2": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C19H37N5O5",
+  "identifier": "pubchem:CID10093303",
+  "inchikey": "LMIQCBIEAHJAMZ-RMTCENKZSA-N",
+  "iupac": "N-[(2S)-1-[[(2S)-1-(2-aminoethylamino)-1-oxopropan-2-yl]amino]-3,3-dimethyl-1-oxobutan-2-yl]-N'-hydroxy-2-(2-methylpropyl)butanediamide",
+  "label": "N1-((S)-1-(((S)-1-((2-aminoethyl)amino)-1-oxopropan-2-yl)amino)-3,3-dimethyl-1-oxobutan-2-yl)-N4-hydroxy-2-isobutylsuccinamide",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:tauroursodeoxycholic acid": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C26H45NO6S",
+  "identifier": "pubchem:CID9848818",
+  "inchikey": "BHTRKEVKTKCXOH-LBSADWJPSA-N",
+  "iupac": "2-[[(4R)-4-[(3R,5S,7S,8R,9S,10S,13R,14S,17R)-3,7-dihydroxy-10,13-dimethyl-2,3,4,5,6,7,8,9,11,12,14,15,16,17-tetradecahydro-1H-cyclopenta[a]phenanthren-17-yl]pentanoyl]amino]ethanesulfonic acid",
+  "label": "Tauroursodeoxycholic acid",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:trehalose": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C12H22O11",
+  "identifier": "pubchem:CID7427",
+  "inchikey": "HDTRYLNUVZCQOY-LIZSDCNHSA-N",
+  "iupac": "(2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxane-3,4,5-triol",
+  "label": "Trehalose",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:triton x-100": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C16H26O2",
+  "identifier": "pubchem:CID5590",
+  "inchikey": "JYCQQPHGFMYQCF-UHFFFAOYSA-N",
+  "iupac": "2-[4-(2,4,4-trimethylpentan-2-yl)phenoxy]ethanol",
+  "label": "Triton X 100",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:tubastatin a": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C20H21N3O2",
+  "identifier": "pubchem:CID49850262",
+  "inchikey": "GOVYBPLHWIEHEJ-UHFFFAOYSA-N",
+  "iupac": "N-hydroxy-4-[(2-methyl-3,4-dihydro-1H-pyrido[4,3-b]indol-5-yl)methyl]benzamide",
+  "label": "Tubastatin A",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:vorinostat": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C14H20N2O3",
+  "identifier": "pubchem:CID5311",
+  "inchikey": "WAEXFXRVDQXREF-UHFFFAOYSA-N",
+  "iupac": "N'-hydroxy-N-phenyloctanediamide",
+  "label": "Vorinostat",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:y-27632": {
+  "fetchedAt": "2026-09-25T19:40:00Z",
+  "formula": "C14H21N3O",
+  "identifier": "pubchem:CID448042",
+  "inchikey": "IYOZTVGMEWJPKR-VOMCLLRMSA-N",
+  "iupac": "4-[(1R)-1-aminoethyl]-N-pyridin-4-ylcyclohexane-1-carboxamide",
+  "label": "Ximelegatran",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "doi:10.1001/archophthalmol.2009.58": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:42Z",
+  "container": "Archives of Ophthalmology",
+  "fetchedAt": "2026-09-26T01:52:42Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Forecasting Age-Related Macular Degeneration Through the Year 2050",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1001/jama.2023.26074": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:43Z",
+  "container": "JAMA",
+  "fetchedAt": "2026-09-26T01:52:43Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Age-Related Macular Degeneration",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1002/bip.10296": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:43Z",
+  "container": "Peptide Science",
+  "fetchedAt": "2026-09-26T01:52:43Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2004,
+   1,
+   12
+  ],
+  "title": "Chemistry and biology of the ramoplanin family of peptide antibiotics",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1002/cpsc.53": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:43Z",
+  "container": "Current Protocols in Stem Cell Biology",
+  "fetchedAt": "2026-09-26T01:52:43Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2018,
+   4,
+   26
+  ],
+  "title": "Stem Cell–Derived Retinal Pigment Epithelial Layer Model from Adult Human Globes Donated for Corneal Transplants",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1002/humu.21577": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:44Z",
+  "container": "Human Mutation",
+  "fetchedAt": "2026-09-26T01:52:44Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2011,
+   9,
+   12
+  ],
+  "title": "Evidence of association of<i>APOE</i>with age-related macular degeneration - a pooled analysis of 15 studies",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1002/jlb.3ma1117-429r": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:44Z",
+  "container": "Journal of Leukocyte Biology",
+  "fetchedAt": "2026-09-26T01:52:44Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2018,
+   4,
+   6
+  ],
+  "title": "Inhibiting focal adhesion kinase (FAK) blocks IL-4 induced VCAM-1 expression and eosinophil recruitment in vitro and in vivo",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1006/exer.1996.0020": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:45Z",
+  "container": "Experimental Eye Research",
+  "fetchedAt": "2026-09-26T01:52:45Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "ARPE-19, A Human Retinal Pigment Epithelial Cell Line with Differentiated Properties",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1007/s00253-022-11790-9": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:45Z",
+  "container": "Applied Microbiology and Biotechnology",
+  "fetchedAt": "2026-09-26T01:52:45Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2022,
+   2,
+   7
+  ],
+  "title": "Improved high-throughput screening technique to rapidly isolate Chlamydomonas transformants expressing recombinant proteins",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1007/s11033-020-05922-5": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:45Z",
+  "container": "Molecular Biology Reports",
+  "fetchedAt": "2026-09-26T01:52:45Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2020,
+   10,
+   19
+  ],
+  "title": "CRISPR based targeted genome editing of Chlamydomonas reinhardtii using programmed Cas9-gRNA ribonucleoprotein",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.algal.2024.103435": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:46Z",
+  "container": "Algal Research",
+  "fetchedAt": "2026-09-26T01:52:46Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Inducing heritable genomic deletions in APT gene of Chlorella sorokiniana using CRISPR/Cas9",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.aninu.2021.02.003": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:47Z",
+  "container": "Animal Nutrition",
+  "fetchedAt": "2026-09-26T01:52:47Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "4-Phenylbutyric acid accelerates rehabilitation of barrier function in IPEC-J2 cell monolayer model",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.bbabio.2016.10.007": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:47Z",
+  "container": "Biochimica et Biophysica Acta (BBA) - Bioenergetics",
+  "fetchedAt": "2026-09-26T01:52:47Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Loss of CpSRP54 function leads to a truncated light-harvesting antenna size in Chlamydomonas reinhardtii",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.crmeth.2023.100562": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:47Z",
+  "container": "Cell Reports Methods",
+  "fetchedAt": "2026-09-26T01:52:47Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Efficient precision editing of endogenous Chlamydomonas reinhardtii genes with CRISPR-Cas",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.ejphar.2020.173262": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:48Z",
+  "container": "European Journal of Pharmacology",
+  "fetchedAt": "2026-09-26T01:52:48Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Bone regenerative potential of the selective sphingosine 1-phosphate receptor modulator siponimod: In vitro characterisation using osteoblast and endothelial cells",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.freeradbiomed.2022.02.025": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:48Z",
+  "container": "Free Radical Biology and Medicine",
+  "fetchedAt": "2026-09-26T01:52:48Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Removal of RPE lipofuscin results in rescue from retinal degeneration in a mouse model of advanced Stargardt disease: Role of reactive oxygen species",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.hemonc.2021.11.002": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:49Z",
+  "container": "Hematology/Oncology and Stem Cell Therapy",
+  "fetchedAt": "2026-09-26T01:52:49Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Protein S-mediated signal transduction pathway regulates lung cancer cell proliferation, migration and angiogenesis",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.intimp.2019.05.050": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:49Z",
+  "container": "International Immunopharmacology",
+  "fetchedAt": "2026-09-26T01:52:49Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "TUDCA attenuates intestinal injury and inhibits endoplasmic reticulum stress-mediated intestinal cell apoptosis in necrotizing enterocolitis",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.mex.2025.103416": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:49Z",
+  "container": "MethodsX",
+  "fetchedAt": "2026-09-26T01:52:49Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "A quick-to-implement and optimized CRISPR-Cas9 protocol to obtain insertional and small indel mutants in Chlamydomonas reinhardtii",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.neo.2014.03.009": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:50Z",
+  "container": "Neoplasia",
+  "fetchedAt": "2026-09-26T01:52:50Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Activation of HER3 Interferes with Antitumor Effects of Axl Receptor Tyrosine Kinase Inhibitors: Suggestion of Combination Therapy",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.stemcr.2018.01.017": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:50Z",
+  "container": "Stem Cell Reports",
+  "fetchedAt": "2026-09-26T01:52:50Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Quantified F-Actin Morphology Is Predictive of Phagocytic Capacity of Stem Cell-Derived Retinal Pigment Epithelium",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.stemcr.2020.10.013": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:51Z",
+  "container": "Stem Cell Reports",
+  "fetchedAt": "2026-09-26T01:52:51Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "A Human Retinal Pigment Epithelium-Based Screening Platform Reveals Inducers of Photoreceptor Outer Segments Phagocytosis",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.tibtech.2025.04.019": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:51Z",
+  "container": "Trends in Biotechnology",
+  "fetchedAt": "2026-09-26T01:52:51Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Genome editing of epigenetic transgene silencing in Chlamydomonas reinhardtii",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.tiv.2012.12.012": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:51Z",
+  "container": "Toxicology in Vitro",
+  "fetchedAt": "2026-09-26T01:52:51Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "β-Ionone attenuates LPS-induced pro-inflammatory mediators such as NO, PGE2 and TNF-α in BV2 microglial cells via suppression of the NF-κB and MAPK pathway",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.xphs.2021.01.011": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:52Z",
+  "container": "Journal of Pharmaceutical Sciences",
+  "fetchedAt": "2026-09-26T01:52:52Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Biowaiver Monographs for Immediate Release Solid Oral Dosage Forms: Metformin Hydrochloride",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/s0006-3223(99)00230-9": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:46Z",
+  "container": "Biological Psychiatry",
+  "fetchedAt": "2026-09-26T01:52:46Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Antidepressant effects of ketamine in depressed patients",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/jm00090a019": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:52Z",
+  "container": "Journal of Medicinal Chemistry",
+  "fetchedAt": "2026-09-26T01:52:52Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2002,
+   5,
+   1
+  ],
+  "title": "Novel functional M1 selective muscarinic agonists. Synthesis and structure-activity relationships of 3-(1,2,5-thiadiazolyl)-1,2,5,6-tetrahydro-1-methylpyridines",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/d41573-025-00014-0": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:53Z",
+  "container": "Nature Reviews Drug Discovery",
+  "fetchedAt": "2026-09-26T01:52:53Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2025,
+   1,
+   17
+  ],
+  "title": "2024 FDA approvals exceed average number but have lower sales projections",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/d41586-021-02480-z": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:53Z",
+  "container": "Nature",
+  "fetchedAt": "2026-09-26T01:52:53Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2021,
+   9,
+   13
+  ],
+  "title": "Biology must generate ideas as well as data",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/mp.2011.175": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:53Z",
+  "container": "Molecular Psychiatry",
+  "fetchedAt": "2026-09-26T01:52:53Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2012,
+   1,
+   10
+  ],
+  "title": "Cerebral folate receptor autoantibodies in autism spectrum disorder",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/nbt.2647": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:54Z",
+  "container": "Nature Biotechnology",
+  "fetchedAt": "2026-09-26T01:52:54Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2013,
+   7,
+   21
+  ],
+  "title": "DNA targeting specificity of RNA-guided Cas9 nucleases",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/nbt.3437": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:54Z",
+  "container": "Nature Biotechnology",
+  "fetchedAt": "2026-09-26T01:52:54Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2016,
+   1,
+   18
+  ],
+  "title": "Optimized sgRNA design to maximize activity and minimize off-target effects of CRISPR-Cas9",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/nmeth.2019": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:55Z",
+  "container": "Nature Methods",
+  "fetchedAt": "2026-09-26T01:52:55Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2012,
+   6,
+   28
+  ],
+  "title": "Fiji: an open-source platform for biological-image analysis",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/nprot.2009.97": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:55Z",
+  "container": "Nature Protocols",
+  "fetchedAt": "2026-09-26T01:52:55Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2009,
+   7,
+   23
+  ],
+  "title": "Mapping identifiers for the integration of genomic datasets with the R/Bioconductor package biomaRt",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/nrclinonc.2011.69": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:55Z",
+  "container": "Nature Reviews Clinical Oncology",
+  "fetchedAt": "2026-09-26T01:52:55Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2011,
+   5,
+   24
+  ],
+  "title": "BRAF targeted therapy changes the treatment paradigm in melanoma",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/s41398-020-0709-x": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:56Z",
+  "container": "Translational Psychiatry",
+  "fetchedAt": "2026-09-26T01:52:56Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2020,
+   2,
+   3
+  ],
+  "title": "Rivastigmine modifies the α-secretase pathway and potentially early Alzheimer’s disease",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/s41467-026-68562-6": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:56Z",
+  "container": "Nature Communications",
+  "fetchedAt": "2026-09-26T01:52:56Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2026,
+   1,
+   22
+  ],
+  "title": "Breaking the cell wall for efficient DNA delivery to diatoms",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/s41586-023-06792-0": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:56Z",
+  "container": "Nature",
+  "fetchedAt": "2026-09-26T01:52:56Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2023,
+   12,
+   20
+  ],
+  "title": "Autonomous chemical research with large language models",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/s41586-026-10652-y": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:57Z",
+  "container": "Nature",
+  "fetchedAt": "2026-09-26T01:52:57Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2026,
+   5,
+   19
+  ],
+  "title": "A multi-agent system for automating scientific discovery",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/s41598-017-17744-w": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:57Z",
+  "container": "Scientific Reports",
+  "fetchedAt": "2026-09-26T01:52:57Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2017,
+   12,
+   15
+  ],
+  "title": "AICAR suppresses TNF-α-induced complement factor B in RPE cells",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/s44160-023-00251-4": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:58Z",
+  "container": "Nature Synthesis",
+  "fetchedAt": "2026-09-26T01:52:58Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2023,
+   3,
+   9
+  ],
+  "title": "Combinatorial synthesis for AI-driven materials discovery",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/s44319-025-00475-9": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:58Z",
+  "container": "EMBO Reports",
+  "fetchedAt": "2026-09-26T01:52:58Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2025,
+   5,
+   19
+  ],
+  "title": "Laminin-defined mechanical status modulates retinal pigment epithelium phagocytosis",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1055/s-2008-1065354": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:58Z",
+  "container": "Neuropediatrics",
+  "fetchedAt": "2026-09-26T01:52:58Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Folate Receptor Autoimmunity and Cerebral Folate Deficiency in Low-Functioning Autism with Neurological Deficits",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1056/aioa2400555": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:59Z",
+  "container": "NEJM AI",
+  "fetchedAt": "2026-09-26T01:52:59Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Autonomous LLM-Driven Research — from Data to Human-Verifiable Research Papers",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1073/pnas.0503015102": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:52:59Z",
+  "container": "Proceedings of the National Academy of Sciences",
+  "fetchedAt": "2026-09-26T01:52:59Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2005,
+   8,
+   3
+  ],
+  "title": "Apolipoprotein E allele-dependent pathogenesis: A model for age-related retinal degeneration",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1073/pnas.0704756104": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:00Z",
+  "container": "Proceedings of the National Academy of Sciences",
+  "fetchedAt": "2026-09-26T01:53:00Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2007,
+   7,
+   17
+  ],
+  "title": "Essential role for MFG-E8 as ligand for αvβ5 integrin in diurnal retinal phagocytosis",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1086/301901": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:00Z",
+  "container": "The American Journal of Human Genetics",
+  "fetchedAt": "2026-09-26T01:53:00Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Genetic Association of Apolipoprotein E with Age-Related Macular Degeneration",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1087/20150203": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:00Z",
+  "container": "Learned Publishing",
+  "fetchedAt": "2026-09-26T01:53:00Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2015,
+   4
+  ],
+  "title": "Scholarly article seeking, reading, and use: a continuing evolution from print to electronic in the sciences and social sciences",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1093/g3journal/jkab114": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:01Z",
+  "container": "G3 Genes|Genomes|Genetics",
+  "fetchedAt": "2026-09-26T01:53:01Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2021,
+   4,
+   9
+  ],
+  "title": "<i>Chlamydomonas</i> POLQ is necessary for CRISPR/Cas9-mediated gene targeting",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1093/nar/gkae1128": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:01Z",
+  "container": "Nucleic Acids Research",
+  "fetchedAt": "2026-09-26T01:53:01Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2024,
+   12,
+   6
+  ],
+  "title": "Open Targets Platform: facilitating therapeutic hypotheses building in drug discovery",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1093/plphys/kiab418": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:02Z",
+  "container": "Plant Physiology",
+  "fetchedAt": "2026-09-26T01:53:02Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2021,
+   9,
+   2
+  ],
+  "title": "Co-targeting strategy for precise, scarless gene editing with CRISPR/Cas9 and donor ssODNs in\n                    <i>Chlamydomonas</i>",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1093/plphys/kiae427": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:02Z",
+  "container": "Plant Physiology",
+  "fetchedAt": "2026-09-26T01:53:02Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2024,
+   8,
+   23
+  ],
+  "title": "A cyclical marker system enables indefinite series of oligonucleotide-directed gene editing in\n                    <i>Chlamydomonas reinhardtii</i>",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1101/2025.08.21.671244": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:02Z",
+  "container": "",
+  "fetchedAt": "2026-09-26T01:53:02Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Multi-omics studies reveal how ambient temperature changes govern cellular responses of Chlamydomonas",
+  "type": "posted-content",
+  "version": "preprint"
+ },
+ "doi:10.1104/pp.112.206672": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:03Z",
+  "container": "Plant Physiology",
+  "fetchedAt": "2026-09-26T01:53:03Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2012,
+   10,
+   5
+  ],
+  "title": "Truncated Photosystem Chlorophyll Antenna Size in the Green Microalga <i>Chlamydomonas reinhardtii</i> upon Deletion of the <i>TLA3-CpSRP43</i> Gene",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1111/imr.13264": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:03Z",
+  "container": "Immunological Reviews",
+  "fetchedAt": "2026-09-26T01:53:03Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2023,
+   8,
+   9
+  ],
+  "title": "Clearance phagocytosis by the retinal pigment epithelial during photoreceptor outer segment renewal: Molecular mechanisms and relation to retinal inflammation",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1111/j.1365-2249.2009.03942.x": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:04Z",
+  "container": "Clinical and Experimental Immunology",
+  "fetchedAt": "2026-09-26T01:53:04Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2009,
+   4,
+   1
+  ],
+  "title": "Immunomodulatory drug FTY720 induces regulatory CD4+CD25+ T cells<i>in vitro</i>",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1111/j.1476-5381.2008.00019.x": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:04Z",
+  "container": "British Journal of Pharmacology",
+  "fetchedAt": "2026-09-26T01:53:04Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2009,
+   2,
+   13
+  ],
+  "title": "<i>In vitro</i>induction of T cells that are resistant to A<sub>2</sub>adenosine receptor‐mediated immunosuppression",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1111/tpj.70140": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:04Z",
+  "container": "The Plant Journal",
+  "fetchedAt": "2026-09-26T01:53:04Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2025,
+   4,
+   5
+  ],
+  "title": "Genome editing in the green alga <i>Chlamydomonas</i>: past, present practice and future prospects",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1126/sciadv.abd0561": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:05Z",
+  "container": "Science Advances",
+  "fetchedAt": "2026-09-26T01:53:05Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "BRAF inhibition protects against hearing loss in mice",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1126/science.1223710": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:05Z",
+  "container": "Science",
+  "fetchedAt": "2026-09-26T01:53:05Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Identification of Small Molecule Activators of Cryptochrome",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1134/s000629792307009x": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:06Z",
+  "container": "Biochemistry (Moscow)",
+  "fetchedAt": "2026-09-26T01:53:06Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2023,
+   7,
+   20
+  ],
+  "title": "Histone Methyltransferases as a New Target for Epigenetic Action of Vorinostat",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1145/3677389.3702565": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:06Z",
+  "container": "Proceedings of the 24th ACM/IEEE Joint Conference on Digital Libraries",
+  "fetchedAt": "2026-09-26T01:53:06Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2025,
+   3,
+   13
+  ],
+  "title": "LLMs4Synthesis: Leveraging Large Language Models for Scientific Synthesis",
+  "type": "proceedings-article",
+  "version": "unknown"
+ },
+ "doi:10.1159/000495183": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:06Z",
+  "container": "Microbial Physiology",
+  "fetchedAt": "2026-09-26T01:53:06Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2018,
+   12,
+   19
+  ],
+  "title": "A Simple Method for Removal of the &lt;b&gt;&lt;i&gt;Chlamydomonas reinhardtii&lt;/i&gt;&lt;/b&gt; Cell Wall Using a Commercially Available Subtilisin (Alcalase)",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1159/000504891": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:07Z",
+  "container": "Ophthalmic Research",
+  "fetchedAt": "2026-09-26T01:53:07Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2019,
+   12,
+   20
+  ],
+  "title": "Exendin-4 Protects Human Retinal Pigment Epithelial Cells from H&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;2&lt;/sub&gt;-Induced Oxidative Damage via Activation of NRF2 Signaling",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1167/iovs.14-16246": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:07Z",
+  "container": "Investigative Opthalmology &amp; Visual Science",
+  "fetchedAt": "2026-09-26T01:53:07Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Human Adult Retinal Pigment Epithelial Stem Cell–Derived RPE Monolayers Exhibit Key Physiological Characteristics of Native Tissue",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1186/1472-6882-11-1": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:07Z",
+  "container": "BMC Complementary and Alternative Medicine",
+  "fetchedAt": "2026-09-26T01:53:07Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2011,
+   1,
+   3
+  ],
+  "title": "Ascorbic acid partly antagonizes resveratrol mediated heme oxygenase-1 but not paraoxonase-1 induction in cultured hepatocytes - role of the redox-regulated transcription factor Nrf2",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1186/1742-2094-9-163": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:08Z",
+  "container": "Journal of Neuroinflammation",
+  "fetchedAt": "2026-09-26T01:53:08Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2012,
+   7,
+   7
+  ],
+  "title": "Effects of dimethyl fumarate on neuroprotection and immunomodulation",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1186/s13046-019-1176-1": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:08Z",
+  "container": "Journal of Experimental &amp; Clinical Cancer Research",
+  "fetchedAt": "2026-09-26T01:53:08Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2019,
+   4,
+   26
+  ],
+  "title": "Activity and molecular targets of pioglitazone via blockade of proliferation, invasiveness and bioenergetics in human NSCLC",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1371/journal.pbio.1002195": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:08Z",
+  "container": "PLOS Biology",
+  "fetchedAt": "2026-09-26T01:53:08Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2015,
+   7,
+   7
+  ],
+  "title": "Big Data: Astronomical or Genomical?",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1371/journal.pone.0118494": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:09Z",
+  "container": "PLOS ONE",
+  "fetchedAt": "2026-09-26T01:53:09Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2015,
+   3,
+   4
+  ],
+  "title": "To Apply or Not to Apply: A Survey Analysis of Grant Writing Costs and Benefits",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1371/journal.pone.0144571": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:09Z",
+  "container": "PLOS ONE",
+  "fetchedAt": "2026-09-26T01:53:09Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2015,
+   12,
+   16
+  ],
+  "title": "Y-27632, a ROCK Inhibitor, Promoted Limbal Epithelial Cell Proliferation and Corneal Wound Healing",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1371/journal.pone.0232594": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:10Z",
+  "container": "PLOS ONE",
+  "fetchedAt": "2026-09-26T01:53:10Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2020,
+   5,
+   13
+  ],
+  "title": "TIM, a targeted insertional mutagenesis method utilizing CRISPR/Cas9 in Chlamydomonas reinhardtii",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1523/jneurosci.4914-07.2008": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:10Z",
+  "container": "The Journal of Neuroscience",
+  "fetchedAt": "2026-09-26T01:53:10Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2008,
+   5,
+   7
+  ],
+  "title": "Damage-Induced Activation of ERK1/2 in Cochlear Supporting Cells Is a Hair Cell Death-Promoting Signal That Depends on Extracellular ATP and Calcium",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.21769/bioprotoc.4705": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:10Z",
+  "container": "BIO-PROTOCOL",
+  "fetchedAt": "2026-09-26T01:53:10Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Autolysin Production from &lt;em&gt;Chlamydomonas reinhardtii&lt;/em&gt;",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.26650/istanbuljpharm.2021.0079": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:11Z",
+  "container": "İstanbul Journal of Pharmacy",
+  "fetchedAt": "2026-09-26T01:53:11Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2021,
+   8,
+   31
+  ],
+  "title": "In vitro assessment of cytotoxic, apoptotic and  genotoxic effects of metformin",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.3389/fonc.2022.873447": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:11Z",
+  "container": "Frontiers in Oncology",
+  "fetchedAt": "2026-09-26T01:53:11Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2022,
+   9,
+   15
+  ],
+  "title": "Rapamycin inhibits oral cancer cell growth by promoting oxidative stress and suppressing ERK1/2, NF-κB and beta-catenin pathways",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.3389/fphar.2018.00648": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:12Z",
+  "container": "Frontiers in Pharmacology",
+  "fetchedAt": "2026-09-26T01:53:12Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2018,
+   6,
+   28
+  ],
+  "title": "PPARβ/δ Agonist GW501516 Inhibits Tumorigenicity of Undifferentiated Nasopharyngeal Carcinoma in C666-1 Cells by Promoting Apoptosis",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.3389/fpls.2020.00306": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:12Z",
+  "container": "Frontiers in Plant Science",
+  "fetchedAt": "2026-09-26T01:53:12Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2020,
+   3,
+   20
+  ],
+  "title": "Site-Specific Gene Knock-Out and On-Site Heterologous Gene Overexpression in Chlamydomonas reinhardtii via a CRISPR-Cas9-Mediated Knock-in Method",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.3390/biom13060901": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:12Z",
+  "container": "Biomolecules",
+  "fetchedAt": "2026-09-26T01:53:12Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2023,
+   5,
+   29
+  ],
+  "title": "The Role of Retinal Pigment Epithelial Cells in Age-Related Macular Degeneration: Phagocytosis and Autophagy",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.3390/cells10081927": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:13Z",
+  "container": "Cells",
+  "fetchedAt": "2026-09-26T01:53:13Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2021,
+   7,
+   29
+  ],
+  "title": "Acute RhoA/Rho Kinase Inhibition Is Sufficient to Restore Phagocytic Capacity to Retinal Pigment Epithelium Lacking the Engulfment Receptor MerTK",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.3390/cells8040348": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:13Z",
+  "container": "Cells",
+  "fetchedAt": "2026-09-26T01:53:13Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2019,
+   4,
+   12
+  ],
+  "title": "Trehalose Modulates Autophagy Process to Counteract Gliadin Cytotoxicity in an In Vitro Celiac Disease Model",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.3390/cells8101159": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:14Z",
+  "container": "Cells",
+  "fetchedAt": "2026-09-26T01:53:14Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2019,
+   9,
+   27
+  ],
+  "title": "Sulforaphane-Induced Klf9/Prdx6 Axis Acts as a Molecular Switch to Control Redox Signaling and Determines Fate of Cells",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.3390/ijms25063229": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:14Z",
+  "container": "International Journal of Molecular Sciences",
+  "fetchedAt": "2026-09-26T01:53:14Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2024,
+   3,
+   12
+  ],
+  "title": "Ripasudil as a Potential Therapeutic Agent in Treating Secondary Glaucoma in HTLV-1-Uveitis: An In Vitro Analysis",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.3892/ol.2018.8182": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:14Z",
+  "container": "Oncology Letters",
+  "fetchedAt": "2026-09-26T01:53:14Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2018,
+   3,
+   6
+  ],
+  "title": "LXR ligands induce apoptosis of EGFR-TKI-resistant human lung cancer cells inï¿½vitro by inhibiting Akt-NF-κB activation",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.4161/auto.24546": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:15Z",
+  "container": "Autophagy",
+  "fetchedAt": "2026-09-26T01:53:15Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2014,
+   10,
+   27
+  ],
+  "title": "Autophagy and heterophagy dysregulation leads to retinal pigment epithelium dysfunction and development of age-related macular degeneration",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.4252/wjsc.v16.i2.163": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:15Z",
+  "container": "World Journal of Stem Cells",
+  "fetchedAt": "2026-09-26T01:53:15Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2024,
+   2,
+   26
+  ],
+  "title": "Effects of different concentrations of nicotinamide on hematopoietic stem cells cultured <i>in vitro</i>",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.48550/arxiv.2211.09085": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:17Z",
+  "fetchedAt": "2026-09-26T01:53:17Z",
+  "integrity": "none",
+  "publisher": "arXiv",
+  "state": "findable",
+  "title": "Galactica: A Large Language Model for Science",
+  "type": "Preprint",
+  "version": "v1"
+ },
+ "doi:10.48550/arxiv.2402.01788": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:18Z",
+  "fetchedAt": "2026-09-26T01:53:18Z",
+  "integrity": "none",
+  "publisher": "arXiv",
+  "state": "findable",
+  "title": "LitLLM: A Toolkit for Scientific Literature Review",
+  "type": "Preprint",
+  "version": "v1"
+ },
+ "doi:10.48550/arxiv.2403.16950": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:19Z",
+  "fetchedAt": "2026-09-26T01:53:19Z",
+  "integrity": "none",
+  "publisher": "arXiv",
+  "state": "findable",
+  "title": "Aligning with Human Judgement: The Role of Pairwise Preference in Large Language Model Evaluators",
+  "type": "Preprint",
+  "version": "v1"
+ },
+ "doi:10.48550/arxiv.2406.06316": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:19Z",
+  "fetchedAt": "2026-09-26T01:53:19Z",
+  "integrity": "none",
+  "publisher": "arXiv",
+  "state": "findable",
+  "title": "Tx-LLM: A Large Language Model for Therapeutics",
+  "type": "Preprint",
+  "version": "v1"
+ },
+ "doi:10.48550/arxiv.2409.13740": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:20Z",
+  "fetchedAt": "2026-09-26T01:53:20Z",
+  "integrity": "none",
+  "publisher": "arXiv",
+  "state": "findable",
+  "title": "Language agents achieve superhuman synthesis of scientific knowledge",
+  "type": "Preprint",
+  "version": "v1"
+ },
+ "doi:10.48550/arxiv.2412.21154": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:20Z",
+  "fetchedAt": "2026-09-26T01:53:20Z",
+  "integrity": "none",
+  "publisher": "arXiv",
+  "state": "findable",
+  "title": "Aviary: training language agents on challenging scientific tasks",
+  "type": "Preprint",
+  "version": "v1"
+ },
+ "doi:10.48550/arxiv.2502.18864": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:21Z",
+  "fetchedAt": "2026-09-26T01:53:21Z",
+  "integrity": "none",
+  "publisher": "arXiv",
+  "state": "findable",
+  "title": "Accelerating scientific discovery with Co-Scientist",
+  "type": "Preprint",
+  "version": "v1"
+ },
+ "doi:10.48550/arxiv.2503.00096": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:22Z",
+  "fetchedAt": "2026-09-26T01:53:22Z",
+  "integrity": "none",
+  "publisher": "arXiv",
+  "state": "findable",
+  "title": "BixBench: a Comprehensive Benchmark for LLM-based Agents in Computational Biology",
+  "type": "Preprint",
+  "version": "v1"
+ },
+ "doi:10.48550/arxiv.2504.06196": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:23Z",
+  "fetchedAt": "2026-09-26T01:53:23Z",
+  "integrity": "none",
+  "publisher": "arXiv",
+  "state": "findable",
+  "title": "TxGemma: Efficient and Agentic LLMs for Therapeutics",
+  "type": "Preprint",
+  "version": "v1"
+ },
+ "doi:10.48550/arxiv.2504.08066": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:23Z",
+  "fetchedAt": "2026-09-26T01:53:23Z",
+  "integrity": "none",
+  "publisher": "arXiv",
+  "state": "findable",
+  "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+  "type": "Preprint",
+  "version": "v1"
+ },
+ "doi:10.48550/arxiv.2505.13400": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:17Z",
+  "fetchedAt": "2026-09-26T01:53:17Z",
+  "integrity": "none",
+  "publisher": "arXiv",
+  "state": "findable",
+  "title": "Robin: A multi-agent system for automating scientific discovery",
+  "type": "Preprint",
+  "version": "v1"
+ },
+ "doi:10.5281/zenodo.22238548": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:24Z",
+  "fetchedAt": "2026-09-26T01:53:24Z",
+  "integrity": "none",
+  "publisher": "Zenodo",
+  "state": "findable",
+  "title": "Data accompanying: Evaluation of Alcalase pretreatment for CRISPR-HDR in Chlamydomonas reinhardtii",
+  "type": "Dataset",
+  "version": "dataset"
+ },
+ "doi:10.5599/admet.4.4.331": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:24Z",
+  "container": "ADMET and DMPK",
+  "fetchedAt": "2026-09-26T01:53:24Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2016,
+   12,
+   26
+  ],
+  "title": "ROCK inhibitors in ocular disease",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.57844/arcadia-35f0-3e16": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:25Z",
+  "fetchedAt": "2026-09-26T01:53:25Z",
+  "integrity": "none",
+  "publisher": "Astera Institute",
+  "state": "findable",
+  "title": "Phenotypic differences between interfertile Chlamydomonas species",
+  "type": "Other",
+  "version": "v1"
+ },
+ "doi:10.57844/arcadia-61hk-a7gd": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:25Z",
+  "fetchedAt": "2026-09-26T01:53:25Z",
+  "integrity": "none",
+  "publisher": "Astera Institute",
+  "state": "findable",
+  "title": "Modular CRISPR landing pads for Chlamydomonas reinhardtii",
+  "type": "Other",
+  "version": "v1"
+ },
+ "doi:10.57844/arcadia-pdu7-q2zz": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T01:53:26Z",
+  "fetchedAt": "2026-09-26T01:53:26Z",
+  "integrity": "none",
+  "publisher": "Astera Institute",
+  "state": "findable",
+  "title": "Evaluation of Alcalase pretreatment for Chlamydomonas reinhardtii CRISPR knock-in",
+  "type": "Other",
+  "version": "v1"
+ },
+ "doi:10.5966/sctm.2014-0079": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:26Z",
+  "container": "Stem Cells Translational Medicine",
+  "fetchedAt": "2026-09-26T01:53:26Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2014,
+   7,
+   28
+  ],
+  "title": "ROCK Inhibition Extends Passage of Pluripotent Stem Cell-Derived Retinal Pigmented Epithelium",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.7150/ijbs.81415": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T01:53:27Z",
+  "container": "International Journal of Biological Sciences",
+  "fetchedAt": "2026-09-26T01:53:27Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Drug Repurposing Flubendazole to Suppress Tumorigenicity via PCSK9-dependent Inhibition and Potentiate Lenvatinib Therapy for Hepatocellular Carcinoma",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "gene:ABCA1": {
+  "ensembl": "ENSG00000165029",
+  "entrez": "19",
+  "fetchedAt": "2026-09-26T01:51:14Z",
+  "identifier": "HGNC:29",
+  "label": "ABCA1",
+  "name": "ATP binding cassette subfamily A member 1",
+  "source": "HGNC REST",
+  "uniprot": [
+   "O95477"
+  ]
+ },
+ "gene:GAS6": {
+  "ensembl": "ENSG00000183087",
+  "entrez": "2621",
+  "fetchedAt": "2026-09-26T01:51:15Z",
+  "identifier": "HGNC:4168",
+  "label": "GAS6",
+  "name": "growth arrest specific 6",
+  "source": "HGNC REST",
+  "uniprot": [
+   "Q14393"
+  ]
+ },
+ "gene:MFGE8": {
+  "ensembl": "ENSG00000140545",
+  "entrez": "4240",
+  "fetchedAt": "2026-09-26T01:51:14Z",
+  "identifier": "HGNC:7036",
+  "label": "MFGE8",
+  "name": "milk fat globule EGF and factor V/VIII domain containing",
+  "source": "HGNC REST",
+  "uniprot": [
+   "Q08431"
+  ]
+ },
+ "gene:PROS1": {
+  "ensembl": "ENSG00000184500",
+  "entrez": "5627",
+  "fetchedAt": "2026-09-26T01:51:14Z",
+  "identifier": "HGNC:9456",
+  "label": "PROS1",
+  "name": "protein S",
+  "source": "HGNC REST",
+  "uniprot": [
+   "P07225"
+  ]
+ },
+ "ontology:age-related macular degeneration": {
+  "fetchedAt": "2026-09-26T01:51:04Z",
+  "identifier": "MONDO:0005150",
+  "label": "age-related macular degeneration",
+  "ontology": "mondo",
+  "source": "OLS4 exact search"
+ },
+ "ontology:amplicon sequencing assay": {
+  "fetchedAt": "2026-09-26T01:51:09Z",
+  "identifier": "OBI:0002767",
+  "label": "amplicon sequencing assay",
+  "ontology": "obi",
+  "source": "OLS4 exact search"
+ },
+ "ontology:bulk rna-seq assay": {
+  "fetchedAt": "2026-09-26T01:51:06Z",
+  "identifier": "OBI:0003090",
+  "label": "bulk RNA-seq assay",
+  "ontology": "obi",
+  "source": "OLS4 exact search"
+ },
+ "ontology:cell viability assay": {
+  "fetchedAt": "2026-09-26T01:51:08Z",
+  "identifier": "OBI:0003583",
+  "label": "cell viability assay",
+  "ontology": "obi",
+  "source": "OLS4 exact search"
+ },
+ "ontology:cell wall": {
+  "fetchedAt": "2026-09-26T01:51:11Z",
+  "identifier": "GO:0005618",
+  "label": "cell wall",
+  "ontology": "go",
+  "source": "OLS4 exact search"
+ },
+ "ontology:colony forming unit assay": {
+  "fetchedAt": "2026-09-26T01:51:10Z",
+  "unresolved": true
+ },
+ "ontology:dna sequencing assay": {
+  "fetchedAt": "2026-09-26T01:51:10Z",
+  "identifier": "OBI:0000626",
+  "label": "DNA sequencing assay",
+  "ontology": "obi",
+  "source": "OLS4 exact search"
+ },
+ "ontology:dry age related macular degeneration": {
+  "fetchedAt": "2026-09-26T01:51:04Z",
+  "identifier": "MONDO:0100114",
+  "label": "dry age related macular degeneration",
+  "ontology": "mondo",
+  "source": "OLS4 exact search"
+ },
+ "ontology:electroporation": {
+  "fetchedAt": "2026-09-26T01:51:07Z",
+  "identifier": "OBI:0302912",
+  "label": "electroporation",
+  "ontology": "obi",
+  "source": "OLS4 exact search"
+ },
+ "ontology:flow cytometry assay": {
+  "fetchedAt": "2026-09-26T01:51:05Z",
+  "identifier": "OBI:0000916",
+  "label": "flow cytometry assay",
+  "ontology": "obi",
+  "source": "OLS4 exact search"
+ },
+ "ontology:genotyping assay": {
+  "fetchedAt": "2026-09-26T01:51:08Z",
+  "identifier": "OBI:0000435",
+  "label": "genotyping assay",
+  "ontology": "obi",
+  "source": "OLS4 exact search"
+ },
+ "ontology:homologous recombination": {
+  "fetchedAt": "2026-09-26T01:51:12Z",
+  "identifier": "GO:0035825",
+  "label": "homologous recombination",
+  "ontology": "go",
+  "source": "OLS4 exact search"
+ },
+ "ontology:phagocytosis": {
+  "fetchedAt": "2026-09-26T01:51:06Z",
+  "identifier": "GO:0006909",
+  "label": "phagocytosis",
+  "ontology": "go",
+  "source": "OLS4 exact search"
+ },
+ "ontology:polymerase chain reaction": {
+  "fetchedAt": "2026-09-26T01:51:07Z",
+  "identifier": "OBI:0000415",
+  "label": "polymerase chain reaction",
+  "ontology": "obi",
+  "source": "OLS4 exact search"
+ },
+ "ontology:retinal pigment epithelial cell": {
+  "fetchedAt": "2026-09-26T01:51:05Z",
+  "identifier": "CL:0002586",
+  "label": "retinal pigment epithelial cell",
+  "ontology": "cl",
+  "source": "OLS4 exact search"
+ },
+ "org:arcadia science": {
+  "fetchedAt": "2026-09-26T01:51:16Z",
+  "identifier": "https://ror.org/052zd4v68",
+  "label": "Arcadia Science",
+  "source": "ROR v2 API"
+ },
+ "org:astera institute": {
+  "fetchedAt": "2026-09-26T01:51:17Z",
+  "identifier": "https://ror.org/00ydx1s47",
+  "label": "Astera Institute",
+  "source": "ROR v2 API"
+ },
+ "org:chlamydomonas resource center": {
+  "fetchedAt": "2026-09-26T01:51:18Z",
+  "unresolved": true
+ },
+ "org:edison scientific": {
+  "fetchedAt": "2026-09-26T01:51:16Z",
+  "identifier": "https://ror.org/01p9amb16",
+  "label": "Edison Scientific Inc. (United States)",
+  "source": "ROR v2 API"
+ },
+ "org:eye-bank for sight restoration": {
+  "fetchedAt": "2026-09-26T01:51:18Z",
+  "unresolved": true
+ },
+ "org:futurehouse": {
+  "fetchedAt": "2026-09-26T01:51:17Z",
+  "unresolved": true
+ },
+ "protein:ABCA1:9606": {
+  "fetchedAt": "2026-09-26T01:51:03Z",
+  "gene": "ABCA1",
+  "identifier": "uniprot:O95477",
+  "label": "Phospholipid-transporting ATPase ABCA1",
+  "source": "UniProt REST"
+ },
+ "protein:GAS6:9606": {
+  "fetchedAt": "2026-09-26T01:51:02Z",
+  "gene": "GAS6",
+  "identifier": "uniprot:Q14393",
+  "label": "Growth arrest-specific protein 6",
+  "source": "UniProt REST"
+ },
+ "protein:MFGE8:9606": {
+  "fetchedAt": "2026-09-26T01:51:01Z",
+  "gene": "MFGE8",
+  "identifier": "uniprot:Q08431",
+  "label": "Lactadherin",
+  "source": "UniProt REST"
+ },
+ "protein:PROS1:9606": {
+  "fetchedAt": "2026-09-26T01:51:02Z",
+  "gene": "PROS1",
+  "identifier": "uniprot:P07225",
+  "label": "Vitamin K-dependent protein S",
+  "source": "UniProt REST"
+ },
+ "rrid:SCR_001905": {
+  "fetchedAt": "2026-09-26T01:51:47Z",
+  "identifier": "RRID:SCR_001905",
+  "label": "R Project for Statistical Computing",
+  "source": "SciCrunch resolver"
+ },
+ "rrid:SCR_002285": {
+  "fetchedAt": "2026-09-26T01:51:23Z",
+  "identifier": "RRID:SCR_002285",
+  "label": "Fiji",
+  "source": "SciCrunch resolver"
+ },
+ "rrid:SCR_002798": {
+  "fetchedAt": "2026-09-26T01:51:55Z",
+  "identifier": "RRID:SCR_002798",
+  "label": "GraphPad Prism",
+  "source": "SciCrunch resolver"
+ },
+ "rrid:SCR_003070": {
+  "fetchedAt": "2026-09-26T01:52:00Z",
+  "identifier": "RRID:SCR_003070",
+  "label": "ImageJ",
+  "source": "SciCrunch resolver"
+ },
+ "rrid:SCR_010519": {
+  "fetchedAt": "2026-09-26T01:51:33Z",
+  "identifier": "RRID:SCR_010519",
+  "label": "Geneious",
+  "source": "SciCrunch resolver"
+ },
+ "rrid:SCR_012919": {
+  "fetchedAt": "2026-09-26T01:51:42Z",
+  "identifier": "RRID:SCR_012919",
+  "label": "featureCounts",
+  "source": "SciCrunch resolver"
+ },
+ "rrid:SCR_015530": {
+  "fetchedAt": "2026-09-26T01:51:38Z",
+  "identifier": "RRID:SCR_015530",
+  "label": "HISAT2",
+  "source": "SciCrunch resolver"
+ },
+ "rrid:SCR_015687": {
+  "fetchedAt": "2026-09-26T01:51:28Z",
+  "identifier": "RRID:SCR_015687",
+  "label": "DESeq2",
+  "source": "SciCrunch resolver"
+ },
+ "rrid:SCR_018931": {
+  "fetchedAt": "2026-09-26T01:51:51Z",
+  "identifier": "RRID:SCR_018931",
+  "label": "EnhancedVolcano",
+  "source": "SciCrunch resolver"
+ }
+}

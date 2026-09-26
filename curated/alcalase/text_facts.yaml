@@ -1,0 +1,42 @@
+# Numbers stated in the text (not in a table), with the section they come from.
+leakage:
+  alcalase_percent: 22
+  geneart_percent: 11
+  noenzyme_percent: 6
+  n: 1
+  source: "Results, 'Alcalase reduced viability and NAT resistance'; Figure 3; per-tube values in wall_permeability_data.csv"
+viability:
+  alcalase_colonies: {flask: 35, plate: 68}
+  geneart_colonies: "exceeded the reliable counting ceiling of ~1,200 colonies"
+  foldDifference: ">= 10-fold"
+  electroporationSurvival: {flask_percent: 69, plate_percent: 38, method: "ratio of electroporated to non-electroporated colony counts from the same culture"}
+  source: "Results; Table 4; Figure 4"
+transformation:
+  alcalase_cfu_range: "0-16 CFU per plate on TAP + NAT"
+  alcalase_at_background: "6 of 8 treatments indistinguishable from the matched no-donor control"
+  alcalase_above_background: {SRTA_KO_g01_flask: 15, SRTA_KO_g02_flask: 16}
+  geneart_cfu_range: "121-1,094"
+  background: {alcalase: [4, 3], geneart: [0, 0]}
+  interpretation: "consistent with less efficient donor DNA delivery or integration under the Alcalase condition; NAT resistance likely reflects random donor integration"
+  source: "Results; Table 4; Figure 5"
+genotyping:
+  coloniesPicked: 201
+  excludedEvaporation: 10
+  screened: 191
+  wildTypeSizeAmplicon: 172
+  noBand: 19
+  sequenced: 40
+  sequencedPerGuide: 10
+  editsDetected: 0
+  insertsDetected: 0
+  interpretation: "donor DNA was delivered and integrated in cells that gained antibiotic resistance, but most likely off-target by NHEJ rather than on-target by HDR"
+  source: "Results, 'We didn't observe any donor integration or other CRISPR edits at target loci'; Table 5"
+visualScreen:
+  expected: "pale-green TLA phenotype for CpSRP43 and CpSRP54 knockouts"
+  observed: "colonies from both TLA- and SRTA-targeting transformations spanned the same sizes (large, medium, small) and colours (green, pale-green, white)"
+  reversion: {whiteColoniesTransferred: 96, regainedGreen: 32, percent: 33, mediumPercent: 60, smallPercent: 6}
+  interpretation: "pigment loss was largely a reversible response to selection or transformation stress, not a stable target-locus-specific effect; the visual screen was abandoned"
+  source: "Results, 'Colony phenotype was too variable to screen for TLA knockouts'; Figure 6"
+cultureFormat:
+  interpretation: "both formats yielded NAT-resistant colonies, but with no on-target events under either we can't say whether one format is better for knock-in"
+  source: "Key takeaways"

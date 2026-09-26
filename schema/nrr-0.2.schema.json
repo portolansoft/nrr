@@ -1,0 +1,1592 @@
+     {
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://portolansoft.com/schema/nrr-0.2.schema.json",
+ "title": "Portolan Negative-Results Record (NRR) v0.2",
+ "description": "One record is one path (project or campaign) or one attempt (experiment, agent run, or analysis) with one or more findings. Core sections follow the v0.1 sketch (identity, question, path, screened items, outcome, reuse guidance, relations, integrity); v0.2 additions are documented in CHANGELOG.md.",
+ "type": "object",
+ "required": [
+  "@id",
+  "kind",
+  "profile",
+  "version",
+  "dateCreated",
+  "license",
+  "visibility",
+  "operator",
+  "domainTags",
+  "studyId",
+  "slug",
+  "title",
+  "question",
+  "successCriteria",
+  "pathType",
+  "outcomeClass",
+  "sources",
+  "cost"
+ ],
+ "additionalProperties": false,
+ "properties": {
+  "@id": {
+   "type": "string",
+   "pattern": "^urn:portolan:nrr:sha256:[a-f0-9]{64}$"
+  },
+  "contentAddress": {
+   "type": "string",
+   "pattern": "^urn:portolan:nrr:sha256:[a-f0-9]{64}$"
+  },
+  "kind": {
+   "type": "string",
+   "enum": [
+    "path",
+    "attempt"
+   ]
+  },
+  "profile": {
+   "const": "https://portolansoft.com/profile/nrr/0.2"
+  },
+  "version": {
+   "type": "string"
+  },
+  "isNewVersionOf": {
+   "type": "string"
+  },
+  "dateCreated": {
+   "type": "string",
+   "format": "date-time"
+  },
+  "license": {
+   "type": "string",
+   "minLength": 1
+  },
+  "sourceLicense": {
+   "type": "string"
+  },
+  "visibility": {
+   "type": "string",
+   "enum": [
+    "private",
+    "embargoed",
+    "public",
+    "restricted"
+   ]
+  },
+  "embargoUntil": {
+   "type": "string",
+   "format": "date"
+  },
+  "studyId": {
+   "type": "string",
+   "pattern": "^[a-z0-9-]+$"
+  },
+  "slug": {
+   "type": "string",
+   "pattern": "^[a-z0-9-]+$"
+  },
+  "title": {
+   "type": "string",
+   "minLength": 1
+  },
+  "operator": {
+   "$ref": "#/$defs/Party"
+  },
+  "performers": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/Performer"
+   }
+  },
+  "domainTags": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "string",
+    "enum": [
+     "biology",
+     "chemistry",
+     "materials",
+     "medicine",
+     "computation",
+     "mathematics",
+     "physics",
+     "other"
+    ]
+   }
+  },
+  "attemptType": {
+   "type": "string",
+   "enum": [
+    "wet-lab",
+    "computational",
+    "evidence-synthesis",
+    "hypothesis-generation",
+    "evaluation"
+   ]
+  },
+  "question": {
+   "type": "string",
+   "minLength": 1
+  },
+  "hypothesis": {
+   "type": "string"
+  },
+  "successCriteria": {
+   "type": "string",
+   "minLength": 1
+  },
+  "pathType": {
+   "type": "string",
+   "enum": [
+    "literature",
+    "computation",
+    "experiment",
+    "mixed"
+   ]
+  },
+  "target": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/EntityRef"
+   }
+  },
+  "outcomeClass": {
+   "type": "string",
+   "enum": [
+    "positive",
+    "partial",
+    "inconclusive",
+    "abandoned",
+    "negative-not-novel",
+    "negative-not-achievable",
+    "negative-not-reproducible",
+    "refuted",
+    "negative-no-phenotype",
+    "negative-no-effect",
+    "negative-no-association",
+    "negative-not-replicated",
+    "negative-contradicted-by-vor",
+    "inconclusive-controls-failed",
+    "inconclusive-underpowered",
+    "inconclusive-reagent-failed",
+    "inconclusive-no-positive-control"
+   ]
+  },
+  "outcomeSummary": {
+   "type": "string"
+  },
+  "confidence": {
+   "type": "object",
+   "properties": {
+    "level": {
+     "type": "string",
+     "enum": [
+      "high",
+      "medium",
+      "low"
+     ]
+    },
+    "basis": {
+     "type": "string"
+    }
+   },
+   "required": [
+    "level",
+    "basis"
+   ],
+   "additionalProperties": false
+  },
+  "findings": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/Finding"
+   }
+  },
+  "stages": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/Stage"
+   }
+  },
+  "screened": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/ScreenedItem"
+   }
+  },
+  "screenedSummary": {
+   "type": "object",
+   "additionalProperties": {
+    "type": "integer"
+   }
+  },
+  "applicabilityConditions": {
+   "anyOf": [
+    {
+     "type": "string"
+    },
+    {
+     "type": "object"
+    }
+   ]
+  },
+  "invalidators": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "untriedBranches": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/UntriedBranch"
+   }
+  },
+  "openQuestions": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "abandonmentReasons": {
+   "type": "array",
+   "items": {
+    "type": "string",
+    "enum": [
+     "technical-gap",
+     "strategic-misalignment",
+     "resource-constraint",
+     "superseded",
+     "safety",
+     "funding-ended",
+     "personnel-change",
+     "not-stated"
+    ]
+   }
+  },
+  "nextSteps": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "cost": {
+   "$ref": "#/$defs/Cost"
+  },
+  "sources": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "$ref": "#/$defs/Source"
+   }
+  },
+  "relations": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/Relation"
+   }
+  },
+  "hasPart": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "isPartOf": {
+   "type": "string"
+  },
+  "entities": {
+   "type": "array",
+   "items": {
+    "$ref": "#/$defs/Entity"
+   }
+  },
+  "aiUseDeclaration": {
+   "$ref": "#/$defs/AiUse"
+  },
+  "provenanceNotes": {
+   "type": "array",
+   "items": {
+    "type": "string"
+   }
+  },
+  "integrity": {
+   "$ref": "#/$defs/Integrity"
+  },
+  "governance": {
+   "type": "object",
+   "properties": {
+    "humanSubjectData": {
+     "type": "string"
+    },
+    "biosecurityTier": {
+     "type": "string"
+    },
+    "complianceIds": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   },
+   "additionalProperties": false
+  }
+ },
+ "allOf": [
+  {
+   "if": {
+    "properties": {
+     "kind": {
+      "const": "attempt"
+     }
+    }
+   },
+   "then": {
+    "required": [
+     "attemptType",
+     "findings",
+     "applicabilityConditions"
+    ],
+    "properties": {
+     "findings": {
+      "minItems": 1
+     }
+    }
+   }
+  },
+  {
+   "if": {
+    "properties": {
+     "kind": {
+      "const": "path"
+     }
+    }
+   },
+   "then": {
+    "required": [
+     "hasPart"
+    ],
+    "properties": {
+     "hasPart": {
+      "minItems": 1
+     }
+    }
+   }
+  }
+ ],
+ "$defs": {
+  "Party": {
+   "type": "object",
+   "required": [
+    "name"
+   ],
+   "properties": {
+    "name": {
+     "type": "string"
+    },
+    "identifier": {
+     "type": "string"
+    },
+    "type": {
+     "type": "string",
+     "enum": [
+      "Organization",
+      "Person"
+     ]
+    },
+    "orcid": {
+     "type": "string"
+    },
+    "affiliation": {
+     "type": "string"
+    }
+   },
+   "additionalProperties": false
+  },
+  "EntityRef": {
+   "type": "object",
+   "required": [
+    "label"
+   ],
+   "properties": {
+    "label": {
+     "type": "string"
+    },
+    "identifier": {
+     "type": "string"
+    },
+    "type": {
+     "type": "string",
+     "enum": [
+      "organism",
+      "strain",
+      "cellLine",
+      "cellType",
+      "gene",
+      "protein",
+      "compound",
+      "reagent",
+      "assay",
+      "disease",
+      "process",
+      "instrument",
+      "software",
+      "agent",
+      "organization",
+      "dataset",
+      "plate",
+      "locus",
+      "protocol",
+      "medium",
+      "other"
+     ]
+    },
+    "note": {
+     "type": "string"
+    }
+   },
+   "additionalProperties": false
+  },
+  "Entity": {
+   "type": "object",
+   "required": [
+    "id",
+    "type",
+    "label"
+   ],
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "type": {
+     "type": "string",
+     "enum": [
+      "organism",
+      "strain",
+      "cellLine",
+      "cellType",
+      "gene",
+      "protein",
+      "compound",
+      "reagent",
+      "assay",
+      "disease",
+      "process",
+      "instrument",
+      "software",
+      "agent",
+      "organization",
+      "dataset",
+      "plate",
+      "locus",
+      "protocol",
+      "medium",
+      "other"
+     ]
+    },
+    "label": {
+     "type": "string"
+    },
+    "role": {
+     "type": "string"
+    },
+    "scheme": {
+     "type": "string"
+    },
+    "url": {
+     "type": "string"
+    },
+    "altIds": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "extra": {
+     "type": "object"
+    }
+   },
+   "additionalProperties": false
+  },
+  "Control": {
+   "type": "object",
+   "required": [
+    "kind"
+   ],
+   "properties": {
+    "kind": {
+     "type": "string",
+     "enum": [
+      "background",
+      "designated",
+      "internal-positive",
+      "isotype",
+      "no-treatment",
+      "none",
+      "vehicle"
+     ]
+    },
+    "label": {
+     "type": "string"
+    },
+    "identifier": {
+     "type": "string"
+    },
+    "expected": {
+     "type": "string"
+    },
+    "observed": {
+     "type": "string"
+    },
+    "passed": {
+     "type": "boolean"
+    },
+    "note": {
+     "type": "string"
+    },
+    "source": {
+     "type": "string"
+    }
+   },
+   "if": {
+    "properties": {
+     "kind": {
+      "not": {
+       "const": "none"
+      }
+     }
+    }
+   },
+   "then": {
+    "required": [
+     "passed"
+    ]
+   },
+   "additionalProperties": false
+  },
+  "Effect": {
+   "type": "object",
+   "required": [
+    "metric"
+   ],
+   "properties": {
+    "metric": {
+     "type": "string"
+    },
+    "value": {
+     "type": [
+      "number",
+      "string"
+     ]
+    },
+    "unit": {
+     "type": "string"
+    },
+    "n": {
+     "type": "integer"
+    },
+    "sem": {
+     "type": "number"
+    },
+    "sd": {
+     "type": "number"
+    },
+    "direction": {
+     "type": "string",
+     "enum": [
+      "increase",
+      "decrease",
+      "none",
+      "not-applicable"
+     ]
+    },
+    "comparedTo": {
+     "type": "string"
+    },
+    "test": {
+     "type": "string"
+    },
+    "pValue": {
+     "type": [
+      "number",
+      "string"
+     ]
+    },
+    "adjustedPValue": {
+     "type": [
+      "number",
+      "string"
+     ]
+    },
+    "significant": {
+     "type": [
+      "boolean",
+      "string"
+     ]
+    },
+    "perReplicate": {
+     "type": "array",
+     "items": {
+      "type": [
+       "number",
+       "string"
+      ]
+     }
+    },
+    "note": {
+     "type": "string"
+    }
+   },
+   "additionalProperties": false
+  },
+  "Evidence": {
+   "type": "object",
+   "required": [
+    "label",
+    "source"
+   ],
+   "properties": {
+    "label": {
+     "type": "string"
+    },
+    "source": {
+     "type": "string"
+    },
+    "locator": {
+     "type": "string"
+    },
+    "values": {
+     "type": "object"
+    },
+    "quote": {
+     "type": "string",
+     "maxLength": 600
+    },
+    "derivedBy": {
+     "type": "string"
+    },
+    "method": {
+     "type": "string"
+    },
+    "data": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/DataPointer"
+     }
+    }
+   },
+   "additionalProperties": false
+  },
+  "Finding": {
+   "type": "object",
+   "required": [
+    "id",
+    "question",
+    "target",
+    "outcomeClass",
+    "informativeness",
+    "controls",
+    "evidence"
+   ],
+   "properties": {
+    "id": {
+     "type": "string"
+    },
+    "question": {
+     "type": "string"
+    },
+    "target": {
+     "$ref": "#/$defs/EntityRef"
+    },
+    "outcomeClass": {
+     "type": "string",
+     "enum": [
+      "positive",
+      "partial",
+      "inconclusive",
+      "abandoned",
+      "negative-not-novel",
+      "negative-not-achievable",
+      "negative-not-reproducible",
+      "refuted",
+      "negative-no-phenotype",
+      "negative-no-effect",
+      "negative-no-association",
+      "negative-not-replicated",
+      "negative-contradicted-by-vor",
+      "inconclusive-controls-failed",
+      "inconclusive-underpowered",
+      "inconclusive-reagent-failed",
+      "inconclusive-no-positive-control"
+     ]
+    },
+    "informativeness": {
+     "type": "string",
+     "enum": [
+      "informative",
+      "uninformative",
+      "not-applicable"
+     ]
+    },
+    "informativenessReason": {
+     "type": "string"
+    },
+    "failureModes": {
+     "type": "array",
+     "items": {
+      "type": "string",
+      "enum": [
+       "phase-not-formed",
+       "decomposition",
+       "impurity-phase",
+       "known-disordered-variant",
+       "already-in-icsd",
+       "above-hull-unstable",
+       "precursor-unavailable",
+       "instrument-failure",
+       "characterization-inconclusive",
+       "verifier-exploit",
+       "benchmark-contamination",
+       "did-not-converge",
+       "prior-result-exists",
+       "proof-gap",
+       "no-phenotype-single-allele",
+       "lethal-or-sick-mutant",
+       "off-target",
+       "strain-background-effect",
+       "reagent-nonspecific",
+       "cell-line-misidentified",
+       "contamination",
+       "construct-failed",
+       "transformation-failed",
+       "no-expression",
+       "dose-no-response",
+       "batch-effect",
+       "assay-out-of-range",
+       "toxicity",
+       "not-replicated-second-model",
+       "phenotype-nonspecific",
+       "selection-escape",
+       "low-editing-efficiency",
+       "no-differential-signal",
+       "not-significant-after-correction",
+       "confounded",
+       "model-did-not-generalize",
+       "low-confidence-structure",
+       "wrong-population",
+       "wrong-intervention",
+       "wrong-comparator",
+       "wrong-outcome",
+       "wrong-study-design",
+       "duplicate-publication",
+       "insufficient-data",
+       "not-retrievable",
+       "retracted",
+       "preprint-superseded",
+       "claim-not-supported-by-cited-source",
+       "bridge-term-spurious",
+       "association-already-known",
+       "not-testable",
+       "hallucinated-reference",
+       "no-hit-in-screen"
+      ]
+     }
+    },
+    "effect": {
+     "$ref": "#/$defs/Effect"
+    },
+    "controls": {
+     "type": "object",
+     "required": [
+      "positive",
+      "negative"
+     ],
+     "properties": {
+      "positive": {
+       "$ref": "#/$defs/Control"
+      },
+      "negative": {
+       "$ref": "#/$defs/Control"
+      }
+     },
+     "additionalProperties": false
+    },
+    "sensitivity": {
+     "type": "string"
+    },
+    "power": {
+     "type": "string"
+    },
+    "replicates": {
+     "type": "object",
+     "properties": {
+      "biological": {
+       "type": "integer"
+      },
+      "technical": {
+       "type": "integer"
+      },
+      "wells": {
+       "type": "integer"
+      },
+      "plates": {
+       "type": "integer"
+      },
+      "independentLabs": {
+       "type": "integer"
+      },
+      "note": {
+       "type": "string"
+      }
+     },
+     "additionalProperties": false
+    },
+    "statistics": {
+     "type": "string"
+    },
+    "conditions": {
+     "type": "object"
+    },
+    "proposedBy": {
+     "type": "string"
+    },
+    "proposedByConfidence": {
+     "type": "string",
+     "enum": [
+      "stated",
+      "inferred",
+      "not-stated"
+     ]
+    },
+    "evidence": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "$ref": "#/$defs/Evidence"
+     }
+    },
+    "nearestPriorResult": {
+     "type": "string"
+    },
+    "note": {
+     "type": "string"
+    },
+    "relatedFindings": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   },
+   "additionalProperties": false
+  },
+  "ScreenedItem": {
+   "type": "object",
+   "required": [
+    "label",
+    "type",
+    "decision",
+    "reason"
+   ],
+   "properties": {
+    "label": {
+     "type": "string"
+    },
+    "identifier": {
+     "type": "string"
+    },
+    "type": {
+     "type": "string",
+     "enum": [
+      "compound",
+      "protein",
+      "peptide",
+      "assay",
+      "publication",
+      "structure",
+      "gene",
+      "other"
+     ]
+    },
+    "proposedBy": {
+     "type": "string"
+    },
+    "decision": {
+     "type": "string",
+     "enum": [
+      "included",
+      "excluded",
+      "deferred"
+     ]
+    },
+    "reason": {
+     "type": "string",
+     "enum": [
+      "out-of-scope",
+      "wrong-outcome",
+      "duplicate",
+      "not-version-of-record",
+      "superseded-by-newer-version",
+      "retracted",
+      "expression-of-concern",
+      "prior-art-found",
+      "full-text-unavailable",
+      "language",
+      "selected-for-testing",
+      "top-ranked",
+      "not-selected-for-testing",
+      "rank-below-cutoff",
+      "positive-control",
+      "negative-control",
+      "duplicate-candidate",
+      "human-reviewer-deselected",
+      "tested-in-comparator-arm",
+      "not-stated"
+     ]
+    },
+    "score": {
+     "type": "object",
+     "required": [
+      "method",
+      "value"
+     ],
+     "properties": {
+      "method": {
+       "type": "string"
+      },
+      "value": {
+       "type": "number"
+      },
+      "rank": {
+       "type": "integer"
+      },
+      "comparisons": {
+       "type": "integer"
+      },
+      "wins": {
+       "type": "integer"
+      },
+      "losses": {
+       "type": "integer"
+      }
+     },
+     "additionalProperties": false
+    },
+    "evidence": {
+     "type": "string"
+    },
+    "source": {
+     "type": "string"
+    },
+    "statusAtCheck": {
+     "$ref": "#/$defs/StatusAtCheck"
+    },
+    "note": {
+     "type": "string"
+    },
+    "references": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    }
+   },
+   "additionalProperties": false
+  },
+  "Performer": {
+   "type": "object",
+   "required": [
+    "name",
+    "type",
+    "role"
+   ],
+   "properties": {
+    "name": {
+     "type": "string"
+    },
+    "type": {
+     "type": "string",
+     "enum": [
+      "software-agent",
+      "llm",
+      "person",
+      "organization",
+      "service"
+     ]
+    },
+    "role": {
+     "type": "string",
+     "enum": [
+      "hypothesis-generation",
+      "literature-search",
+      "ranking",
+      "prompt-authoring",
+      "experiment-execution",
+      "experimental-design",
+      "data-analysis",
+      "interpretation",
+      "copy-editing",
+      "figure-generation",
+      "review",
+      "supervision",
+      "conceptualization",
+      "investigation",
+      "visualization",
+      "editing",
+      "resources",
+      "critical-feedback",
+      "formal-analysis",
+      "writing",
+      "candidate-generation",
+      "consensus",
+      "sequencing-service",
+      "reference-check"
+     ]
+    },
+    "model": {
+     "type": "string"
+    },
+    "provider": {
+     "type": "string"
+    },
+    "version": {
+     "type": "string"
+    },
+    "commit": {
+     "type": "string"
+    },
+    "url": {
+     "type": "string"
+    },
+    "platformJob": {
+     "type": "string"
+    },
+    "trajectoryIds": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "identifier": {
+     "type": "string"
+    },
+    "affiliation": {
+     "type": "string"
+    },
+    "note": {
+     "type": "string"
+    },
+    "dateUsed": {
+     "type": "string"
+    }
+   },
+   "additionalProperties": false
+  },
+  "DataPointer": {
+   "type": "object",
+   "required": [
+    "label"
+   ],
+   "properties": {
+    "label": {
+     "type": "string"
+    },
+    "repository": {
+     "type": "string"
+    },
+    "accession": {
+     "type": "string"
+    },
+    "url": {
+     "type": "string"
+    },
+    "path": {
+     "type": "string"
+    },
+    "checksum": {
+     "type": "string"
+    },
+    "size": {
+     "type": "integer"
+    },
+    "role": {
+     "type": "string"
+    },
+    "format": {
+     "type": "string"
+    },
+    "note": {
+     "type": "string"
+    }
+   },
+   "additionalProperties": false
+  },
+  "Stage": {
+   "type": "object",
+   "required": [
+    "stage",
+    "performedBy"
+   ],
+   "properties": {
+    "stage": {
+     "type": "string",
+     "enum": [
+      "literature-search",
+      "hypothesis-generation",
+      "ranking",
+      "experiment",
+      "instrument-capture",
+      "computation",
+      "analysis",
+      "interpretation",
+      "sequencing",
+      "genotyping"
+     ]
+    },
+    "label": {
+     "type": "string"
+    },
+    "startTime": {
+     "type": "string"
+    },
+    "endTime": {
+     "type": "string"
+    },
+    "performedBy": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "$ref": "#/$defs/Performer"
+     }
+    },
+    "method": {
+     "type": "string"
+    },
+    "protocol": {
+     "type": "string"
+    },
+    "instrument": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     }
+    },
+    "conditions": {
+     "type": "object"
+    },
+    "parameters": {
+     "type": "object"
+    },
+    "replicates": {
+     "type": "object"
+    },
+    "sourcesSearched": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "name"
+      ],
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "platform": {
+        "type": "string"
+       },
+       "kind": {
+        "type": "string"
+       },
+       "coverage": {
+        "type": "string"
+       },
+       "url": {
+        "type": "string"
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    "queries": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "text"
+      ],
+      "properties": {
+       "text": {
+        "type": "string"
+       },
+       "date": {
+        "type": "string"
+       },
+       "recordsFound": {
+        "type": "integer"
+       },
+       "file": {
+        "type": "string"
+       },
+       "trajectoryId": {
+        "type": "string"
+       },
+       "verbatim": {
+        "type": "boolean"
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    "recordsFound": {
+     "type": "integer"
+    },
+    "deduplication": {
+     "type": "string"
+    },
+    "limits": {
+     "type": "string"
+    },
+    "software": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "name"
+      ],
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "version": {
+        "type": "string"
+       },
+       "identifier": {
+        "type": "string"
+       },
+       "commit": {
+        "type": "string"
+       },
+       "url": {
+        "type": "string"
+       }
+      },
+      "additionalProperties": false
+     }
+    },
+    "inputs": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/DataPointer"
+     }
+    },
+    "outputs": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/DataPointer"
+     }
+    },
+    "note": {
+     "type": "string"
+    }
+   },
+   "additionalProperties": false
+  },
+  "UntriedBranch": {
+   "type": "object",
+   "required": [
+    "description",
+    "status"
+   ],
+   "properties": {
+    "description": {
+     "type": "string"
+    },
+    "status": {
+     "type": "string",
+     "enum": [
+      "proposed-by-authors",
+      "data-deposited-not-analysed",
+      "inferred-by-ingest"
+     ]
+    },
+    "source": {
+     "type": "string"
+    },
+    "dataAvailable": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/DataPointer"
+     }
+    }
+   },
+   "additionalProperties": false
+  },
+  "Cost": {
+   "type": "object",
+   "properties": {
+    "wetLabRuns": {
+     "type": "integer"
+    },
+    "wetLabDays": {
+     "type": "number"
+    },
+    "wallClockDays": {
+     "type": "number"
+    },
+    "agentSeconds": {
+     "type": "number"
+    },
+    "llmUsd": {
+     "type": "number"
+    },
+    "usd": {
+     "type": "number"
+    },
+    "gpuHours": {
+     "type": "number"
+    },
+    "humanHours": {
+     "type": [
+      "number",
+      "string"
+     ]
+    },
+    "humanExperimenters": {
+     "type": "integer"
+    },
+    "papersProcessed": {
+     "type": "integer"
+    },
+    "agentCalls": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "integer"
+     }
+    },
+    "note": {
+     "type": "string"
+    },
+    "source": {
+     "type": "string"
+    }
+   },
+   "additionalProperties": false
+  },
+  "StatusAtCheck": {
+   "type": "object",
+   "required": [
+    "version",
+    "integrity",
+    "assertedBy",
+    "checkedAt"
+   ],
+   "properties": {
+    "version": {
+     "type": "string",
+     "enum": [
+      "AO",
+      "SMUR",
+      "AM",
+      "P",
+      "VoR",
+      "CVoR",
+      "EVoR",
+      "preprint",
+      "preprint-v1",
+      "preprint-v2",
+      "reviewed-preprint",
+      "registered-report-stage1",
+      "registered-report-stage2",
+      "trial-registered",
+      "trial-results-posted",
+      "v1",
+      "dataset",
+      "unknown"
+     ]
+    },
+    "integrity": {
+     "type": "string",
+     "enum": [
+      "none",
+      "correction",
+      "corrected",
+      "expression-of-concern",
+      "retracted",
+      "removed",
+      "reinstated",
+      "post-publication-comment",
+      "unknown"
+     ]
+    },
+    "assertedBy": {
+     "type": "string"
+    },
+    "checkedAt": {
+     "type": "string"
+    },
+    "note": {
+     "type": "string"
+    }
+   },
+   "additionalProperties": false
+  },
+  "Source": {
+   "type": "object",
+   "required": [
+    "role",
+    "identifier"
+   ],
+   "properties": {
+    "role": {
+     "type": "string",
+     "enum": [
+      "source-publication",
+      "data-deposit",
+      "code-repository",
+      "supplementary",
+      "trajectory",
+      "protocol",
+      "prior-art",
+      "reference",
+      "comparator",
+      "sample-trajectory"
+     ]
+    },
+    "identifier": {
+     "type": "string"
+    },
+    "label": {
+     "type": "string"
+    },
+    "url": {
+     "type": "string"
+    },
+    "checksum": {
+     "type": "string"
+    },
+    "statusAtCheck": {
+     "$ref": "#/$defs/StatusAtCheck"
+    },
+    "license": {
+     "type": "string"
+    },
+    "note": {
+     "type": "string"
+    },
+    "data": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/DataPointer"
+     }
+    }
+   },
+   "additionalProperties": false
+  },
+  "Relation": {
+   "type": "object",
+   "required": [
+    "type",
+    "target"
+   ],
+   "properties": {
+    "type": {
+     "type": "string",
+     "enum": [
+      "isPartOf",
+      "hasPart",
+      "wasDerivedFrom",
+      "used",
+      "wasGeneratedBy",
+      "isSupplementTo",
+      "references",
+      "refutes",
+      "confirms",
+      "isNewVersionOf",
+      "analysed",
+      "analysedBy",
+      "informedBy",
+      "informs",
+      "contradicts",
+      "extends",
+      "comparedWith"
+     ]
+    },
+    "target": {
+     "type": "string"
+    },
+    "note": {
+     "type": "string"
+    }
+   },
+   "additionalProperties": false
+  },
+  "AiUse": {
+   "type": "object",
+   "required": [
+    "statement"
+   ],
+   "properties": {
+    "statement": {
+     "type": "string"
+    },
+    "tools": {
+     "type": "array",
+     "items": {
+      "type": "object",
+      "required": [
+       "name",
+       "purpose"
+      ],
+      "properties": {
+       "name": {
+        "type": "string"
+       },
+       "provider": {
+        "type": "string"
+       },
+       "version": {
+        "type": "string"
+       },
+       "purpose": {
+        "type": "string"
+       }
+      },
+      "additionalProperties": false
+     }
+    }
+   },
+   "additionalProperties": false
+  },
+  "Integrity": {
+   "type": "object",
+   "properties": {
+    "contentAddress": {
+     "type": "string"
+    },
+    "signature": {
+     "type": [
+      "object",
+      "null"
+     ]
+    },
+    "signer": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "injectionScreen": {
+     "type": "string"
+    },
+    "trustTier": {
+     "type": "string"
+    },
+    "duplicateOf": {
+     "type": [
+      "string",
+      "null"
+     ]
+    }
+   },
+   "additionalProperties": false
+  }
+ }
+}

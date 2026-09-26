@@ -1,0 +1,125 @@
+# Statements transcribed from Caddell et al. 2026 (The Stacks) with their location in the pub.
+publication:
+  doi: 10.57844/arcadia-pdu7-q2zz
+  title: Evaluation of Alcalase pretreatment for Chlamydomonas reinhardtii CRISPR knock-in
+  subtitle: "To edit cell-walled C. reinhardtii, you must first digest the wall to deliver Cas9 RNPs and donor DNA. We tried the off-the-shelf enzyme Alcalase and found that it digested walls, but sharply reduced viability, and we recovered no CRISPR knock-ins. A one-time cautionary result."
+  venue: The Stacks (Astera Institute)
+  publisher: Astera Institute
+  doiAgency: DataCite
+  published: "2026-09-11"
+  version: "1"
+  license: https://creativecommons.org/licenses/by/4.0/
+  pubType: Informative failure
+  status: Iced
+  feedbackRequested: true
+  url: https://thestacks.org/publications/informative-failure-alcalase-crispr-chlamydomonas
+  dataDoi: 10.5281/zenodo.22238548
+  dataConceptDoi: 10.5281/zenodo.22238547
+  dataPublished: "2026-09-01"
+  dataRegistered: "2026-09-11"
+operator:
+  name: Arcadia Science
+  ror: https://ror.org/052zd4v68
+contributors:
+  - {name: Audrey Bell, roles: [visualization]}
+  - {name: Daniel Caddell, orcid: "0000-0003-4005-7151", roles: [conceptualization, experimental-design, formal-analysis, investigation, visualization, writing], note: "sole experimenter; Zenodo DataCollector"}
+  - {name: Raymond Futia, roles: [conceptualization, editing, experimental-design, investigation, supervision]}
+  - {name: Megan L. Hochstrasser, roles: [editing]}
+  - {name: James Kraemer, roles: [editing, supervision]}
+  - {name: Cameron Dale MacQuarrie, roles: [critical-feedback, resources]}
+icebox:
+  tags: ["#TechnicalGap", "#StrategicMisalignment"]
+  reasons: [technical-gap, strategic-misalignment]
+  statement: "We've paused targeted integration work in C. reinhardtii after this attempt because optimizing this approach would likely require additional time and resources, and our research priorities have shifted."
+  landingPadConceptStatus: "remains on the table if and when that changes"
+caveats: "This was a single, unreplicated experiment performed by one experimenter using one batch of each key reagent, so our conclusions are limited to the conditions described here and shouldn't be read as an evaluation of any individual component of the workflow."
+purpose: "Establish a robust, high-throughput-compatible CRISPR-Cas9 knock-in (HDR) system in cell-walled C. reinhardtii as a prerequisite for modular landing pads (Bigge et al. 2026, doi:10.57844/arcadia-61hk-a7gd); test Alcalase as an off-the-shelf substitute for autolysin."
+nextSteps:
+  - "Develop a robust, CRISPR-compatible cell wall digestion method: improve autolysin (Shetty et al. 2025: mating at 28 C rather than 18 C) or gentler Alcalase (Walker et al. 2026, diatoms: osmotic support during and after digestion; titrate the enzyme dose down)."
+  - "Separate delivery failures from editing failures: restore a visual screen to confirm the guides, donor and selection work; include a donor-only, no-RNP control to estimate off-target NHEJ."
+  - "Optimize on-target editing: co-target an endogenous selectable marker (Akella et al. 2021; Ross et al. 2024); tune RNP and donor concentrations and ratio (Kim et al. 2020 reached ~37% knock-in)."
+openQuestions:
+  - "Has anyone gotten Alcalase pretreatment to work in C. reinhardtii? If so, what digestion time, concentration, and recovery conditions did you use?"
+  - "If you've gotten autolysin preparations working consistently, which factors mattered most?"
+  - "If we try making targeted knock-ins again, what 'need-to-haves' do you think we missed?"
+aiUse:
+  statement: "We used Claude (Opus 4.8, Opus 5) to suggest wording ideas, copy-edit draft text to match Arcadia's style, clarify and streamline text, and generate figure mockups. We used ChatGPT (GPT-5.6 Luna) to suggest wording ideas and to clarify and streamline text. We also used ChatGPT (GPT-5.6 Sol) to identify reproducibility/clarity issues in our draft, and we corrected the issues it found. Additionally, Gemini (Gemini 3.6 Flash) suggested papers on relevant science, we did further reading, and we cited some of this literature. We reviewed all AI-assisted content and take responsibility for its accuracy and integrity."
+  tools:
+    - {name: Claude, provider: Anthropic, version: "Opus 4.8, Opus 5", purpose: "wording, copy-editing, clarification, figure mockups"}
+    - {name: ChatGPT, provider: OpenAI, version: "GPT-5.6 Luna", purpose: "wording, clarification"}
+    - {name: ChatGPT, provider: OpenAI, version: "GPT-5.6 Sol", purpose: "reproducibility and clarity review of the draft"}
+    - {name: Gemini, provider: Google, version: "Gemini 3.6 Flash", purpose: "literature suggestions"}
+    - {name: arcadia-pycolor, provider: Arcadia Science, version: "0.8.0", purpose: "figure generation"}
+timeline:
+  workflowDays: 18
+  workflowDaysSource: "Figure 1 legend: workflow spans ~18 days from culture synchronization to genotyping"
+  transformationImageDate: "2026-04-22"
+  colonyPcrDate: "2026-05-06"
+  ampliconSequencingDates: ["2026-05-06", "2026-05-12", "2026-05-13"]
+  deepwellCheckDate: "2026-05-11"
+  timelineSource: "Zenodo colony image index (image file 20260422-001, ColonyPCR_date 20260506, sequencing dates)"
+organism:
+  taxon: "NCBITaxon:3055"
+  species: Chlamydomonas reinhardtii
+  strain: CC-124
+  strainSource: Chlamydomonas Resource Center
+  strainNote: "wild type, cell-walled; used for all transformations"
+  referenceGenome: "C. reinhardtii v5.6"
+protocol:
+  synchronization: "14 h light / 10 h dark for four days before transformation; Fluval Plant 4.0 LED Nano lamps, 11,000 lux at culture surface"
+  cultureFormats: {flask: "50 mL TAP in 250 mL flask, 25 C, 250 rpm, harvested at mid-log OD750 = 0.3", plate: "lawn on TAP + 1.5% agar at ambient temperature, scraped and resuspended to OD750 ~ 0.33"}
+  alcalase: "1:10 dilution of Alcalase (Sigma-Aldrich 126741) in TAP, 10 mL per pellet, 1 h in LED grow tent (~7,000 lux, ambient temperature, no shaking); washed twice with TAP + 40 mM sucrose"
+  geneart: "washed twice in 10 mL undiluted GeneArt MAX Efficiency Transformation Reagent for Algae (Thermo Fisher A24229)"
+  noEnzymeControl: "M-N medium in place of Alcalase/TAP, same procedure"
+  leakageAssay: "OD662 before (OD1) and after 50% TAP / 50% 0.1% Triton X-100 vortex (OD2); leakage = OD2/OD1 x 100% (Hwang et al. 2018)"
+  rnp: "Alt-R S. pyogenes Cas9 V3 (IDT 1081058) with annealed Alt-R crRNA:tracrRNA (IDT 1072533), 5 uM each, 4 uL RNP per reaction"
+  donor: "linear 1,589 bp HDR donor: HSP70A-RBCS2::RBCS2i1::NAT::RBCS2-T flanked by 50 bp homology arms, released by SapI (NEB R0569S), gel-purified (Zymo D4001), 1 ug per transformation; synthesised by Twist Bioscience in pTwist Amp High Copy"
+  electroporation: "Gene Pulser Xcell (Bio-Rad), 4 mm cuvettes (VWR 89047-210), 500 V, 50 uF, 800 Ohm; 250 uL cells; recovery overnight in TAP + 40 mM sucrose, dark, 150 rpm"
+  selection: "TAP agar + 7.5 ug/mL nourseothricin (NAT); controls plated on TAP after 100x dilution; 5-7 days in grow tent"
+  colonyCounting: "Epson V700 flatbed scanner at 600 dpi on days 7 and 12; Fiji v2.16.0/1.54p multi-point tool"
+  colonyPcr: "1 uL of 96-deep-well culture as template; PrimeSTAR GXL Premix Fast (Takara R052A); expected ~0.5 kb wild type, ~2 kb HDR insert; 2% E-Gel (Invitrogen G700802) or 1% agarose"
+  ampliconSequencing: "unpurified PCR products from 40 colonies (10 per guide) sequenced by Angstrom Innovation (Oxford Nanopore); compared with C. reinhardtii v5.6 in Geneious Prime v2026.0.2"
+  guideDesign: "Geneious Prime v2026.0.2; Azimuth 2.0 on-target scores; MIT specificity scores"
+reagents:
+  - {label: Alcalase, vendor: Sigma-Aldrich, catalog: "126741", role: cell wall protease (serine endopeptidase, subtilisin)}
+  - {label: GeneArt MAX Efficiency Transformation Reagent for Algae, vendor: Thermo Fisher Scientific, catalog: A24229, role: comparator transformation reagent}
+  - {label: Alt-R S. pyogenes Cas9 V3, vendor: IDT, catalog: "1081058", role: nuclease}
+  - {label: Alt-R tracrRNA, vendor: IDT, catalog: "1072533", role: guide component}
+  - {label: SapI, vendor: NEB, catalog: R0569S, role: donor linearisation}
+  - {label: Zymoclean Gel DNA Recovery Kit, vendor: Zymo, catalog: D4001, role: donor purification}
+  - {label: PrimeSTAR GXL Premix Fast Dye Plus, vendor: Takara Bio, catalog: R052A, role: colony PCR}
+  - {label: E-Gel 2% agarose, vendor: Invitrogen, catalog: G700802, role: gel}
+  - {label: 4 mm electroporation cuvettes, vendor: VWR, catalog: "89047-210", role: electroporation}
+  - {label: Fluval Plant 4.0 LED Nano, vendor: Fluval, catalog: "16875", role: culture lighting}
+  - {label: cell scraper 25 cm, vendor: VWR, catalog: "734-2602", role: harvest}
+  - {label: nourseothricin, vendor: null, catalog: null, role: selection antibiotic 7.5 ug/mL}
+instruments: [Gene Pulser Xcell electroporator (Bio-Rad), NanoDrop OneC spectrophotometer (Thermo Scientific), Epson V700 flatbed scanner]
+software:
+  - {name: Geneious Prime, version: "2026.0.2", rrid: "RRID:SCR_010519"}
+  - {name: Fiji, version: "2.16.0/1.54p", rrid: "RRID:SCR_002285"}
+  - {name: arcadia-pycolor, version: "0.8.0", url: https://github.com/Arcadia-Science/arcadia-pycolor}
+references:
+  - {n: 1, doi: 10.57844/arcadia-61hk-a7gd, cite: "Bigge et al. 2026, Modular CRISPR landing pads for Chlamydomonas reinhardtii", role: prior-art}
+  - {n: 2, doi: 10.1093/g3journal/jkab114, cite: "Sizova et al. 2021, Chlamydomonas POLQ is necessary for CRISPR/Cas9-mediated gene targeting", role: reference}
+  - {n: 3, doi: 10.1111/tpj.70140, cite: "Nievergelt 2025, Genome editing in the green alga Chlamydomonas", role: reference}
+  - {n: 4, doi: 10.57844/arcadia-35f0-3e16, cite: "Avasthi et al. 2023, Phenotypic differences between interfertile Chlamydomonas species", role: reference}
+  - {n: 5, doi: 10.1371/journal.pone.0232594, cite: "Picariello et al. 2020, TIM targeted insertional mutagenesis", role: reference}
+  - {n: 6, doi: 10.1016/j.crmeth.2023.100562, cite: "Nievergelt et al. 2023, Efficient precision editing of endogenous Chlamydomonas reinhardtii genes with CRISPR-Cas", role: protocol}
+  - {n: 7, doi: 10.21769/bioprotoc.4705, cite: "Findinier 2023, Autolysin production from Chlamydomonas reinhardtii", role: reference}
+  - {n: 8, doi: 10.1016/j.algal.2024.103435, cite: "Kim et al. 2024, heritable deletions in APT of Chlorella sorokiniana using CRISPR/Cas9 (Alcalase)", role: prior-art}
+  - {n: 9, doi: 10.1159/000495183, cite: "Hwang et al. 2018, A simple method for removal of the Chlamydomonas reinhardtii cell wall using Alcalase", role: prior-art}
+  - {n: 10, doi: 10.1007/s00253-022-11790-9, cite: "Sproles et al. 2022, improved high-throughput screening of Chlamydomonas transformants", role: reference}
+  - {n: 11, doi: 10.1007/s11033-020-05922-5, cite: "Dhokane et al. 2020, CRISPR based targeted genome editing of Chlamydomonas reinhardtii using Cas9-gRNA RNP", role: reference}
+  - {n: 12, doi: 10.1016/j.mex.2025.103416, cite: "De Silvio et al. 2025, quick-to-implement CRISPR-Cas9 protocol for Chlamydomonas", role: reference}
+  - {n: 13, doi: 10.1104/pp.112.206672, cite: "Kirst et al. 2012, TLA3-CpSRP43 deletion truncates antenna", role: reference}
+  - {n: 14, doi: 10.1016/j.bbabio.2016.10.007, cite: "Jeong et al. 2017, loss of CpSRP54 truncates antenna", role: reference}
+  - {n: 15, doi: 10.1016/j.tibtech.2025.04.019, cite: "Einhaus et al. 2025, genome editing of epigenetic transgene silencing (SRTA)", role: reference}
+  - {n: 16, doi: 10.1038/nbt.3437, cite: "Doench et al. 2016, optimized sgRNA design (Azimuth)", role: reference}
+  - {n: 17, doi: 10.1038/nbt.2647, cite: "Hsu et al. 2013, DNA targeting specificity of Cas9", role: reference}
+  - {n: 18, doi: 10.1038/nmeth.2019, cite: "Schindelin et al. 2012, Fiji", role: reference}
+  - {n: 19, doi: null, cite: "Arcadia Science 2024, arcadia-pycolor (github)", role: reference}
+  - {n: 20, doi: 10.1101/2025.08.21.671244, cite: "Shetty et al. 2025, multi-omics of temperature responses in Chlamydomonas (preprint)", role: reference}
+  - {n: 21, doi: 10.1038/s41467-026-68562-6, cite: "Walker et al. 2026, Breaking the cell wall for efficient DNA delivery to diatoms", role: reference}
+  - {n: 22, doi: 10.1093/plphys/kiab418, cite: "Akella et al. 2021, co-targeting strategy for precise editing in Chlamydomonas", role: reference}
+  - {n: 23, doi: 10.1093/plphys/kiae427, cite: "Ross et al. 2024, cyclical marker system for oligonucleotide-directed editing", role: reference}
+  - {n: 24, doi: 10.3389/fpls.2020.00306, cite: "Kim et al. 2020, site-specific knock-out and on-site overexpression via CRISPR-Cas9 knock-in", role: reference}

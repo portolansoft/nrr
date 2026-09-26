@@ -1,0 +1,35 @@
+row,label,vendor,catalog,working_concentration,supp_ref,group,attribution_confidence,role,note
+1,Y-27632,Cayman Chemical Company,10005583,20 µM,63,robin-round-1,stated,candidate,"Main text names it among the five round-1 candidates tested"
+2,AICAR,Sigma-Aldrich,A9978,1 mM,64,robin-round-1,stated,candidate,"Tested alone (Finch analysis) and in combination with TUDCA (main text lists the combination)"
+3,Tauroursodeoxycholic acid (TUDCA),TargetMol,T2532,100 µM,65,robin-round-1,stated,candidate,"Tested alone (Finch analysis) and in combination with AICAR"
+4,Exendin-4,TargetMol,T3967,1 µM,66,robin-round-1,stated,candidate,
+5,Fingolimod,PeproTech,1625605,1 µM,67,robin-round-1,stated,candidate,
+6,MFGE-8,Sino Biological,10853-H27B-B-20,2.5 µg/mL,68,robin-round-1,stated,positive-control,"Included as positive control because MFGE8 is known to increase RPE phagocytosis (ref. 34)"
+7,Ripasudil,Cayman Chemical Company,19920,100 µM,69,robin-round-2,inferred,candidate,"Main text: proposed in round 2 (Fig. 4a)"
+8,Vorinostat,Active Motif,14027,5 µM,70,robin-round-2,inferred,candidate,
+9,Simvastatin,TargetMol,T0687,1 µM,,robin-round-2,inferred,candidate,"Tested as the combination 'Sim + Res'"
+10,Resveratrol,PeproTech,5013606,16 mM,71,robin-round-2,inferred,candidate,"Tested as the combination 'Sim + Res'; also suggested (twice) by Deep Research"
+11,Bay K8644,Alomone Labs,B-350,3 µM,72,robin-round-2,inferred,candidate,
+12,KL001,Cayman Chemical Company,13878,50 µM,73,robin-round-2,inferred,candidate,"Main text: proposed on the basis of circadian control of RPE phagocytosis (ref. 43)"
+13,Rapamycin,a gift from RetroBio,,100 nM,74,robin-round-2,inferred,candidate,
+14,BMS-777607,ApexBio,A5703,10 µM,75,robin-round-2,inferred,candidate,
+15,NECA,Cayman Chemical Company,21420,10 µM,76,robin-round-2,inferred,candidate,"5'-N-ethylcarboxamidoadenosine; named in Fig. 4a"
+16,Rolipram,PeproTech,6145453,10 µM,,robin-round-2,inferred,candidate,
+17,PF-573228,ApexBio,B1523,5 µM,77,robin-round-2,inferred,candidate,
+18,4-phenylbutyric acid,ApexBio,C6831,10 mM,78,robin-round-2,inferred,candidate,
+19,B-Ionone,AA Blocks,AA003JVY,200 µM,79,robin-round-2,inferred,candidate,
+20,Siponimod,TargetMol,T6403,10 mM,80,deep-research,inferred,candidate,
+21,Dimethyl fumarate,Sigma-Aldrich,242926-25G,30 µM,81,deep-research,inferred,candidate,
+22,Flubendazole,AA Blocks,AA003QIR,10 µM,82,deep-research,inferred,candidate,
+23,GW3965,TargetMol,T6310,5 µM,83,deep-research,stated,candidate,"Main text: suggested twice by Deep Research"
+24,GW501516,Sigma-Aldrich,SML1491-5MG,100 µM,84,deep-research,inferred,candidate,
+25,Metformin,Cayman Chemical Company,13118,16 mM,85,deep-research,inferred,candidate,
+26,ML-SA1,Sigma-Aldrich,SML0627-25MG,30 µM,86,deep-research,inferred,candidate,
+27,Nicotinamide,Sigma-Aldrich,N3376-100G,10 mM,87,deep-research,inferred,candidate,
+28,Pioglitazone,ApexBio,B2117,10 µM,88,deep-research,inferred,candidate,
+29,PROS1,R&D Systems,9489-PS-100,0.56 µg/mL,89,deep-research,inferred,candidate,
+30,Ramoplanin,AA Blocks,AA005FC1,2 µg/mL,90,deep-research,inferred,candidate,
+31,Soraprazan,MedChem Express,HY-100414-1mg,30 µg/mL,91,deep-research,inferred,candidate,
+32,L-Sulforaphane,Sigma-Aldrich,S6317,20 µM,92,deep-research,inferred,candidate,"Listed as 'Isothiocyanate' in Supplementary Table 5"
+33,TAPI-2,Abcam,ab142219,20 µM,93,deep-research,inferred,candidate,
+34,Trehalose,Sigma-Aldrich,T9449-100G,100 mM,94,deep-research,inferred,candidate,
