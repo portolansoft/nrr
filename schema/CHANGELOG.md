@@ -81,3 +81,48 @@ statement" alone. That matches the authors' own caveat that the dataset is small
 | positive control failed | Robin dAMD | Finch analysis of round 1 |
 | negative control not clean | Arcadia neuroimaging, Arcadia Raman | itch response; strain classification before batch correction |
 | no sensitivity or power statement | Arcadia Raman | strain classification after batch correction |
+
+## v0.2.3 (2026-09-26) — a convergence test
+
+Driven by encoding Morin, Patton et al. 2024, *A structurally divergent actin conserved in fungi has no association with
+specific traits* (The Stacks, doi:10.57844/arcadia-9768-f6c5). This study was selected to try to falsify the claim that the
+model is converging, so the criterion was set before encoding: **converging** if two or fewer additive changes and nothing
+structural; **not converging** if any structural change or more than four changes.
+
+The study shares almost nothing structurally with the four before it. There is no experiment. The unit of observation is a
+species rather than a cell, an animal or a spectrum. The evidence is evolutionary model selection over a phylogeny, scored
+by Akaike information criterion rather than by a p-value or an effect size. The negative takes the form "no association
+with any of six traits", a multiple-hypothesis shape the corpus did not contain. The absence of the protein is inferred
+from a database protein count rather than observed.
+
+**Result: two changes, both single vocabulary terms, nothing structural.**
+
+| # | Change | Forced by |
+|---|---|---|
+| 26 | **`phenotype` entity type.** | The six fungal traits are the study's primary variables: growth form, trophic mode, ascus dehiscence, auxin-responsive promoter, spore length, spore width. There was no type for a species-level trait, and two earlier studies had already worked around the gap by typing a phenotype as an assay. |
+| 27 | **`data-curation` performer role.** | A CRediT role used by this study's lead author and absent from the vocabulary, in the same family as `validation`, `methodology` and `software` added in v0.2.1. |
+
+**What did not need to change.** Findings held six per-trait results plus an aggregate without alteration. `Effect` carried
+an AIC model comparison through `value`, `comparedTo` and `test`, and a phylogeny-corrected regression slope through
+`pValue`, with no new fields. The trait databases the study depends on (Fun Fun, TimeTree, FUNGuild, UniProt, AlphaFold,
+NCBI Taxonomy) went into `stage.sourcesSearched`, a field designed for literature databases that carried reference
+databases unchanged. `protocolAdaptations`, added for a mouse troubleshooting loop in v0.2.1, carried the post-hoc
+recoding of trait categories. `resource-constraint` already existed as an abandonment reason. `insufficient-data` already
+existed as a failure mode.
+
+**Change count by study:** 12, then 8, then 5, then 2. Nothing structural has been required since the first study.
+
+**Diagnoses now observed across five studies:**
+
+| Diagnosis | Study |
+|---|---|
+| no positive control | Arcadia Alcalase |
+| positive control failed | Robin dAMD |
+| negative control not clean | Arcadia neuroimaging, Arcadia Raman |
+| no sensitivity or power statement | Arcadia Raman |
+| no positive control, no negative control, and no sensitivity statement | Arcadia divergent fungal actin |
+
+The last row is a new combination rather than a new clause. It is also the only case where the rule surfaced a limitation
+the authors do not list: they attribute their null to trait coverage and to errors in calling the protein absent, and do
+not note that without a positive control a null result cannot be separated from a method that would not have detected an
+association at these sample sizes.

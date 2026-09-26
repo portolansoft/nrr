@@ -16,3 +16,5 @@ Robin converter or its tests; the tests skip themselves when the folder is absen
 | neuroimaging/pub/ | text extracted from the Stacks publication HTML (doi:10.57844/arcadia-b963-15ac). | CC BY 4.0 |
 | raman/zenodo/ | Zenodo record 19226627 (code and processed spectra, MIT), metadata JSON. | MIT (archive); pub is CC BY 4.0 |
 | raman/pub/ | text extracted from the Stacks publication HTML (doi:10.57844/arcadia-xdmk-yq0w). | CC BY 4.0 |
+| dfa/zenodo/ | Zenodo records 10211653 (ProteinCartography inputs and outputs, 1.6 GB, manifest only) and 10779267 (code and data), metadata JSON. | CC BY 4.0 |
+| dfa/pub/ | text extracted from the Stacks publication HTML (doi:10.57844/arcadia-9768-f6c5). | CC BY 4.0 |

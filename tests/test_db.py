@@ -6,6 +6,7 @@ import pytest
 from nrr.db import load, query
 from nrr.ingest.alcalase import build_alcalase_records
 from nrr.ingest.neuroimaging import build_neuroimaging_records
+from nrr.ingest.dfa import build_dfa_records
 from nrr.ingest.raman import build_raman_records
 from nrr.ingest.robin import build_robin_records
 from nrr.resolve import Resolver
@@ -18,7 +19,8 @@ pytestmark = pytest.mark.skipif(not (ROOT / "raw" / "robin" / "robin_output").ex
 def db(tmp_path_factory):
     resolver = Resolver(ROOT / "curated/identifiers.json", online=False)
     records = (build_robin_records(ROOT, resolver) + build_alcalase_records(ROOT, resolver)
-               + build_neuroimaging_records(ROOT, resolver) + build_raman_records(ROOT, resolver))
+               + build_neuroimaging_records(ROOT, resolver) + build_raman_records(ROOT, resolver)
+               + build_dfa_records(ROOT, resolver))
     path = tmp_path_factory.mktemp("db") / "portolan.sqlite"
     load(records, path)
     return path

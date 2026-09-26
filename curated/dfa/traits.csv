@@ -1,0 +1,7 @@
+trait,data_type,categories,n_species,model_class,best_model,best_aic,correlated_aic,p_value_slope,p_value_intercept,conclusion,source
+growth form,discrete,3 (agaricoid/microfungus/yeast),24,DTMM+HMM,independent,69.34,86.65,,,Independent evolution of DFA and trait is more likely,Table 2
+trophic mode,discrete,3 (saprotroph/pathotroph/symbiotroph),63,DTMM+HMM,independent,211.79,224.42,,,Independent evolution of DFA and trait is more likely,Table 2
+ascus dehiscence,discrete,2 (deliquescent/poricidal),13,DTMM+HMM,independent,30.06,37.49,,,Independent evolution of DFA and trait is more likely,Table 2
+auxin-responsive promoter,discrete,2 (present/absent),71,DTMM+HMM,independent,144.88,149.33,,,Independent evolution of DFA and trait is more likely,Table 2
+spore length,continuous,,10,pglmm,not-significant,,,0.64,0.41,Slope not significantly different from zero,Table 3
+spore width,continuous,,10,pglmm,not-significant,,,0.71,0.35,Slope not significantly different from zero,Table 3

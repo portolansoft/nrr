@@ -1,0 +1,139 @@
+# Statements transcribed from Morin, Patton et al. 2024 (The Stacks) with their location in the pub.
+publication:
+  doi: 10.57844/arcadia-9768-f6c5
+  title: A structurally divergent actin conserved in fungi has no association with specific traits
+  subtitle: "We outline a comparative approach to investigate protein function by correlating the presence or absence of a protein with species-level phenotypes. We applied this strategy to a novel actin isoform in fungi but didn't find an association with any of the phenotypes we considered."
+  venue: The Stacks (Astera Institute)
+  publisher: Astera Institute
+  published: "2024-03-05"
+  version: "4"
+  license: https://creativecommons.org/licenses/by/4.0/
+  pubTags: [Informative failure, Not actively updating]
+  url: https://thestacks.org/publications/negative-data-divergent-fungal-actins
+  dataDoi: 10.5281/zenodo.10211653
+  codeDoi: 10.5281/zenodo.10779267
+  codeRepo: https://github.com/Arcadia-Science/Fungal-Secondary-Actin-Pilot
+  platformEffort: "Annotation: Mapping the functional landscape of protein families across biology"
+operator:
+  name: Arcadia Science
+  ror: https://ror.org/052zd4v68
+contributors:
+  - {name: Prachee Avasthi, roles: [supervision]}
+  - {name: Audrey Bell, roles: [visualization]}
+  - {name: Brae M. Bigge, roles: [critical-feedback, resources, writing]}
+  - {name: Megan L. Hochstrasser, roles: [editing, visualization]}
+  - {name: Ilya Kolb, roles: [editing, supervision, visualization]}
+  - {name: David G. Mets, roles: [supervision, writing]}
+  - {name: Manon Morin, roles: [conceptualization, data-curation, formal-analysis, investigation, methodology, visualization, writing]}
+  - {name: Austin H. Patton, roles: [critical-feedback, formal-analysis, methodology]}
+  - {name: Taylor Reiter, roles: [critical-feedback, validation]}
+  - {name: Dennis A. Sun, roles: [critical-feedback]}
+  - {name: Ryan York, roles: [supervision]}
+icebox:
+  statement: "We've decided to put this project on ice. We think there may be interesting biology underlying divergent fungal actins, but the approach we took here to elucidate it was limited by the availability of relevant trait information."
+  reasons: [resource-constraint]
+  note: "The pub carries no Icebox hashtag; the reason is stated in prose as limited availability of relevant trait information, which is recorded as a resource constraint."
+purpose: "Test whether phylogenetic trait mapping can reveal the function of a structurally divergent actin isoform found across fungi, by asking whether any of six species-level fungal traits predicts the presence or absence of that isoform."
+target:
+  name: divergent fungal actin (DFA)
+  description: "A cluster of about 290 proteins, overwhelmingly fungal, annotated as Actin-2 or actin-like, structurally distinct from canonical cytoskeletal actin and found in species that also carry a canonical actin. ATP-binding residues are conserved; residues required for polymerization are not well conserved."
+  seedProtein: {uniprot: P60709, label: human cytoplasmic beta-actin ACTB}
+  originalCluster: "LC14 from the original ProteinCartography run on human beta-actin, 292 sequences"
+  representatives: [A0A401L4A6, A0A0C9N219, A0A2N1JBK3, A0A5B0SCN5, A0A226D8X1, A0A7J6TT41]
+  representativeSelection: "292 LC14 sequences clustered with MMseqs2 v14.7e284 into six clusters (sizes 1 to 281); the longest sequence of each cluster taken as representative"
+proteinCartographyRun:
+  version: v0.4.0-alpha
+  mode: search mode with standard parameters
+  parameters: "3,000 Foldseek hits requested per input protein, 6,000 total proteins per input"
+  hits: 3596
+  clusters: 17
+  wellDefinedClusters: [LC01, LC03, LC04, LC10, LC11, LC12, LC14, LC15]
+  compactnessThreshold: "clusters with compactness above 0.6 treated as well defined"
+  averageCompactness: 0.6
+  compactnessContext: "25 previous ProteinCartography runs gave cluster compactness scores of 0.35 to 0.86, so 0.6 is a reasonable score"
+  similarityMetric: "TM-score from TM-align, where above 0.5 suggests structural similarity and below 0.17 indicates unrelated proteins"
+  clusteringMethod: Leiden clustering on the all-versus-all structural similarity matrix
+  inputClusters: "the six input proteins fell into clusters LC04 and LC11, together 407 proteins, of which 144 were new"
+  extendedSet: "436 divergent actins spanning 412 strains, after combining LC04 and LC11 with the original LC14"
+  fungalFraction: "more than 93% of the extended set is fungal; the next most represented kingdom, Metazoa, is 2%"
+  fungalSet: "406 DFA proteins in 385 unique strains after removing non-fungal kingdoms"
+  multipleHits: "16 strains had two or more DFA hits; for half, a single sequence had been annotated by different groups; for the rest tBLASTn could not resolve discrete genomic locations, likely low coverage or assembly quality; at least 95% of DFA-carrying species appear to have exactly one DFA"
+workingSet:
+  problem: "ProteinCartography can establish that a species has a DFA but not that a species lacks one, because absence from the output may mean the protein is unrecorded in UniProt or AlphaFold rather than absent from the genome"
+  absenceRule: "a species was treated as lacking a DFA if it had no DFA hit and also had more than 6,000 proteins in UniProt"
+  absenceRuleBasis: "some fungi have as few as 6,000 proteins and a typical fungal genome contains about 10,000 protein-coding genes"
+  absenceRuleCaveat: "the criteria are liberal and likely produce false negatives, especially for species with far more than 6,000 proteins, so DFA prevalence across the fungal tree is probably underestimated"
+  sensitivityCheck: "varying the threshold from 6,000 to 25,000 proteins did not greatly change the ratio of species with to without a DFA (40:60 at 10,000; 44:56 at 20,000; 42:58 at 25,000)"
+  size: 853
+  withDfa: 346
+  withoutDfa: 507
+  phyla: {Ascomycota: 611, Basidiomycota: 186, Mucoromycota: 30, Chytridiomycota: 16, Zoopagomycota: 13, Blastocladiomycota: 2, Microsporidia: 2, Cryptomycota: 1}
+  phylogenySource: "TimeTree database web interface; the resulting tree represented 85 fungal orders"
+  ordersRecovered: "order recovered for 783 of the 853 species"
+traitCuration:
+  database: Fun Fun
+  databaseNote: "aggregates species-level ecological, cellular and biochemical trait information from multiple studies, including FUNGuild classifications of ecological function and trophic mode"
+  selectionCriterion: "chosen to maximise overlap between species with trait information and species with known DFA status, and to include biological features for which actin is relevant"
+  withAnyTrait: 143
+  multiStrainSpecies: "36 of those species had multiple strains in the dataset; trait information exists only per species, not per strain"
+  consistentStrains: "23 species had a DFA in all strains"
+  removedInconsistent: "13 species whose DFA status varied across strains were removed after BLASTp and tBLASTn checks proved uninterpretable, possibly from undersampling or noisy assemblies"
+  removedNoPhylogeny: "28 further species removed for absence from TimeTree"
+  finalSet: 102
+  finalSetNote: "102 species with DFA status, trait information for at least one trait, and phylogenetic placement"
+statistics:
+  discreteApproach: "model selection comparing a model in which DFA presence/absence and the trait share an evolutionary trajectory against a model in which they evolved independently, scored by Akaike information criterion where the lowest AIC wins"
+  discreteModels: "two model classes fitted per trait, a discrete-time Markov model assuming one rate of change regardless of state, and a hidden Markov model allowing two rates per observed trait status; four fits per trait in total"
+  discretePackage: "R corHMM version 2.8"
+  continuousApproach: "phylogeny-corrected generalized linear mixed model (logistic regression) testing whether variation in the continuous trait accounts for variation in DFA status while controlling for shared evolutionary history; a slope significantly different from zero would indicate a correlation"
+  continuousPackage: "R phyr version 1.1.2, pglmm_compare"
+  categoryRule: "categorical trait levels were redefined to maximise the number of categories containing four or more species, because categories with fewer than four species would not support the model"
+  recoding:
+    - "growth form: yeast and facultative yeast collapsed into yeast; ergot, cordyceptoid, rust and xylaroid removed"
+    - "trophic mode: three levels saprotroph, pathotroph, symbiotroph; species with multiple modes counted into each"
+    - "ascus dehiscence: fissitunicate and rostrate removed"
+    - "auxin-responsive promoter: promoter count transformed into a binary present/absent variable"
+  multipleTesting: "no multiple-comparison correction is reported across the six traits; the discrete tests are AIC model selection rather than null-hypothesis tests, and the two continuous tests report uncorrected p-values"
+  positiveControl: "none; the pub does not test the trait-mapping method against a protein family with a known trait association, so it cannot separate 'DFA has no trait association' from 'this method cannot detect trait associations at these sample sizes'"
+results:
+  distribution: "the fraction of species possessing a DFA varies widely across fungal orders and is neither zero nor one for many orders, so DFA appears evolutionarily labile in contrast to canonical actin, which is highly conserved"
+  distributionCaveat: "by potentially overestimating the number of species lacking a DFA, the study may have overestimated the evolutionary lability of the trait"
+  traitAssociation: "for all four discrete traits the independent-evolution model was more likely; neither continuous trait explained DFA presence or absence; no correlation was detected between DFA presence and any trait investigated"
+limitations:
+  - "Only six traits were investigated, and they may not include the traits biologically relevant to DFAs; the restricted scope follows directly from limited availability and quality of trait data."
+  - "The trait data were not collected with this study's goals in mind and are therefore likely limited in relevance to DFAs."
+  - "Trait-data scarcity significantly reduced statistical power: starting from 36,253 fungi with at least one protein structure in UniProt, reliable trait information was available for an average of 34 fungi per trait."
+  - "The ability to link a phenotype to DFA presence is limited by the ability to determine DFA absence, which depends on genome sequence quality and coverage; errors in DFA status reduce the ability to identify significant associations."
+keyTakeaways:
+  - "The distribution of DFA is variable within the fungal kingdom, suggesting a more adaptive function than canonical actin, which is highly conserved."
+  - "No correlation was found between any of the tested traits and DFAs, so the function of this variant remains unknown."
+  - "The trait-mapping strategy may still be useful for generating hypotheses about unknown protein functions in future work."
+nextSteps:
+  - "Expand the range of traits tested for correlation with DFA presence, which would require more complete datasets covering multiple species whose DFA status can be established; fungal ecology groups and mycologists may have the tools and knowledge to generate such information."
+  - "Focus on genetic traits using public genomic information: search for correlation between DFA presence or absence and the presence or absence of gene families across genomes of species with confident DFA status."
+  - "Probe DFA function directly by knocking out the DFA in a genetically tractable species and characterising the resulting phenotypes."
+aiUse:
+  statement: "We used ChatGPT to help write some code."
+  tools:
+    - {name: ChatGPT, provider: OpenAI, purpose: "writing some analysis code"}
+software:
+  - {name: ProteinCartography, version: v0.4.0-alpha, role: structure-based protein clustering, doi: 10.57844/arcadia-a5a6-1068}
+  - {name: MMseqs2, version: 14.7e284, role: sequence clustering of the original cluster, doi: 10.1038/nbt.3988}
+  - {name: Foldseek, role: structure search within ProteinCartography, doi: 10.1101/2022.02.07.479398}
+  - {name: BLAST+, role: sequence search and genomic verification, doi: 10.1186/1471-2105-10-421}
+  - {name: corHMM, version: "2.8", role: discrete-trait evolutionary model fitting, doi: 10.1093/sysbio/syt034}
+  - {name: phyr, version: "1.1.2", role: phylogeny-corrected generalized linear mixed models, doi: 10.1111/2041-210x.13471}
+databases:
+  - {name: Fun Fun, role: fungal trait data, doi: 10.1111/brv.12570}
+  - {name: FUNGuild, role: ecological guild and trophic mode classification, doi: 10.1016/j.funeco.2015.06.006}
+  - {name: TimeTree, role: fungal order phylogeny and divergence times, doi: 10.1093/molbev/msac174, url: https://timetree.org}
+  - {name: AlphaFold Protein Structure Database, role: predicted structures, doi: 10.1093/nar/gkab1061}
+  - {name: UniProtKB, role: protein sequences, metadata and taxonomy, url: https://www.uniprot.org}
+  - {name: NCBI Taxonomy, role: taxonomic classification, url: https://www.ncbi.nlm.nih.gov/taxonomy}
+priorArt:
+  proteinCartography: 10.57844/arcadia-a5a6-1068
+  actinCaseStudy: 10.57844/arcadia-a7cb-9f5c
+  plasmodiumDivergentActin: 10.1371/journal.ppat.1010779
+  plasmodiumActinStructures: 10.1371/journal.ppat.1004091
+  actinBindingProteins: 10.1101/cshperspect.a018226
+  fungalActinDynamics: 10.1038/nrmicro2666
