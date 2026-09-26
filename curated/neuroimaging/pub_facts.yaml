@@ -1,0 +1,135 @@
+# Statements transcribed from Kolb, Reitman, Lane et al. 2024 (The Stacks) with their location in the pub.
+publication:
+  doi: 10.57844/arcadia-b963-15ac
+  title: Label-free neuroimaging in mice captures sensory activity in response to tactile stimuli and acute pain
+  subtitle: "Sensory disorders are clinically common, debilitating conditions. But mouse behavioral models are often insufficient. We demonstrate that label-free, minimally invasive brain imaging in mice could be a promising avenue for sensory research or drug discovery efforts."
+  venue: The Stacks (Astera Institute)
+  publisher: Astera Institute
+  doiAgency: DataCite
+  published: "2024-07-25"
+  version: "2"
+  license: https://creativecommons.org/licenses/by/4.0/
+  pubTags: [Result, Iced, Not actively updating]
+  url: https://thestacks.org/publications/result-sensory-neuroimaging
+  dataDoi: 10.5281/zenodo.11585535
+  codeDoi: 10.5281/zenodo.12770054
+  codeRepo: https://github.com/Arcadia-Science/2024-sensory-neuroimaging
+  codeVersion: v1.0.1
+operator:
+  name: Arcadia Science
+  ror: https://ror.org/052zd4v68
+contributors:
+  - {name: Audrey Bell, roles: [visualization]}
+  - {name: Adair L. Borges, roles: [supervision]}
+  - {name: Keith Cheveralls, roles: [validation]}
+  - {name: Seemay Chou, roles: [supervision]}
+  - {name: Megan L. Hochstrasser, roles: [editing]}
+  - {name: Ilya Kolb, roles: [formal-analysis, investigation, methodology, software, visualization, writing]}
+  - {name: Ryan Lane, roles: [formal-analysis, software, writing]}
+  - {name: David G. Mets, roles: [supervision]}
+  - {name: Kira E. Poskanzer, roles: [conceptualization, critical-feedback]}
+  - {name: Michael E. Reitman, roles: [conceptualization, formal-analysis, investigation, methodology, software]}
+acknowledgments: "MC Rollins, Tori Doran and Claire Kwon for experimental assistance."
+icebox:
+  tags: ["#TechnicalGap"]
+  reasons: [technical-gap]
+  statement: "Our original goal was to employ this technique to complement traditional mouse behavioral assays for itch. Using widefield autofluorescence microscopy, we observed no consistent brain activity in response to histamine-induced itch. We're therefore icing this concept for now."
+purpose: "Determine whether in vivo flavoprotein autofluorescence imaging can measure brain responses to touch, capsaicin-induced pain and histamine-induced itch, as a behaviour-independent alternative to mouse behavioural assays."
+animals:
+  taxon: "NCBITaxon:10090"
+  species: Mus musculus
+  strain: DBA/2J
+  strainSupplier: The Jackson Laboratory
+  strainRrid: "RRID:IMSR_JAX:000671"
+  genotype: wild type
+  sex: female
+  totalAnimals: 5
+  totalAnimalsSource: "Tactile stimulation experiments: 'N = 5 total used for this study'"
+  perTrialN: 1
+  iacuc: "All animal work performed in accordance with the Institutional Animal Care and Use Committee of the Charles River Accelerator and Development Lab (CRADL, South San Francisco, CA). No protocol number is given in the pub."
+instrument:
+  name: ultra-widefield microscope (UWFM), custom built
+  basedOn: "Couto et al. 2021 protocol (doi:10.1038/s41596-021-00527-z)"
+  modifications:
+    - "ZL41 camera (Oxford Instruments Andor) in place of the pco.Edge 5.5 (Excelitas)"
+    - "blue excitation only, rather than alternating blue/violet"
+  fieldOfView: "13.4 x 11.3 mm, 5 um/px with no binning; cropped to the brain and binned 4 x 4 for all trials"
+  frameRate: "10 frames per second"
+  excitation: "blue LED M470L5 (Thorlabs), bandpass ET470/40x (Chroma), dichroic T495lpxr (Chroma)"
+  emission: "emission filter 86-963 (Edmund Optics); objective 85 mm f/1.4 (Rokinon); imaging lens NIKKOR 105 mm f/1.4E ED (Nikon)"
+  acquisition: "uManager 2.0; Teensy 4.0 microcontroller drives LED and tactile stimulator; USB-6001 DAQ (National Instruments) synchronises camera, stimulator and injection push-button"
+  cost: "approximately US$30,000 including the camera"
+  atlasAlignment: "approximate alignment to a reference brain atlas using anatomical landmarks (Couto et al. 2021; Oh et al. 2014)"
+surgery:
+  anesthesia: "3-4% isoflurane for induction; maintained at 1.25-1.5% during imaging (from trial file names); depth confirmed by loss of righting reflex, ~1 breath per second, no toe-pinch response"
+  preparation: "head-fixed with earbars in a stereotaxic frame (Kopf); heating pad; hair removed with Nair; eye ointment; 1 mL body-temperature sterile saline subcutaneous; 0.1 mL 1% lidocaine subcutaneous under the scalp; scalp removed; periosteum cleaned; thin layer of cyanoacrylate glue applied to the skull for optical clarity"
+  invasiveness: "through-skull, label-free; no craniotomy, no transgenic animals, no dye or virus injection"
+tactileProtocol:
+  stimulator: "vibrating motor (Amazon B07Q1ZV4MJ) taped to the paw, driven by a simple circuit on two AA batteries"
+  sequence: "50 vibrational pulses, 2 s on, 4 s off, imaged simultaneously at 10 fps"
+  expectation: "brain activity in S1 (primary somatosensory area), based on refs 19-20"
+  adaptations:
+    - "adjusted the focus depth"
+    - "adjusted the positioning of the stimulator"
+    - "reduced the isoflurane level by 0.25% (never below 1%)"
+    - "placed the stimulator on a different limb"
+  adaptationStatement: "If we didn't detect a cortical response in S1, we performed the following troubleshooting steps and tried again ... In most cases, one or more of these steps resulted in a clear signal."
+  gateStatement: "Once we observed a brain response to a tactile stimulus, we proceeded with chemical stimuli."
+injectionProtocol:
+  capsaicinVehicle: "80% PBS, 10% Tween-80 (Thermo Scientific 278632500), 10% ethanol (v/v)"
+  capsaicinDose: "40 ug capsaicin (Sigma-Aldrich M2028-50MG) dissolved in 10 uL of carrier solution"
+  capsaicinControl: "carrier solution alone"
+  histamineDose: "histamine dihydrochloride (Sigma-Aldrich PHR1357-500MG) at 27 mM in PBS, 50 uL (dose from file names); concentration previously shown effective at eliciting an itch behavioural response (ref 21)"
+  histamineControl: "PBS alone"
+  route: "intradermal, 1 cc insulin syringe inserted before the trial started, into forelimb, hindlimb or nape"
+  timing: "image 5 min before injection; then 10 min for vehicle and 30 min for drug (main text); figure legends and file names say 15 min for vehicle"
+  marking: "push-button pressed at injection to mark the approximate time in the DAQ trace"
+analysis:
+  pipeline: "Python data analysis and visualisation pipeline (Arcadia-Science/2024-sensory-neuroimaging v1.0.1)"
+  steps:
+    - "temporal averaging: 2 frames for tactile trials, 8 frames for injection trials, to reduce noise"
+    - "motion correction by SIFT-based registration"
+    - "brain masking by flood fill (scikit-image flood)"
+    - "bleach correction: subtract the bottom 5% of pixels within the brain from each frame"
+    - "baseline autofluorescence subtraction"
+  tactileReadout: "stimulus-triggered average across the 50 stimulations in a trial; ROIs chosen from known anatomical locations of hind- and forelimb somatosensory areas; plotted as dF/F"
+  injectionReadout: "whole brain mask used as the ROI, except the nape capsaicin trial where only the responsive somatosensory area was used"
+  normalisationCaveat: "for visualisation, pixel intensities in vehicle and drug trials were scaled to a shared min and max; dF/F was computed on non-adjusted baseline-subtracted data"
+  statistics: "none reported; no significance testing, no power analysis, no detection limit stated anywhere in the pub"
+results:
+  tactile: "reliable, localized autofluorescence in contralateral somatosensory areas for right hindlimb, left hindlimb and right forelimb stimulation, consistent with known somatotopic anatomy; response was a 1-3% increase in autofluorescence above baseline after trial averaging, consistent with previous flavoprotein imaging results (refs 9-10)"
+  capsaicin: "widespread, high-intensity cortical activation for ~10 minutes after injection, absent in vehicle trials; complex and oscillatory; nape injection produced briefer activity confined to the somatosensory area of one hemisphere"
+  capsaicinConfound: "oscillatory activity was more intense for a hindlimb previously injected with vehicle than for a hindlimb that only received capsaicin, so injection order may contribute"
+  histamine: "widespread bilateral autofluorescence above baseline, but activity patterns were inconsistent between trials, the magnitude of activation was similar to the saline control, and activation was not localized to a particular brain area"
+  histamineInterpretation: "we believe that a more sensitive imaging methodology or more sophisticated analysis will be necessary to determine whether itch-related brain activity was present"
+  itchHypothesis: "because fewer neurons in the cortex are responsive to itch than pain (ref 13), our current hypothesis is that there isn't enough autofluorescence signal from those few neurons to be detected above the noise"
+keyTakeaways:
+  - "Consistent with previous work by others, we observed localized brain activity in response to tactile stimulation."
+  - "A capsaicin-induced, painful stimulus evoked strong, consistent oscillatory activity in the brain."
+  - "We saw no consistent activity in response to histamine-induced itch."
+  - "Autofluorescence microscopy can be an inexpensive and straightforward technique to measure brain activity in response to various stimuli."
+nextSteps:
+  - "Repeat the itch experiments with a sensitive genetically encoded calcium indicator such as GCaMP to increase signal, testing the hypothesis that too few itch-responsive neurons produce too little autofluorescence to detect above noise."
+  - "Perform the experiments on non-anesthetized animals, because anesthesia is known to suppress cortical activity (ref 33)."
+  - "Repeat the capsaicin experiments to distinguish activity patterns inherent to the brain from those caused by experimental variability, and determine what injection location, dose and prior-injection factors contribute to the oscillations."
+  - "Test analgesic drugs to see whether they alleviate pain-related sensory activity in the brain, as a check on drug-screening applicability."
+  - "Perform this imaging on chronic mouse pain and itch models rather than the acute models used here."
+openQuestions:
+  - "Why did we see no reproducible activity in response to itch?"
+  - "How could we improve the methodology to enable this measurement?"
+aiUse:
+  statement: "We used ChatGPT to help write and clean up code, and GitHub Copilot to help write and add comments to our code."
+  tools:
+    - {name: ChatGPT, provider: OpenAI, purpose: "writing and cleaning up analysis code"}
+    - {name: GitHub Copilot, provider: GitHub, purpose: "writing code comments"}
+priorArt:
+  flavoproteinImaging: ["10.1113/jphysiol.2003.040709", "10.1152/jn.01275.2003"]
+  itchFewerNeurons: "10.5607/en22029"
+  itchInS1: ["10.1523/jneurosci.1445-21.2021", "10.1093/nsr/nwab218"]
+  uwfmProtocol: "10.1038/s41596-021-00527-z"
+  brainAtlas: "10.1038/nature13186"
+  anesthesiaSuppresses: "10.1038/s41598-021-88461-8"
+  gcampAlternative: "10.1038/s41586-023-05828-9"
+  histamineDoseSource: "10.1016/j.neuron.2015.05.044"
+  transgenicAberrant: "10.1523/eneuro.0207-17.2017"
+  widespreadPainFmri: ["10.1016/j.pain.2010.08.025", "10.1002/jmri.1192"]

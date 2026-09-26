@@ -1,4 +1,4 @@
-     {
+{
  "$schema": "https://json-schema.org/draft/2020-12/schema",
  "$id": "https://portolansoft.com/schema/nrr-0.2.schema.json",
  "title": "Portolan Negative-Results Record (NRR) v0.2",
@@ -420,6 +420,7 @@
       "strain",
       "cellLine",
       "cellType",
+      "anatomicalStructure",
       "gene",
       "protein",
       "compound",
@@ -463,6 +464,7 @@
       "strain",
       "cellLine",
       "cellType",
+      "anatomicalStructure",
       "gene",
       "protein",
       "compound",
@@ -502,6 +504,9 @@
     },
     "extra": {
      "type": "object"
+    },
+    "note": {
+     "type": "string"
     }
    },
    "additionalProperties": false
@@ -521,7 +526,8 @@
       "isotype",
       "no-treatment",
       "none",
-      "vehicle"
+      "vehicle",
+      "within-subject"
      ]
     },
     "label": {
@@ -763,6 +769,8 @@
        "assay-out-of-range",
        "toxicity",
        "not-replicated-second-model",
+       "irreproducible-across-trials",
+       "signal-below-noise",
        "phenotype-nonspecific",
        "selection-escape",
        "low-editing-efficiency",
@@ -874,6 +882,22 @@
      "items": {
       "type": "string"
      }
+    },
+    "blinding": {
+     "type": "string",
+     "description": "Whether the measurement or scoring was blinded, and how; \"not stated\" is a valid and informative answer."
+    },
+    "randomization": {
+     "type": "string",
+     "description": "Whether allocation was randomized, and how; \"not applicable\" is valid."
+    },
+    "preregistration": {
+     "type": "string",
+     "description": "Registration identifier (OSF, AsPredicted, Registered Report) or \"none\"."
+    },
+    "reportingGuideline": {
+     "type": "string",
+     "description": "Reporting guideline followed: ARRIVE 2.0 (animal), CONSORT (trial), MIAME or MINSEQE (omics), or a statement that none is cited."
     }
    },
    "additionalProperties": false
@@ -1038,7 +1062,10 @@
       "candidate-generation",
       "consensus",
       "sequencing-service",
-      "reference-check"
+      "reference-check",
+      "validation",
+      "methodology",
+      "software"
      ]
     },
     "model": {
@@ -1115,6 +1142,10 @@
     },
     "note": {
      "type": "string"
+    },
+    "runId": {
+     "type": "string",
+     "description": "Identifier of the raw instrument run inside the referenced deposit or capture system, as the source names it (for example a session/file path in a data archive, or an Arcadia Data Hub run id)."
     }
    },
    "additionalProperties": false
@@ -1285,6 +1316,13 @@
     },
     "note": {
      "type": "string"
+    },
+    "protocolAdaptations": {
+     "type": "array",
+     "items": {
+      "type": "string"
+     },
+     "description": "Adjustments made in response to interim results (optional stopping, troubleshooting loops, retries). Recording these is what lets a reader judge how much tuning stands behind a reported signal."
     }
    },
    "additionalProperties": false

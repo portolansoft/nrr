@@ -67,3 +67,29 @@ def test_vocab_lists_available():
     assert "not-selected-for-testing" in load_vocab("screenedReason")
     assert "technical-gap" in load_vocab("abandonmentReason")
     assert "hypothesis-generation" in load_vocab("performerRole")
+
+
+def test_inlined_enums_match_the_vocabulary_file():
+    """The schema file carries literal enums so it can be published standalone; they must not drift
+    from vocabularies.json, which is the single source of truth."""
+    from nrr.schema import ENUM_BINDINGS, _vocabularies, vocab_for_binding
+    import json as _json
+    from pathlib import Path as _Path
+    from nrr.schema import SCHEMA_DIR
+    on_disk = _json.loads((SCHEMA_DIR / "nrr-0.2.schema.json").read_text(encoding="utf-8"))
+    problems = []
+    for pointer in ENUM_BINDINGS:
+        node = on_disk
+        for part in pointer.split("/"):
+            node = node[part]
+        if node.get("enum") != vocab_for_binding(pointer):
+            problems.append(pointer)
+    assert problems == [], problems
+
+
+def test_entity_accepts_a_note():
+    from tests.factories import minimal_attempt
+    rec = minimal_attempt()
+    rec["entities"] = [{"id": "UBERON:0008933", "type": "anatomicalStructure", "label": "S1",
+                        "note": "nearest exact ontology match"}]
+    assert validate(rec) == []

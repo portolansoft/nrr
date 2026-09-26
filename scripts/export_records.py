@@ -18,11 +18,13 @@ sys.path.insert(0, str(ROOT / "src"))
 from nrr.crate import to_crate  # noqa: E402
 from nrr.deposit import deposit_payload  # noqa: E402
 from nrr.ingest.alcalase import build_alcalase_records  # noqa: E402
+from nrr.ingest.neuroimaging import build_neuroimaging_records  # noqa: E402
 from nrr.resolve import Resolver  # noqa: E402
 from nrr.schema import PROFILE_URI, validate  # noqa: E402
 
-BUILDERS = {"arcadia-alcalase": build_alcalase_records}
-LICENSES = {"arcadia-alcalase": "https://creativecommons.org/licenses/by/4.0/"}
+BUILDERS = {"arcadia-alcalase": build_alcalase_records, "arcadia-neuroimaging": build_neuroimaging_records}
+LICENSES = {"arcadia-alcalase": "https://creativecommons.org/licenses/by/4.0/",
+            "arcadia-neuroimaging": "https://creativecommons.org/licenses/by/4.0/"}
 
 
 def git_commit() -> str:

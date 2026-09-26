@@ -12,3 +12,5 @@ Robin converter or its tests; the tests skip themselves when the folder is absen
 | robin/sra/ | ENA portal API export for BioProject PRJNA1464762 (29 runs) and the study record. | public metadata |
 | alcalase/zenodo/ | Zenodo record 22238548: the two CSV files and the record metadata JSON. | CC BY 4.0 |
 | alcalase/pub/ | text extracted from the Stacks publication HTML (doi:10.57844/arcadia-pdu7-q2zz); kept for reference, the converter reads the curated tables. | CC BY 4.0 |
+| neuroimaging/zenodo/ | Zenodo records 11585535 (imaging data, 80.9 GB, file manifest only) and 12770054 (code v1.0.1), metadata JSON. | CC BY 4.0 |
+| neuroimaging/pub/ | text extracted from the Stacks publication HTML (doi:10.57844/arcadia-b963-15ac). | CC BY 4.0 |

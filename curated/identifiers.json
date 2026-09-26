@@ -310,6 +310,14 @@
   "label": "Bms-777607",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
  },
+ "compound:capsaicin": {
+  "formula": "C18H27NO3",
+  "identifier": "pubchem:CID1548943",
+  "inchikey": "YKPUWZUDDOIDPM-SOFGYWHQSA-N",
+  "iupac": "(E)-N-[(4-hydroxy-3-methoxyphenyl)methyl]-8-methylnon-6-enamide",
+  "label": "Capsaicin",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
  "compound:celecoxib": {
   "fetchedAt": "2026-09-25T19:40:00Z",
   "formula": "C17H14F3N3O2S",
@@ -380,6 +388,14 @@
   "inchikey": "INVTYAOGFAGBOE-UHFFFAOYSA-N",
   "iupac": "pyridin-3-ylmethyl N-[[4-[(2-aminophenyl)carbamoyl]phenyl]methyl]carbamate",
   "label": "Entinostat",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:ethanol": {
+  "formula": "C2H6O",
+  "identifier": "pubchem:CID702",
+  "inchikey": "LFQSCWFLJHTTHZ-UHFFFAOYSA-N",
+  "iupac": "ethanol",
+  "label": "Ethanol",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
  },
  "compound:everolimus": {
@@ -467,6 +483,14 @@
   "label": "GW 501516",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
  },
+ "compound:histamine dihydrochloride": {
+  "formula": "C5H11Cl2N3",
+  "identifier": "pubchem:CID5818",
+  "inchikey": "PPZMYIBUHIPZOS-UHFFFAOYSA-N",
+  "iupac": "2-(1H-imidazol-5-yl)ethanamine;dihydrochloride",
+  "label": "Histamine Dihydrochloride",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
  "compound:hoechst 33342": {
   "fetchedAt": "2026-09-25T19:40:00Z",
   "formula": "C27H28N6O",
@@ -483,6 +507,14 @@
   "inchikey": "FVYXIJYOAGAUQK-UHFFFAOYSA-N",
   "iupac": "2-(4-hydroxy-3-prop-2-enylphenyl)-4-prop-2-enylphenol",
   "label": "Honokiol",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:isoflurane": {
+  "formula": "C3H2ClF5O",
+  "identifier": "pubchem:CID3763",
+  "inchikey": "PIWKPBJCKXDKJR-UHFFFAOYSA-N",
+  "iupac": "2-chloro-2-(difluoromethoxy)-1,1,1-trifluoroethane",
+  "label": "Isoflurane",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
  },
  "compound:jasplakinolide": {
@@ -510,6 +542,14 @@
   "inchikey": "PZEOQHHOQBKPPR-FQFYGSMDSA-N",
   "iupac": "(2R,3R)-2,3-bis[(4-hydroxy-3-methoxyphenyl)methyl]butane-1,4-diol;bis((2R,3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol)",
   "label": "(2R,3R)-2,3-bis[(4-hydroxy-3-methoxyphenyl)methyl]butane-1,4-diol;bis((2R,3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol)",
+  "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:lidocaine": {
+  "formula": "C14H22N2O",
+  "identifier": "pubchem:CID3676",
+  "inchikey": "NNJVILVZKWQKPM-UHFFFAOYSA-N",
+  "iupac": "2-(diethylamino)-N-(2,6-dimethylphenyl)acetamide",
+  "label": "Lidocaine",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
  },
  "compound:metformin": {
@@ -587,6 +627,9 @@
   "iupac": "5-[[4-[2-(5-ethyl-2-pyridinyl)ethoxy]phenyl]methyl]-1,3-thiazolidine-2,4-dione",
   "label": "Pioglitazone",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:polysorbate 80": {
+  "unresolved": true
  },
  "compound:pre-084": {
   "fetchedAt": "2026-09-25T19:40:00Z",
@@ -867,6 +910,15 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1002/jmri.1192": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:28Z",
+  "container": "Journal of Magnetic Resonance Imaging",
+  "integrity": "none",
+  "title": "Capsaicin as a source for painful stimulation in functional MRI",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1006/exer.1996.0020": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:52:45Z",
@@ -1040,6 +1092,24 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1016/j.neuron.2015.05.044": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:27Z",
+  "container": "Neuron",
+  "integrity": "none",
+  "title": "HTR7 Mediates Serotonergic Acute and Chronic Itch",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/j.pain.2010.08.025": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:28Z",
+  "container": "Pain",
+  "integrity": "none",
+  "title": "Assessment of brain responses to innocuous and noxious electrical forepaw stimulation in mice using BOLD fMRI",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1016/j.stemcr.2018.01.017": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:52:50Z",
@@ -1178,6 +1248,15 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1038/nature13186": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:23Z",
+  "container": "Nature",
+  "integrity": "none",
+  "title": "A mesoscale connectome of the mouse brain",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1038/nbt.2647": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:52:54Z",
@@ -1283,6 +1362,15 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1038/s41586-023-05828-9": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:26Z",
+  "container": "Nature",
+  "integrity": "none",
+  "title": "Fast and sensitive GCaMP calcium indicators for imaging neural populations",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1038/s41586-023-06792-0": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:52:56Z",
@@ -1313,6 +1401,15 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1038/s41596-021-00527-z": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:23Z",
+  "container": "Nature Protocols",
+  "integrity": "none",
+  "title": "Chronic, cortex-wide imaging of specific cell populations during behavior",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1038/s41598-017-17744-w": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:52:57Z",
@@ -1325,6 +1422,15 @@
    15
   ],
   "title": "AICAR suppresses TNF-α-induced complement factor B in RPE cells",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/s41598-021-88461-8": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:26Z",
+  "container": "Scientific Reports",
+  "integrity": "none",
+  "title": "Effects of urethane and isoflurane on the sensory evoked response and local blood flow in the early postnatal rat somatosensory cortex",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -1471,6 +1577,15 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1093/nsr/nwab218": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:25Z",
+  "container": "National Science Review",
+  "integrity": "none",
+  "title": "Itch perception is reflected by neuronal ignition in the primary somatosensory cortex",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1093/plphys/kiab418": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:53:02Z",
@@ -1589,6 +1704,15 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1113/jphysiol.2003.040709": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:24Z",
+  "container": "The Journal of Physiology",
+  "integrity": "none",
+  "title": "Dynamic Imaging of Somatosensory Cortical activity in the Rat Visualized by Flavoprotein Autofluorescence",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1126/sciadv.abd0561": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:53:05Z",
@@ -1644,6 +1768,15 @@
   "title": "LLMs4Synthesis: Leveraging Large Language Models for Scientific Synthesis",
   "type": "proceedings-article",
   "version": "unknown"
+ },
+ "doi:10.1152/jn.01275.2003": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:24Z",
+  "container": "Journal of Neurophysiology",
+  "integrity": "none",
+  "title": "Flavoprotein Autofluorescence Imaging of Neuronal Activation in the Cerebellar Cortex In Vivo",
+  "type": "journal-article",
+  "version": "VoR"
  },
  "doi:10.1159/000495183": {
   "assertedBy": "crossref-relation",
@@ -1790,6 +1923,33 @@
    13
   ],
   "title": "TIM, a targeted insertional mutagenesis method utilizing CRISPR/Cas9 in Chlamydomonas reinhardtii",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.14440/jbm.2014.36": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:29Z",
+  "container": "Journal of Biological Methods",
+  "integrity": "none",
+  "title": "Advanced methods of microscope control using μManager software",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1523/eneuro.0207-17.2017": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:27Z",
+  "container": "eneuro",
+  "integrity": "none",
+  "title": "Aberrant Cortical Activity in Multiple GCaMP6-Expressing Transgenic Mouse Lines",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1523/jneurosci.1445-21.2021": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:25Z",
+  "container": "The Journal of Neuroscience",
+  "integrity": "none",
+  "title": "Multiplexed Representation of Itch and Mechanical and Thermal Sensation in the Primary Somatosensory Cortex",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -2122,6 +2282,26 @@
   "type": "Preprint",
   "version": "v1"
  },
+ "doi:10.5281/zenodo.11585535": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T18:33:21Z",
+  "integrity": "none",
+  "publisher": "Zenodo",
+  "state": "findable",
+  "title": "Raw and processed autofluorescence neuroimaging data",
+  "type": "Dataset",
+  "version": "dataset"
+ },
+ "doi:10.5281/zenodo.12770054": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T18:33:22Z",
+  "integrity": "none",
+  "publisher": "Zenodo",
+  "state": "findable",
+  "title": "Arcadia-Science/2024-sensory-neuroimaging: v1.0.1",
+  "type": "Software",
+  "version": "v1"
+ },
  "doi:10.5281/zenodo.22238548": {
   "assertedBy": "datacite",
   "checkedAt": "2026-09-26T01:53:24Z",
@@ -2148,6 +2328,15 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.5607/en22029": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:25Z",
+  "container": "Experimental Neurobiology",
+  "integrity": "none",
+  "title": "Multiplexed Representation of Itch and Pain and Their Interaction in the Primary Somatosensory Cortex",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.57844/arcadia-35f0-3e16": {
   "assertedBy": "datacite",
   "checkedAt": "2026-09-26T01:53:25Z",
@@ -2167,6 +2356,16 @@
   "publisher": "Astera Institute",
   "state": "findable",
   "title": "Modular CRISPR landing pads for Chlamydomonas reinhardtii",
+  "type": "Other",
+  "version": "v1"
+ },
+ "doi:10.57844/arcadia-b963-15ac": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T18:33:19Z",
+  "integrity": "none",
+  "publisher": "Astera Institute",
+  "state": "findable",
+  "title": "Label-free neuroimaging in mice captures sensory activity in response to tactile stimuli and acute pain",
   "type": "Other",
   "version": "v1"
  },
@@ -2206,6 +2405,15 @@
    null
   ],
   "title": "Drug Repurposing Flubendazole to Suppress Tumorigenicity via PCSK9-dependent Inhibition and Potentiate Lenvatinib Therapy for Hepatocellular Carcinoma",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.7717/peerj.453": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T18:33:29Z",
+  "container": "PeerJ",
+  "integrity": "none",
+  "title": "scikit-image: image processing in Python",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -2292,6 +2500,12 @@
   "ontology": "go",
   "source": "OLS4 exact search"
  },
+ "ontology:cerebral cortex": {
+  "identifier": "UBERON:0000956",
+  "label": "cerebral cortex",
+  "ontology": "uberon",
+  "source": "OLS4 exact search"
+ },
  "ontology:colony forming unit assay": {
   "fetchedAt": "2026-09-26T01:51:10Z",
   "unresolved": true
@@ -2324,6 +2538,12 @@
   "ontology": "obi",
   "source": "OLS4 exact search"
  },
+ "ontology:fluorescence microscopy assay": {
+  "identifier": "CHMO:0000087",
+  "label": "fluorescence microscopy assay",
+  "ontology": "obi",
+  "source": "OLS4 exact search"
+ },
  "ontology:genotyping assay": {
   "fetchedAt": "2026-09-26T01:51:08Z",
   "identifier": "OBI:0000435",
@@ -2352,11 +2572,35 @@
   "ontology": "obi",
   "source": "OLS4 exact search"
  },
+ "ontology:primary somatosensory cortex": {
+  "identifier": "UBERON:0008933",
+  "label": "primary somatosensory cortex",
+  "ontology": "uberon",
+  "source": "OLS4 exact search"
+ },
+ "ontology:response to histamine": {
+  "identifier": "GO:0034776",
+  "label": "response to histamine",
+  "ontology": "go",
+  "source": "OLS4 exact search"
+ },
  "ontology:retinal pigment epithelial cell": {
   "fetchedAt": "2026-09-26T01:51:05Z",
   "identifier": "CL:0002586",
   "label": "retinal pigment epithelial cell",
   "ontology": "cl",
+  "source": "OLS4 exact search"
+ },
+ "ontology:sensory perception of pain": {
+  "identifier": "GO:0019233",
+  "label": "sensory perception of pain",
+  "ontology": "go",
+  "source": "OLS4 exact search"
+ },
+ "ontology:sensory perception of touch": {
+  "identifier": "GO:0050975",
+  "label": "sensory perception of touch",
+  "ontology": "go",
   "source": "OLS4 exact search"
  },
  "org:arcadia science": {

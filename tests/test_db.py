@@ -5,6 +5,7 @@ import pytest
 
 from nrr.db import load, query
 from nrr.ingest.alcalase import build_alcalase_records
+from nrr.ingest.neuroimaging import build_neuroimaging_records
 from nrr.ingest.robin import build_robin_records
 from nrr.resolve import Resolver
 
@@ -15,7 +16,8 @@ pytestmark = pytest.mark.skipif(not (ROOT / "raw" / "robin" / "robin_output").ex
 @pytest.fixture(scope="module")
 def db(tmp_path_factory):
     resolver = Resolver(ROOT / "curated/identifiers.json", online=False)
-    records = build_robin_records(ROOT, resolver) + build_alcalase_records(ROOT, resolver)
+    records = (build_robin_records(ROOT, resolver) + build_alcalase_records(ROOT, resolver)
+               + build_neuroimaging_records(ROOT, resolver))
     path = tmp_path_factory.mktemp("db") / "portolan.sqlite"
     load(records, path)
     return path
@@ -71,3 +73,27 @@ def test_open_questions_and_untried_branches(db):
 def test_reference_status_table(db):
     rows = query(db, "references_status", study_id="arcadia-alcalase")
     assert rows and all(r["integrity"] in ("none", "unknown") for r in rows)
+
+
+def test_three_studies_fail_the_informativeness_rule_in_three_different_ways(db):
+    """The rule discriminates: each study in the corpus trips a different clause, so 'uninformative'
+    is a diagnosis rather than a blanket refusal."""
+    rows = query(db, "uninformative_negatives")
+    reason_by_study = {}
+    for r in rows:
+        reason_by_study.setdefault(r["study_id"], set()).add(r["informativeness_reason"].split(";")[0].strip())
+    assert reason_by_study["arcadia-alcalase"] == {"no positive control"}
+    assert reason_by_study["robin-damd"] == {"positive control failed"}
+    assert reason_by_study["arcadia-neuroimaging"] == {"negative control not clean"}
+
+
+def test_a_passing_positive_control_does_not_rescue_a_dirty_negative_control(db):
+    rows = [r for r in query(db, "uninformative_negatives") if r["study_id"] == "arcadia-neuroimaging"]
+    assert rows and all(r["positive_control_kind"] == "internal-positive" for r in rows)
+    assert all(r["positive_control_passed"] == 1 for r in rows)
+
+
+def test_deposited_but_unanalysed_data_spans_two_studies(db):
+    rows = [r for r in query(db, "open_branches") if r["status"] == "data-deposited-not-analysed"]
+    assert {r["study_id"] for r in rows} == {"robin-damd", "arcadia-neuroimaging"}
+    assert all(r["data_pointers"] > 0 for r in rows)

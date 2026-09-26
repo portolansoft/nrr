@@ -18,9 +18,57 @@ SCHEMA_DIR = Path(__file__).resolve().parents[2] / "schema"
 PROFILE_URI = "https://portolansoft.com/profile/nrr/0.2"
 
 
+# Where the schema inlines a controlled list. vocabularies.json is the source of truth; the schema file
+# carries literal enums so it can be published standalone, and these bindings keep the two in step.
+ENUM_BINDINGS: dict[str, str] = {
+    "properties/kind": "kind",
+    "properties/attemptType": "attemptType",
+    "properties/pathType": "pathType",
+    "properties/visibility": "visibility",
+    "properties/domainTags/items": "domainTag",
+    "properties/outcomeClass": "outcomeClass",
+    "properties/abandonmentReasons/items": "abandonmentReason",
+    "$defs/EntityRef/properties/type": "entityType",
+    "$defs/Entity/properties/type": "entityType",
+    "$defs/Control/properties/kind": "+controlKind",
+    "$defs/Finding/properties/outcomeClass": "outcomeClass",
+    "$defs/Finding/properties/informativeness": "informativeness",
+    "$defs/Finding/properties/failureModes/items": "failureMode",
+    "$defs/ScreenedItem/properties/type": "screenedType",
+    "$defs/ScreenedItem/properties/decision": "screenedDecision",
+    "$defs/ScreenedItem/properties/reason": "screenedReason",
+    "$defs/Performer/properties/type": "performerType",
+    "$defs/Performer/properties/role": "performerRole",
+    "$defs/Stage/properties/stage": "stageName",
+    "$defs/UntriedBranch/properties/status": "untriedBranchStatus",
+    "$defs/StatusAtCheck/properties/version": "statusVersion",
+    "$defs/StatusAtCheck/properties/integrity": "statusIntegrity",
+    "$defs/Source/properties/role": "sourceRole",
+    "$defs/Relation/properties/type": "relationType",
+}
+
+
+def vocab_for_binding(pointer: str) -> list[str]:
+    name = ENUM_BINDINGS[pointer]
+    if name == "+controlKind":          # Control.kind is the union of the two control vocabularies
+        v = _vocabularies()
+        return sorted(set(v["positiveControlKind"]) | set(v["negativeControlKind"]))
+    return list(_vocabularies()[name])
+
+
+def sync_enums(schema: dict) -> dict:
+    """Rewrite every inlined enum from vocabularies.json, so the two can never disagree at runtime."""
+    for pointer in ENUM_BINDINGS:
+        node = schema
+        for part in pointer.split("/"):
+            node = node[part]
+        node["enum"] = vocab_for_binding(pointer)
+    return schema
+
+
 @lru_cache(maxsize=1)
 def load_schema() -> dict:
-    return json.loads((SCHEMA_DIR / "nrr-0.2.schema.json").read_text(encoding="utf-8"))
+    return sync_enums(json.loads((SCHEMA_DIR / "nrr-0.2.schema.json").read_text(encoding="utf-8")))
 
 
 @lru_cache(maxsize=1)
