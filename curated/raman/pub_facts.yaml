@@ -1,0 +1,125 @@
+# Statements transcribed from Cheveralls et al. 2026 (The Stacks) with their location in the pub.
+publication:
+  doi: 10.57844/arcadia-xdmk-yq0w
+  title: Leave-one-batch-out cross-validation reveals strong batch effects in Raman spectroscopy of yeast cultures
+  subtitle: "We acquired spontaneous Raman spectra of several strains and species of yeast. We found that experimental batch effects dominate strain-level biological signals in our dataset, yielding misleadingly high classification accuracy under standard cross-validation."
+  venue: The Stacks (Astera Institute)
+  publisher: Astera Institute
+  doiAgency: DataCite
+  published: "2026-03-26"
+  version: "1"
+  license: https://creativecommons.org/licenses/by/4.0/
+  pubTags: [Informative failure, No longer actively updating]
+  url: https://thestacks.org/publications/negative-data-raman-batch-effects-yeast
+  codeDataDoi: 10.5281/zenodo.19226627
+  codeRepo: https://github.com/Arcadia-Science/raman-batch-effects-yeast
+  codeVersion: v1.0
+  codeLicense: MIT
+  licenceNote: "The pub is CC BY 4.0 but the deposited code and data archive carries the MIT licence; the two differ within one study."
+  statusNote: "Tagged 'No longer actively updating' rather than 'Iced'. There is no Icebox statement and no stated abandonment reason, so no abandonment reason is recorded."
+operator:
+  name: Arcadia Science
+  ror: https://ror.org/052zd4v68
+contributors:
+  - {name: Audrey Bell, roles: [visualization]}
+  - {name: Ben Braverman, roles: [resources]}
+  - {name: Keith Cheveralls, roles: [conceptualization, formal-analysis, software, visualization, writing]}
+  - {name: Evan Kiefl, roles: [validation]}
+  - {name: Ilya Kolb, roles: [methodology, resources]}
+  - {name: David G. Mets, roles: [supervision]}
+  - {name: Sunanda Sharma, roles: [critical-feedback]}
+  - {name: Emily C.P. Weiss, roles: [resources]}
+purpose: "Evaluate whether spontaneous Raman spectra can distinguish strains and species of yeast, and determine the extent to which batch effects from experimental variation confound such predictions."
+audience: "Researchers using Raman spectroscopy to detect meaningful differences between biological variables of interest such as species, strain, growth condition, cell type or cell state."
+design:
+  strains: 9
+  species: 2
+  replicates: "three end-to-end biological replicates, produced by repeating sample preparation and imaging in triplicate with separate cell cultures, physical plates and imaging dates"
+  replicateMeaning: "each of the three physical plates corresponds to one end-to-end experimental replicate, so plate identity carries no true biological difference"
+  spectraPerStrainAcquired: 75
+  grid: "5 x 5 grid of positions per well on each of the three replicate plates"
+  spectraPerStrainAfterQc: "24-33 (median 27)"
+  spectraTotalAfterQc: 248
+culture:
+  scerevisiaeMedia: YPD
+  spombeMedia: YES
+  growth: "5 mL in a 15 mL tube, overnight in a shaking incubator (Infors HT) at 30 C, 200 rpm"
+  normalisation: "OD600 measured on a NanoDrop One/One C; all strains diluted to OD600 of five in a final volume of 1 mL"
+  washing: "pelleted at 3,000 x g for 3 min; washed in 1 mL 0.9% saline, then in 1 mL deionized water"
+  mounting: "wet cell pellets spotted onto stainless steel plates stamped with a 96-well layout and desiccated at room temperature and pressure for approximately 3 h"
+spectroscopy:
+  instrument: "probe-based Raman spectrometer with 785 nm excitation (Wasatch Photonics WP-785X-F13-R-IL) integrated with a motorized XY stage"
+  control: "Pycro-Manager and custom Python scripts for fully automated acquisition"
+  laserPower: "93 mW measured at the sample plane"
+  integrationTime: "five seconds, 10 averages per position"
+processing:
+  package: ramanspy
+  steps:
+    - "cosmic ray removal with the Whitaker-Hayes despiking algorithm, default parameters"
+    - "background subtraction using a single consensus dark spectrum averaged across all three plates, deliberately not one per plate, to avoid injecting additional batch effects"
+    - "quality control removing spectra whose mean background-subtracted intensity fell below an empirically determined threshold of 1,000 intensity units"
+    - "Savitzky-Golay smoothing, then autofluorescence baseline subtraction with ModPoly, polynomial order five"
+    - "cropping to the fingerprint region 300-1,800 cm-1 and area-under-the-curve normalization"
+    - "outlier removal within each well by elbow detection on each spectrum's deviation from the group median"
+batchCorrection:
+  lmm: "a linear mixed model fitted per wavenumber with plate identity as a random effect, followed by normalizing residuals by their within-batch standard deviations"
+  lmmAssumptions: "assumes batches are sufficiently large and that plate identity is not confounded with strain identity"
+  combat: "ComBat with plate identity as the batch variable and no fixed effects"
+  noFixedEffect: "because all strains were present on all plates, strain identity did not need to be included as a fixed effect in either model"
+analysis:
+  representation: "each processed spectrum is a feature vector; rows are samples and columns are wavenumbers"
+  cvStandard: "standard k-fold cross-validation with five folds, spectra randomly partitioned; the usual approach in the literature for datasets assumed homogeneous and balanced"
+  cvLopo: "leave-one-plate-out cross-validation, partitioning by the plate a spectrum came from, which explicitly controls for experimental batch effects"
+  cvLoso: "leave-one-strain-out cross-validation, used for the adversarial task of predicting plate identity"
+  models: "random forest with 300 trees, and a support vector machine with an RBF kernel and C = 100; class weighting balanced; scikit-learn implementations; hyperparameters chosen empirically"
+  metric: "multiclass Matthews correlation coefficient (MCC), bounded in [-1, +1], where +1 is perfect prediction, 0 is random guessing and negative values indicate systemic misclassification; computed per fold and reported as the median across folds"
+  robustness: "median MCC values were not meaningfully different for any combination of batch-correction method and classification model"
+adversarialTest:
+  description: "inverting the prediction and cross-validation dimensions: train a classifier to predict plate identity instead of strain identity, using leave-one-strain-out cross-validation"
+  rationale: "plates correspond to end-to-end replicates of the same protocol, so there should be no true biological difference between them; if plate identity is predictable, the spectra carry a strong batch effect the model can exploit"
+results:
+  strainStandardCv: "median MCC 0.79 (range 0.71-0.93); strong diagonal confusion matrix, but strain identities are confounded with plate identities in this analysis"
+  strainLopo: "median MCC 0.32 (range 0.19-0.42); only a few strains remain distinguishable"
+  strainLopoExplanation: "each fold in k-fold cross-validation includes spectra from all three plates, so the model can see batch-specific features and use them to predict strain identity; the standard approach was effectively overfitting to those features"
+  plateLoso: "median MCC 1.0 (range 0.50-1.0); plate identity is very reliably predictable"
+  plateLosoCorrected: "median MCC 0.10 (range -0.49-0.64); the plate-level batch effect has been removed"
+  strainLopoCorrected: "median MCC 0.39 versus 0.32 before correction; not meaningfully improved"
+  strainLopoCorrectedExplanation: "likely reflects some combination of stochastic sample-level batch effects and genuinely subtle differences between the strains that may not produce detectable Raman signatures"
+  speciesLopo: "median MCC 0.97 without batch correction and 0.93 with it; near-perfect under leave-one-plate-out cross-validation"
+  speciesEvidence: "the most important random forest features aligned with wavenumbers at which the mean spectra visibly differ between the two species; and misclassifications in the strain-level confusion matrix were predominantly between strains of the same species"
+limitations:
+  - "The dataset is small: 248 spectra across nine strains and three plates after quality control, yielding noisy cross-validated performance metrics."
+  - "The strains may be too genetically similar to produce detectable differences in the Raman spectra, so the negative result for strain classification may not generalize to collections of strains with greater diversity."
+  - "The desiccation step, while necessary to yield a sufficiently strong signal, is inherently variable and likely contributes to the plate-level batch effect; other sample preparation techniques may produce weaker batch effects."
+leakageCaveat:
+  statement: "The batch correction introduces an implicit train-test leakage, as it applies batch correction once to the full dataset rather than to each training fold separately. For leave-one-plate-out cross-validation this effect is severe, as the batch-effect dimension and the cross-validation dimension are identical."
+  consequence: "The batch-corrected leave-one-plate-out estimates are not valid estimates of generalization to fully unseen plates."
+  intendedReading: "The authors intend the batch-corrected results to describe how much information about a variable of interest is contained in the spectra given full knowledge of experimental confounders, much like PCA or clustering applied to an entire dataset, rather than expected performance on new data."
+conclusions:
+  - "Raman spectroscopy is extremely sensitive: it detects real and sometimes subtle biological signals, but it also readily picks up irrelevant signals associated with experimental conditions."
+  - "Because experimental batch effects are a kind of structured noise, standard k-fold cross-validation can give misleadingly good results by allowing models to learn batch-specific features."
+  - "To distinguish authentic biological signals from batch effects, experiments must include end-to-end replicates and analysis must be cross-validated on experimentally meaningful batch dimensions."
+recommendations:
+  - "Incorporate at least three end-to-end replicates from the outset."
+  - "Include leave-one-replicate-out cross-validation in analysis workflows."
+  - "Include adversarial prediction tasks in which a model is trained to predict biologically meaningless variables such as replicate or plate identifiers."
+aiUse:
+  statement: "We used Claude (Opus 4, 4.5, and 4.6) to help write, clean up, comment, and review our code, and we selectively incorporated its feedback. We also used Claude to suggest wording ideas and then chose which small phrases or sentence structure ideas to use, rearrange text to fit the structure of one of our pub templates, expand on summary text that we provided, and help clarify and streamline text that we wrote. Additionally, we chatted with Claude throughout the project to support ideation and analysis. We used Gemini (2.5 Pro) to review the publication to catch typos and discrepancies, and Cursor for tab completion while editing code."
+  tools:
+    - {name: Claude, provider: Anthropic, version: "Opus 4, 4.5, 4.6", purpose: "writing, cleaning, commenting and reviewing code; wording; and ideation and analysis discussion throughout the project"}
+    - {name: Gemini, provider: Google, version: "2.5 Pro", purpose: "reviewing the publication for typos and discrepancies"}
+    - {name: Cursor, provider: Anysphere, purpose: "tab completion while editing code"}
+    - {name: arcadia-pycolor, provider: Arcadia Science, version: "0.6.4", purpose: "figure generation before manual adjustment"}
+  note: "This is the only study in the corpus whose AI-use statement includes participation in ideation and analysis, not only in code and prose."
+software:
+  - {name: ramanspy, role: spectral processing}
+  - {name: scikit-learn, rrid: "RRID:SCR_002577", role: classification and metrics}
+  - {name: Pycro-Manager, role: instrument control}
+  - {name: ComBat, role: batch correction}
+  - {name: Python, rrid: "RRID:SCR_008394", role: analysis language}
+priorArt:
+  strainDiscrimination: "10.1038/s41467-019-12898-9"
+  singleCellRamanToRna: "10.1038/s41467-019-12898-9"
+relatedArcadiaPubs:
+  - {doi: 10.57844/arcadia-f4fe-ep62, slug: result-raman-protein-analysis, relation: "same Raman programme: detects chemical perturbation of protein structure"}
+  - {doi: 10.57844/arcadia-2mmy-8h28, slug: idea-raman-therapeutic-discovery, relation: "same Raman programme, iced: Raman for natural therapeutic discovery, stopped partly because spectra quality from therapeutic fractions was insufficient"}

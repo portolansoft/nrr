@@ -520,10 +520,12 @@
     "kind": {
      "type": "string",
      "enum": [
+      "adversarial-label",
       "background",
       "designated",
       "internal-positive",
       "isotype",
+      "known-positive-task",
       "no-treatment",
       "none",
       "vehicle",
@@ -639,6 +641,18 @@
     },
     "note": {
      "type": "string"
+    },
+    "range": {
+     "type": "array",
+     "minItems": 2,
+     "maxItems": 2,
+     "items": {
+      "type": [
+       "number",
+       "string"
+      ]
+     },
+     "description": "Observed range of the value, for results reported as a median or mean across folds, replicates or sites."
     }
    },
    "additionalProperties": false
@@ -751,6 +765,7 @@
        "characterization-inconclusive",
        "verifier-exploit",
        "benchmark-contamination",
+       "train-test-leakage",
        "did-not-converge",
        "prior-result-exists",
        "proof-gap",

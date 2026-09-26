@@ -1,0 +1,10 @@
+species,taxon,strain_or_gene_id,genotype,description,human_ortholog,human_ortholog_gene,source_collection,source
+S. cerevisiae,NCBITaxon:4932,BY4741,,Standard haploid lab strain,,,ATCC,Table 1
+S. cerevisiae,NCBITaxon:4932,YGL058w,rad6 delta,"Null mutant of rad6, an ortholog of human UBE2A (a ubiquitin-conjugating enzyme)",UBE2A,HGNC:12472,EUROSCARF,Table 1
+S. cerevisiae,NCBITaxon:4932,YNL141w,aah1 delta,"Null mutant of aah1, an ortholog of human ADA (an adenosine deaminase)",ADA,HGNC:186,EUROSCARF,Table 1
+S. pombe,NCBITaxon:4896,SP286,,Standard diploid lab strain,,,Bioneer,Table 1
+S. pombe,NCBITaxon:4896,ED666,,Standard haploid lab strain,,,Bioneer,Table 1
+S. pombe,NCBITaxon:4896,SPAC18B11.07c,rhp6 delta,Null mutant of rhp6 an ortholog of human UBE2A,UBE2A,HGNC:12472,Bioneer,Table 1
+S. pombe,NCBITaxon:4896,SPBC1198.02,dea2 delta/+,Heterozygous null mutant of dea2 an ortholog of human ADA; homozygous lethal,ADA,HGNC:186,Bioneer,Table 1
+S. pombe,NCBITaxon:4896,SPBPB10D8.02c,asg delta,"Null mutant of asg, an ortholog of human ARSG (a lysosomal sulfatase)",ARSG,,Bioneer,Table 1
+S. pombe,NCBITaxon:4896,SPBC530.12c,pdf1 delta/+,"Heterozygous null mutant of pdf1, an ortholog of human PPT1 (a lysosomal hydrolase); homozygous lethal",PPT1,,Bioneer,Table 1

@@ -68,6 +68,7 @@
   "characterization-inconclusive",
   "verifier-exploit",
   "benchmark-contamination",
+  "train-test-leakage",
   "did-not-converge",
   "prior-result-exists",
   "proof-gap",
@@ -199,6 +200,7 @@
  "positiveControlKind": [
   "designated",
   "internal-positive",
+  "known-positive-task",
   "none"
  ],
  "negativeControlKind": [
@@ -207,6 +209,7 @@
   "background",
   "within-subject",
   "isotype",
+  "adversarial-label",
   "none"
  ],
  "entityType": [

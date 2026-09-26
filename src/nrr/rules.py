@@ -8,7 +8,11 @@ positive control is reported distinctly from a failed one.
 """
 from __future__ import annotations
 
-NEGATIVE_PREFIXES = ("negative-", "refuted")
+# Classes that assert an absence of evidence, and therefore have to show the assay could have seen
+# the effect. `refuted` is deliberately excluded: it asserts that a claim is false on the strength of a
+# refuting analysis, which is an affirmative demonstration judged on that analysis rather than on whether
+# the refuted run carried controls.
+NEGATIVE_PREFIXES = ("negative-",)
 
 
 def _is_negative(outcome: str) -> bool:
@@ -19,7 +23,9 @@ def informativeness(finding: dict) -> tuple[str, str]:
     """Classify a finding as informative / uninformative / not-applicable, with the reason."""
     outcome = finding.get("outcomeClass", "")
     if not _is_negative(outcome):
-        return "not-applicable", "rule applies to negative and inconclusive findings only"
+        reason = ("an affirmative refutation is judged on the refuting analysis, not on the controls of the run it refutes"
+                  if outcome == "refuted" else "rule applies to negative and inconclusive findings only")
+        return "not-applicable", reason
     controls = finding.get("controls") or {}
     pos = controls.get("positive") or {"kind": "none"}
     neg = controls.get("negative") or {"kind": "none"}

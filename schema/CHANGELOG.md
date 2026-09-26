@@ -51,3 +51,33 @@ the informativeness rule that neither earlier study exercised. Additive only; no
 code was modified: a dirty negative control already produced `uninformative` with the reason "negative control not clean",
 and already mapped to `inconclusive-controls-failed` rather than to the no-positive-control class. All three clauses of the
 rule have now fired on real published data, each in a different study.
+
+## v0.2.2 (2026-09-26) — changes forced by a fourth study
+
+Driven by encoding Cheveralls et al. 2026, *Leave-one-batch-out cross-validation reveals strong batch effects in Raman
+spectroscopy of yeast cultures* (The Stacks, doi:10.57844/arcadia-xdmk-yq0w). Chosen because it is a purely computational
+negative in which the controls are not reagents: the positive control is a different prediction task on the same data, and
+the negative control is an adversarial task predicting a label that should carry no signal. Additive, plus one deliberate
+narrowing of the rule.
+
+| # | Change | Forced by |
+|---|---|---|
+| 21 | **`known-positive-task` positive control kind.** | The control that shows the pipeline works is species classification on the same spectra, run through the same processing and the same cross-validation. It is not a reagent, a genotype or another arm of the same assay. |
+| 22 | **`adversarial-label` negative control kind.** | The control that shows the data is confounded is a classifier trained to predict which plate a spectrum came from. Plates are end-to-end replicates, so the label carries no biology and the expected result is chance. Scoring above chance means the control did not stay clean. This generalises to permutation tests, label shuffling and sham conditions. |
+| 23 | **`train-test-leakage` failure mode.** | The authors declare that their batch correction was applied once to the whole dataset rather than per training fold, so the corrected estimates are not valid estimates of generalisation to unseen plates. |
+| 24 | **`Effect.range`.** | Results are reported as a median across cross-validation folds with a range, for example MCC 0.32 (range 0.19-0.42). `sem` and `sd` could not express that. |
+| 25 | **`refuted` is no longer subject to the control requirement** (`nrr.rules`). | The study's own headline number, MCC 0.79 under standard cross-validation, is recorded as `refuted`: the study demonstrates it reflects experimental batch rather than strain biology. An affirmative refutation is judged on the refuting analysis, not on whether the run being refuted carried controls. `negative-not-replicated` deliberately keeps the requirement, because a failure to replicate is still an absence of evidence. |
+
+**What the study confirmed without change.** The rule's three clauses were already sufficient, and the fourth distinct
+diagnosis in the corpus came out of them unmodified: after batch correction both controls behave and the only thing
+missing is a detection limit, so the finding is `inconclusive-underpowered` with the reason "no sensitivity or power
+statement" alone. That matches the authors' own caveat that the dataset is small and the strains may be too similar.
+
+**Diagnoses now observed across four studies:**
+
+| Diagnosis | Study | Finding |
+|---|---|---|
+| no positive control | Arcadia Alcalase | no on-target HDR in 191 colonies |
+| positive control failed | Robin dAMD | Finch analysis of round 1 |
+| negative control not clean | Arcadia neuroimaging, Arcadia Raman | itch response; strain classification before batch correction |
+| no sensitivity or power statement | Arcadia Raman | strain classification after batch correction |

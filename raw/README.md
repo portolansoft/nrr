@@ -14,3 +14,5 @@ Robin converter or its tests; the tests skip themselves when the folder is absen
 | alcalase/pub/ | text extracted from the Stacks publication HTML (doi:10.57844/arcadia-pdu7-q2zz); kept for reference, the converter reads the curated tables. | CC BY 4.0 |
 | neuroimaging/zenodo/ | Zenodo records 11585535 (imaging data, 80.9 GB, file manifest only) and 12770054 (code v1.0.1), metadata JSON. | CC BY 4.0 |
 | neuroimaging/pub/ | text extracted from the Stacks publication HTML (doi:10.57844/arcadia-b963-15ac). | CC BY 4.0 |
+| raman/zenodo/ | Zenodo record 19226627 (code and processed spectra, MIT), metadata JSON. | MIT (archive); pub is CC BY 4.0 |
+| raman/pub/ | text extracted from the Stacks publication HTML (doi:10.57844/arcadia-xdmk-yq0w). | CC BY 4.0 |

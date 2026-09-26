@@ -1347,6 +1347,14 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1038/s41467-019-12898-9": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-09-26T19:00:16Z",
+  "integrity": "none",
+  "title": "Rapid identification of pathogenic bacteria using Raman spectroscopy and deep learning",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1038/s41467-026-68562-6": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:52:56Z",
@@ -2302,6 +2310,15 @@
   "type": "Software",
   "version": "v1"
  },
+ "doi:10.5281/zenodo.19226627": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T19:00:15Z",
+  "integrity": "none",
+  "publisher": "Zenodo",
+  "title": "Arcadia-Science/raman-batch-effects-yeast: v1.0",
+  "type": "Software",
+  "version": "v1"
+ },
  "doi:10.5281/zenodo.22238548": {
   "assertedBy": "datacite",
   "checkedAt": "2026-09-26T01:53:24Z",
@@ -2380,6 +2397,15 @@
   "type": "Other",
   "version": "v1"
  },
+ "doi:10.57844/arcadia-xdmk-yq0w": {
+  "assertedBy": "datacite",
+  "checkedAt": "2026-09-26T19:00:13Z",
+  "integrity": "none",
+  "publisher": "Astera Institute",
+  "title": "Leave-one-batch-out cross-validation reveals strong batch effects in Raman spectroscopy of yeast cultures",
+  "type": "Other",
+  "version": "v1"
+ },
  "doi:10.5966/sctm.2014-0079": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:53:26Z",
@@ -2429,6 +2455,26 @@
    "O95477"
   ]
  },
+ "gene:ADA": {
+  "ensembl": "ENSG00000196839",
+  "identifier": "HGNC:186",
+  "label": "ADA",
+  "name": "adenosine deaminase",
+  "source": "HGNC REST",
+  "uniprot": [
+   "P00813"
+  ]
+ },
+ "gene:ARSG": {
+  "ensembl": "ENSG00000141337",
+  "identifier": "HGNC:24102",
+  "label": "ARSG",
+  "name": "arylsulfatase G",
+  "source": "HGNC REST",
+  "uniprot": [
+   "Q96EG1"
+  ]
+ },
  "gene:GAS6": {
   "ensembl": "ENSG00000183087",
   "entrez": "2621",
@@ -2453,6 +2499,16 @@
    "Q08431"
   ]
  },
+ "gene:PPT1": {
+  "ensembl": "ENSG00000131238",
+  "identifier": "HGNC:9325",
+  "label": "PPT1",
+  "name": "palmitoyl-protein thioesterase 1",
+  "source": "HGNC REST",
+  "uniprot": [
+   "P50897"
+  ]
+ },
  "gene:PROS1": {
   "ensembl": "ENSG00000184500",
   "entrez": "5627",
@@ -2463,6 +2519,16 @@
   "source": "HGNC REST",
   "uniprot": [
    "P07225"
+  ]
+ },
+ "gene:UBE2A": {
+  "ensembl": "ENSG00000077721",
+  "identifier": "HGNC:12472",
+  "label": "UBE2A",
+  "name": "ubiquitin conjugating enzyme E2 A",
+  "source": "HGNC REST",
+  "uniprot": [
+   "P49459"
   ]
  },
  "ontology:age-related macular degeneration": {
@@ -2673,6 +2739,11 @@
   "label": "Fiji",
   "source": "SciCrunch resolver"
  },
+ "rrid:SCR_002577": {
+  "identifier": "RRID:SCR_002577",
+  "label": "scikit-learn",
+  "source": "SciCrunch resolver"
+ },
  "rrid:SCR_002798": {
   "fetchedAt": "2026-09-26T01:51:55Z",
   "identifier": "RRID:SCR_002798",
@@ -2683,6 +2754,11 @@
   "fetchedAt": "2026-09-26T01:52:00Z",
   "identifier": "RRID:SCR_003070",
   "label": "ImageJ",
+  "source": "SciCrunch resolver"
+ },
+ "rrid:SCR_008394": {
+  "identifier": "RRID:SCR_008394",
+  "label": "Python Programming Language",
   "source": "SciCrunch resolver"
  },
  "rrid:SCR_010519": {
@@ -2714,5 +2790,15 @@
   "identifier": "RRID:SCR_018931",
   "label": "EnhancedVolcano",
   "source": "SciCrunch resolver"
+ },
+ "taxon:Saccharomyces cerevisiae": {
+  "identifier": "NCBITaxon:4932",
+  "label": "Saccharomyces cerevisiae",
+  "source": "NCBI Taxonomy esearch"
+ },
+ "taxon:Schizosaccharomyces pombe": {
+  "identifier": "NCBITaxon:4896",
+  "label": "Schizosaccharomyces pombe",
+  "source": "NCBI Taxonomy esearch"
  }
 }

@@ -20,9 +20,9 @@ def test_build_writes_records_crates_deposits_and_report(tmp_path):
     records = sorted((out / "records").glob("*.json"))
     crates = sorted((out / "crates").glob("*/ro-crate-metadata.json"))
     deposits = sorted((out / "mcp" / "deposits").glob("*.json"))
-    assert len(records) == 22 and len(crates) == 22 and len(deposits) == 22
+    assert len(records) == 26 and len(crates) == 26 and len(deposits) == 26
     manifest = json.loads((out / "mcp" / "manifest.json").read_text())
-    assert manifest["recordCount"] == 22 and manifest["tool"] == "nrr_deposit"
+    assert manifest["recordCount"] == 26 and manifest["tool"] == "nrr_deposit"
     report = (out / "validation-report.md").read_text()
     assert "0 invalid" in report
     assert (out / "portolan.sqlite").exists()

@@ -6,6 +6,7 @@ import pytest
 from nrr.db import load, query
 from nrr.ingest.alcalase import build_alcalase_records
 from nrr.ingest.neuroimaging import build_neuroimaging_records
+from nrr.ingest.raman import build_raman_records
 from nrr.ingest.robin import build_robin_records
 from nrr.resolve import Resolver
 
@@ -17,7 +18,7 @@ pytestmark = pytest.mark.skipif(not (ROOT / "raw" / "robin" / "robin_output").ex
 def db(tmp_path_factory):
     resolver = Resolver(ROOT / "curated/identifiers.json", online=False)
     records = (build_robin_records(ROOT, resolver) + build_alcalase_records(ROOT, resolver)
-               + build_neuroimaging_records(ROOT, resolver))
+               + build_neuroimaging_records(ROOT, resolver) + build_raman_records(ROOT, resolver))
     path = tmp_path_factory.mktemp("db") / "portolan.sqlite"
     load(records, path)
     return path
@@ -97,3 +98,27 @@ def test_deposited_but_unanalysed_data_spans_two_studies(db):
     rows = [r for r in query(db, "open_branches") if r["status"] == "data-deposited-not-analysed"]
     assert {r["study_id"] for r in rows} == {"robin-damd", "arcadia-neuroimaging"}
     assert all(r["data_pointers"] > 0 for r in rows)
+
+
+def test_four_studies_produce_four_distinct_diagnoses(db):
+    """Every clause of the informativeness rule now fires on real published data, and the Raman study is the
+    first where the controls behave and the only thing missing is a detection limit."""
+    reasons = {r["informativeness_reason"] for r in query(db, "uninformative_negatives")}
+    assert "no positive control" in reasons                                    # Alcalase
+    assert "positive control failed" in reasons                                # Robin / Finch
+    assert "negative control not clean; no sensitivity or power statement" in reasons   # neuroimaging, Raman
+    assert "no sensitivity or power statement" in reasons                      # Raman, batch-corrected
+
+
+def test_computational_controls_are_in_use_alongside_wet_lab_ones(db):
+    import sqlite3
+    con = sqlite3.connect(db)
+    pos = {r[0] for r in con.execute("select distinct positive_control_kind from findings where positive_control_kind is not null")}
+    neg = {r[0] for r in con.execute("select distinct negative_control_kind from findings where negative_control_kind is not null")}
+    assert {"designated", "internal-positive", "known-positive-task"} <= pos
+    assert {"vehicle", "within-subject", "adversarial-label"} <= neg
+
+
+def test_a_refuted_finding_is_not_counted_as_an_uninformative_negative(db):
+    slugs_and_ids = {(r["slug"], r["finding_id"]) for r in query(db, "uninformative_negatives")}
+    assert ("arcadia-raman-strain-classification", "strain-standard-cv") not in slugs_and_ids
