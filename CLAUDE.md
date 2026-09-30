@@ -72,6 +72,30 @@ of the run it refutes. `negative-not-replicated` deliberately keeps the requirem
 All clauses have fired on real published data, each in a different study. Before changing this file, read
 `docs/convergence-test.md` and check whether the case is genuinely new.
 
+## Where this pipeline sits: one node of a federation
+
+Since 2026-09-30 Portolan is a federation of NRR databases (decision and reasoning in
+`../research/decision-open-core-federation-2026-09-30.md`). This repository is the reference implementation, and the
+corpus it builds is the **open node**: CC BY records, published through `scripts/export_records.py`. Private nodes run
+the same schema, rules and server contract over records a lab or company keeps to itself. The business model is
+open-core: the software is what gets sold, records never are.
+
+What that means in the code:
+
+- **Access is already modelled. Do not add another field for it.** `visibility` (required; `private`, `embargoed`,
+  `public`, `restricted`) plus `embargoUntil` are the access tier. `license` and `sourceLicense` are a separate
+  question: what may be redistributed, not who may read. The converters set `visibility: public` in `ingest/common.py`
+  because everything here is destined for the open node; a private node's ingest would set it differently, nothing
+  else changes.
+- **The pipeline must stay node-agnostic.** Nothing in `src/nrr/` may assume it is building the public corpus. The
+  only place that knowledge lives is `scripts/export_records.py`, which is the open node's publishing step and the
+  licence gate.
+- **`docs/mcp-contract.md` is the contract for any node**, open or private. Federated query (resolve which nodes the
+  caller may reach, then fan out) is the layer above it and is not yet designed. When it is, it belongs in a new doc,
+  not in the converters.
+- **The informativeness rule is the product in both tiers.** In a private node it is the quality guarantee the buyer
+  pays for. Weakening it to make records easier to deposit is a business decision, not a convenience.
+
 ## Schema change discipline
 
 Change count by study so far: 12, 8, 5, 2. Nothing structural since the first study. A new field or record level is
