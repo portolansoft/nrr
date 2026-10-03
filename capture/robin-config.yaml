@@ -1,0 +1,10 @@
+# What Robin's run folder does not write down and the emitter cannot infer: supplied by the operator at run time.
+# Values here are the ones the Nature paper reports for the published runs; a deployment would read them from Robin's
+# own configuration object rather than from a file like this.
+operator: FutureHouse
+commit: 4a5cce310f3bc7663a67117db88af43b84733ffe
+synthesis_model: o4-mini
+synthesis_model_provider: OpenAI
+judge_model: claude-3-7-sonnet
+judge_model_provider: Anthropic
+robin: notebook implementation

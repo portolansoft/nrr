@@ -1,0 +1,26 @@
+{
+ "fetched": {
+  "date": "2026-10-03",
+  "source": "local Data Hub dev instance (make db-reseed, make dev, npm run db:process-fixtures) at commit 5a2acaa502e0f9138b1f533420d86919dfcd1211 of https://github.com/Arcadia-Science/data-hub",
+  "endpoints": {
+   "run": "GET /api/v1/instruments/spectramax-id5-plate-reader/runs/260721_OD750_AAA",
+   "files": "GET /api/local-s3/<bucket>/<s3_key> (local S3 mirror)"
+  },
+  "license": "MIT (Data Hub source and seed fixtures)",
+  "note": "The run is synthetic seed data shipped with Data Hub; it is vendored to exercise the capture emitter, not as a scientific result.",
+  "files": {
+   "files/260721_OD750_AAA_raw_well_data.csv": {
+    "sha256": "47fe482ef5bcd36da156d8d5781431a8f87379cb26620f74331f35bb7edd33b2",
+    "size": 1595
+   },
+   "files/spectramax_plate_reader_endpoint.xls": {
+    "sha256": "8915f8dbdc3a4ffdf0c474644574eccff11816d7149d73ebf021335d7f74206a",
+    "size": 2356
+   },
+   "spectramax-id5-plate-reader_260721_OD750_AAA.run.json": {
+    "sha256": "73485cdccfc74077d6b1050bfe7f8ab73f877dbc51b09bc33d0a69f6726c8a2d",
+    "size": 2039
+   }
+  }
+ }
+}
