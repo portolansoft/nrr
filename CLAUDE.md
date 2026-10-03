@@ -14,6 +14,7 @@ uv run python build.py --study arcadia-raman               # one study
 uv run python demo_queries.py              # the questions an agent would ask
 uv run python scripts/export_records.py --study <s> --dest ../nrr-records   # publishable studies only
 uv run python scripts/resolve_ids.py       # network; only when adding new names or DOIs
+uv run python scripts/emit_capture.py robin|datahub <run> ...   # capture-time records; offline; see docs/capture-profile.md
 ```
 
 `build.py` must stay offline. If it needs the network, something is wrong.
@@ -71,6 +72,15 @@ of the run it refutes. `negative-not-replicated` deliberately keeps the requirem
 
 All clauses have fired on real published data, each in a different study. Before changing this file, read
 `docs/convergence-test.md` and check whether the case is genuinely new.
+
+## Capture at run time
+
+`src/nrr/capture/` is the other direction: records emitted by the system that produced the evidence, not transcribed
+from a paper. `profile.check_capture` is the minimum (evidence pointers with checksum or run id, timestamps, model or
+commit on every software performer, sensitivity on every negative or a note saying why not). It is a check over the
+v0.2 schema, not a new schema. Emitters exist for a Robin run folder and a Data Hub run plus claim; the Data Hub run in
+`raw/datahub/` is seed fixture data and its claim is an example, labelled as such everywhere. Do not present either as
+a real result.
 
 ## Where this pipeline sits: one node of a federation
 

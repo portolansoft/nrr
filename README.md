@@ -37,6 +37,8 @@ uv run python scripts/export_records.py --study acs-tmeda --dest ../nrr-records
 uv run python scripts/export_records.py --study acs-laccase --dest ../nrr-records
 uv run python scripts/export_records.py --study acs-xef6 --dest ../nrr-records
 uv run python scripts/resolve_ids.py                 # only if you add names or DOIs; refreshes curated/identifiers.json
+uv run python scripts/emit_capture.py robin raw/robin/robin_output/<run> --config capture/robin-config.yaml   # capture-time records from an agent run
+uv run python scripts/emit_capture.py datahub raw/datahub/<run>.run.json --claim capture/datahub-claim-example.yaml   # from an instrument run
 ```
 
 The Arcadia and ACS inputs are vendored (CC BY 4.0; the ACS full texts and Supporting Information come from Europe PMC). The Nature-derived inputs are fetched, not committed, because the article
@@ -50,11 +52,13 @@ schema/        nrr-0.2.schema.json, vocabularies.json, README.md (human-readable
 src/nrr/       schema.py (validate), rules.py (informativeness), identity.py (content address), crate.py (RO-Crate),
                resolve.py (cached identifier resolution), db.py (SQLite + named queries), deposit.py (MCP payloads)
 src/nrr/ingest/robin.py, alcalase.py, neuroimaging.py, raman.py, dfa.py, zeolite.py, tmeda.py, laccase.py, xef6.py   the converters; common.py shared constructors
+src/nrr/capture/   profile.py (the minimum record at run time), robin.py and datahub.py (emitters for an agent run and an instrument run)
+capture/           robin-config.yaml (what Robin does not write into its output), datahub-claim-example.yaml (the claim layer, labelled as an example)
 raw/           inputs; alcalase/ vendored, robin/ fetched (see raw/README.md for origin and licence of each)
 curated/       hand-transcribed tables with a provenance column, plus identifiers.json (resolver cache)
 db/            schema.sql, queries.sql (the questions an agent asks)
 docs/          design.md (spec written before coding), mcp-contract.md, assessment.md (honest verdict),
-               case-study-neuroimaging.md, case-study-raman.md, convergence-test.md, case-study-acs.md, superpowers/plans/
+               case-study-neuroimaging.md, case-study-raman.md, convergence-test.md, case-study-acs.md, capture-profile.md, superpowers/plans/
 out/           build products (regenerable)
 tests/         pytest suite; tests pin facts from the papers (e.g. ripasudil 1.891x, n = 3, 100 uM)
 ```

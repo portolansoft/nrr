@@ -1,0 +1,25 @@
+# EXAMPLE CLAIM for a Data Hub seed run. The run (spectramax-id5-plate-reader / 260721_OD750_AAA) is synthetic fixture
+# data shipped with Data Hub's local seed; it measures nothing real. This file shows the shape of what an agent or a
+# scientist adds to a Data Hub run to make it a capture record: the question, the controls, the detection limit.
+# Every scientific-sounding value below is an illustration, labelled as such in the record.
+studyId: datahub-example
+title: "EXAMPLE: endpoint OD750 plate read, Data Hub seed run 260721_OD750_AAA"
+question: "EXAMPLE: does the treated culture reach a higher OD750 than the untreated control after the incubation?"
+successCriteria: "EXAMPLE: mean OD750 of treated wells above the untreated wells by more than the plate's blank-to-blank spread."
+target: {label: "EXAMPLE treatment (no real compound)", type: compound, note: "example claim; identifier deliberately absent"}
+outcomeClass: negative-no-effect
+effect: {metric: "mean OD750, treated minus untreated", value: "EXAMPLE 0.01", unit: OD, direction: none}
+controls:
+  positive: {kind: designated, label: "EXAMPLE positive-growth wells", expected: "OD750 above 0.5", observed: "EXAMPLE 0.62", passed: true, source: "claim"}
+  negative: {kind: vehicle, label: "EXAMPLE vehicle wells", expected: "OD750 near blank", observed: "EXAMPLE 0.17", passed: true, source: "claim"}
+sensitivity: "EXAMPLE: blank-to-blank spread 0.02 OD on this plate, so a difference of 0.05 OD would have been seen"
+conditions: {plate: Plate2, temperatureC: 21.5, wells: 96}
+replicates: {wells: 96, note: "EXAMPLE layout; the seed file carries 96 wells with no treatment map"}
+performers:
+  - {name: "example analysis agent", type: software-agent, role: data-analysis, model: "example-model", version: "0.0"}
+analysis: {label: "EXAMPLE: well means by group from the processed well-data CSV", method: "mean of value by treatment group"}
+operator: {name: "Example lab (Data Hub seed)"}
+sourceLicense: "MIT (Data Hub seed fixture)"
+domainTags: [biology]
+provenanceNotes:
+  - "EXAMPLE claim written to demonstrate the capture shape; the seed run has no experimental design and the controls, effect and sensitivity values are illustrative."
