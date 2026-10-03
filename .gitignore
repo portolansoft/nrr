@@ -4,3 +4,4 @@ __pycache__/
 *.egg-info/
 out/
 raw/robin/
+.DS_Store
