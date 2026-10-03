@@ -96,6 +96,7 @@ def test_synthesis_negatives_are_inconclusive_for_want_of_a_positive_control(rec
     The classifier's sensitivity and specificity describe the screen, not the synthesis, so they do not count."""
     stf = by_slug(records, "acs-zeolite-stf-synthesis")
     assert stf["attemptType"] == "wet-lab"
+    assert stf["outcomeClass"] == "inconclusive-no-positive-control"      # headline follows the remapped finding
     f = finding(records, "acs-zeolite-stf-synthesis", "stf-not-formed")
     assert f["outcomeClass"] == "inconclusive-no-positive-control"
     assert f["informativeness"] == "uninformative"

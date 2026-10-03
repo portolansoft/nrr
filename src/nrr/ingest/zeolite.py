@@ -279,16 +279,12 @@ def build_zeolite_records(root: Path, resolver) -> list[dict]:
     rec_stf = attempt("acs-zeolite-stf-synthesis",
                       "Hydrothermal synthesis targeting aluminosilicate STF with the shortlisted spirocyclic OSDA gives only amorphous solids",
                       "Does the computationally shortlisted OSDA QHGWEBIGEQBZPY crystallise aluminosilicate STF in hydroxide media across Si/Al, temperature and time?",
-                      "A powder X-ray diffraction pattern matching STF.", "negative-not-achievable", [f_stf, f_stf_osda],
+                      "A powder X-ray diffraction pattern matching STF.", f_stf["outcomeClass"], [f_stf, f_stf_osda],
                       [synth_stage("hydrothermal syntheses targeting STF (SI Table S18)", stf_rows), stage_xrd], "wet-lab",
                       outcomeSummary="Eight gel compositions from pure silica to Si/Al 10, at 150 to 200 °C for 14 to 50 days, all gave amorphous solids. The OSDA was a mixture of stereoisomers and degraded during synthesis.",
                       confidence={"level": "low", "basis": "no positive-control synthesis; OSDA purity and stability compromised"},
                       cost={"wetLabRuns": len(stf_rows), "wallClockDays": max(r["time_days"] for r in stf_rows), "note": "16 phase determinations over 8 gel compositions", "source": "SI Table S18"},
                       provenanceNotes=[f"OSDA purity: {osdas['QHGWEBIGEQBZPY']['purity']}", f"Elemental analysis: {osdas['QHGWEBIGEQBZPY']['elementalAnalysis']}"])
-    for f in rec_stf["findings"]:
-        pass
-    rec_stf_outcome = f_stf["outcomeClass"]
-
     f_m = synthesis_finding("ifr-not-formed", "IFR", m_rows, ["phase-not-formed", "decomposition"],
                             "Does N-benzyl-N,N,2-trimethylpropan-2-aminium hydroxide crystallise aluminosilicate IFR from an aluminosilicate gel in hydroxide media without inorganic cations?")
     f_m_osda = stability_finding("osda-degraded", "QG001780m", "positive", "OSDA degradation in the mother liquor", "intact cation progressively lost after 29 and 40 days",
@@ -296,7 +292,7 @@ def build_zeolite_records(root: Path, resolver) -> list[dict]:
     rec_m = attempt("acs-zeolite-ifr-synthesis-qg001780m",
                     "Hydrothermal synthesis targeting aluminosilicate IFR with QG001780m gives only amorphous solids",
                     "Does the designed OSDA QG001780m crystallise aluminosilicate IFR in hydroxide media without inorganic cations?",
-                    "A powder X-ray diffraction pattern matching IFR.", "negative-not-achievable", [f_m, f_m_osda],
+                    "A powder X-ray diffraction pattern matching IFR.", f_m["outcomeClass"], [f_m, f_m_osda],
                     [synth_stage("hydrothermal syntheses targeting IFR without inorganic cations (SI Table S20)", m_rows), stage_xrd], "wet-lab",
                     outcomeSummary="Six gel compositions from pure silica to Si/Al 10, at 175 to 200 °C for 14 to 42 days, all gave amorphous solids. The OSDA degraded during synthesis.",
                     confidence={"level": "low", "basis": "no positive-control synthesis; OSDA degraded"},
@@ -311,7 +307,7 @@ def build_zeolite_records(root: Path, resolver) -> list[dict]:
     rec_m2 = attempt("acs-zeolite-ifr-synthesis-qg001780m2",
                      "Hydrothermal synthesis targeting aluminosilicate IFR with QG001780m2 gives amorphous solids, MOR, ZSM-12 or dense phases",
                      "Does the designed OSDA QG001780m2 crystallise aluminosilicate IFR under SSZ-42-type or MCM-58-type hydroxide conditions, with or without Na+ or K+?",
-                     "A powder X-ray diffraction pattern matching IFR.", "negative-not-achievable", [f_m2, f_m2_osda],
+                     "A powder X-ray diffraction pattern matching IFR.", f_m2["outcomeClass"], [f_m2, f_m2_osda],
                      [synth_stage("hydrothermal syntheses targeting IFR in SSZ-42-type and MCM-58-type gels (SI Tables S21, S22)", m2_rows,
                                   "; for these series aluminium metal or aluminium sulfate, fumed or colloidal silica, NaOH or KOH, rotation at 60 rpm"), stage_xrd], "wet-lab",
                      outcomeSummary="Fourteen gel compositions with Si/Al 10 to 100, with or without Na+ or K+, at 150 to 175 °C for 7 to 21 days gave amorphous solids, mordenite, ZSM-12 (MTW, ranked 13th in the prediction) or dense phases; never IFR.",
