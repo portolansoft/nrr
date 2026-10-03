@@ -1,0 +1,81 @@
+# Statements transcribed from Steffens et al. 2023 (Environ. Sci. Technol. Lett. 10, 337-342) with their location in the
+# article (Europe PMC JATS, PMC10100556) or its Supporting Information (ez3c00173_si_001.pdf, 14 pages, S1-S13).
+publication:
+  doi: 10.1021/acs.estlett.3c00173
+  pmcid: PMC10100556
+  pmid: "37064824"
+  title: An Artifact of Perfluoroalkyl Acid (PFAA) Removal Attributed to Sorption Processes in a Laccase Mediator System
+  journal: Environmental Science & Technology Letters
+  volume: "10"
+  issue: "4"
+  pages: 337-342
+  published: "2023-03-24"
+  publisher: American Chemical Society
+  license: https://creativecommons.org/licenses/by/4.0/
+  licenseStatement: "Permits the broadest form of re-use including for commercial purposes, provided that author attribution and integrity are maintained (https://creativecommons.org/licenses/by/4.0/) (JATS permissions element; Europe PMC license field 'cc by')"
+  url: https://doi.org/10.1021/acs.estlett.3c00173
+  europePmcFullText: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10100556/fullTextXML
+  supportingInformation: ez3c00173_si_001.pdf
+  dataAvailability: "No data availability statement and no deposit; data tables associated with the main-text figures are in the Supporting Information. Tables S2 and S3 are images in the PDF."
+  funding:
+    - "SERDP Project ER 19-1410 (U.S. Department of Defense)"
+    - "National Science Foundation Graduate Research Fellowship 1752814"
+    - "National Institutes of Health R35 1R35GM126961 (EPR, to R.D.B.)"
+operator:
+  name: University of California, Berkeley
+  note: "Departments of Chemistry and of Civil and Environmental Engineering; EPR at the CalEPR Center, University of California, Davis"
+contributors:
+  # No CRediT or author-contribution statement in the article; every listed author is recorded as an author only.
+  - {name: Sophia D. Steffens, affiliation: "University of California, Berkeley", orcid: "0000-0003-4663-8264"}
+  - {name: Edmund H. Antell, affiliation: "University of California, Berkeley"}
+  - {name: Emily K. Cook, affiliation: "University of California, Berkeley", orcid: "0000-0002-4587-3097"}
+  - {name: Guodong Rao, affiliation: "University of California, Davis", orcid: "0000-0001-8043-3436"}
+  - {name: R. David Britt, affiliation: "University of California, Davis", orcid: "0000-0003-0889-8436"}
+  - {name: David L. Sedlak, affiliation: "University of California, Berkeley", orcid: "0000-0003-1686-8464"}
+  - {name: Lisa Alvarez-Cohen, affiliation: "University of California, Berkeley", corresponding: true}
+purpose: "Improve the scope and efficacy of laccase mediator system (LMS) treatment of perfluoroalkyl acids by a mechanistic investigation of each component, starting from literature reports of modest PFOA and PFOS losses over extended periods."
+priorReports:
+  pfoa: {doi: 10.1021/acs.estlett.5b00119, label: "Luo et al. 2015, laccase-catalyzed degradation of perfluorooctanoic acid (ES&T Lett. 2, 198-203)", claim: ">20 % PFOA removal after 10 days"}
+  pfos: {doi: 10.1021/acs.est.8b00839, label: "Luo et al. 2018, perfluorooctanesulfonate degrades in a laccase-mediator system (ES&T 52, 10617-10626)", claim: ">20 % and >30 % PFOS removal at 20 and 30 days with Pleurotus ostreatus laccase and HBT"}
+  cbz: {doi: 10.1016/j.jhazmat.2010.05.103, label: "Hata et al. 2010, elimination of carbamazepine by repeated treatment with laccase and HBT", claim: "CBZ is transformed by TvL/HBT"}
+  btnoEpr: {doi: 10.1039/B407835G, label: "Galli et al. 2004, spectrophotometric, EPR and kinetic characterisation of the BTNO radical"}
+  proteinsAsSorbents: {doi: 10.1039/D1EW00501D, label: "Hernandez et al. 2022, proteins as adsorbents for PFAS removal from water"}
+  pfaaAlbumin: {doi: 10.1021/es101334s, label: "Bischel et al. 2010, noncovalent interactions of long-chain perfluoroalkyl acids with serum albumin"}
+  unavailableEnzyme: "the Pleurotus ostreatus laccase used in the prior reports is no longer commercially available"
+method:
+  reactors: "20 mL glass scintillation vials, 5 mL solution, 30 °C, 130 rpm; opened at least 10 minutes at each sampling to promote aeration"
+  quench: "aliquots diluted immediately in basic methanol (0.5 % ammonium hydroxide)"
+  extraction: "basic methanol added directly to the reactor (2x dilution) for the 96 h experiment; in the revised protocol the enzyme/buffer solution is transferred to a fresh vial and diluted 2-fold, and the emptied reactor is rinsed with 10 mM CuSO4 and basic MeOH (4 mL, 50/50) to recover PFAA sorbed to the walls (Text S1)"
+  analysis: "LC-MS/MS, Agilent Triple Quad 6460A, negative electrospray, multiple reaction monitoring; isotope dilution with mass-labelled 13C PFAAs at 2 to 5 ug/L; calibration range 0.2 to 10 ug/L; samples diluted to a target of 10 ug/L; delay column after the purge valve; mobile-phase blanks every 10 samples (Text S2)"
+  statistics: "Python 3.8.5 with SciPy; two-tailed t tests"
+  activityAssay: "2,6-dimethoxyphenol (DMP) oxidation to the quinone at 468 nm, 96-well plate, triplicate (Text S5)"
+  epr: "X-band (9.4 GHz) CW EPR, Bruker EleXsys E500; BTNO from Ce(IV) in CH3CN at room temperature and from TvL/HBT/CuSO4 in water at 50 K; simulations in EasySpin 5.2.35 (Text S3)"
+  evaporationCorrection: "in the 28-day screen, concentrations rose in all treatments through evaporation from filter caps; each treatment concentration was divided by the ratio of the control's concentration at that day to day 0 (Text S4)"
+sensitivity:
+  statement: "LC-MS/MS isotope-dilution quantification with a 0.2 to 10 ug/L calibration range (Text S2) in triplicate reactors with standard deviations reported; the effect sought was the previously reported >20 % removal at 10 days (PFOA) and >20 % at 20 days, >30 % at 30 days (PFOS)"
+  ingestReading: "The ingest treats the stated quantification range and the stated expected effect size as the sensitivity statement; the article reports no formal power analysis."
+results:
+  headline: "While unable to replicate the oxidation of PFAAs, we show that interactions of the PFAA compounds with laccase and laccase mediator mixtures could cause an artifact that mimics transformation (<=60 %) of PFAAs."
+  screen: "we observed no significant differences among the enzyme/mediator treatment conditions and the enzyme-only control (Figure S2)"
+  cbz: "three doses of 2 units/mL TvL and 1 mM HBT over the course of 120 h resulted in significant removal, ~35 %, of CBZ (p < 0.001; two-tailed t test)"
+  pfoaTwoWeeks: "monitoring PFOA treatment with six doses of 1 unit/mL TvL and 1 mM HBT over the course of 2 weeks did not indicate significant removal compared to an untreated control (p = 0.29; two-tailed t test)"
+  apparentLoss24h: "a 64 % decrease in PFOA concentration and a 67 % decrease in PFOS concentration at the 24 hour time point after two doses"
+  massBalance96h: "99 +/- 14 % of the PFOA mass and 111 +/- 11 % of the PFOS mass were recovered in the extracted solutions, suggesting that the decrease in concentration was likely due to physical phenomena (e.g., sorption)"
+  partition: "apparent PFOA loss in the TvL/HBT-treated reactors of 18 +/- 2 % compared to the total PFOA mass extracted; for PFOS 34 +/- 4 %; in the reactors containing only the TvL enzyme, similar losses for PFOS of 35 +/- 3 %; for PFOA a substantial mass loss was not observed"
+  reactorSorption: "sorption of PFOS to the reactor was greater in the enzyme-free control (40 +/- 12 % of total mass) relative to the TvL/HBT (14 +/- 2 %) and TvL (12 +/- 1 %) treatments, suggesting that sorption to the protein was more favorable"
+  deltaSolution: "PFOA 13 +/- 6 % mass loss with TvL/HBT, none substantial with TvL alone or control; PFOS 20 +/- 5 % with TvL/HBT and 19 +/- 4 % with TvL only; delta solution gives a complete mass balance, within error, against the solution extract"
+  mechanism: "PFOA sorption appeared substantial only where the mediator was present, consistent with side-chain exposure or charge changes on oxidation of TvL; PFOS sorption was unaltered by the mediator, consistent with a structurally intact side chain and PFOS hydrophobicity"
+  conclusion: "the LMS appears to be unable to detectably degrade the perfluorinated compounds PFOA and PFOS ... it is particularly important for researchers to use rigorous controls when analyzing treatment and removal strategies with novel bioinspired technologies"
+limitations:
+  - "The 28-day screen has no positive-control substrate; the carbamazepine control was run with Trametes versicolor laccase in a separate reactor set, not with the two laccases screened."
+  - "The two-week PFOA experiment was run with TvL and HBT only; PFOS with TvL was tested only in the 96 h and 24 h experiments."
+  - "Tables S2 and S3 are images in the Supporting Information PDF; values were transcribed from the images."
+  - "Reactor counts per condition are triplicate throughout; no replicate experiments on different days are reported."
+nextSteps:
+  - "Use rigorous controls, in particular full mass balances including vessel and protein extraction, when evaluating bioinspired PFAS treatments."
+  - "Study PFAS-protein binding mechanisms as a route to bioinspired adsorptive materials, noting that the quantity of enzyme needed for adsorptive removal may be prohibitive."
+openQuestions:
+  - "Why did the earlier Pleurotus ostreatus laccase systems report PFOA and PFOS loss: sorption of the kind shown here, a property of that enzyme, or something else?"
+  - "Which side chains of TvL bind PFOA after oxidation by the mediator?"
+aiUse:
+  statement: "The article makes no statement about the use of AI tools."

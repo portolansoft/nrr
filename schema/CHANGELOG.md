@@ -187,3 +187,30 @@ invalidates. The SI says 15 of 24 published uses ran the test above 60 °C but d
 finding (`tests-above-60`, 15 of 24) with `relatedFindings` back to the refutation, and attaches the 19 examples as
 references with a note, rather than asserting a per-paper `refutes` or `contradicts` relation the source does not
 support. No new relation type was added for the same reason.
+
+### Study 8: Steffens et al. 2023, laccase mediator systems do not degrade PFOA or PFOS
+
+Driven by encoding Steffens, Antell, Cook, Rao, Britt, Sedlak and Alvarez-Cohen 2023, *An Artifact of Perfluoroalkyl Acid
+(PFAA) Removal Attributed to Sorption Processes in a Laccase Mediator System* (Environ. Sci. Technol. Lett. 10, 337-342,
+doi:10.1021/acs.estlett.3c00173). A failure to replicate two earlier reports, with the apparent loss traced by mass
+balance to sorption on the enzyme.
+
+| # | Change | Forced by |
+|---|---|---|
+| 29 | **`measurement-artifact` failure mode.** | The 64 % (PFOA) and 67 % (PFOS) concentration decreases at 24 h are real measurements, and 99 ± 14 % and 111 ± 11 % of the mass is recovered when the reactor is extracted. The apparent effect is produced by the sampling pathway (loss of analyte from the aqueous phase to protein and glass), not by the process under test. No existing term said that: `confounded` is about a third variable, `assay-out-of-range` about the instrument. The term generalises to any case where what was measured is not what was happening. |
+
+**Change count for this study: 1.** Nothing structural.
+
+**What carried it without change.** `negative-not-replicated` now has its first informative instance in the corpus: a
+`designated` positive control that is a *different substrate* (carbamazepine, about 35 % removed, p < 0.001) run with the
+same enzyme, mediator and buffer; a `no-treatment` negative control; and the LC-MS/MS quantification range with the
+expected effect size as the sensitivity statement. `refuted` carried the apparent losses, judged on the mass balance,
+with `relatedFindings` to the sorption findings that explain them. `relations` of type `contradicts` on the path point at
+the two prior reports by DOI. The new `taxon` resolver method and `taxa:` list in `scripts/resolve_ids.py` are tooling.
+
+**Judgement recorded, not resolved by code.** Whether a surrogate substrate in a separate reactor set counts as a
+designated positive control is the ingest's reading, written in every such control's `note` and in the path's
+`provenanceNotes`. It is counted for the TvL/HBT findings and *not* for the mediator screen, which used two other
+laccases; the screen therefore comes out `inconclusive-no-positive-control`, which is also the first chemistry instance of
+the Alcalase diagnosis. Whether the quantification range plus a stated expected effect is a sensitivity statement is
+likewise recorded as the ingest's reading; the article has no power analysis.

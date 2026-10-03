@@ -9,6 +9,7 @@ from nrr.ingest.neuroimaging import build_neuroimaging_records
 from nrr.ingest.dfa import build_dfa_records
 from nrr.ingest.raman import build_raman_records
 from nrr.ingest.robin import build_robin_records
+from nrr.ingest.laccase import build_laccase_records
 from nrr.ingest.tmeda import build_tmeda_records
 from nrr.ingest.zeolite import build_zeolite_records
 from nrr.resolve import Resolver
@@ -23,7 +24,7 @@ def db(tmp_path_factory):
     records = (build_robin_records(ROOT, resolver) + build_alcalase_records(ROOT, resolver)
                + build_neuroimaging_records(ROOT, resolver) + build_raman_records(ROOT, resolver)
                + build_dfa_records(ROOT, resolver) + build_zeolite_records(ROOT, resolver)
-               + build_tmeda_records(ROOT, resolver))
+               + build_tmeda_records(ROOT, resolver) + build_laccase_records(ROOT, resolver))
     path = tmp_path_factory.mktemp("db") / "portolan.sqlite"
     load(records, path)
     return path
@@ -157,3 +158,11 @@ def test_a_method_can_be_the_target_of_a_negative(db):
     assert by_id["tmeda-test-false-negative-above-60"] == ("refuted", "not-applicable", "assay")
     assert by_id["alkyne-60"][:2] == ("negative-no-effect", "informative")
     assert by_id["alkyne-80"][0] == "positive"
+
+
+def test_a_surrogate_substrate_counts_as_a_designated_positive_control(db):
+    """Laccase: the first chemistry negative-not-replicated to pass the rule, with carbamazepine as the positive control."""
+    rows = query(db, "negatives_for_target", target="PFOA")
+    assert any(r["outcome_class"] == "negative-not-replicated" and r["informativeness"] == "informative" for r in rows)
+    rows = query(db, "prior_art_by_identifier", identifier="pubchem:CID9554")
+    assert {r["outcome_class"] for r in rows} >= {"negative-not-replicated", "refuted", "positive"}

@@ -795,6 +795,7 @@
        "low-editing-efficiency",
        "no-differential-signal",
        "not-significant-after-correction",
+       "measurement-artifact",
        "confounded",
        "model-did-not-generalize",
        "low-confidence-structure",

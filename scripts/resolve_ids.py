@@ -35,6 +35,8 @@ for cl in wanted.get("cellLines", []):
     print("cellline", cl, "->", (r.cell_line(cl) or {}).get("identifier"))
 for g in wanted.get("genes", []):
     print("gene", g, "->", (r.gene(g) or {}).get("identifier"))
+for t in wanted.get("taxa", []):
+    print("taxon", t, "->", (r.taxon(t) or {}).get("identifier"))
 for o in wanted.get("organizations", []):
     print("org", o, "->", (r.organization(o) or {}).get("identifier"))
 for rr in wanted.get("rrids", []):

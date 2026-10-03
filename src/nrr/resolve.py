@@ -180,6 +180,17 @@ class Resolver:
             return {"identifier": d["hgnc_id"], "label": d["symbol"], "name": d.get("name"), "ensembl": d.get("ensembl_gene_id"), "entrez": d.get("entrez_id"), "uniprot": d.get("uniprot_ids"), "source": "HGNC REST"}
         return self._get(f"gene:{q}", fetch)
 
+    def taxon(self, name: str) -> dict | None:
+        """NCBI Taxonomy id for a scientific name (esearch); cache key and value match the hand-entered taxon entries."""
+        q = name.strip()
+        def fetch():
+            r = self._http("https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi", params={"db": "taxonomy", "term": q, "retmode": "json"})
+            ids = r.json().get("esearchresult", {}).get("idlist", [])
+            if not ids:
+                return {"unresolved": True}
+            return {"identifier": f"NCBITaxon:{ids[0]}", "label": q, "source": "NCBI Taxonomy esearch"}
+        return self._get(f"taxon:{q}", fetch)
+
     def organization(self, name: str) -> dict | None:
         q = name.strip()
         def fetch():
