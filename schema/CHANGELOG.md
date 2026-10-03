@@ -214,3 +214,59 @@ designated positive control is the ingest's reading, written in every such contr
 laccases; the screen therefore comes out `inconclusive-no-positive-control`, which is also the first chemistry instance of
 the Alcalase diagnosis. Whether the quantification range plus a stated expected effect is a sensitivity statement is
 likewise recorded as the ingest's reading; the article has no power analysis.
+
+### Study 9: Koch et al. 2026, RuF6 does not oxidise XeF6 to xenon(VIII)
+
+Driven by encoding Koch, Hoß, Schnakenburg, Karttunen and Kraus 2026, *Failed Attempts at Oxidation of XeF6: Synthesis
+and Characterization of [Xe2F11][RuF6]* (Inorg. Chem. 65, 15126-15135, doi:10.1021/acs.inorgchem.6c02072). A synthetic
+dead end whose by-product is a new, fully characterised compound, with a thermodynamic argument rather than a control
+experiment as the explanation, and conditions given in prose with no run count.
+
+**Change count for this study: 0.**
+
+**What carried it without change.** Five prose conditions became five findings with their Results paragraph as
+`evidence[].locator` and `replicates.note: "no run count is reported"`; `cost` has no `wetLabRuns` and says why. The
+by-product is an attempt of its own, `positive`, related to the failed oxidation by `wasDerivedFrom`, with the compound
+as an `Entity` of scheme `CCDC` and a `data-deposit` source for CCDC 2477117, the only machine-readable deposit among the
+four ACS studies. The thermodynamic explanation is a `computational` attempt of class `partial`, because the authors
+conclude it does not rule the target out. The three earlier Xe(VIII) dead ends ([KrF]+, [NiF3]+, F2) are `screened`
+items with reason `prior-art-found` and `references` to their DOIs, and `prior-art` sources. `decomposition` carries the
+authors' hypothesis that any [XeF7]+ formed is lost as F2.
+
+**Judgement recorded, not resolved by code.** The rule remaps every condition to `inconclusive-no-positive-control`: no
+reaction known to give a Xe(VIII) product was run alongside, RuF6's oxidising power toward BrF5 is cited rather than
+re-demonstrated, and the only detection criterion for [XeF7]+ is a set of predicted Raman bands with no limit. The
+authors' own words, "it may be that our reaction conditions are not right, yet", say the same thing. This is the first
+study in the corpus where the rule's verdict and the authors' hedge coincide.
+
+### The series after four chemistry studies
+
+| Study | Domain | Changes |
+|---|---|---|
+| Robin dAMD and Arcadia Alcalase (v0.2) | biology | 12 |
+| Arcadia neuroimaging (v0.2.1) | biology | 8 |
+| Arcadia Raman (v0.2.2) | biology, computation | 5 |
+| Arcadia divergent fungal actin (v0.2.3) | biology | 2 |
+| ACS zeolite STF/IFR (v0.2.4) | chemistry, materials | 1 |
+| ACS TMEDA inhibition (v0.2.4) | chemistry | 0 |
+| ACS laccase PFAS (v0.2.4) | chemistry | 1 |
+| ACS XeF6 oxidation (v0.2.4) | chemistry | 0 |
+
+Change count by study: 12, 8, 5, 2, then 1, 0, 1, 0. Both changes in this round are single vocabulary terms (`material`,
+`measurement-artifact`). Nothing structural has been required since the first study, now across nine studies and two
+domains. The v0.1 materials failure modes (`phase-not-formed`, `impurity-phase`, `decomposition`) fired for the first
+time; the rest of the materials profile sketched in v0.1 was not needed.
+
+**Diagnoses now observed across nine studies:**
+
+| Diagnosis | Study |
+|---|---|
+| no positive control | Arcadia Alcalase; ACS laccase mediator screen |
+| positive control failed | Robin dAMD |
+| negative control not clean | Arcadia neuroimaging, Arcadia Raman |
+| no sensitivity or power statement | Arcadia Raman |
+| no positive control, no negative control, and no sensitivity statement | Arcadia divergent fungal actin; ACS zeolite syntheses; ACS XeF6 oxidation |
+| all three satisfied, negative informative | Robin dAMD (93), Arcadia Alcalase (4), ACS TMEDA (7), ACS laccase (1) |
+
+The last row is new to this log: before this round no chemistry negative had passed the rule. Two of the four now do,
+and two do not, for reasons the records state.

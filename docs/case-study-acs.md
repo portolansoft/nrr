@@ -208,3 +208,116 @@ carry NCBI Taxonomy ids from the cache rather than from memory.
 
 No deposit; the SI PDF is the only place the data lives, and two of its tables are pictures. No author-contribution
 statement. PFOS with TvL was tested only at 0.1 µM over 96 h and 24 h, never over two weeks, and the record says so.
+
+## 4. XeF6 and RuF6: a dead end that produced a new compound
+
+*Koch, Hoß, Schnakenburg, Karttunen and Kraus 2026, "Failed Attempts at Oxidation of XeF6: Synthesis and Characterization
+of [Xe2F11][RuF6]", Inorg. Chem. 65, 15126-15135, doi:10.1021/acs.inorgchem.6c02072, PMC13343514. Study id `acs-xef6`.*
+
+### Why this one
+
+It is the classic shape of a synthetic negative result, and it has three features the corpus had not met: the
+conditions are prose, not a table, with no count of how many times anything was run; the explanation is thermodynamic
+reasoning rather than a control experiment; and the failure produced something positive, a new xenon(VI) salt with a
+crystal structure and a CCDC deposit. The research note asked how a record relates a negative to the positive it
+produced, and the answer had to be found without inventing a field for it.
+
+### What the record looks like
+
+| Record | Kind | Headline | Findings |
+|---|---|---|---|
+| `acs-xef6-path` | path, mixed | `negative-not-achievable` | 3 attempts; the three earlier Xe(VIII) dead ends ([KrF]+, [NiF3]+, F2) as `screened` items with `prior-art-found` |
+| `acs-xef6-oxidation-attempts` | wet-lab | `inconclusive-no-positive-control` | 6: one per prose condition (excess XeF6 in aHF and neat, equimolar, excess RuF6, −78 °C), each with its paragraph as locator, plus F2 detection |
+| `acs-xef6-xe2f11-ruf6` | wet-lab | `positive` | 3: crystal structure (CCDC 2477117, P2₁/n, R(F) 0.0176), cation geometry (Xe–F–Xe 163.15°), vibrational spectra against DFT |
+| `acs-xef6-thermodynamics` | computational | `partial` | 4: [XeF7][RuF6] estimated feasible at −572 kJ/mol, [XeF7]+ unstable to F2 loss by 191 kJ/mol, the FIAs, and "why it fails", which does not resolve |
+
+### The judgement calls, and where they are written
+
+**Prose conditions, no run count.** Each of the five conditions is a finding. Its `evidence[].locator` is the Results
+and Discussion paragraph (and, for the two with masses, the Experimental Section preparation), `replicates.note` says
+"no run count is reported", and `cost` has no `wetLabRuns`, with a note saying why. Nothing was invented to fill the gap.
+
+**The rule and the authors agree.** Every condition is remapped to `inconclusive-no-positive-control`: no reaction known
+to give a Xe(VIII) product was run alongside, RuF6's oxidising power is cited from the authors' earlier BrF5 work rather
+than re-demonstrated here, and the only detection criterion for [XeF7]+ is three predicted Raman bands with no limit. The
+paper's own closing line is "it may be that our reaction conditions are not right, yet". This is the first study where
+the rule's verdict and the authors' hedge coincide, and the attempt's `provenanceNotes` say so.
+
+**How a negative relates to the positive it produced.** The new compound is an attempt of its own with class `positive`,
+related to the oxidation attempt by `wasDerivedFrom`. The compound is an entity of scheme `CCDC`, the deposit is a
+`data-deposit` source, and the path's headline stays `negative-not-achievable` for its stated target. Nothing new was
+needed: the by-product is queryable by its CCDC id, and the path is still a dead end for xenon(VIII).
+
+**Explanation without a control.** The thermodynamic argument is a `computational` attempt of class `partial`, because it
+concludes the target *may* be stable as an ionic solid and no redox potentials exist for anhydrous HF. The authors'
+working hypothesis, that [XeF7]+ forms and decomposes too fast, is carried as the failure mode `decomposition` with a
+note that whether it forms at all is open.
+
+### What it broke
+
+Nothing. Zero schema changes. It is also the only one of the four ACS studies with a machine-readable deposit outside
+the SI.
+
+### What it did not test
+
+Products of the excess-RuF6 reactions were not quantified and their equation is marked hypothetical by the authors; the
+record keeps them as a Raman-only observation. No author-contribution statement.
+
+## 5. Where the corpus stands, and what the four studies broke
+
+| | Before (5 studies) | After (9 studies) |
+|---|---|---|
+| Records | 30 | 49 |
+| Findings | 157 | 217 |
+| Informative negatives | 97 | 105 |
+| Uninformative (remapped to inconclusive-*) | 16 | 27 |
+| Entities | 158 | 235 |
+| Records published to nrr-records | 19 | 38 |
+| Validation errors | 0 | 0 |
+| Tests | 148 | 196 |
+
+**Change count by study: 12, 8, 5, 2, then 1, 0, 1, 0.** The two changes are single vocabulary terms, `material` (an
+entity type for a zeolite framework) and `measurement-artifact` (a failure mode for an apparent effect produced by the
+sampling pathway). Nothing structural: no new record kind, no change to the shape of a finding, a control or an effect.
+The materials failure modes written in v0.1 and never used (`phase-not-formed`, `impurity-phase`, `decomposition`) fired
+for the first time; the rest of the v0.1 materials profile was not needed.
+
+### What each study broke or did not
+
+| Study | Broke | Did not break, though it might have |
+|---|---|---|
+| Zeolite | `material` entity type | `refuted` for a prediction, judged on a refuting experiment that is itself inconclusive; the classifier metrics as a non-sensitivity statement; `screened` with ranks for 18 OSDAs |
+| TMEDA | nothing | an assay as the target of a refuted finding; a background control clean at one temperature and dirty at another, handled by annotation; a 633-paper survey as `evidence-synthesis`; 19 SI citations resolved to DOIs |
+| Laccase | `measurement-artifact` failure mode | a surrogate substrate as a designated positive control; the first informative `negative-not-replicated`; `contradicts` to prior DOIs |
+| XeF6 | nothing | prose conditions as findings with paragraph locators and no run count; a positive by-product as a derived attempt with a CCDC deposit; a thermodynamic explanation as a `partial` computational attempt |
+
+### Where the rule stands
+
+Two of the four chemistry negatives pass the rule and two do not, for reasons the records state. That matters more
+than the count: a rule that refused every chemistry negative would be a filter on domain, and one that passed every
+one would not be a rule. The TMEDA kinetics at 60 °C and the two-week PFOA result are informative because the papers
+ran a positive control, a clean background and defined what they could detect. The zeolite syntheses and the XeF6
+reactions are inconclusive because no positive control was run and no detection limit was stated, and in the XeF6 case
+the authors say as much themselves.
+
+### What I would still challenge
+
+- The TMEDA amine screen's background control is `passed: true` with a note that it fails at 80 °C. One boolean per
+  control cannot express "clean here, dirty there". A third study needing this would justify a per-condition control
+  result; two do not.
+- Treating a surrogate substrate in a separate reactor set as a `designated` positive control is defensible and stated,
+  but a stricter reader would want a new control kind for it. It was not added because `designated` plus a note carries
+  the information and the convergence discipline says vocabulary should wait for a second case.
+- All four studies lack an author-contribution statement, so every author is `writing`. That is honest and nearly
+  useless for the `by_performer` query. ACS articles rarely carry CRediT; the record cannot do better.
+- SI Schemes S3 and S4 of the TMEDA paper (yields with extra TMEDA) and SI Table S19 of the zeolite paper (the OSDA
+  isomers) are images that were not transcribed. The records say so; a future pass could add them.
+- The run-count gap in the XeF6 paper and the two-run averages in the TMEDA paper mean `replicates` is thin for both.
+  Nothing in the schema can fix a source that does not say.
+
+### For the ACS conversation
+
+None of the four papers deposits data outside its Supporting Information PDF, and in two of them the key tables are
+pictures inside that PDF. The one exception is a crystal structure in CCDC. Every value in these records had to be
+transcribed by hand with a locator; the transcription layer is where a reading error would enter, and it is unreviewed.
+That is the concrete thing a publisher could change.

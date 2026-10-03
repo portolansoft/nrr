@@ -23,20 +23,22 @@ from nrr.ingest.dfa import build_dfa_records  # noqa: E402
 from nrr.ingest.raman import build_raman_records  # noqa: E402
 from nrr.ingest.laccase import build_laccase_records  # noqa: E402
 from nrr.ingest.tmeda import build_tmeda_records  # noqa: E402
+from nrr.ingest.xef6 import build_xef6_records  # noqa: E402
 from nrr.ingest.zeolite import build_zeolite_records  # noqa: E402
 from nrr.resolve import Resolver  # noqa: E402
 from nrr.schema import PROFILE_URI, validate  # noqa: E402
 
 BUILDERS = {"arcadia-alcalase": build_alcalase_records, "arcadia-neuroimaging": build_neuroimaging_records,
             "arcadia-raman": build_raman_records, "arcadia-dfa": build_dfa_records,
-            "acs-zeolite": build_zeolite_records, "acs-tmeda": build_tmeda_records, "acs-laccase": build_laccase_records}
+            "acs-zeolite": build_zeolite_records, "acs-tmeda": build_tmeda_records, "acs-laccase": build_laccase_records, "acs-xef6": build_xef6_records}
 LICENSES = {"arcadia-alcalase": "https://creativecommons.org/licenses/by/4.0/",
             "arcadia-neuroimaging": "https://creativecommons.org/licenses/by/4.0/",
             "arcadia-raman": "https://creativecommons.org/licenses/by/4.0/",
             "arcadia-dfa": "https://creativecommons.org/licenses/by/4.0/",
             "acs-zeolite": "https://creativecommons.org/licenses/by/4.0/",
             "acs-tmeda": "https://creativecommons.org/licenses/by/4.0/",
-            "acs-laccase": "https://creativecommons.org/licenses/by/4.0/"}
+            "acs-laccase": "https://creativecommons.org/licenses/by/4.0/",
+            "acs-xef6": "https://creativecommons.org/licenses/by/4.0/"}
 
 
 def git_commit() -> str:
