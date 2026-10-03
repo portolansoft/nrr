@@ -160,3 +160,30 @@ sensitivity statement. The predictions are therefore refuted by experiments that
 for their own targets, and two of the three OSDAs degraded during synthesis. Both verdicts are kept and the link between
 them is recorded; the record says in `provenanceNotes` that what is refuted is the pipeline's prediction of the outcome
 under the conditions actually run, not the thermodynamic ranking as such.
+
+### Study 7: Macleod et al. 2024, TMEDA inhibition as a test for hidden boron catalysis
+
+Driven by encoding Macleod, Bage, Meyer and Thomas 2024, *Hidden Boron Catalysis: A Cautionary Tale on TMEDA Inhibition*
+(Org. Lett. 26, 9564-9567, doi:10.1021/acs.orglett.4c03591). A negative about a control method: the field's standard
+test for hidden BH3 catalysis gives false negatives above 60 °C, and no other amine is a better trap.
+
+**Change count for this study: 0.**
+
+**What carried it without change.** The method under test is an `Entity` of type `assay` and the `target` of a `refuted`
+finding whose `conditions` hold the valid range (`validUpToC: 60`, `falseNegativeFromC: 80`); the path's
+`applicabilityConditions` repeat the limit. The kinetic negatives at 60 °C are the first chemistry findings to pass the
+informativeness rule: a `designated` positive control (Me2S·BH3 as free BH3), a `background` negative control (no BH3
+source), and a stated threshold (less than 5 % product by NMR) as the sensitivity statement. The amine screen's grid is a
+case the rule handles by annotation rather than by a new clause: the background control is clean to 70 °C and not clean
+at 80 °C because HBpin itself decomposes to BH3 there, which is stated in the control's `note` and is itself a finding.
+`internal-positive` carried the two amines that match TMEDA inside the same grid. `evidence-synthesis` with
+`stage: literature-search`, `sourcesSearched`, `queries` and `recordsFound` carried the authors' SciFinder survey of 633
+papers. The 19 example references in the SI resolved to DOIs through Crossref and are attached as `reference` sources;
+`scripts/resolve_ids.py` gained a generic `citations:` list for that, which is tooling, not schema.
+
+**Judgement recorded, not resolved by code.** The research note asked for a link to the prior negatives the result
+invalidates. The SI says 15 of 24 published uses ran the test above 60 °C but does not say which, and gives references
+9 to 27 only as "some examples" of papers using the method. The record therefore quantifies the affected tests as a
+finding (`tests-above-60`, 15 of 24) with `relatedFindings` back to the refutation, and attaches the 19 examples as
+references with a note, rather than asserting a per-paper `refutes` or `contradicts` relation the source does not
+support. No new relation type was added for the same reason.

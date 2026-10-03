@@ -9,6 +9,7 @@ from nrr.ingest.neuroimaging import build_neuroimaging_records
 from nrr.ingest.dfa import build_dfa_records
 from nrr.ingest.raman import build_raman_records
 from nrr.ingest.robin import build_robin_records
+from nrr.ingest.tmeda import build_tmeda_records
 from nrr.ingest.zeolite import build_zeolite_records
 from nrr.resolve import Resolver
 
@@ -21,7 +22,8 @@ def db(tmp_path_factory):
     resolver = Resolver(ROOT / "curated/identifiers.json", online=False)
     records = (build_robin_records(ROOT, resolver) + build_alcalase_records(ROOT, resolver)
                + build_neuroimaging_records(ROOT, resolver) + build_raman_records(ROOT, resolver)
-               + build_dfa_records(ROOT, resolver) + build_zeolite_records(ROOT, resolver))
+               + build_dfa_records(ROOT, resolver) + build_zeolite_records(ROOT, resolver)
+               + build_tmeda_records(ROOT, resolver))
     path = tmp_path_factory.mktemp("db") / "portolan.sqlite"
     load(records, path)
     return path
@@ -141,3 +143,17 @@ def test_a_refuted_prediction_points_at_the_experiment_that_refutes_it(db):
 def test_materials_entities_are_queryable_by_framework_code(db):
     rows = query(db, "by_entity", entity_id="iza:STF")
     assert rows and all(r["study_id"] == "acs-zeolite" for r in rows)
+
+
+def test_a_method_can_be_the_target_of_a_negative(db):
+    """TMEDA: the thing that failed is a control method. It is an entity of type assay, the target of a refuted finding,
+    and the informative negatives that establish the 60 degree limit sit beside it."""
+    rows = query(db, "by_entity", entity_id="assay:tmeda-inhibition-test")
+    assert {r["study_id"] for r in rows} == {"acs-tmeda"}
+    import sqlite3
+    con = sqlite3.connect(db)
+    rows = con.execute("select f.finding_id, f.outcome_class, f.informativeness, f.target_type from findings f join records r on r.id = f.record_id where r.slug = 'acs-tmeda-adduct-kinetics'").fetchall()
+    by_id = {r[0]: r[1:] for r in rows}
+    assert by_id["tmeda-test-false-negative-above-60"] == ("refuted", "not-applicable", "assay")
+    assert by_id["alkyne-60"][:2] == ("negative-no-effect", "informative")
+    assert by_id["alkyne-80"][0] == "positive"

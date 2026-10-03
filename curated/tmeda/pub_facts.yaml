@@ -1,0 +1,87 @@
+# Statements transcribed from Macleod, Bage, Meyer and Thomas 2024 (Org. Lett. 26, 9564-9567) with their location in the
+# article (Europe PMC JATS, PMC11555781) or its Supporting Information (ol4c03591_si_001.pdf, 18 pages).
+publication:
+  doi: 10.1021/acs.orglett.4c03591
+  pmcid: PMC11555781
+  pmid: "39466170"
+  title: "Hidden Boron Catalysis: A Cautionary Tale on TMEDA Inhibition"
+  journal: Organic Letters
+  volume: "26"
+  issue: "44"
+  pages: 9564-9567
+  published: "2024-10-28"
+  publisher: American Chemical Society
+  license: https://creativecommons.org/licenses/by/4.0/
+  licenseStatement: "Permits the broadest form of re-use including for commercial purposes, provided that author attribution and integrity are maintained (https://creativecommons.org/licenses/by/4.0/) (JATS permissions element; Europe PMC license field 'cc by')"
+  url: https://doi.org/10.1021/acs.orglett.4c03591
+  europePmcFullText: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11555781/fullTextXML
+  supportingInformation: ol4c03591_si_001.pdf
+  dataAvailability: "The data underlying this study are available in the published article and its Supporting Information."
+  funding:
+    - "EPSRC Programme Grant 'Boron: Beyond the Reagent' EP/W007517"
+    - "Royal Society PhD studentship RGF/EA/180218"
+operator:
+  name: University of Edinburgh
+  note: "EaStCHEM School of Chemistry; all four authors"
+contributors:
+  # No CRediT or author-contribution statement in the article; every listed author is recorded as an author only.
+  - {name: Julie Macleod}
+  - {name: Andrew D. Bage}
+  - {name: Leonie M. Meyer}
+  - {name: Stephen P. Thomas, corresponding: true}
+purpose: "Determine the temperature range over which trapping by N,N,N',N'-tetramethylethylenediamine (TMEDA) inhibits BH3-catalysed hydroboration with pinacolborane (HBpin), and therefore over which a lack of inhibition can be read as evidence of true, non-boron catalysis; and find whether any other amine is a better trap."
+background:
+  problem: "Many proposed hydroboration catalysts carry nucleophilic groups that decompose HBpin or HBcat to BH3, which is the actual (hidden) catalyst. The field's standard test is to add TMEDA: inhibition of the reaction indicates hidden BH3 catalysis, and a lack of inhibition has been conflated with true catalysis."
+  priorValidation: "TMEDA inhibition had only been demonstrated up to 60 °C; Brown used TMEDA.(BH3)2 as a hydroboration reagent at 110 °C."
+  literatureUse: "63% of the publications applying the TMEDA inhibition method ran the test above 60 °C."
+  publicationsSince2010: "over 600 publications on catalysed hydroboration with 1,3,2-dioxaborolanes since 2010 (SciFinder, August 2024)"
+method:
+  adductSynthesis: "TMEDA.(BH3)2 from borane dimethyl sulfide and TMEDA in toluene, 76 percent, 11B NMR -10.6 ppm (q, J = 98 Hz) (SI S3.1)"
+  monitoring: "1H NMR against 1,3,5-trimethoxybenzene internal standard, average of two runs; aliquots quenched in Et2O (SI S3.2)"
+  conditions: "substrate 2.0 mmol, HBpin 3.0 mmol, 20 mol percent BH3 as Me2S.BH3 (0.40 mmol) or TMEDA.(BH3)2 (0.20 mmol), toluene 0.40 mL; temperatures are external heating-block temperatures; room temperature about 18 °C"
+  controlRationale: "Me2S.BH3 was used as it has been shown to be a mimic for in situ generated BH3"
+  noCatalystControl: "no reaction is observed in the absence of TMEDA.(BH3)2 at room temperature (SI S3.6); HBpin alone gives product at 80 °C and above (Table 1 control row)"
+  inhibitionDefinition: "A positive result (hidden BH3 catalysis) is complete inhibition in the presence of TMEDA, less than 5% product by 1H and 11B NMR; a negative result is no inhibition, strictly no change in rate alongside product yield"
+  hbpinStability: "no decomposition of distilled HBpin with Et3N after 20 h at room temperature, 60 or 70 °C; Et3N.BH3 observed after 20 h at 80 °C; other decomposition products at 90 and 100 °C (SI S3.5, Figure S5); commercial HBpin contains 0.1 to 1.5 percent triethylamine and often trace BH3"
+  hiddenCatalysisDemonstration: "LiOtBu (10 mol percent) decomposes HBpin to BH3 and catalyses phenylacetylene hydroboration at 60 °C; TMEDA (0.1 eq) added at 90 min inhibits the reaction; moving the vial to 100 °C at 180 min restores product formation (SI S3.4, Figure S4)"
+  extraTmeda: "with an additional 0.4 eq TMEDA (0.5 eq total) inhibition was achieved at 80 °C but product formed at 100 °C (SI S3.3.1, Schemes S3 and S4; yields shown in scheme images, not transcribed)"
+  amineScreen: "phenylacetylene 1.0 mmol, HBpin 1.5 mmol, amine-borane 0.10 mmol, toluene 0.20 mL; 1H and 11B NMR after 1 h at room temperature, then 1 h each at 60, 70 and 80 °C (Table 1 footnote a and SI S3.6)"
+results:
+  temperatureLimit: 60
+  headline: "Kinetic analyses showed that TMEDA inhibition is only applicable below 60 °C and that other amine traps are likewise ineffective."
+  conclusion: "Application of the TMEDA inhibition test, to identify hidden BH3 catalysis, was found to be unsuitable above 60 °C when using a one-to-one loading of TMEDA to 'catalyst'. Higher loading of TMEDA, with respect to catalyst, offered increased inhibition of BH3 catalysis but did not give complete inhibition of catalysis; thus, false negatives remain possible. Reaction at temperatures of >=80 °C will generate BH3 by thermal decomposition of HBpin, and therefore will always be susceptible to hidden BH3 catalysis."
+  recommendation: "TMEDA reaction doping can still be used to indicate BH3 formation, but users should proceed with caution and rely on observing the adduct by 11B NMR spectroscopy."
+  amines: "Amine-borane adducts 5a and 5b resulted in reaction inhibition (product formation <5%) up to 60 °C ... All other amine-borane adducts resulted in product formation at room temperature and above. All of the amines tested did not offer an improvement over TMEDA."
+literatureSurvey:
+  source: "SI Section S4 and Figure S6"
+  database: SciFinder
+  accessed: "2024-08"
+  searchTerms: [Hydroboration, HBpin, Pinacolborane, HBcat, Catecholborane, Borylations]
+  window: "January 2010 to September 2024"
+  publications: 633
+  beforeTmedaMethod: {publications: 421, testedForHiddenCatalysis: 23, percent: 5, note: "before May 2020 (Org. Lett. 2020, 22, 4107)"}
+  afterTmedaMethod: {publications: 212, testedForHiddenCatalysis: 49, percent: 23}
+  usedTmedaInhibition: {publications: 24, percentOfTested: 49}
+  tmedaAbove60C: {publications: 15, percentOfTmeda: 63}
+  tmedaOnCarbonyls: {publications: 7, percentOfTmeda: 29, note: "carbonyl compounds are not compatible with this test method"}
+  exampleReferences: "SI references 9 to 27 are given as 'some examples where TMEDA reaction inhibition has been used as a detection method'; the SI does not say which of them ran the test above 60 °C"
+limitations:
+  - "Yields are an average of two runs; no error bars or replicate counts beyond that are reported."
+  - "The amine screen (Table 1) is read from a colour-coded image: green for less than 5 percent product, pink for product observed; no yields are given per cell."
+  - "Schemes S3 and S4 (extra TMEDA) give their yields in images that were not transcribed."
+nextSteps:
+  - "Rely on observing the TMEDA.(BH3)2 adduct by 11B NMR rather than on inhibition alone."
+  - "Treat any HBpin hydroboration run at or above 80 °C as susceptible to hidden BH3 catalysis."
+openQuestions:
+  - "Is there any amine or other trap that sequesters BH3 irreversibly above 60 °C under hydroboration conditions?"
+  - "Which of the published 'true catalysis' claims validated by TMEDA above 60 °C survive a re-test below 60 °C or by 11B NMR?"
+priorArt:
+  tmedaTestIntroduced: 10.1021/acscatal.0c04051
+  nucleophilePromotedDecomposition: 10.1021/acs.orglett.0c01168
+  brownAdductAt110C: 10.1021/ic00186a008
+  catecholboraneDegradation: 10.1021/ic00062a048
+  trojanHorse: 10.1016/S0040-4039(00)91802-1
+  boraneCatalysedHydroboration: 10.1055/s-0036-1591719
+  alkyneHydroborationKinetics: 10.1021/jacs.9b10114
+aiUse:
+  statement: "The article makes no statement about the use of AI tools."

@@ -40,6 +40,24 @@ compounds:
   - NECA
   - PF-573228
   - 4-phenylbutyric acid
+  # acs-tmeda (Macleod et al. 2024)
+  - N,N,N',N'-tetramethylethylenediamine
+  - pinacolborane
+  - catecholborane
+  - phenylacetylene
+  - 4-tert-butylstyrene
+  - borane dimethyl sulfide
+  - 1,4-diazabicyclo[2.2.2]octane
+  - N,N,N',N'',N''-pentamethyldiethylenetriamine
+  - N-methylmorpholine
+  - N,N-diisopropylethylamine
+  - triethylamine
+  - trimethylamine
+  - lithium tert-butoxide
+  - 1,3,5-trimethoxybenzene
+  - toluene
+  - diglyme
+  - borane
 proteins: [MFGE8, PROS1, GAS6, ABCA1]
 ontology:
   - dry age related macular degeneration
@@ -60,7 +78,7 @@ ontology:
 cellLines: [ARPE-19]
 genes: [ABCA1, MFGE8, PROS1, GAS6]
 organizations: [Edison Scientific, Arcadia Science, Astera Institute, FutureHouse, Chlamydomonas Resource Center, Eye-Bank for Sight Restoration,
-  Instituto de Tecnología Química]
+  Instituto de Tecnología Química, University of Edinburgh]
 rrids: [SCR_002285, SCR_015687, SCR_010519, SCR_015530, SCR_012919, SCR_001905, SCR_018931, SCR_002798, SCR_003070]
 dois:
   - 10.1038/s41586-026-10652-y
@@ -102,3 +120,33 @@ dois:
   - 10.1039/C8TA11913A
   - 10.1007/s11244-015-0381-1
   - 10.1021/acs.chemmater.5b04578
+  # acs-tmeda (Macleod et al. 2024) and the prior art its record cites
+  - 10.1021/acs.orglett.4c03591
+  - 10.1021/acscatal.0c04051
+  - 10.1021/acs.orglett.0c01168
+  - 10.1021/ic00186a008
+  - 10.1021/ic00062a048
+  - 10.1016/S0040-4039(00)91802-1
+  - 10.1055/s-0036-1591719
+  - 10.1021/jacs.9b10114
+citations:
+  # acs-tmeda SI references 9 to 27: examples of papers using TMEDA inhibition as the test for hidden boron catalysis
+  - "Shi Y.; Wang Y.; Huang Z.; Zhang F.; Shao Y. tBuOLi-Promoted Hydroboration of Esters and Epoxides. ACS Omega, 2022, 7, 18876-18886."
+  - "Ton N. N. H.; Mai B. K.; Nguyen T. V. Tropylium-Promoted Hydroboration Reactions: Mechanistic Insights Via Experimental and Computational Studies. J. Org. Chem., 2021, 86, 9117-9133."
+  - "Doan S. H.; Ton N. N. H.; Mai B. K.; Nguyen T. V. Organosuperbase-Catalyzed 1,1-Diboration of Alkynes. ACS Catal., 2022, 12, 12409-12418."
+  - "Liu J.; Wu C.; Hu T.; Yang W.; Xie Y.; Shi Y.; Liu Q.; Shao Y.; Zhang F. Hexamethyldisilazane Lithium (LiHMDS)-Promoted Hydroboration of Alkynes and Alkenes with Pinacolborane. J. Org. Chem., 2022, 87, 3442-3452."
+  - "Zou Y.; Zhang B.; Wang L.; Zhang H. Benzoic Acid-Promoted C2-H Borylation of Indoles with Pinacolborane. Org. Lett., 2021, 23, 2821-2825."
+  - "Lewandowski D.; Hreczycho G. Cobalt Pincer-type Complexes Demonstrating Unique Selectivity for the Hydroboration Reaction of Olefins Under Mild Conditions. Inorg. Chem. Front., 2023, 10, 3656-3663."
+  - "Kumar R.; Dutta S.; Sharma V.; Singh P. P.; Gonnade R. G.; Koley D.; Sen S. S. Monomeric Magnesium Catalyzed Alkene and Alkyne Hydroboration. Chem. Eur. J., 2022, 28, e202201896."
+  - "Lee J.; Fan J.; Koh A.-P.; Joslyn Cheang W.-J.; Yang M.-C.; Su M.-D.; So C.-W. Amidinato Isopropylmethylamidosilylene-Catalyzed Hydroboration of Carbonyl Compounds. Eur. J. Inorg. Chem., 2022, 2022, e202200129."
+  - "Kumar R.; Bisai M. K.; Jain S.; Vanka K.; Sen S. S. Deoxygenative Hydroboration of Primary and Secondary Amides: A Catalyst-free and Solvent-free Approach. Chem. Commun., 2021, 57, 10596-10599."
+  - "Bisai M. K.; Gour K.; Das T.; Vanka K.; Sen S. S. Readily Available Lithium Compounds as Catalysts for the Hydroboration of Carbodiimides and Esters. J. Organomet. Chem., 2021, 949, 121924-121929."
+  - "Huninik P.; Szyling J.; Czapik A.; Walkowiak J. Organocatalytic Hydroboration of Olefins in Pyrrolidinium Ionic Liquids. Green Chem., 2023, 25, 3715-3722."
+  - "Yan B.; Ma X.; Pang Z.; Yang Z. NaHBEt3-catalyzed HBpin Hydroboration and Deoxygenation of Primary, Secondary, and Tertiary Amides. New J. Chem., 2023, 47, 3202-3206."
+  - "Bisai M. K.; Gour K.; Das T.; Vanka K.; Sen S. S. Lithium Compound Catalyzed Deoxygenative Hydroboration of Primary, Secondary and Tertiary Amides. Dalton Trans., 2021, 50, 2354-2358."
+  - "Liu L.; Lo S.-K.; Smith C.; Goicoechea J. M. Pincer-Supported Gallium Complexes for the Catalytic Hydroboration of Aldehydes, Ketones and Carbon Dioxide. Chem. Eur. J., 2021, 27, 17379-17385."
+  - "Shlian D. G.; Amemiya E.; Parkin G. Synthesis of Bis(2-pyridylthio)methyl Zinc Hydride and Catalytic Hydrosilylation and Hydroboration of CO2. Chem. Commun., 2022, 58, 4188-4191."
+  - "Lunic D.; Sanosa N.; Funes-Ardoiz I.; Teskey C. J. Mild and Chemoselective Carboxylic Acid Reduction Promoted by Borane Catalysis. Angew. Chem. Int. Ed., 2022, 61, e202207647."
+  - "Garhwal S.; Kroeger A. A.; Thenarukandiyil R.; Fridman N.; Karton A.; de Ruiter G. Manganese-Catalyzed Hydroboration of Terminal Olefins and Metal-Dependent Selectivity in Internal Olefin Isomerization-Hydroboration. Inorg. Chem., 2021, 60, 494-504."
+  - "Chia C.-C.; Teo Y.-C.; Cham N.; Ho S. Y.-F.; Ng Z.-H.; Toh H.-M.; Mezailles N.; So C.-W. Aluminum-Hydride-Catalyzed Hydroboration of Carbon Dioxide. Inorg. Chem., 2021, 60, 4569-4577."
+  - "Sokolnicki T.; Alharbi M. M.; van Ingen Y.; Rahim S.; Pramanik M.; Roldan A.; Walkowiak J.; Melen R. L. Reactivity of a Series of Triaryl Borates, B(OArx)3, in Hydroboration Catalysis. Dalton Trans., 2023, 52, 16118-16122."
