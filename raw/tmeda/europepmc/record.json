@@ -1,0 +1,225 @@
+{
+ "europePmcCore": {
+  "id": "39466170",
+  "source": "MED",
+  "pmid": "39466170",
+  "pmcid": "PMC11555781",
+  "fullTextIdList": {
+   "fullTextId": [
+    "PMC11555781"
+   ]
+  },
+  "doi": "10.1021/acs.orglett.4c03591",
+  "title": "Hidden Boron Catalysis: A Cautionary Tale on TMEDA Inhibition.",
+  "authorString": "Macleod J, Bage AD, Meyer LM, Thomas SP.",
+  "authorList": {
+   "author": [
+    {
+     "fullName": "Macleod J",
+     "lastName": "Macleod",
+     "firstName": "Julie",
+     "initials": "J",
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "EaStCHEM School of Chemistry, University of Edinburgh, David Brewster Road, Edinburgh, EH9 3FJ, United Kingdom."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Bage AD",
+     "lastName": "Bage",
+     "firstName": "Andrew D",
+     "initials": "AD",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0002-5067-6899"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "EaStCHEM School of Chemistry, University of Edinburgh, David Brewster Road, Edinburgh, EH9 3FJ, United Kingdom."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Meyer LM",
+     "lastName": "Meyer",
+     "firstName": "Leonie M",
+     "initials": "LM",
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "EaStCHEM School of Chemistry, University of Edinburgh, David Brewster Road, Edinburgh, EH9 3FJ, United Kingdom."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Thomas SP",
+     "lastName": "Thomas",
+     "firstName": "Stephen P",
+     "initials": "SP",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0001-8614-2947"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "EaStCHEM School of Chemistry, University of Edinburgh, David Brewster Road, Edinburgh, EH9 3FJ, United Kingdom."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "authorIdList": {
+   "authorId": [
+    {
+     "type": "ORCID",
+     "value": "0000-0001-8614-2947"
+    },
+    {
+     "type": "ORCID",
+     "value": "0000-0002-5067-6899"
+    }
+   ]
+  },
+  "dataLinksTagsList": {
+   "dataLinkstag": [
+    "altmetrics",
+    "supporting_data"
+   ]
+  },
+  "journalInfo": {
+   "issue": "44",
+   "volume": "26",
+   "journalIssueId": 3849423,
+   "dateOfPublication": "2024 Nov",
+   "monthOfPublication": 11,
+   "yearOfPublication": 2024,
+   "journal": {
+    "medlineAbbreviation": "Org Lett",
+    "title": "Organic letters",
+    "essn": "1523-7052",
+    "issn": "1523-7060",
+    "isoabbreviation": "Org Lett",
+    "nlmid": "100890393"
+   },
+   "printPublicationDate": "2024-11-01"
+  },
+  "pubYear": "2024",
+  "pageInfo": "9564-9567",
+  "abstractText": "Hidden boron catalysis plagues catalyzed hydroboration reactions, with the \"catalyst\" acting to mediate the decomposition of HBpin/HBcat to BH<sub>3</sub> which is the actual (hidden) catalyst. <i>N</i>,<i>N</i>,<i>N'</i>,<i>N</i>'-Tetramethylethylenediamine (TMEDA) has been used to identify hidden boron catalysis through trapping/inhibition. Kinetic analyses showed that TMEDA inhibition is only applicable below 60 °C and that other amine traps are likewise ineffective. Awareness of this temperature limitation reveals widespread hidden catalysis in previous methods and should limit future false negative tests.",
+  "affiliation": "EaStCHEM School of Chemistry, University of Edinburgh, David Brewster Road, Edinburgh, EH9 3FJ, United Kingdom.",
+  "publicationStatus": "ppublish",
+  "language": "eng",
+  "pubModel": "Print-Electronic",
+  "pubTypeList": {
+   "pubType": [
+    "rapid-communication",
+    "Journal Article"
+   ]
+  },
+  "grantsList": {
+   "grant": [
+    {
+     "agency": "Royal Society",
+     "grantId": "RGF/EA/180218",
+     "orderIn": 0
+    },
+    {
+     "agency": "Engineering and Physical Sciences Research Council",
+     "grantId": "EP/W007517",
+     "orderIn": 0
+    }
+   ]
+  },
+  "subsetList": {
+   "subset": [
+    {
+     "code": "IM",
+     "name": "Index Medicus"
+    }
+   ]
+  },
+  "fullTextUrlList": {
+   "fullTextUrl": [
+    {
+     "availability": "Open access",
+     "availabilityCode": "OA",
+     "documentStyle": "doi",
+     "site": "Unpaywall",
+     "url": "https://doi.org/10.1021/acs.orglett.4c03591"
+    },
+    {
+     "availability": "Subscription required",
+     "availabilityCode": "S",
+     "documentStyle": "doi",
+     "site": "DOI",
+     "url": "https://doi.org/10.1021/acs.orglett.4c03591"
+    },
+    {
+     "availability": "Open access",
+     "availabilityCode": "OA",
+     "documentStyle": "html",
+     "site": "Europe_PMC",
+     "url": "https://europepmc.org/articles/PMC11555781"
+    },
+    {
+     "availability": "Open access",
+     "availabilityCode": "OA",
+     "documentStyle": "pdf",
+     "site": "Europe_PMC",
+     "url": "https://europepmc.org/articles/PMC11555781?pdf=render"
+    }
+   ]
+  },
+  "isOpenAccess": "Y",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 8,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "Y",
+  "hasLabsLinks": "Y",
+  "hasData": "Y",
+  "license": "cc by",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCreation": "2024-10-28",
+  "dateOfRevision": "2024-11-14",
+  "electronicPublicationDate": "2024-10-28",
+  "firstPublicationDate": "2024-10-28",
+  "firstIndexDate": "2024-10-28",
+  "fullTextReceivedDate": "2024-11-14",
+  "hasEvaluations": "N"
+ },
+ "fetched": {
+  "date": "2026-10-02",
+  "fullTextXML": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11555781/fullTextXML",
+  "supplementaryFiles": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11555781/supplementaryFiles",
+  "files": {
+   "europepmc/PMC11555781.fullTextXML.xml": {
+    "sha256": "4e08918671d2d3f2e9bf0a59687fa498d9c94ef959fca700f6a54c7937676254",
+    "size": 35711
+   },
+   "si/ol4c03591_si_001.pdf": {
+    "sha256": "335349bfbcd077bf6a18396dd752bea48cec58840d29f132213f7906ffd493ec",
+    "size": 977253
+   },
+   "si/table1_ol4c03591_0004.jpg": {
+    "sha256": "eeb8223ffe05bcf2dbe29694c1b5c159be05f51d00bcf5050662e9140bb77bd2",
+    "size": 118742
+   }
+  }
+ }
+}

@@ -51,6 +51,12 @@ for n, ref in srefs.items():
             ref["doiResolvedTitle"] = hit.get("title")
     print("supp ref", n, "->", ref.get("doi"))
 sp.write_text(json.dumps(srefs, indent=1, ensure_ascii=False))
+# free-text citations (for example a Supporting Information reference list without DOIs): resolve through Crossref
+for cit in wanted.get("citations", []):
+    hit = r.citation_doi(cit)
+    print("citation", cit[:70], "->", (hit or {}).get("doi"))
+    if hit and hit.get("doi"):
+        wanted.setdefault("dois", []).append(hit["doi"])
 dois = set(wanted.get("dois", []))
 for path in ["curated/robin/nature_references.json", "curated/robin/supplementary_references.json"]:
     p = ROOT / path

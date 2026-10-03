@@ -9,3 +9,4 @@ Third-party material used at build time, not redistributed here:
 Vendored material:
 - raw/alcalase/: Caddell et al. 2026 (The Stacks, CC BY 4.0) and Zenodo record 22238548 (CC BY 4.0).
 - raw/zeolite/: Altundal et al. 2025 (Chemistry of Materials, CC BY 4.0), JATS XML and Supporting Information from Europe PMC (PMC12747119).
+- raw/tmeda/: Macleod et al. 2024 (Organic Letters, CC BY 4.0), JATS XML and Supporting Information from Europe PMC (PMC11555781).

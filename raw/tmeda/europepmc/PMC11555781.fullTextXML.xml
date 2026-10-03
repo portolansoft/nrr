@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="rapid-communication"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">822</journal-id><journal-id journal-id-type="pmc-domain">acssd</journal-id><journal-title-group><journal-title>Organic Letters</journal-title><abbrev-journal-title>Org Lett</abbrev-journal-title></journal-title-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC11555781</article-id><article-id pub-id-type="pmcaid">11555781</article-id><article-id pub-id-type="pmcaiid">11555781</article-id><article-id pub-id-type="pmid">39466170</article-id><article-id pub-id-type="doi">10.1021/acs.orglett.4c03591</article-id><title-group><article-title>Hidden Boron
+Catalysis: A Cautionary Tale on TMEDA
+Inhibition</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Macleod</surname><given-names initials="J">Julie</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib><name name-style="western"><surname>Bage</surname><given-names initials="AD">Andrew D</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib><name name-style="western"><surname>Meyer</surname><given-names initials="LM">Leonie M</given-names></name><xref ref-type="aff" rid="aff1">1</xref></contrib><contrib><name name-style="western"><surname>Thomas</surname><given-names initials="SP">Stephen P</given-names></name><xref ref-type="aff" rid="aff1">1</xref><xref rid="cor1" ref-type="author-notes">*</xref></contrib></contrib-group><aff id="aff1"><label>1</label>EaStCHEM School of Chemistry, University of Edinburgh, David Brewster Road, Edinburgh, EH9 3FJ, United
+Kingdom</aff><author-notes><fn id="cor1"><label>*</label><p>Email: <email>stephen.thomas@ed.ac.uk</email>.</p></fn></author-notes><pub-date><day>28</day><month>10</month><year>2024</year></pub-date><volume>26</volume><issue>44</issue><fpage>9564</fpage><page-range>9564–9567</page-range><pub-history><event event-type="pmc-release"><date><day>13</day><month>11</month><year>2024</year></date></event></pub-history><permissions><copyright-statement>© 2024 The Authors. Published by American Chemical Society</copyright-statement><license><license-p>Permits the broadest form of re-use including for commercial purposes, provided that author attribution and integrity are maintained (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://creativecommons.org/licenses/by/4.0/" ext-link-type="uri">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ol4c03591.pdf" content-type="pmc-pdf"><?cloudpmc-path 41bf/11555781/b5376ba7e662/ol4c03591.pdf?><?cloudpmc-bucket app?><?size 1443877?></self-uri><abstract id="abstract1"><title>Abstract</title><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="ab-d34e100" xlink:href="ol4c03591_0005.jpg"><?cloudpmc-path blobs/41bf/11555781/35dcca99455d/ol4c03591_0005.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1060?><?original-width 2400?><?scaled-height 348?><?scaled-width 788?></graphic><p>Hidden boron catalysis plagues catalyzed hydroboration
+reactions,
+with the “catalyst” acting to mediate the decomposition
+of HBpin/HBcat to BH<sub>3</sub> which is the actual (hidden) catalyst. <italic>N</italic>,<italic>N</italic>,<italic>N′</italic>,<italic>N</italic>′-Tetramethylethylenediamine (TMEDA) has been used
+to identify hidden boron catalysis through trapping/inhibition. Kinetic
+analyses showed that TMEDA inhibition is only applicable below 60
+°C and that other amine traps are likewise ineffective. Awareness
+of this temperature limitation reveals widespread hidden catalysis
+in previous methods and should limit future false negative tests.</p></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-in-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2024 Sep 25; Accepted 2024 Oct 22; Collection date 2024 Nov 8.</p></sec></notes></front><body><p>Boronic esters are versatile
+synthetic intermediates used in a vast array of transformations.<sup><xref rid="ref1" ref-type="bibr">1</xref></sup> The simplest route to alkenyl- and alkyl-boronic
+esters is the hydroboration of alkynes or alkenes, respectively. 1,3,2-Dioxaborolanes,
+pinacolborane (HBpin) and catecholborane (HBcat), are widely used
+hydroboration reagents that do not react directly with alkenes and
+alkynes and, therefore, require a catalyst to facilitate the reaction.<sup><xref rid="ref2" ref-type="bibr">2</xref></sup> This reaction has become a staple method to test
+new catalysts; the catalyzed hydroboration using 1,3,2-dioxaborolanes
+has resulted in over 600 publications since 2010.<sup><xref rid="ref3" ref-type="bibr">3</xref>−<xref rid="ref6" ref-type="bibr">6</xref></sup> Many of the proposed catalysts
+feature nucleophilic groups (e.g., groups inherent to the structure
+as precatalyst activators and/or as additives) which readily mediate
+the decomposition of HBpin and HBcat to boranes, including (ligated)
+BH<sub>3</sub>.<sup><xref rid="ref6" ref-type="bibr">6</xref>−<xref rid="ref9" ref-type="bibr">9</xref></sup> These boranes are themselves catalysts for alkene and alkyne hydroboration
+reactions and act as the active “hidden” catalyst rather
+than the intended “catalyst” species.<sup><xref rid="ref2" ref-type="bibr">2</xref>,<xref rid="ref6" ref-type="bibr">6</xref>−<xref rid="ref9" ref-type="bibr">9</xref></sup> Development of new hydroboration catalysts will rightly continue;
+however, the mechanism must intimately involve the catalyst species
+for it to provide novel reactivity and an expansion of the chemical
+space and understanding. Reactions that proceed through unidentified
+hidden BH<sub>3</sub> catalysis limit the development and understanding
+of future catalytic processes.</p><p>The current state-of-the-art
+method to distinguish between “hidden”
+and “true” catalysis relies on the trapping and <italic>in situ</italic> characterization of boranes, particularly BH<sub>3</sub>, generated under catalytic reaction conditions using <italic>N</italic>,<italic>N</italic>,<italic>N′</italic>,<italic>N</italic>′-tetramethylethylenediamine (TMEDA).<sup><xref rid="ref7" ref-type="bibr">7</xref></sup> The TMEDA·(BH<sub>3</sub>)<sub>2</sub> adduct
+is easily observed by <sup>1</sup>H and <sup>11</sup>B NMR spectroscopy
+and is even stable to aqueous extraction/workup (<xref rid="sch1" ref-type="fig">Scheme <xref rid="sch1" ref-type="fig">1</xref></xref>A).<sup><xref rid="ref7" ref-type="bibr">7</xref></sup> The concentration of the generated BH<sub>3</sub> can be measured
+and the rate of BH<sub>3</sub>-catalyzed hydroboration (at the measured
+[BH<sub>3</sub>]) can be compared to that of the proposed catalyzed
+reaction to identify which species is dominating catalysis; i.e.,
+when the rate at measured [BH<sub>3</sub>] equals the rate of the
+catalyzed reaction, hidden catalysis is dominating. Prior to the introduction
+of the TMEDA tests in 2020, only 5% of publications tested for hidden
+boron catalysis.<sup><xref rid="ref5" ref-type="bibr">5</xref></sup> Since then, 23% tested
+for hidden boron catalysis.<sup><xref rid="ref5" ref-type="bibr">5</xref></sup> While this
+is a significant increase, uptake remains low. This is likely due
+to the extended time required for comparative rate analyses.</p><fig id="sch1" position="float"><?disp-level 1?><label>Scheme 1</label><caption><title>(A) Catalyst-Mediated
+Decomposition of HBpin Followed by Trapping
+Using TMEDA; (B) Reaction Inhibition Using TMEDA as an <italic>in
+Situ</italic> BH<sub>3</sub> Trap</title></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr1" xlink:href="ol4c03591_0001.jpg"><?cloudpmc-path blobs/41bf/11555781/b8d1d0a9d8f2/ol4c03591_0001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1356?><?original-width 2400?><?scaled-height 441?><?scaled-width 780?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ol4c03591_0001.gif"><?cloudpmc-path blobs/41bf/11555781/b336abf3a7fe/ol4c03591_0001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>More commonly, the inhibition of catalysis by
+the addition of TMEDA
+has been used as an indication for hidden catalysis rather than the
+detection of borane. By serving as a BH<sub>3</sub> trap, the addition
+of TMEDA to a BH<sub>3</sub>-catalyzed hydroboration with HBpin was
+shown to inhibit reactivity (<xref rid="sch1" ref-type="fig">Scheme <xref rid="sch1" ref-type="fig">1</xref></xref>B).<sup><xref rid="ref7" ref-type="bibr">7</xref></sup> TMEDA can therefore
+be used as a qualitative indicator of hidden catalysis by the <italic>in situ</italic> inhibition of the hidden BH<sub>3</sub>-catalyzed
+hydroboration pathway, but a lack of inhibition of catalysis in the
+presence of TMEDA has been conflated with true catalysis.<sup><xref rid="ref7" ref-type="bibr">7</xref></sup></p><p>Analysis of the use of the TMEDA inhibition
+method showed that,
+in 63% of cases, the test reactions were carried out above 60 °C.<sup><xref rid="ref5" ref-type="bibr">5</xref></sup> This is significant since the TMEDA inhibition
+had only been demonstrated up to 60 °C and, in contrast, Brown
+previously used TMEDA·(BH<sub>3</sub>)<sub>2</sub> as a hydroboration
+reagent at 110 °C.<sup><xref rid="ref7" ref-type="bibr">7</xref>,<xref rid="ref11" ref-type="bibr">11</xref></sup> This indicates a potential limitation
+of the TMEDA inhibition method if the lability of the TMEDA·(BH<sub>3</sub>)<sub>2</sub> adduct at higher reaction temperatures allows
+it to act as a hydroboration catalyst. False negatives are therefore
+a distinct possibility at higher temperatures, and the misassignment
+of true catalysis is likely.</p><p>Kinetic analyses were performed
+to determine the inhibition effectiveness,
+or indeed catalytic activity, of the TMEDA·(BH<sub>3</sub>)<sub>2</sub> complex for the hydroboration of alkenes/alkynes. Please
+note no reaction is observed in the absence of TMEDA·(BH<sub>3</sub>)<sub>2</sub> at room temperature (see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.orglett.4c03591/suppl_file/ol4c03591_si_001.pdf" ext-link-type="uri">SI, section S3.6</ext-link>). The reaction profile was established in
+the absence of TMEDA through a BH<sub>3</sub>-catalyzed (20 mol %,
+Me<sub>2</sub>S·BH<sub>3</sub>) hydroboration of phenylacetylene <bold>1</bold> with HBpin in toluene at 60 °C and monitored by <sup>1</sup>H NMR spectroscopy (<xref rid="sch2" ref-type="fig">Scheme <xref rid="sch2" ref-type="fig">2</xref></xref>). Me<sub>2</sub>S·BH<sub>3</sub> was used as
+it has been shown to be a mimic for <italic>in situ</italic> generated
+BH<sub>3</sub>.<sup><xref rid="ref7" ref-type="bibr">7</xref></sup> The initial rate of this
+control reaction was 9.6 mM s<sup>–1</sup>, and a yield of
+87% of the alkenyl boronic ester <bold>2</bold> was observed after
+40 min.<sup><xref rid="ref12" ref-type="bibr">12</xref></sup> TMEDA·(BH<sub>3</sub>)<sub>2</sub> was synthesized and tested as a hydroboration catalyst (10
+mol %) at 60, 80, and 100 °C in toluene. Using the TMEDA·(BH<sub>3</sub>)<sub>2</sub> adduct under identical conditions to the BH<sub>3</sub>-catalyzed control (20 mol % “BH<sub>3</sub>”,
+60 °C), only very limited catalysis was observed, with only trace
+alkenyl boronic ester <bold>2</bold> observed after 40 min and only
+4% after 3 h. The initial rate (0.3 mM s<sup>–1</sup>) was
+significantly lower than that of the control reaction. This clearly
+demonstrated that the TMEDA·(BH<sub>3</sub>)<sub>2</sub> adduct
+is not sufficiently labile at 60 °C to meaningfully catalyze
+the hydroboration reaction. When catalysis using TMEDA·(BH<sub>3</sub>)<sub>2</sub> was tested at higher reaction temperatures,
+hydroboration was observed with 50% of the boronic ester <bold>2</bold> produced at 80 °C and 94% at 100 °C after 40 min, with
+reaction rates of 0.6 mM s<sup>–1</sup> and 4.56 mM s<sup>–1</sup>, respectively. The TMEDA·(BH<sub>3</sub>)<sub>2</sub> adduct
+is therefore sufficiently labile above 60 °C, allowing for BH<sub>3</sub>-catalyzed hydroboration reactions, and as reported by Brown,
+temperatures over 100 °C are needed for catalysis.<sup><xref rid="ref13" ref-type="bibr">13</xref></sup> Similar reaction profiles were observed when
+diglyme, a Lewis basic coordinating solvent, was used (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.orglett.4c03591/suppl_file/ol4c03591_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link>, see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.orglett.4c03591/suppl_file/ol4c03591_si_001.pdf" ext-link-type="uri">Figure S2</ext-link>).</p><fig id="sch2" position="float"><?disp-level 1?><label>Scheme 2</label><caption><title>Reaction Monitoring for the Hydroboration of Phenylacetylene
+with
+HBpin Catalyzed by Me<sub>2</sub>S·BH<sub>3</sub> or TMEDA·(BH<sub>3</sub>)<sub>2</sub></title><p id="sch2-fn2">Conditions: <bold>1</bold> (2.0 mmol), Me<sub>2</sub>S·BH<sub>3</sub> (0.40 mmol,
+20 mol
+% BH<sub>3</sub>), HBpin (3.0 mmol), toluene (0.40 mL).</p><p id="sch2-fn3">Conditions: <bold>1</bold> (2.0 mmol),
+TMEDA·(BH<sub>3</sub>)<sub>2</sub> (0.20 mmol, 20 mol % BH<sub>3</sub>), HBpin (3.0 mmol), toluene (0.40 mL). Yields were determined
+by <sup>1</sup>H NMR spectroscopy using an internal standard (1,3,5-trimethoxybenzene,
+0.10 mmol).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr2" xlink:href="ol4c03591_0002.jpg"><?cloudpmc-path blobs/41bf/11555781/b2f791c748c0/ol4c03591_0002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 2317?><?original-width 2400?><?scaled-height 749?><?scaled-width 776?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ol4c03591_0002.gif"><?cloudpmc-path blobs/41bf/11555781/36261c7b3c04/ol4c03591_0002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>The hydroboration of alkenes is
+slower than that of alkynes; thus,
+higher temperatures are more commonly used for these catalyzed hydroboration
+reactions. A BH<sub>3</sub>-catalyzed (20 mol %) reaction of <italic>tert</italic>-butylstyrene <bold>3</bold> with HBpin in toluene at
+60 °C, in the absence of TMEDA, was monitored by <sup>1</sup>H NMR spectroscopy (<xref rid="sch3" ref-type="fig">Scheme <xref rid="sch3" ref-type="fig">3</xref></xref>). A yield of &gt;95% of alkyl boronic ester <bold>4</bold> was
+observed after 7 h with an initial reaction rate of 1.8 mM s<sup>–1</sup>. Using the TMEDA·(BH<sub>3</sub>)<sub>2</sub> complex under
+identical conditions (20 mol % “BH<sub>3</sub>”, 60
+°C), only 3% of the boronic ester <bold>4</bold> was observed
+after 7 h, and 6% after 19 h. The initial rate (0.02 mM s<sup>–1</sup>) was significantly lower than that of the control reaction. Once
+again when the reaction temperature was increased, catalysis was observed
+with complete conversion to the boronic ester <bold>4</bold> in 19
+h at 80 °C and in 4 h at 100 °C, with initial rates of 0.19
+mM s<sup>–1</sup> and 0.7 mM s<sup>–1</sup>, respectively.
+This indicates that the TMEDA·(BH<sub>3</sub>)<sub>2</sub> complex
+is sufficiently labile above 60 °C to catalyze hydroboration.</p><fig id="sch3" position="float"><?disp-level 1?><label>Scheme 3</label><caption><title>Reaction Monitoring for the Hydroboration of <italic>tert</italic>-Butylstyrene with HBpin Catalyzed by Me<sub>2</sub>S·BH<sub>3</sub> or TMEDA·(BH<sub>3</sub>)<sub>2</sub></title><p id="sch3-fn2">Conditions: <bold>3</bold> (2.0 mmol), Me<sub>2</sub>S·BH<sub>3</sub> (0.40 mmol,
+20 mol
+% BH<sub>3</sub>), HBpin (3.0 mmol), toluene (0.40 mL).</p><p id="sch3-fn3">Conditions: <bold>3</bold> (2.0 mmol),
+TMEDA·(BH<sub>3</sub>)<sub>2</sub> (0.20 mmol, 20 mol % BH<sub>3</sub>), HBpin (3.0 mmol), toluene (0.40 mL). Yields were determined
+by <sup>1</sup>H NMR spectroscopy using an internal standard (1,3,5-trimethoxybenzene,
+0.10 mmol).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr3" xlink:href="ol4c03591_0003.jpg"><?cloudpmc-path blobs/41bf/11555781/b878041f278f/ol4c03591_0003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 2275?><?original-width 2400?><?scaled-height 735?><?scaled-width 776?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="ol4c03591_0003.gif"><?cloudpmc-path blobs/41bf/11555781/d517058e5fe3/ol4c03591_0003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>In an attempt to find a better
+inhibitor of hidden BH<sub>3</sub> catalysis, other amines were trialed.
+1,4-Diazabicyclo[2.2.2]octane
+(DABCO), pentamethyl diethylene triamine (PMDTA), <italic>N</italic>-methylmorpholine, <italic>N</italic>,<italic>N</italic>-disopropylethylamine
+(DIPEA), triethylamine (NEt<sub>3</sub>), and trimethylamine (NMe<sub>3</sub>) were all trialed to determine their inhibition effectiveness.
+The respective amine-borane adducts were prepared and used as a source
+of BH<sub>3</sub> in the catalyzed hydroboration reaction of phenylacetylene <bold>1</bold> with HBpin (<xref rid="tbl1" ref-type="table">Table <xref rid="tbl1" ref-type="table">1</xref></xref>). A control reaction using no R<sub>3</sub>N·BH<sub>3</sub> showed that HBpin alone gave product observation at 80 °C
+and above. It is worth noting that commercially available HBpin often
+contains trace amounts of BH<sub>3</sub>. Furthermore, HBpin is not
+stable at high temperatures, as redistribution to BH<sub>3</sub>,
+among other organoboron species, is observed at ≥80 °C
+(see <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.orglett.4c03591/suppl_file/ol4c03591_si_001.pdf" ext-link-type="uri">Supporting Information S3.3</ext-link>). Therefore,
+any hydroboration reaction with HBpin carried out at ≥80 °C
+will inherently be susceptible to hidden BH<sub>3</sub> catalysis.
+Amine-borane adducts <bold>5a</bold> and <bold>5b</bold> resulted
+in reaction inhibition (product formation &lt;5%) up to 60 °C
+where the adduct is not sufficiently labile to meaningfully catalyze
+the hydroboration reaction. Product formation was observed above 60
+°C. All other amine-borane adducts resulted in product formation
+at room temperature and above. All of the amines tested did not offer
+an improvement over TMEDA.</p><table-wrap id="tbl1" position="float"><?disp-level 1?><label>Table 1</label><caption><title>Inhibition Effectiveness of Various
+Amines as a Potential Alternative to TMEDA<xref rid="tbl1-fn1" ref-type="table-fn"><sup>a</sup></xref></title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr4" xlink:href="ol4c03591_0004.jpg"><?cloudpmc-path blobs/41bf/11555781/5da0a375a66e/ol4c03591_0004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 3410?><?original-width 2400?><?scaled-height 1102?><?scaled-width 776?></graphic><table-wrap-foot><fn id="tbl1-fn1"><label>a</label><p>Conditions: <bold>1</bold> (1.0
+mmol), R<sub>3</sub>N·(BH<sub>3</sub>)<sub>n</sub><bold>5</bold> (0.10 mmol), HBpin (1.5 mmol), toluene (0.20 mL).</p></fn></table-wrap-foot></table-wrap><p>Investigations into the temperature profile for effective
+inhibition
+of hydroboration catalysis by TMEDA revealed an upper temperature
+limit of 60 °C for this test. A positive result of this test,
+i.e., indication of BH<sub>3</sub>-catalyzed hydroboration, is the
+observation of complete inhibition of the hydroboration reaction in
+the presence of TMEDA (less than 5% products as observed by <sup>1</sup>H and <sup>11</sup>B NR spectroscopy). A negative result is no inhibition
+(strictly no change in rates of reaction, alongside product yield)
+when TMEDA is present, this indicating “true” catalysis.
+Application of the TMEDA inhibition test, to identify hidden BH<sub>3</sub> catalysis, was found to be unsuitable above 60 °C when
+using a one-to-one loading of TMEDA to “catalyst”. Higher
+loading of TMEDA, with respect to catalyst, offered increased inhibition
+of BH<sub>3</sub> catalysis but did not give complete inhibition of
+catalysis; thus, false negatives remain possible. Reaction at temperatures
+of ≥80 °C will generate BH<sub>3</sub> by thermal decomposition
+of HBpin, and therefore will always be susceptible to hidden BH<sub>3</sub> catalysis. TMEDA reaction doping can still be used to indicate
+BH<sub>3</sub> formation, but users should proceed with caution and
+rely on observing the adduct by <sup>11</sup>B NMR spectroscopy. The
+lack of inhibition was also shown by other (poly)amines tested as
+inhibitors.</p><sec id="ack1" sec-type="ack" disp-level="1"><title>Acknowledgments</title><p>S. P. T. thanks the EPSRC Programme Grant “Boron:
+Beyond the Reagent” (EP/W007517) for support. S. P. T. and
+J. M. thank the Royal Society for funding a PhD studentship (RGF/EA/180218).</p></sec><sec id="notes1" disp-level="1"><title>Data Availability Statement</title><p>The data underlying
+this study are available in the published article and its <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.orglett.4c03591/suppl_file/ol4c03591_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link>.</p></sec><sec id="notes2" disp-level="1"><title>Supporting Information Available</title><p>The Supporting Information is
+available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/10.1021/acs.orglett.4c03591?goto=supporting-info" ext-link-type="uri">https://pubs.acs.org/doi/10.1021/acs.orglett.4c03591</ext-link>.</p><list list-type="simple" id="silist"><list-item><p>General experimental information, experimental setup
+and procedures, reaction monitoring, NMR spectra, and associated references
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.orglett.4c03591/suppl_file/ol4c03591_si_001.pdf" ext-link-type="uri">PDF</ext-link>)</p></list-item></list></sec><sec id="notes3" disp-level="1"><p>The authors
+declare no competing financial interest.</p></sec><sec id="sec1" disp-level="1"><title>Supplementary Material</title><supplementary-material id="sifile1" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ol4c03591_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 41bf/11555781/3d32c3918813/ol4c03591_si_001.pdf?><?cloudpmc-bucket app?><?size 977253?><caption><p>ol4c03591_si_001.pdf</p></caption></media></supplementary-material></sec><sec id="ref-list1" sec-type="ref-list" disp-level="1"><title>References</title><sec id="ref-list1_sec2" disp-level="2"><ref-list><ref id="ref1"><mixed-citation id="cit1"><named-content content-type="citation-string">Miyaura N.; Suzuki A.
+Palladium-catalyzed Cross-coupling Reactions of Organoboron
+Compounds. Chem. Rev.
+1995, 95, 2457–2483. 10.1021/cr00039a007.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/cr00039a007"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Rev.&amp;title=Palladium-catalyzed Cross-coupling Reactions of Organoboron Compounds&amp;author=N. Miyaura&amp;author=A. Suzuki&amp;volume=95&amp;publication_year=1995&amp;pages=2457-2483&amp;doi=10.1021/cr00039a007&amp;"/></mixed-citation></ref><ref id="ref2"><mixed-citation id="cit2"><named-content content-type="citation-string">Ang N. W. J.; Buettner C. S.; Docherty S.; Bismuto A.; Carney J. R.; Docherty J. H.; Cowley M. J.; Thomas S. P.
+Borane-Catalysed
+Hydroboration of Alkynes and Alkenes. Synthesis
+2018, 50, 803–808. 10.1055/s-0036-1591719.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1055/s-0036-1591719"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Synthesis&amp;title=Borane-Catalysed Hydroboration of Alkynes and Alkenes&amp;author=N. W. J. Ang&amp;author=C. S. Buettner&amp;author=S. Docherty&amp;author=A. Bismuto&amp;author=J. R. Carney&amp;volume=50&amp;publication_year=2018&amp;pages=803-808&amp;doi=10.1055/s-0036-1591719&amp;"/></mixed-citation></ref><ref id="ref3"><mixed-citation id="cit3"><named-content content-type="citation-string">Nie K.; Han Y.; Wang C.; Cheng X.
+Rare-earth Metal-catalyzed Hydroboration
+of Unsaturated Compounds. Appl. Organomet. Chem.
+2022, 36, e6570 10.1002/aoc.6570.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/aoc.6570"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Appl. Organomet. Chem.&amp;title=Rare-earth Metal-catalyzed Hydroboration of Unsaturated Compounds&amp;author=K. Nie&amp;author=Y. Han&amp;author=C. Wang&amp;author=X. Cheng&amp;volume=36&amp;publication_year=2022&amp;pages=e6570&amp;doi=10.1002/aoc.6570&amp;"/></mixed-citation></ref><ref id="ref4"><mixed-citation id="cit4"><named-content content-type="citation-string">Bose S. K.; Mao L.; Kuehn L.; Radius U.; Nekvinda J.; Santos W. L.; Westcott S. A.; Steel P. G.; Marder T. B.
+First-Row d-Block
+Element-Catalyzed Carbon–Boron Bond Formation and Related Processes. Chem. Rev.
+2021, 121, 13238–13341. 10.1021/acs.chemrev.1c00255.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.chemrev.1c00255"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34618418"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Rev.&amp;title=First-Row d-Block Element-Catalyzed Carbon–Boron Bond Formation and Related Processes&amp;author=S. K. Bose&amp;author=L. Mao&amp;author=L. Kuehn&amp;author=U. Radius&amp;author=J. Nekvinda&amp;volume=121&amp;publication_year=2021&amp;pages=13238-13341&amp;pmid=34618418&amp;doi=10.1021/acs.chemrev.1c00255&amp;"/></mixed-citation></ref><ref id="ref5"><mixed-citation id="cit5"><named-content content-type="citation-string">SciFinder. <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://scifinder-n.cas.org/" ext-link-type="uri">https://scifinder-n.cas.org/</ext-link> (accessed August 2024, using the following search terms: Hydroboration, HBpin, Pinacolborane, HBcat, Catecholborane, Borylations).</named-content></mixed-citation></ref><ref id="ref6"><mixed-citation id="cit6"><named-content content-type="citation-string">Bage A. D.; Nicholson K.; Hunt T. A.; Langer T.; Thomas S. P.
+The Hidden
+Role of Boranes and Borohydrides in Hydroboration Catalysis. ACS Catal.
+2020, 10, 13479–13486. 10.1021/acscatal.0c04051.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acscatal.0c04051"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Catal.&amp;title=The Hidden Role of Boranes and Borohydrides in Hydroboration Catalysis&amp;author=A. D. Bage&amp;author=K. Nicholson&amp;author=T. A. Hunt&amp;author=T. Langer&amp;author=S. P. Thomas&amp;volume=10&amp;publication_year=2020&amp;pages=13479-13486&amp;doi=10.1021/acscatal.0c04051&amp;"/></mixed-citation></ref><ref id="ref7"><mixed-citation id="cit7"><named-content content-type="citation-string">Bage A. D.; Hunt T. A.; Thomas S. P.
+Hidden Boron Catalysis:
+Nucleophile-Promoted
+Decomposition of HBpin. Org. Lett.
+2020, 22, 4107–4112. 10.1021/acs.orglett.0c01168.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.orglett.0c01168"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32379466"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Org. Lett.&amp;title=Hidden Boron Catalysis: Nucleophile-Promoted Decomposition of HBpin&amp;author=A. D. Bage&amp;author=T. A. Hunt&amp;author=S. P. Thomas&amp;volume=22&amp;publication_year=2020&amp;pages=4107-4112&amp;pmid=32379466&amp;doi=10.1021/acs.orglett.0c01168&amp;"/></mixed-citation></ref><ref id="ref8"><mixed-citation id="cit8"><named-content content-type="citation-string">Westcott S. A.; Blom H. P.; Marder T. B.; Baker R. T.; Calabrese J. C.
+Nucleophile
+Promoted Degradation of Catecholborane: Consequences for Transition
+Metal-catalyzed Hydroborations. Inorg. Chem.
+1993, 32, 2175–2182. 10.1021/ic00062a048.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/ic00062a048"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Inorg. Chem.&amp;title=Nucleophile Promoted Degradation of Catecholborane: Consequences for Transition Metal-catalyzed Hydroborations&amp;author=S. A. Westcott&amp;author=H. P. Blom&amp;author=T. B. Marder&amp;author=R. T. Baker&amp;author=J. C. Calabrese&amp;volume=32&amp;publication_year=1993&amp;pages=2175-2182&amp;doi=10.1021/ic00062a048&amp;"/></mixed-citation></ref><ref id="ref9"><mixed-citation id="cit9"><named-content content-type="citation-string">Burgess K.; Jaspars M.
+Hydroboration Reactions
+Mediated by Bis(mesityl)niobium:
+Beware of the Trojan Horse. Tetrahedron Lett.
+1993, 34, 6813–6816. 10.1016/S0040-4039(00)91802-1.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0040-4039(00)91802-1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Tetrahedron Lett.&amp;title=Hydroboration Reactions Mediated by Bis(mesityl)niobium: Beware of the Trojan Horse&amp;author=K. Burgess&amp;author=M. Jaspars&amp;volume=34&amp;publication_year=1993&amp;pages=6813-6816&amp;doi=10.1016/S0040-4039(00)91802-1&amp;"/></mixed-citation></ref><ref id="ref11"><mixed-citation id="cit11"><named-content content-type="citation-string">Brown H. C.; Murray L. T.
+Molecular Addition
+Compounds. 9. Effect of Structure
+on the Reactivities of Representative Borane-aine Complexes in Typical
+Reactions such as Hydrolysis, Hydroboration, and Reduction. Inorg. Chem.
+1984, 23, 2746–2753. 10.1021/ic00186a008.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/ic00186a008"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Inorg. Chem.&amp;title=Molecular Addition Compounds. 9. Effect of Structure on the Reactivities of Representative Borane-aine Complexes in Typical Reactions such as Hydrolysis, Hydroboration, and Reduction&amp;author=H. C. Brown&amp;author=L. T. Murray&amp;volume=23&amp;publication_year=1984&amp;pages=2746-2753&amp;doi=10.1021/ic00186a008&amp;"/></mixed-citation></ref><ref id="ref12"><mixed-citation id="cit12"><named-content content-type="citation-string">The yield of hydroboration
+product <bold>2</bold> did not reach 100% due to hydroboration of
+the alkenyl boronic ester product <bold>2</bold> by BH<sub>3</sub>, particularly at higher temperatures. See:Nieto-Sepulveda E.; Bage A. D.; Evans L. A.; Hunt T. A.; Leach A. G.; Thomas S. P.; Lloyd-Jones G. C.
+Kinetics
+and Mechanism of the Arase-Hoshi R<sub>2</sub>BH-Catalyzed Alkyne
+Hydroboration: Alkenylboronate Generation via B–H/C–B
+Metathesis. J. Am. Chem. Soc.
+2019, 141, 18600–18611. 10.1021/jacs.9b10114.
+</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/jacs.9b10114"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31656074"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Am. Chem. Soc.&amp;title=Kinetics and Mechanism of the Arase-Hoshi R2BH-Catalyzed Alkyne Hydroboration: Alkenylboronate Generation via B–H/C–B Metathesis&amp;author=E. Nieto-Sepulveda&amp;author=A. D. Bage&amp;author=L. A. Evans&amp;author=T. A. Hunt&amp;author=A. G. Leach&amp;volume=141&amp;publication_year=2019&amp;pages=18600-18611&amp;pmid=31656074&amp;doi=10.1021/jacs.9b10114&amp;"/></mixed-citation></ref><ref id="ref13"><mixed-citation id="cit13"><named-content content-type="citation-string">For the proposed interactions
+between Lewis bases and BH<sub>3</sub> in the transition state of
+hydroboration, see:Narayana C.; Periasamy M.
+Hydroboration of Prochiral Olefins with Chiral Lewis
+Base–borane Complexes: Relationship to the Mechanism of Hydroboration. J. Chem. Soc., Chem. Commun.
+1987, 1857–1859. 10.1039/C39870001857.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/C39870001857"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Soc., Chem. Commun.&amp;title=Hydroboration of Prochiral Olefins with Chiral Lewis Base–borane Complexes: Relationship to the Mechanism of Hydroboration&amp;author=C. Narayana&amp;author=M. Periasamy&amp;publication_year=1987&amp;pages=1857-1859&amp;doi=10.1039/C39870001857&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ol4c03591_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 41bf/11555781/3d32c3918813/ol4c03591_si_001.pdf?><?cloudpmc-bucket app?><?size 977253?><caption><p>ol4c03591_si_001.pdf</p></caption></media></supplementary-material></sec><sec id="_adda93_" xml:lang="en" sec-type="data-availability-statement" disp-level="2"><title>Data Availability Statement</title><p>The data underlying
+this study are available in the published article and its <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.orglett.4c03591/suppl_file/ol4c03591_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link>.</p></sec></sec></body></article>

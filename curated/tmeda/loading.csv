@@ -1,0 +1,10 @@
+substrate,substrate_label,tmeda_equiv,temperature_c,yield_pct,source
+alkyne,phenylacetylene (1),0,80,>95,"SI Table S1, entry 1"
+alkyne,phenylacetylene (1),0.1,80,70,"SI Table S1, entry 2"
+alkyne,phenylacetylene (1),0.5,80,<5,"SI Table S1, entry 3"
+alkyne,phenylacetylene (1),0.5,100,<5,"SI Table S1, entry 4"
+alkene,4-tert-butylstyrene (3),0,80,>95,"SI Table S2, entry 1"
+alkene,4-tert-butylstyrene (3),0.5,80,70,"SI Table S2, entry 2"
+alkene,4-tert-butylstyrene (3),0.5,100,11,"SI Table S2, entry 3"
+alkene,4-tert-butylstyrene (3),0.75,100,9,"SI Table S2, entry 4"
+alkene,4-tert-butylstyrene (3),1.0,100,7,"SI Table S2, entry 5"

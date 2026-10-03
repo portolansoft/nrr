@@ -22,12 +22,33 @@
   "source": "Crossref query.bibliographic",
   "title": "Inhibiting focal adhesion kinase (FAK) blocks IL-4 induced VCAM-1 expression and eosinophil recruitment in vitro and in vivo"
  },
+ "citation:bisai m. k.; gour k.; das t.; vanka k.; sen s. s. lithium compound catalyzed deo": {
+  "doi": "10.1039/d1dt00364j",
+  "fetchedAt": "2026-10-03T01:46:51Z",
+  "score": 153.79759,
+  "source": "Crossref query.bibliographic",
+  "title": "Lithium compound catalyzed deoxygenative hydroboration of primary, secondary and tertiary amides"
+ },
+ "citation:bisai m. k.; gour k.; das t.; vanka k.; sen s. s. readily available lithium comp": {
+  "doi": "10.1016/j.jorganchem.2021.121924",
+  "fetchedAt": "2026-10-03T01:46:47Z",
+  "score": 134.50232,
+  "source": "Crossref query.bibliographic",
+  "title": "Readily available lithium compounds as catalysts for the hydroboration of carbodiimides and esters"
+ },
  "citation:chhunchha, b. et al. sulforaphane-induced klf9/prdx6 axis acts as a molecular sw": {
   "doi": "10.3390/cells8101159",
   "fetchedAt": "2026-09-26T01:52:39Z",
   "score": 134.57202,
   "source": "Crossref query.bibliographic",
   "title": "Sulforaphane-Induced Klf9/Prdx6 Axis Acts as a Molecular Switch to Control Redox Signaling and Determines Fate of Cells"
+ },
+ "citation:chia c.-c.; teo y.-c.; cham n.; ho s. y.-f.; ng z.-h.; toh h.-m.; mezailles n.; ": {
+  "doi": "10.1021/acs.inorgchem.0c03507",
+  "fetchedAt": "2026-10-03T01:46:57Z",
+  "score": 125.35346,
+  "source": "Crossref query.bibliographic",
+  "title": "Aluminum-Hydride-Catalyzed Hydroboration of Carbon Dioxide"
  },
  "citation:chung, e. j. et al. aicar suppresses tnf--induced complement factor b in rpe ce": {
   "doi": "10.1038/s41598-017-17744-w",
@@ -50,6 +71,13 @@
   "source": "Crossref query.bibliographic",
   "title": "Exendin-4 Protects Human Retinal Pigment Epithelial Cells from H&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;2&lt;/sub&gt;-Induced Oxidative Damage via Activation of NRF2 Signaling"
  },
+ "citation:doan s. h.; ton n. n. h.; mai b. k.; nguyen t. v. organosuperbase-catalyzed 1,1-": {
+  "doi": "10.1021/acscatal.2c03901",
+  "fetchedAt": "2026-10-03T01:46:40Z",
+  "score": 125.29235,
+  "source": "Crossref query.bibliographic",
+  "title": "Organosuperbase-Catalyzed 1,1-Diboration of Alkynes"
+ },
  "citation:fang, y. et al. removal of rpe lipofuscin results in rescue from retinal degener": {
   "doi": "10.1016/j.freeradbiomed.2022.02.025",
   "fetchedAt": "2026-09-26T01:52:39Z",
@@ -57,12 +85,26 @@
   "source": "Crossref query.bibliographic",
   "title": "Removal of RPE lipofuscin results in rescue from retinal degeneration in a mouse model of advanced Stargardt disease: Role of reactive oxygen species"
  },
+ "citation:garhwal s.; kroeger a. a.; thenarukandiyil r.; fridman n.; karton a.; de ruiter ": {
+  "doi": "10.1021/acs.inorgchem.0c03451",
+  "fetchedAt": "2026-10-03T01:46:56Z",
+  "score": 188.55331,
+  "source": "Crossref query.bibliographic",
+  "title": "Manganese-Catalyzed Hydroboration of Terminal Olefins and Metal-Dependent Selectivity in Internal Olefin Isomerization–Hydroboration"
+ },
  "citation:hirota, t. et al. identification of small molecule activators of cryptochrome. s": {
   "doi": "10.1126/science.1223710",
   "fetchedAt": "2026-09-26T01:52:14Z",
   "score": 60.772156,
   "source": "Crossref query.bibliographic",
   "title": "Identification of Small Molecule Activators of Cryptochrome"
+ },
+ "citation:huninik p.; szyling j.; czapik a.; walkowiak j. organocatalytic hydroboration of": {
+  "doi": "10.1039/d2gc04163d",
+  "fetchedAt": "2026-10-03T01:46:47Z",
+  "score": 155.46684,
+  "source": "Crossref query.bibliographic",
+  "title": "Organocatalytic hydroboration of olefins in pyrrolidinium ionic liquids"
  },
  "citation:ji, y., li, h., wang, f. & gu, l. pparβ/δ agonist gw501516 inhibits tumorigenici": {
   "doi": "10.3389/fphar.2018.00648",
@@ -92,9 +134,37 @@
   "source": "Crossref query.bibliographic",
   "title": "β-Ionone attenuates LPS-induced pro-inflammatory mediators such as NO, PGE2 and TNF-α in BV2 microglial cells via suppression of the NF-κB and MAPK pathway"
  },
+ "citation:kumar r.; bisai m. k.; jain s.; vanka k.; sen s. s. deoxygenative hydroboration ": {
+  "doi": "10.1039/d1cc04148g",
+  "fetchedAt": "2026-10-03T01:46:46Z",
+  "score": 153.88742,
+  "source": "Crossref query.bibliographic",
+  "title": "Deoxygenative hydroboration of primary and secondary amides: a catalyst-free and solvent-free approach"
+ },
+ "citation:kumar r.; dutta s.; sharma v.; singh p. p.; gonnade r. g.; koley d.; sen s. s. m": {
+  "doi": "10.1002/chem.202202794",
+  "fetchedAt": "2026-10-03T01:46:44Z",
+  "score": 111.0206,
+  "source": "Crossref query.bibliographic",
+  "title": "Cover Feature: Monomeric Magnesium Catalyzed Alkene and Alkyne Hydroboration (Chem. Eur. J. 56/2022)"
+ },
+ "citation:lee j.; fan j.; koh a.-p.; joslyn cheang w.-j.; yang m.-c.; su m.-d.; so c.-w. a": {
+  "doi": "10.1002/ejic.202200129",
+  "fetchedAt": "2026-10-03T01:46:45Z",
+  "score": 134.6205,
+  "source": "Crossref query.bibliographic",
+  "title": "Amidinato Isopropylmethylamidosilylene‐Catalyzed Hydroboration of Carbonyl Compounds"
+ },
  "citation:lei, g., xia, y. & johnson, k. m. the role of akt-gsk-3 signaling and synaptic ": {
   "fetchedAt": "2026-09-26T01:52:13Z",
   "unresolved": true
+ },
+ "citation:lewandowski d.; hreczycho g. cobalt pincer-type complexes demonstrating unique s": {
+  "doi": "10.1039/d3qi00478c",
+  "fetchedAt": "2026-10-03T01:46:43Z",
+  "score": 161.50002,
+  "source": "Crossref query.bibliographic",
+  "title": "Cobalt pincer-type complexes demonstrating unique selectivity for the hydroboration reaction of olefins under mild conditions"
  },
  "citation:li, p. et al. tudca attenuates intestinal injury and inhibits endoplasmic reticu": {
   "doi": "10.1016/j.intimp.2019.05.050",
@@ -103,12 +173,33 @@
   "source": "Crossref query.bibliographic",
   "title": "TUDCA attenuates intestinal injury and inhibits endoplasmic reticulum stress-mediated intestinal cell apoptosis in necrotizing enterocolitis"
  },
+ "citation:liu j.; wu c.; hu t.; yang w.; xie y.; shi y.; liu q.; shao y.; zhang f. hexamet": {
+  "doi": "10.1021/acs.joc.1c03012",
+  "fetchedAt": "2026-10-03T01:46:41Z",
+  "score": 145.11958,
+  "source": "Crossref query.bibliographic",
+  "title": "Hexamethyldisilazane Lithium (LiHMDS)-Promoted Hydroboration of Alkynes and Alkenes with Pinacolborane"
+ },
+ "citation:liu l.; lo s.-k.; smith c.; goicoechea j. m. pincer-supported gallium complexes ": {
+  "doi": "10.1002/chem.202103009",
+  "fetchedAt": "2026-10-03T01:46:53Z",
+  "score": 129.5495,
+  "source": "Crossref query.bibliographic",
+  "title": "Pincer‐Supported Gallium Complexes for the Catalytic Hydroboration of Aldehydes, Ketones and Carbon Dioxide"
+ },
  "citation:liu, s. et al. lxr ligands induce apoptosis of egfr-tki-resistant human lung can": {
   "doi": "10.3892/ol.2018.8182",
   "fetchedAt": "2026-09-26T01:52:29Z",
   "score": 106.507095,
   "source": "Crossref query.bibliographic",
   "title": "LXR ligands induce apoptosis of EGFR-TKI-resistant human lung cancer cells inï¿½vitro by inhibiting Akt-NF-κB activation"
+ },
+ "citation:lunic d.; sanosa n.; funes-ardoiz i.; teskey c. j. mild and chemoselective carbo": {
+  "doi": "10.1002/anie.202207647",
+  "fetchedAt": "2026-10-03T01:46:55Z",
+  "score": 153.13391,
+  "source": "Crossref query.bibliographic",
+  "title": "Mild and Chemoselective Carboxylic Acid Reduction Promoted by Borane Catalysis"
  },
  "citation:maksimova, v. et al. histone methyltransferases as a new target for epigenetic a": {
   "doi": "10.1134/s000629792307009x",
@@ -187,6 +278,27 @@
   "source": "Crossref query.bibliographic",
   "title": "Rapamycin inhibits oral cancer cell growth by promoting oxidative stress and suppressing ERK1/2, NF-κB and beta-catenin pathways"
  },
+ "citation:shi y.; wang y.; huang z.; zhang f.; shao y. tbuoli-promoted hydroboration of es": {
+  "doi": "10.1021/acsomega.2c01866",
+  "fetchedAt": "2026-10-03T01:46:38Z",
+  "score": 108.99384,
+  "source": "Crossref query.bibliographic",
+  "title": "<i>t</i>\n                    BuOLi-Promoted Hydroboration\nof Esters and Epoxides"
+ },
+ "citation:shlian d. g.; amemiya e.; parkin g. synthesis of bis(2-pyridylthio)methyl zinc h": {
+  "doi": "10.1039/d1cc06963b",
+  "fetchedAt": "2026-10-03T01:46:54Z",
+  "score": 138.3373,
+  "source": "Crossref query.bibliographic",
+  "title": "Synthesis of bis(2-pyridylthio)methyl zinc hydride and catalytic hydrosilylation and hydroboration of CO\n                    <sub>2</sub>"
+ },
+ "citation:sokolnicki t.; alharbi m. m.; van ingen y.; rahim s.; pramanik m.; roldan a.; wa": {
+  "doi": "10.1039/d3dt03333c",
+  "fetchedAt": "2026-10-03T01:46:58Z",
+  "score": 160.71242,
+  "source": "Crossref query.bibliographic",
+  "title": "Reactivity of a series of triaryl borates, B(OAr\n                    <sup>x</sup>\n                    )\n                    <sub>3</sub>\n                    , in hydroboration catalysis"
+ },
  "citation:suleiman, l., muataz, y., négrier, c. & boukerche, h. protein s-mediated signal ": {
   "doi": "10.1016/j.hemonc.2021.11.002",
   "fetchedAt": "2026-09-26T01:52:36Z",
@@ -200,6 +312,13 @@
   "score": 136.08322,
   "source": "Crossref query.bibliographic",
   "title": "Y-27632, a ROCK Inhibitor, Promoted Limbal Epithelial Cell Proliferation and Corneal Wound Healing"
+ },
+ "citation:ton n. n. h.; mai b. k.; nguyen t. v. tropylium-promoted hydroboration reactions": {
+  "doi": "10.1021/acs.joc.1c01208",
+  "fetchedAt": "2026-10-03T01:46:39Z",
+  "score": 121.45843,
+  "source": "Crossref query.bibliographic",
+  "title": "Tropylium-Promoted Hydroboration Reactions: Mechanistic Insights\n                    <i>Via</i>\n                    Experimental and Computational Studies"
  },
  "citation:torka, r. et al. activation of her3 interferes with antitumor effects of axl rec": {
   "doi": "10.1016/j.neo.2014.03.009",
@@ -215,6 +334,13 @@
   "source": "Crossref query.bibliographic",
   "title": "Ascorbic acid partly antagonizes resveratrol mediated heme oxygenase-1 but not paraoxonase-1 induction in cultured hepatocytes - role of the redox-regulated transcription factor Nrf2"
  },
+ "citation:yan b.; ma x.; pang z.; yang z. nahbet3-catalyzed hbpin hydroboration and deoxyg": {
+  "doi": "10.1039/d2nj05849a",
+  "fetchedAt": "2026-10-03T01:46:51Z",
+  "score": 118.44278,
+  "source": "Crossref query.bibliographic",
+  "title": "NaHBEt\n                    <sub>3</sub>\n                    -catalyzed HBpin hydroboration and deoxygenation of primary, secondary, and tertiary amides"
+ },
  "citation:yang, m. et al. ripasudil as a potential therapeutic agent in treating secondary": {
   "doi": "10.3390/ijms25063229",
   "fetchedAt": "2026-09-26T01:52:08Z",
@@ -229,6 +355,31 @@
   "source": "Crossref query.bibliographic",
   "title": "Immunomodulatory drug FTY720 induces regulatory CD4+CD25+ T cells<i>in vitro</i>"
  },
+ "citation:zou y.; zhang b.; wang l.; zhang h. benzoic acid-promoted c2-h borylation of ind": {
+  "doi": "10.1021/acs.orglett.1c00809",
+  "fetchedAt": "2026-10-03T01:46:42Z",
+  "score": 122.732796,
+  "source": "Crossref query.bibliographic",
+  "title": "Benzoic Acid-Promoted C2–H Borylation of Indoles with Pinacolborane"
+ },
+ "compound:1,3,5-trimethoxybenzene": {
+  "fetchedAt": "2026-10-03T01:46:08Z",
+  "formula": "C9H12O3",
+  "identifier": "pubchem:CID69301",
+  "inchikey": "LKUDPHPHKOZXCD-UHFFFAOYSA-N",
+  "iupac": "1,3,5-trimethoxybenzene",
+  "label": "1,3,5-Trimethoxybenzene",
+  "source": "PubChem PUG REST name lookup"
+ },
+ "compound:1,4-diazabicyclo[2.2.2]octane": {
+  "fetchedAt": "2026-10-03T01:46:10Z",
+  "formula": "C6H12N2",
+  "identifier": "pubchem:CID9237",
+  "inchikey": "IMNIMPAHZVJRPE-UHFFFAOYSA-N",
+  "iupac": "1,4-diazabicyclo[2.2.2]octane",
+  "label": "Dabco",
+  "source": "PubChem PUG REST name lookup"
+ },
  "compound:4-phenylbutyric acid": {
   "fetchedAt": "2026-09-25T19:40:00Z",
   "formula": "C10H12O2",
@@ -237,6 +388,15 @@
   "iupac": "4-phenylbutanoic acid",
   "label": "4-Phenylbutyric Acid",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:4-tert-butylstyrene": {
+  "fetchedAt": "2026-10-03T01:46:11Z",
+  "formula": "C12H16",
+  "identifier": "pubchem:CID15627",
+  "inchikey": "QEDJMOONZLUIMC-UHFFFAOYSA-N",
+  "iupac": "1-tert-butyl-4-ethenylbenzene",
+  "label": "4-tert-Butylstyrene",
+  "source": "PubChem PUG REST name lookup"
  },
  "compound:5'-n-ethylcarboxamidoadenosine": {
   "fetchedAt": "2026-09-25T19:40:00Z",
@@ -310,6 +470,24 @@
   "label": "Bms-777607",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
  },
+ "compound:borane": {
+  "fetchedAt": "2026-10-03T01:46:19Z",
+  "formula": "BH3",
+  "identifier": "pubchem:CID6331",
+  "inchikey": "UORVGPXVDQYIDP-UHFFFAOYSA-N",
+  "iupac": "borane",
+  "label": "Borane",
+  "source": "PubChem PUG REST name lookup"
+ },
+ "compound:borane dimethyl sulfide": {
+  "fetchedAt": "2026-10-03T01:46:21Z",
+  "formula": "C2H6BS",
+  "identifier": "pubchem:CID9833925",
+  "inchikey": "MCQRPQCQMGVWIQ-UHFFFAOYSA-N",
+  "iupac": null,
+  "label": "Boron, trihydro(thiobis(methane))-, (T-4)-",
+  "source": "PubChem PUG REST name lookup"
+ },
  "compound:capsaicin": {
   "formula": "C18H27NO3",
   "identifier": "pubchem:CID1548943",
@@ -317,6 +495,15 @@
   "iupac": "(E)-N-[(4-hydroxy-3-methoxyphenyl)methyl]-8-methylnon-6-enamide",
   "label": "Capsaicin",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:catecholborane": {
+  "fetchedAt": "2026-10-03T01:46:23Z",
+  "formula": "C6H5BO2",
+  "identifier": "pubchem:CID67506",
+  "inchikey": "CENMEJUYOOMFFZ-UHFFFAOYSA-N",
+  "iupac": "1,3,2-benzodioxaborole",
+  "label": "Catecholborane",
+  "source": "PubChem PUG REST name lookup"
  },
  "compound:celecoxib": {
   "fetchedAt": "2026-09-25T19:40:00Z",
@@ -362,6 +549,15 @@
   "iupac": "2,3-bis(4-hydroxyphenyl)propanenitrile",
   "label": "2,3-bis(4-Hydroxyphenyl)propionitrile",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:diglyme": {
+  "fetchedAt": "2026-10-03T01:46:25Z",
+  "formula": "C6H14O3",
+  "identifier": "pubchem:CID8150",
+  "inchikey": "SBZXBUIDTXKZTM-UHFFFAOYSA-N",
+  "iupac": "1-methoxy-2-(2-methoxyethoxy)ethane",
+  "label": "Diglyme",
+  "source": "PubChem PUG REST name lookup"
  },
  "compound:dimethyl fumarate": {
   "fetchedAt": "2026-09-25T19:40:00Z",
@@ -552,6 +748,15 @@
   "label": "Lidocaine",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
  },
+ "compound:lithium tert-butoxide": {
+  "fetchedAt": "2026-10-03T01:46:27Z",
+  "formula": "C4H9LiO",
+  "identifier": "pubchem:CID23664764",
+  "inchikey": "LZWQNOHZMQIFBX-UHFFFAOYSA-N",
+  "iupac": "lithium 2-methylpropan-2-olate",
+  "label": "2-Propanol, 2-methyl-, lithium salt (1:1)",
+  "source": "PubChem PUG REST name lookup"
+ },
  "compound:metformin": {
   "fetchedAt": "2026-09-25T19:40:00Z",
   "formula": "C4H11N5",
@@ -582,6 +787,42 @@
   "iupac": "N-(6-chloro-7-methoxy-9H-pyrido[3,4-b]indol-8-yl)-2-methylpyridine-3-carboxamide",
   "label": "N-(6-chloro-7-methoxy-9H-beta-carbolin-8-yl)-2-methylnicotinamide",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:n,n,n',n'',n''-pentamethyldiethylenetriamine": {
+  "fetchedAt": "2026-10-03T01:46:13Z",
+  "formula": "C9H23N3",
+  "identifier": "pubchem:CID18196",
+  "inchikey": "UKODFQOELJFMII-UHFFFAOYSA-N",
+  "iupac": "N'-[2-(dimethylamino)ethyl]-N,N,N'-trimethylethane-1,2-diamine",
+  "label": "Pentamethyldiethylenetriamine",
+  "source": "PubChem PUG REST name lookup"
+ },
+ "compound:n,n,n',n'-tetramethylethylenediamine": {
+  "fetchedAt": "2026-10-03T01:46:15Z",
+  "formula": "C6H16N2",
+  "identifier": "pubchem:CID8037",
+  "inchikey": "KWYHDKDOAIKMQN-UHFFFAOYSA-N",
+  "iupac": "N,N,N',N'-tetramethylethane-1,2-diamine",
+  "label": "N,N,N',N'-Tetramethylethylenediamine",
+  "source": "PubChem PUG REST name lookup"
+ },
+ "compound:n,n-diisopropylethylamine": {
+  "fetchedAt": "2026-10-03T01:46:16Z",
+  "formula": "C8H19N",
+  "identifier": "pubchem:CID81531",
+  "inchikey": "JGFZNNIVVJXRND-UHFFFAOYSA-N",
+  "iupac": "N-ethyl-N-propan-2-ylpropan-2-amine",
+  "label": "Diisopropylethylamine",
+  "source": "PubChem PUG REST name lookup"
+ },
+ "compound:n-methylmorpholine": {
+  "fetchedAt": "2026-10-03T01:46:18Z",
+  "formula": "C5H11NO",
+  "identifier": "pubchem:CID7972",
+  "inchikey": "SJRJJKPEHAURKC-UHFFFAOYSA-N",
+  "iupac": "4-methylmorpholine",
+  "label": "4-Methylmorpholine",
+  "source": "PubChem PUG REST name lookup"
  },
  "compound:nicotinamide": {
   "fetchedAt": "2026-09-25T19:40:00Z",
@@ -618,6 +859,24 @@
   "iupac": "6-[[4-[(3-methylsulfonylphenyl)methylamino]-5-(trifluoromethyl)pyrimidin-2-yl]amino]-3,4-dihydro-1H-quinolin-2-one",
   "label": "PF-573228",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:phenylacetylene": {
+  "fetchedAt": "2026-10-03T01:46:28Z",
+  "formula": "C8H6",
+  "identifier": "pubchem:CID10821",
+  "inchikey": "UEXCJVNBTNXOEH-UHFFFAOYSA-N",
+  "iupac": "ethynylbenzene",
+  "label": "Phenylacetylene",
+  "source": "PubChem PUG REST name lookup"
+ },
+ "compound:pinacolborane": {
+  "fetchedAt": "2026-10-03T01:46:30Z",
+  "formula": "C6H12BO2",
+  "identifier": "pubchem:CID6364989",
+  "inchikey": "LZPWAYBEOJRFAX-UHFFFAOYSA-N",
+  "iupac": null,
+  "label": "Pinacolborane",
+  "source": "PubChem PUG REST name lookup"
  },
  "compound:pioglitazone": {
   "fetchedAt": "2026-09-25T19:40:00Z",
@@ -779,6 +1038,15 @@
   "label": "Tauroursodeoxycholic acid",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
  },
+ "compound:toluene": {
+  "fetchedAt": "2026-10-03T01:46:32Z",
+  "formula": "C7H8",
+  "identifier": "pubchem:CID1140",
+  "inchikey": "YXFVVABEGXRONW-UHFFFAOYSA-N",
+  "iupac": "toluene",
+  "label": "Toluene",
+  "source": "PubChem PUG REST name lookup"
+ },
  "compound:trehalose": {
   "fetchedAt": "2026-09-25T19:40:00Z",
   "formula": "C12H22O11",
@@ -787,6 +1055,24 @@
   "iupac": "(2R,3S,4S,5R,6R)-2-(hydroxymethyl)-6-[(2R,3R,4S,5S,6R)-3,4,5-trihydroxy-6-(hydroxymethyl)oxan-2-yl]oxyoxane-3,4,5-triol",
   "label": "Trehalose",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:triethylamine": {
+  "fetchedAt": "2026-10-03T01:46:33Z",
+  "formula": "C6H15N",
+  "identifier": "pubchem:CID8471",
+  "inchikey": "ZMANZCXQSJIPKH-UHFFFAOYSA-N",
+  "iupac": "N,N-diethylethanamine",
+  "label": "Triethylamine",
+  "source": "PubChem PUG REST name lookup"
+ },
+ "compound:trimethylamine": {
+  "fetchedAt": "2026-10-03T01:46:35Z",
+  "formula": "C3H9N",
+  "identifier": "pubchem:CID1146",
+  "inchikey": "GETQZCLCWQTVFV-UHFFFAOYSA-N",
+  "iupac": "N,N-dimethylmethanamine",
+  "label": "Trimethylamine",
+  "source": "PubChem PUG REST name lookup"
  },
  "compound:triton x-100": {
   "fetchedAt": "2026-09-25T19:40:00Z",
@@ -850,6 +1136,21 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1002/anie.202207647": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:46:58Z",
+  "container": "Angewandte Chemie International Edition",
+  "fetchedAt": "2026-10-03T01:46:58Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2022,
+   9,
+   21
+  ],
+  "title": "Mild and Chemoselective Carboxylic Acid Reduction Promoted by Borane Catalysis",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1002/bip.10296": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:52:43Z",
@@ -865,6 +1166,36 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1002/chem.202103009": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:46:59Z",
+  "container": "Chemistry – A European Journal",
+  "fetchedAt": "2026-10-03T01:46:59Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2021,
+   10,
+   27
+  ],
+  "title": "Pincer‐Supported Gallium Complexes for the Catalytic Hydroboration of Aldehydes, Ketones and Carbon Dioxide",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1002/chem.202202794": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:00Z",
+  "container": "Chemistry – A European Journal",
+  "fetchedAt": "2026-10-03T01:47:00Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2022,
+   9,
+   26
+  ],
+  "title": "Cover Feature: Monomeric Magnesium Catalyzed Alkene and Alkyne Hydroboration (Chem. Eur. J. 56/2022)",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1002/cpsc.53": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:52:43Z",
@@ -877,6 +1208,21 @@
    26
   ],
   "title": "Stem Cell–Derived Retinal Pigment Epithelial Layer Model from Adult Human Globes Donated for Corneal Transplants",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1002/ejic.202200129": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:01Z",
+  "container": "European Journal of Inorganic Chemistry",
+  "fetchedAt": "2026-10-03T01:47:01Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2022,
+   6,
+   14
+  ],
+  "title": "Amidinato Isopropylmethylamidosilylene‐Catalyzed Hydroboration of Carbonyl Compounds",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -1081,6 +1427,19 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1016/j.jorganchem.2021.121924": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:02Z",
+  "container": "Journal of Organometallic Chemistry",
+  "fetchedAt": "2026-10-03T01:47:02Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Readily available lithium compounds as catalysts for the hydroboration of carbodiimides and esters",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1016/j.mex.2025.103416": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:52:49Z",
@@ -1203,6 +1562,19 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1016/s0040-4039(00)91802-1": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:01Z",
+  "container": "Tetrahedron Letters",
+  "fetchedAt": "2026-10-03T01:47:01Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Hydroboration reactions mediated by bis(mesityl)niobium: Beware of the trojan horse",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1021/acs.chemmater.5b04578": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-10-03T01:36:49Z",
@@ -1230,6 +1602,66 @@
    9
   ],
   "title": "Lessons from Failed Attempts of Computationally Guided Synthesis of Aluminosilicate STF and IFR Zeolites in Hydroxide Media",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acs.inorgchem.0c03451": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:03Z",
+  "container": "Inorganic Chemistry",
+  "fetchedAt": "2026-10-03T01:47:03Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2020,
+   12,
+   16
+  ],
+  "title": "Manganese-Catalyzed Hydroboration of Terminal Olefins and Metal-Dependent Selectivity in Internal Olefin Isomerization–Hydroboration",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acs.inorgchem.0c03507": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:04Z",
+  "container": "Inorganic Chemistry",
+  "fetchedAt": "2026-10-03T01:47:04Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2021,
+   3,
+   18
+  ],
+  "title": "Aluminum-Hydride-Catalyzed Hydroboration of Carbon Dioxide",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acs.joc.1c01208": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:04Z",
+  "container": "The Journal of Organic Chemistry",
+  "fetchedAt": "2026-10-03T01:47:04Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2021,
+   6,
+   17
+  ],
+  "title": "Tropylium-Promoted Hydroboration Reactions: Mechanistic Insights\n                    <i>Via</i>\n                    Experimental and Computational Studies",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acs.joc.1c03012": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:05Z",
+  "container": "The Journal of Organic Chemistry",
+  "fetchedAt": "2026-10-03T01:47:05Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2022,
+   2,
+   10
+  ],
+  "title": "Hexamethyldisilazane Lithium (LiHMDS)-Promoted Hydroboration of Alkynes and Alkenes with Pinacolborane",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -1263,6 +1695,96 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1021/acs.orglett.0c01168": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:06Z",
+  "container": "Organic Letters",
+  "fetchedAt": "2026-10-03T01:47:06Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2020,
+   5,
+   7
+  ],
+  "title": "Hidden Boron Catalysis: Nucleophile-Promoted Decomposition of HBpin",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acs.orglett.1c00809": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:06Z",
+  "container": "Organic Letters",
+  "fetchedAt": "2026-10-03T01:47:06Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2021,
+   3,
+   18
+  ],
+  "title": "Benzoic Acid-Promoted C2–H Borylation of Indoles with Pinacolborane",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acs.orglett.4c03591": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:07Z",
+  "container": "Organic Letters",
+  "fetchedAt": "2026-10-03T01:47:07Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2024,
+   10,
+   28
+  ],
+  "title": "Hidden Boron Catalysis: A Cautionary Tale on TMEDA Inhibition",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acscatal.0c04051": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:08Z",
+  "container": "ACS Catalysis",
+  "fetchedAt": "2026-10-03T01:47:08Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2020,
+   11,
+   4
+  ],
+  "title": "The Hidden Role of Boranes and Borohydrides in Hydroboration\nCatalysis",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acscatal.2c03901": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:09Z",
+  "container": "ACS Catalysis",
+  "fetchedAt": "2026-10-03T01:47:09Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2022,
+   9,
+   28
+  ],
+  "title": "Organosuperbase-Catalyzed 1,1-Diboration of Alkynes",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acsomega.2c01866": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:09Z",
+  "container": "ACS Omega",
+  "fetchedAt": "2026-10-03T01:47:09Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2022,
+   5,
+   25
+  ],
+  "title": "<i>t</i>\n                    BuOLi-Promoted Hydroboration\nof Esters and Epoxides",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1021/cm001180e": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-10-03T01:36:52Z",
@@ -1290,6 +1812,51 @@
    4
   ],
   "title": "The Role of Template Structure and Synergism between Inorganic and Organic Structure Directing Agents in the Synthesis of UTL Zeolite",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/ic00062a048": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:10Z",
+  "container": "Inorganic Chemistry",
+  "fetchedAt": "2026-10-03T01:47:10Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2002,
+   5,
+   1
+  ],
+  "title": "Nucleophile promoted degradation of catecholborane: consequences for transition metal-catalyzed hydroborations",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/ic00186a008": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:11Z",
+  "container": "Inorganic Chemistry",
+  "fetchedAt": "2026-10-03T01:47:11Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2002,
+   5,
+   1
+  ],
+  "title": "Molecular addition compounds. 9. Effect of structure on the reactivities of representative borane-amine complexes in typical reactions such as hydrolysis, hydroboration, and reduction",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/jacs.9b10114": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:12Z",
+  "container": "Journal of the American Chemical Society",
+  "fetchedAt": "2026-10-03T01:47:12Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2019,
+   10,
+   26
+  ],
+  "title": "Kinetics and Mechanism of the Arase-Hoshi R\n                    <sub>2</sub>\n                    BH-Catalyzed Alkyne Hydroboration: Alkenylboronate Generation via B–H/C–B Metathesis",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -1613,6 +2180,112 @@
    2019
   ],
   "title": "Design of organic structure directing agents for polymorph A zeolite beta",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1039/d1cc04148g": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:12Z",
+  "container": "Chemical Communications",
+  "fetchedAt": "2026-10-03T01:47:12Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2021
+  ],
+  "title": "Deoxygenative hydroboration of primary and secondary amides: a catalyst-free and solvent-free approach",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1039/d1cc06963b": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:13Z",
+  "container": "Chemical Communications",
+  "fetchedAt": "2026-10-03T01:47:13Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2022
+  ],
+  "title": "Synthesis of bis(2-pyridylthio)methyl zinc hydride and catalytic hydrosilylation and hydroboration of CO\n                    <sub>2</sub>",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1039/d1dt00364j": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:14Z",
+  "container": "Dalton Transactions",
+  "fetchedAt": "2026-10-03T01:47:14Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2021
+  ],
+  "title": "Lithium compound catalyzed deoxygenative hydroboration of primary, secondary and tertiary amides",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1039/d2gc04163d": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:14Z",
+  "container": "Green Chemistry",
+  "fetchedAt": "2026-10-03T01:47:14Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2023
+  ],
+  "title": "Organocatalytic hydroboration of olefins in pyrrolidinium ionic liquids",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1039/d2nj05849a": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:15Z",
+  "container": "New Journal of Chemistry",
+  "fetchedAt": "2026-10-03T01:47:15Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2023
+  ],
+  "title": "NaHBEt\n                    <sub>3</sub>\n                    -catalyzed HBpin hydroboration and deoxygenation of primary, secondary, and tertiary amides",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1039/d3dt03333c": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:16Z",
+  "container": "Dalton Transactions",
+  "fetchedAt": "2026-10-03T01:47:16Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2023
+  ],
+  "title": "Reactivity of a series of triaryl borates, B(OAr\n                    <sup>x</sup>\n                    )\n                    <sub>3</sub>\n                    , in hydroboration catalysis",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1039/d3qi00478c": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:17Z",
+  "container": "Inorganic Chemistry Frontiers",
+  "fetchedAt": "2026-10-03T01:47:17Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2023
+  ],
+  "title": "Cobalt pincer-type complexes demonstrating unique selectivity for the hydroboration reaction of olefins under mild conditions",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1055/s-0036-1591719": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:47:17Z",
+  "container": "Synthesis",
+  "fetchedAt": "2026-10-03T01:47:17Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2017,
+   11,
+   20
+  ],
+  "title": "Borane-Catalysed Hydroboration of Alkynes and Alkenes",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -2860,6 +3533,12 @@
   "fetchedAt": "2026-10-03T01:36:47Z",
   "identifier": "https://ror.org/038792a28",
   "label": "Instituto de Tecnología Química",
+  "source": "ROR v2 API"
+ },
+ "org:university of edinburgh": {
+  "fetchedAt": "2026-10-03T01:46:36Z",
+  "identifier": "https://ror.org/01nrxwf90",
+  "label": "University of Edinburgh",
   "source": "ROR v2 API"
  },
  "protein:ABCA1:9606": {

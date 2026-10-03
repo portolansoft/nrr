@@ -1,0 +1,9 @@
+substrate,substrate_label,bh3_source,temperature_c,bh3_mol_pct,initial_rate_mm_s,yield_pct,yield_time,solvent,source
+alkyne,phenylacetylene (1),Me2S.BH3,60,20,9.6,87,40 min,toluene,"Scheme 2 and text: 'initial rate of this control reaction was 9.6 mM s-1, and a yield of 87% ... after 40 min'"
+alkyne,phenylacetylene (1),TMEDA.(BH3)2,60,20,0.3,4,3 h,toluene,"Scheme 2 and text: 'only trace alkenyl boronic ester 2 observed after 40 min and only 4% after 3 h ... initial rate (0.3 mM s-1)'"
+alkyne,phenylacetylene (1),TMEDA.(BH3)2,80,20,0.6,50,40 min,toluene,"Scheme 2 and text: '50% of the boronic ester 2 produced at 80 °C ... 0.6 mM s-1'"
+alkyne,phenylacetylene (1),TMEDA.(BH3)2,100,20,4.56,94,40 min,toluene,"Scheme 2 and text: '94% at 100 °C after 40 min ... 4.56 mM s-1'"
+alkene,4-tert-butylstyrene (3),Me2S.BH3,60,20,1.8,>95,7 h,toluene,"Scheme 3 and text: 'A yield of >95% of alkyl boronic ester 4 was observed after 7 h with an initial reaction rate of 1.8 mM s-1'"
+alkene,4-tert-butylstyrene (3),TMEDA.(BH3)2,60,20,0.02,3,7 h,toluene,"Scheme 3 and text: 'only 3% of the boronic ester 4 was observed after 7 h, and 6% after 19 h. The initial rate (0.02 mM s-1)'"
+alkene,4-tert-butylstyrene (3),TMEDA.(BH3)2,80,20,0.19,100,19 h,toluene,"Scheme 3 and text: 'complete conversion to the boronic ester 4 in 19 h at 80 °C ... initial rates of 0.19'"
+alkene,4-tert-butylstyrene (3),TMEDA.(BH3)2,100,20,0.7,100,4 h,toluene,"Scheme 3 and text: 'in 4 h at 100 °C ... 0.7 mM s-1'"

@@ -83,3 +83,69 @@ new relation.
 The study has no deposited data, which is normal for ACS and a point for the CTO conversation: the only machine-unfriendly
 place its evidence lives is a 39-page PDF, and the detailed classifier screening results are "available from the authors
 upon request". It also has no author-contribution statement, so every author is recorded as `writing` only.
+
+## 2. TMEDA inhibition: a negative about a control method
+
+*Macleod, Bage, Meyer and Thomas 2024, "Hidden Boron Catalysis: A Cautionary Tale on TMEDA Inhibition", Org. Lett. 26,
+9564-9567, doi:10.1021/acs.orglett.4c03591, PMC11555781. Study id `acs-tmeda`.*
+
+### Why this one
+
+Because the thing that fails is the control. Trapping with TMEDA is how the field decides whether a proposed hydroboration
+catalyst is real or is quietly decomposing pinacolborane to BH3, the actual catalyst. If TMEDA does not inhibit the
+reaction, the catalysis has been called "true". This paper shows the TMEDA·(BH3)2 adduct is labile above 60 °C, so the
+test passes reactions that are in fact BH3-catalysed, and 63 % of the published uses of the test ran it hotter than that.
+It is the chemistry analogue of the Raman record, where the validation scheme was the problem, and the research note asked
+how a record can say "this negative control is unreliable under these conditions" and point at the literature that relied
+on it.
+
+### What the record looks like
+
+| Record | Kind | Headline | Findings |
+|---|---|---|---|
+| `acs-tmeda-path` | path, experiment | `partial` | 4 attempts |
+| `acs-tmeda-adduct-kinetics` | wet-lab | `refuted` | 9: six kinetic points (two informative negatives at 60 °C, four positives at 80 and 100 °C), the refuted test, the deliberate hidden-catalysis demonstration, HBpin's own thermal decomposition at 80 °C |
+| `acs-tmeda-amine-screen` | wet-lab | `negative-not-achievable` | 7: one per amine from the Table 1 grid plus the overall "no better trap" |
+| `acs-tmeda-loading` | wet-lab | `partial` | 2: higher TMEDA loading completes inhibition for the alkyne, not the alkene |
+| `acs-tmeda-literature-survey` | evidence-synthesis | `positive` | 2: uptake of hidden-catalysis testing, and 15 of 24 TMEDA tests run above 60 °C |
+
+The numbers that matter are pinned in the tests: free BH3 gives 9.6 mM/s and 87 % at 60 °C where the adduct gives
+0.3 mM/s and 4 %; the adduct gives 50 % at 80 °C and 94 % at 100 °C. Table 1 is a colour grid in an image and was read cell
+by cell into a CSV with the row and column as locator for each of its 28 cells.
+
+### The judgement calls, and where they are written
+
+**The method is the target.** The TMEDA inhibition test is an entity of type `assay`, and it is the `target` of a finding
+of class `refuted` whose `conditions` say `validUpToC: 60` and `falseNegativeFromC: 80`. The path's
+`applicabilityConditions` repeat the limit. Nothing new was needed: the model already allowed an assay to be the thing a
+finding is about, and `refuted` already carried "this inference is false".
+
+**The first chemistry negatives to pass the rule.** At 60 °C the adduct does not catalyse. The designated positive control
+(Me2S·BH3 as a free-BH3 source) ran at every temperature, the no-catalyst background is clean, and the paper defines its
+threshold, less than 5 % product by NMR, which the record takes as the sensitivity statement. So `alkyne-60` and
+`alkene-60` are `negative-no-effect`, informative. That matters for the corpus: before this study every chemistry negative
+was inconclusive.
+
+**A background control that is clean at one temperature and dirty at another.** In the amine grid the no-amine row shows
+no product to 70 °C and product at 80 °C, because HBpin decomposes to BH3 on its own from 80 °C (SI S3.5, recorded as its
+own finding). The rule has one `passed` boolean per control. The record sets it true, says in the control's `note` that
+the 80 °C column cannot distinguish a failed trap from background, and restricts the interpretation accordingly. This is
+a case the rule handles by annotation, not by a new clause. It would become a clause if a third study needed it.
+
+**Linking forward to the invalidated literature, honestly.** The SI counts 15 of 24 published TMEDA tests as run above
+60 °C but does not name them; its references 9 to 27 are "some examples" of papers using the method, with no statement of
+which ran hot, and seven of the 24 applied the test to carbonyl substrates it was never valid for. The record therefore
+does not assert a per-paper `refutes` or `contradicts` relation. It records the count as a finding with `relatedFindings`
+back to the refutation, and attaches the 19 examples as `reference` sources, all 19 resolved to DOIs through Crossref,
+each with a note saying exactly what the paper claims about it. The temptation to add an `invalidates` relation type was
+resisted because the source does not support the per-paper claim.
+
+### What it broke
+
+Nothing. Zero schema changes. The only code change was tooling: `scripts/resolve_ids.py` gained a generic `citations:`
+list so a Supporting Information reference list without DOIs can be resolved once, online, into the cache.
+
+### What it did not test
+
+The paper reports yields as the average of two runs with no error estimate, so `replicates.technical: 2` is all the record
+can say. Schemes S3 and S4 give their yields only in images and were not transcribed; the record says so.
