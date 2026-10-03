@@ -21,6 +21,7 @@ from nrr.ingest.neuroimaging import build_neuroimaging_records  # noqa: E402
 from nrr.ingest.dfa import build_dfa_records  # noqa: E402
 from nrr.ingest.raman import build_raman_records  # noqa: E402
 from nrr.ingest.robin import build_robin_records  # noqa: E402
+from nrr.ingest.laccase import build_laccase_records  # noqa: E402
 from nrr.ingest.tmeda import build_tmeda_records  # noqa: E402
 from nrr.ingest.zeolite import build_zeolite_records  # noqa: E402
 from nrr.resolve import Resolver  # noqa: E402
@@ -30,7 +31,7 @@ from nrr.schema import validate  # noqa: E402
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default=str(ROOT / "out"))
-    ap.add_argument("--study", default="all", choices=["all", "robin-damd", "arcadia-alcalase", "arcadia-neuroimaging", "arcadia-raman", "arcadia-dfa", "acs-zeolite", "acs-tmeda"])
+    ap.add_argument("--study", default="all", choices=["all", "robin-damd", "arcadia-alcalase", "arcadia-neuroimaging", "arcadia-raman", "arcadia-dfa", "acs-zeolite", "acs-tmeda", "acs-laccase"])
     args = ap.parse_args()
     out = Path(args.out)
     for sub in ("records", "crates", "mcp/deposits"):
@@ -55,6 +56,8 @@ def main() -> int:
         records += build_zeolite_records(ROOT, resolver)
     if args.study in ("all", "acs-tmeda"):
         records += build_tmeda_records(ROOT, resolver)
+    if args.study in ("all", "acs-laccase"):
+        records += build_laccase_records(ROOT, resolver)
 
     problems = {}
     for rec in records:

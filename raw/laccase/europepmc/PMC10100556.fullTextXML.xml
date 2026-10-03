@@ -1,0 +1,419 @@
+
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD with MathML3 v1.4 20241031//EN" "JATS-archivearticle1-4-mathml3.dtd">
+<article xml:lang="EN" article-type="rapid-communication" dtd-version="1.4"><processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats"><restricted-by>pmc</restricted-by></processing-meta><front><journal-meta><journal-id journal-id-type="nlm-ta">Environ Sci Technol Lett</journal-id><journal-id journal-id-type="iso-abbrev">Environ Sci Technol Lett</journal-id><journal-id journal-id-type="pmc-domain-id">822</journal-id><journal-id journal-id-type="pmc-domain">acssd</journal-id><journal-id journal-id-type="nlm-id">101628367</journal-id><journal-id journal-id-type="publisher-id">ez</journal-id><journal-title-group><journal-title>Environmental Science &amp; Technology Letters</journal-title></journal-title-group><issn pub-type="epub">2328-8930</issn><?publisher_abbrev acs?><custom-meta-group><custom-meta><meta-name>pmc-is-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-collection-title</meta-name><meta-value>ACS AuthorChoice</meta-value></custom-meta></custom-meta-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC10100556</article-id><article-id pub-id-type="pmcid-ver">PMC10100556.1</article-id><article-id pub-id-type="pmcaid">10100556</article-id><article-id pub-id-type="pmcaiid">10100556</article-id><article-id pub-id-type="pmid">37064824</article-id><article-id pub-id-type="doi">10.1021/acs.estlett.3c00173</article-id><article-version article-version-type="pmc-version">1</article-version><article-categories><subj-group><subject>Article</subject></subj-group></article-categories><title-group><article-title>An Artifact
+of Perfluoroalkyl Acid (PFAA) Removal
+Attributed to Sorption Processes in a Laccase Mediator System</article-title></title-group><contrib-group><contrib contrib-type="author" id="ath1"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-4663-8264</contrib-id><name name-style="western"><surname>Steffens</surname><given-names initials="SD">Sophia
+D.</given-names></name><xref rid="aff1" ref-type="aff">†</xref></contrib><contrib contrib-type="author" id="ath2"><name name-style="western"><surname>Antell</surname><given-names initials="EH">Edmund H.</given-names></name><xref rid="aff2" ref-type="aff">‡</xref></contrib><contrib contrib-type="author" id="ath3"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0002-4587-3097</contrib-id><name name-style="western"><surname>Cook</surname><given-names initials="EK">Emily K.</given-names></name><xref rid="aff2" ref-type="aff">‡</xref></contrib><contrib contrib-type="author" id="ath4"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0001-8043-3436</contrib-id><name name-style="western"><surname>Rao</surname><given-names initials="G">Guodong</given-names></name><xref rid="aff3" ref-type="aff">§</xref></contrib><contrib contrib-type="author" id="ath5"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-0889-8436</contrib-id><name name-style="western"><surname>Britt</surname><given-names initials="RD">R. David</given-names></name><xref rid="aff3" ref-type="aff">§</xref></contrib><contrib contrib-type="author" id="ath6"><contrib-id contrib-id-type="orcid" authenticated="true">https://orcid.org/0000-0003-1686-8464</contrib-id><name name-style="western"><surname>Sedlak</surname><given-names initials="DL">David L.</given-names></name><xref rid="aff2" ref-type="aff">‡</xref></contrib><contrib contrib-type="author" corresp="yes" id="ath7"><name name-style="western"><surname>Alvarez-Cohen</surname><given-names initials="L">Lisa</given-names></name><xref rid="cor1" ref-type="other">*</xref><xref rid="aff2" ref-type="aff">‡</xref></contrib><aff id="aff1"><label>†</label>Department
+of Chemistry, <institution>University of California</institution>, Berkeley, California 94720, <country>United States</country></aff><aff id="aff2"><label>‡</label>Department
+of Civil and Environmental Engineering, <institution>University of California</institution>, Berkeley, California 94720, <country>United States</country></aff><aff id="aff3"><label>§</label>Department
+of Chemistry, <institution>University of California</institution>, Davis, California 95616, <country>United States</country></aff></contrib-group><author-notes><corresp id="cor1"><label>*</label><email>lisaac@berkeley.edu</email></corresp></author-notes><pub-date pub-type="epub"><day>24</day><month>03</month><year>2023</year></pub-date><pub-date pub-type="collection"><day>11</day><month>04</month><year>2023</year></pub-date><volume>10</volume><issue>4</issue><issue-id pub-id-type="pmc-issue-id">433440</issue-id><fpage>337</fpage><lpage>342</lpage><history><date date-type="received"><day>07</day><month>03</month><year>2023</year></date><date date-type="accepted"><day>22</day><month>03</month><year>2023</year></date><date date-type="rev-recd"><day>21</day><month>03</month><year>2023</year></date></history><pub-history><event event-type="pmc-release"><date><day>13</day><month>04</month><year>2023</year></date></event><event event-type="pmc-live"><date><day>14</day><month>04</month><year>2023</year></date></event><event event-type="pmc-last-change"><date iso-8601-date="2023-04-17 14:10:12.913"><day>17</day><month>04</month><year>2023</year></date></event></pub-history><permissions><copyright-statement>© 2023 The Authors. Published by American Chemical Society</copyright-statement><copyright-year>2023</copyright-year><copyright-holder>The Authors</copyright-holder><license><ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbylicense">https://creativecommons.org/licenses/by/4.0/</ali:license_ref><license-p>Permits the broadest form of re-use including for commercial purposes, provided that author attribution and integrity are maintained (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</ext-link>).</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" content-type="pmc-pdf" xlink:href="ez3c00173.pdf"><?pdf-name ez3c00173.pdf?><?pdf-size 2308619?><?pdf-md5 a5553c0a6431e9e991bb22e2b78c11cc?><?pdf-image-server-status NEVER_LOAD?><?pdf-cloudpmc-urn urn:app:a7cc/10100556/a5553c0a6431/ez3c00173.pdf?></self-uri><abstract><p content-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="ab-tgr1" position="float" orientation="portrait" xlink:href="ez3c00173_0003.jpg"><?image-name ez3c00173_0003.jpg?><?image-size 75247?><?image-md5 703f58f3d5c65cedd1a5e01fecf7ed4f?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 554?><?image-original-width 811?><?image-scaled-height 369?><?image-scaled-width 540?><?image-cloudpmc-urn urn:cdn:blobs/a7cc/10100556/703f58f3d5c6/ez3c00173_0003.jpg?><?thumb-name ez3c00173_0003.gif?><?thumb-size 15028?><?thumb-md5 9daf38d545559b518c3f815b792fbf33?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 80?><?thumb-scaled-width 117?><?thumb-cloudpmc-urn urn:cdn:blobs/a7cc/10100556/9daf38d54555/ez3c00173_0003.gif?></graphic></p><p>Fungi and laccase mediator systems (LMSs) have a proven
+track record
+of oxidizing recalcitrant organic compounds. There has been considerable
+interest in applying LMSs to the treatment of perfluoroalkyl acids
+(PFAAs), a class of ubiquitous and persistent environmental contaminants.
+Some laboratory experiments have indicated modest losses of PFAAs
+over extended periods, but there have been no clear demonstrations
+of a transformation mechanism or the kinetics that would be needed
+for remediation applications. We set out to determine if this was
+a question of identifying and optimizing a rate-limiting step but
+discovered that observed losses of PFAAs were experimental artifacts.
+While unable to replicate the oxidation of PFAAs, we show that interactions
+of the PFAA compounds with laccase and laccase mediator mixtures could
+cause an artifact that mimics transformation (≲60%) of PFAAs.
+Furthermore, we employed a surrogate compound, carbamazepine (CBZ),
+and electron paramagnetic resonance spectroscopy to probe the formation
+of the radical species that had been proposed to be responsible for
+contaminant oxidation. We confirmed that under conditions where sufficient
+radical concentrations were produced to oxidize CBZ, no PFAA removal
+took place.</p></abstract><kwd-group><kwd>PFAS</kwd><kwd>EPR</kwd><kwd>enzyme</kwd><kwd>sorption</kwd><kwd>mediator</kwd></kwd-group><funding-group><award-group><funding-source><institution-wrap><institution>U.S. Department of Defense</institution><institution-id institution-id-type="doi">10.13039/100000005</institution-id></institution-wrap></funding-source><award-id>ER 19-1410</award-id></award-group></funding-group><funding-group><award-group><funding-source><institution-wrap><institution>Division of Graduate Education</institution><institution-id institution-id-type="doi">10.13039/100000082</institution-id></institution-wrap></funding-source><award-id>1752814</award-id></award-group></funding-group><funding-group><award-group><funding-source><institution-wrap><institution>National Institute of General Medical Sciences</institution><institution-id institution-id-type="doi">10.13039/100000057</institution-id></institution-wrap></funding-source><award-id>1R35GM126961</award-id></award-group></funding-group><custom-meta-group><custom-meta><meta-name>pmc-status-qastatus</meta-name><meta-value>0</meta-value></custom-meta><custom-meta><meta-name>pmc-status-live</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-status-embargo</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-status-released</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-open-access</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-legally-suppressed</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-has-supplement</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-pdf-only</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-suppress-copyright</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-real-version</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-is-scanned-article</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>pmc-prop-in-epmc</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>pmc-license-ref</meta-name><meta-value>CC BY</meta-value></custom-meta><custom-meta><meta-name>document-id-old-9</meta-name><meta-value>ez3c00173</meta-value></custom-meta><custom-meta><meta-name>document-id-new-14</meta-name><meta-value>ez3c00173</meta-value></custom-meta><custom-meta><meta-name>ccc-price</meta-name><meta-value/></custom-meta></custom-meta-group></article-meta></front><body><sec id="sec1"><title>Introduction</title><p>Typical removal and destruction technologies
+for perfluoroalkyl
+acids (PFAAs) such as advanced oxidation and reduction processes,
+adsorption technology, and incineration are chemically and energetically
+intensive.<sup><xref ref-type="bibr" rid="ref1">1</xref></sup> Given the vast scale of contamination,<sup><xref ref-type="bibr" rid="ref2">2</xref></sup> the lower energy and chemical requirements of
+biological treatment strategies are an enticing, yet elusive, alternative.</p><p>Laccase enzymes, multi-copper oxidases found in plants, insects,
+fungi, and bacteria,<sup><xref ref-type="bibr" rid="ref3">3</xref>,<xref ref-type="bibr" rid="ref4">4</xref></sup> have inspired biobased strategies
+for the treatment of recalcitrant compounds due to their ability to
+oxidatively degrade lignin using molecular oxygen as a terminal electron
+acceptor.<sup><xref ref-type="bibr" rid="ref5">5</xref></sup> Bacterial laccases tend to have
+a higher thermotolerance and a wider pH range,<sup><xref ref-type="bibr" rid="ref6">6</xref>,<xref ref-type="bibr" rid="ref7">7</xref></sup> while
+fungal laccases tend to have higher redox potentials (∼0.5–0.8
+V vs NHE).<sup><xref ref-type="bibr" rid="ref4">4</xref>,<xref ref-type="bibr" rid="ref8">8</xref>,<xref ref-type="bibr" rid="ref9">9</xref></sup> While they
+exhibit broad substrate specificity,<sup><xref ref-type="bibr" rid="ref4">4</xref></sup> the
+performance of laccase with respect to contaminant transformation
+is limited by its oxidation potential. Nonetheless, fungal laccases
+have been investigated in combination with low-molecular weight mediator
+compounds for their ability to oxidize target substrates that cannot
+be oxidized by laccase alone.<sup><xref ref-type="bibr" rid="ref3">3</xref>,<xref ref-type="bibr" rid="ref10">10</xref>−<xref ref-type="bibr" rid="ref13">13</xref></sup> This multistep oxidation cycle, in which laccase oxidizes a chemical
+mediator, the chemical mediator oxidizes a target substrate, and molecular
+oxygen is reduced to water, is termed the laccase mediator system
+(LMS).<sup><xref ref-type="bibr" rid="ref10">10</xref>,<xref ref-type="bibr" rid="ref12">12</xref>,<xref ref-type="bibr" rid="ref13">13</xref></sup></p><p>Fungal
+LMSs have been successfully applied to lignin degradation
+and biobleaching of kraft pulp<sup><xref ref-type="bibr" rid="ref11">11</xref>−<xref ref-type="bibr" rid="ref13">13</xref></sup> and have gained interest for
+the treatment of recalcitrant water contaminants, including pesticides,
+pharmaceuticals,<sup><xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref15">15</xref></sup> and, more recently, PFAAs.<sup><xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref17">17</xref></sup> Researchers have reported the use of multiple white rot fungal laccase
+enzymes, including <italic toggle="yes">Trametes versicolor</italic>(<xref ref-type="bibr" rid="ref14">14</xref>,<xref ref-type="bibr" rid="ref15">15</xref>,<xref ref-type="bibr" rid="ref18">18</xref>−<xref ref-type="bibr" rid="ref20">20</xref>) and <italic toggle="yes">Pleurotus ostreatus</italic>,<sup><xref ref-type="bibr" rid="ref9">9</xref>,<xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref17">17</xref>,<xref ref-type="bibr" rid="ref21">21</xref></sup> in combination with nitroxyl
+radical mediators for contaminant degradation. Although the electron
+transfer process in the delignification mechanism is well documented,<sup><xref ref-type="bibr" rid="ref9">9</xref>,<xref ref-type="bibr" rid="ref11">11</xref>,<xref ref-type="bibr" rid="ref21">21</xref>−<xref ref-type="bibr" rid="ref25">25</xref></sup> the mechanism of degradation for non-lignin substrates
+has not been thoroughly investigated.</p><p>We sought to improve the
+scope and efficacy of LMS treatment of
+PFAAs by a mechanistic investigation of the “key players”
+in the multistep oxidation reaction. We tested multiple commercially
+available laccase enzymes, assessed enzyme activity, and evaluated
+the isolated enzyme mediator reaction by testing reactivity toward
+a proxy compound and confirming the generation of the nitroxyl radical
+mediator via paramagnetic resonance (EPR) spectroscopy. We found that
+the LMS could not achieve detectable degradation of PFAAs. However,
+in the process of teasing apart each key player’s role in the
+reaction, we observed an artifact in transformation studies of perfluorooctanoic
+acid (PFOA) and perfluorooctanesulfonic acid (PFOS) that suggests
+that laccase enzymes may remove PFOA and PFOS by sorption.</p></sec><sec id="sec2"><title>Materials and Methods</title><sec id="sec2.1"><title>Chemicals</title><p>Commercial enzymes were purchased from MilliporeSigma
+(<italic toggle="yes">Trametes versicolor</italic> and <italic toggle="yes">Agaricus bisporus</italic>) and Creative Enzymes (native laccase, white rot fungi). 1-Hydroxybenzotriazole
+(HBT) was purchased from AnaSpec. <italic toggle="yes">N</italic>-Hydroxyphthalimide,
+violuric acid, TEMPO, and AZADO were purchased from MilliporeSigma.
+High-performance liquid chromatography-grade acetonitrile (CH<sub>3</sub>CN) was purchased from Fisher Scientific. Chemicals and enzymes
+were used without further purification. Mass-labeled internal standard
+compounds for PFAS analysis were purchased from Wellington Laboratories.</p></sec><sec id="sec2.2"><title>Sampling and Extraction of Batch Reactors</title><p>Reactor solutions
+consisted of a target substrate in an appropriate buffer or copper
+solution [e.g., 50 mM sodium malonate (pH 4.5–5), 100 mM sodium
+acetate (pH 5), and 10 mM CuSO<sub>4</sub> (pH 5)] to which a selected
+mediator and enzyme were added. Reactors were prepared in 20 mL glass
+scintillation vials with a 5 mL solution volume to ensure oxygenated
+headspace, unless described otherwise. Solutions were prepared with
+a buffer, a small volume of a concentrated substrate stock [e.g.,
+100 μL of aqueous PFOS, PFOA, or carbamazepine (CBZ)], a small
+volume of a concentrated mediator stock (e.g., 50–100 μL
+of HBT in CH<sub>3</sub>CN), and a laccase enzyme. Mediator-free control
+reactors were prepared with equal volumes of CH<sub>3</sub>CN. Reactors
+were placed in a floor shaker incubator (New Brunswick Excella E25)
+set to 30 °C and 130 rpm.</p><p>At the appropriate daily or weekly
+sampling time, reactors were opened for a minimum of 10 minutes to
+promote aeration. Sample aliquots were removed from reactors and immediately
+diluted in basic methanol (0.5% ammonium hydroxide) to terminate the
+reaction. Reactor solutions and reactor vials were extracted with
+basic methanol at the end of the experiment. Full details of the extraction
+protocol can be found in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Text S1 of the Supporting Information</ext-link>. In the extraction protocol used for the experiment
+summarized in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>, basic methanol was added directly to the original reactor (2×
+dilution) after weighing the remaining solution volume. In a revised
+extraction protocol used for the experiment summarized in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>, the enzyme/buffer
+solution was transferred to a fresh vial and diluted 2-fold with basic
+methanol; to the original reactor were added 10 mM CuSO<sub>4</sub> and basic MeOH (4 mL total, 50/50 by volume) to recover the PFAA
+mass sorbed to the reactor walls. Samples were analyzed by liquid
+chromatography-tandem mass spectrometry (LC-MS/MS); details of the
+analytical method can be found in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Text S2 of the Supporting Information</ext-link>. Statistical analysis was performed
+in Python 3.8.5 using the <italic toggle="yes">SciPy</italic> library.</p><fig id="fig1" position="float" orientation="portrait"><label>Figure 1</label><caption><p>Reactors were
+amended with 1 unit/mL TvL and 1 mM HBT twice daily.
+Concentrations of (a) PFOA and (b) PFOS detected in an aqueous aliquot
+from the reactors. Masses of (c) PFOA and (d) PFOS in reactors calculated
+from the detected concentration and total solution volume at the beginning
+of the experiment, at the 96 hour time point, and in the extracted
+solution volume at the 96 hour time point. Error bars are the standard
+deviation of triplicate reactors.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr1" position="float" orientation="portrait" xlink:href="ez3c00173_0001.jpg"><?image-name ez3c00173_0001.jpg?><?image-size 157363?><?image-md5 52ccf3799092d62dd577bb3fd78f64e8?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1761?><?image-original-width 1917?><?image-scaled-height 704?><?image-scaled-width 766?><?image-cloudpmc-urn urn:cdn:blobs/a7cc/10100556/52ccf3799092/ez3c00173_0001.jpg?><?thumb-name ez3c00173_0001.gif?><?thumb-size 16809?><?thumb-md5 861924607ec460d3fc88cb702b81c915?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 92?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/a7cc/10100556/861924607ec4/ez3c00173_0001.gif?></graphic></fig><fig id="fig2" position="float" orientation="portrait"><label>Figure 2</label><caption><p>Reactors were treated with a single dose of 2 units/mL
+(60 mg)
+TvL and 2 mM HBT. Detected masses of (a) PFOA and (b) PFOS measured
+from a solution aliquot immediately after reactor preparation (0 h)
+and after incubation for 24 hours (24 h); Δsolution is calculated
+from the mass detected in the aliquot between 0 hours and 24 hours
+(i.e., the mass attributed to protein sorption). At 24 hours, the
+protein/buffer solution and the reactor were extracted separately
+with basic MeOH. The mass of PFAAs from the extracted solutions was
+measured for comparison. Error bars are the standard deviation of
+triplicate reactors. *Note that Δsolution for the PFOS control
+is negative and is plotted overlaying the 24 hour value.</p></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" id="gr2" position="float" orientation="portrait" xlink:href="ez3c00173_0002.jpg"><?image-name ez3c00173_0002.jpg?><?image-size 107435?><?image-md5 a3cb56996ab58a3eb0fdb8c50f0995ce?><?image-image-server-status LOAD_COMPLETED?><?image-original-height 1740?><?image-original-width 1500?><?image-scaled-height 870?><?image-scaled-width 750?><?image-cloudpmc-urn urn:cdn:blobs/a7cc/10100556/a3cb56996ab5/ez3c00173_0002.jpg?><?thumb-name ez3c00173_0002.gif?><?thumb-size 13850?><?thumb-md5 24e8b50e99aa1942e99deb9e318e72f5?><?thumb-image-server-status NEVER_LOAD?><?thumb-scaled-height 116?><?thumb-scaled-width 100?><?thumb-cloudpmc-urn urn:cdn:blobs/a7cc/10100556/24e8b50e99aa/ez3c00173_0002.gif?></graphic></fig></sec><sec id="sec2.3"><title>EPR Spectroscopy</title><p>EPR spectroscopy studies were performed
+at the CalEPR Center at the University of California, Davis. X-Band
+(9.4 GHz) continuous-wave (CW) EPR spectra were recorded on a Bruker
+Biospin EleXsys E500 spectrometer with a super high Q resonator (ER4122SHQE),
+an ESR900 liquid helium cryostat with a temperature controller (Oxford
+Instruments ITC503), and a gas flow meter. CW EPR spectra were recorded
+under slow-passage, nonsaturating conditions. Spectral simulations
+were performed in Matlab 2022b (Mathworks) with Easyspin 5.2.35 toolkit.<sup><xref ref-type="bibr" rid="ref26">26</xref></sup> Details of sample preparation for the EPR experiments
+can be found in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Text S3 of the Supporting Information</ext-link>.</p></sec></sec><sec id="sec3"><title>Results and Discussion</title><p>Multiple laccase enzymes were
+screened with five nitroxyl radical
+mediators (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Figure S1</ext-link>) for their ability
+to degrade PFOS. Because the white rot laccase <italic toggle="yes">P. ostreatus</italic> previously reported for PFAA degradation<sup><xref ref-type="bibr" rid="ref16">16</xref>,<xref ref-type="bibr" rid="ref17">17</xref></sup> is no longer commercially available, we evaluated an alternative
+native white rot laccase (Creative Enzymes) and <italic toggle="yes">A. bisporus</italic> (Sigma), both of which are “high-redox” laccases capable
+of oxidizing nitroxyl mediator compounds.<sup><xref ref-type="bibr" rid="ref27">27</xref>,<xref ref-type="bibr" rid="ref28">28</xref></sup> Upon subjecting solutions containing 1 μM PFOS and 10 mM CuSO<sub>4</sub> to weekly amendments of 1 unit/mL enzyme and 20 μM
+mediator, we expected to see evidence of transformation within 20–30
+days on the basis of the results in the <italic toggle="yes">P. ostreatus</italic>/HBT system that reported &gt;20% and &gt;30% removal at these respective
+time points.<sup><xref ref-type="bibr" rid="ref17">17</xref></sup> However, we observed no
+significant differences among the enzyme/mediator treatment conditions
+and the enzyme-only control (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Figure S2</ext-link>).</p><p>We tested literature-reported conditions using <italic toggle="yes">T. versicolor</italic> laccase (TvL) and HBT to degrade CBZ,<sup><xref ref-type="bibr" rid="ref15">15</xref></sup> an antiepileptic drug and persistent, hydrophobic contaminant.<sup><xref ref-type="bibr" rid="ref15">15</xref>,<xref ref-type="bibr" rid="ref29">29</xref></sup> We confirmed the reactivity of the TvL/HBT system and found that
+three doses of 2 units/mL TvL and 1 mM HBT over the course of 120
+h resulted in significant removal, ∼35%, of CBZ (<italic toggle="yes">p</italic> &lt; 0.001; two-tailed <italic toggle="yes">t</italic> test) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Figure S3</ext-link>). However, monitoring PFOA treatment with six doses
+of 1 unit/mL TvL and 1 mM HBT over the course of 2 weeks did not indicate
+significant removal compared to an untreated control (<italic toggle="yes">p</italic> = 0.29; two-tailed <italic toggle="yes">t</italic> test) (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Figure S4</ext-link>), which was unexpected given that &gt;20% PFOA removal
+after 10 days was previously reported.<sup><xref ref-type="bibr" rid="ref16">16</xref></sup></p><p>Considering that the retention of enzyme activity might control
+the reaction, we monitored enzyme activity in a sodium acetate buffer
+compared to that in a CuSO<sub>4</sub> solution (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Text S5 and Figure S5</ext-link>); the enzyme retained a similar activity
+profile in both. Furthermore, we confirmed the generation of the oxidation
+of HBT to the benzotriazole-<italic toggle="yes">N</italic>-oxyl (BTNO) reactive
+radical species (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Figure S6</ext-link>) with EPR. Following
+a previous report,<sup><xref ref-type="bibr" rid="ref30">30</xref></sup> we generated the BTNO
+radical in a CH<sub>3</sub>CN solution by oxidizing HBT with Ce(IV)
+and in an aqueous solution by incubating TvL and HBT in the presence
+of CuSO<sub>4</sub> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Figure S7</ext-link>). A hyperfine-split
+feature characteristic of the radical species<sup><xref ref-type="bibr" rid="ref22">22</xref></sup> is shown in the room-temperature spectrum in CH<sub>3</sub>CN but
+was not resolved in the EPR spectrum of the frozen aqueous solution,
+likely due to the line broadening caused by anisotropies in the latter.</p><p>Upon confirming BTNO radical generation, retention of enzyme activity,
+and the reactivity of the TvL/HBT system toward the proxy CBZ, we
+considered that slow reaction kinetics might have prevented observable
+transformation at the substrate concentrations initially tested (i.e.,
+1 μM PFOA and 1 μM PFOS). Therefore, we treated a set
+of parallel reactors containing either 0.1 μM PFOA or 0.1 μM
+PFOS in a 10 mM CuSO<sub>4</sub> solution. Reactors were dosed twice
+daily because decreased enzyme activity was observed over the course
+of 6–8 h in the presence of HBT (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Figure S8</ext-link>). Aliquots were removed daily and diluted directly in basic
+MeOH to determine PFOA and PFOS concentrations. Indeed, we observed
+decreases in measured PFAA concentrations at the 24 hour time point
+after two doses of the enzyme and mediator, specifically, a 64% decrease
+in PFOA concentration (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>a) and a 67% decrease in PFOS concentration (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>b).</p><p>At the end of the
+experiment (96 h time point), the reactors were
+extracted with basic methanol. Basic methanol was added directly to
+the reactor to dilute the aqueous solution by a factor of 2. Upon
+calculation of the total mass of PFOA or PFOS contained in the TvL/HBT-treated
+reactors at the first time point and the 96 h time point, 99 ±
+14% of the PFOA mass and 111 ± 11% of the PFOS mass were recovered
+in the extracted solutions, suggesting that the decrease in concentration
+was likely due to physical phenomena (e.g., sorption) (<xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>c,d). We considered that the
+“over-recovery” of both PFOA and PFOS, particularly
+in the control reactors, might be caused by fast sorption to the reactor
+that was not accounted for in the initial concentration measured from
+aliquots sampled at the beginning of the experiment. Prior studies
+have indicated low-energy barriers for the sorption of PFOA and PFOS
+to surfaces.<sup><xref ref-type="bibr" rid="ref31">31</xref></sup></p><p>To further evaluate
+the sorption phenomena and to differentiate
+the PFAA mass sorbed to the enzyme and the mass of PFAA sorbed to
+the reactor, we conducted an experiment in which we separately extracted
+the enzyme/buffer solution and the reactor (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Text S1</ext-link>). Reactors containing either PFOA or PFOS (<italic toggle="yes">∼</italic> 0.1 μM) were treated with a single dose of enzyme and mediator
+(2 units/mL TvL and 2 mM HBT) or enzyme only (2 units/mL TvL). We
+increased the dose to match the total enzyme and mediator added within
+the first 24 h of the experiment summarized in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>. Solutions were then incubated for 24 hours.
+Solution aliquots were removed upon reactor preparation (0 hours)
+and at the 24 hour time point and diluted directly in basic methanol.
+At the 24 hour time point, enzyme/buffer solutions and vials were
+extracted separately with basic methanol to determine mass loss due
+to enzyme–substrate sorption and reactor–substrate sorption
+(<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>).</p><p>We
+observed an apparent PFOA loss in the TvL/HBT-treated reactors
+of 18 ± 2% compared to the total PFOA mass extracted (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Table S2</ext-link>); for PFOS, we observed an apparent
+loss of 34 ± 4% compared to the total PFOS mass extracted (<xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref> and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Table S3</ext-link>). In the reactors containing only the
+TvL enzyme, we observed similar losses for PFOS of 35 ± 3% compared
+to the total PFOS mass extracted; for PFOA, however, a substantial
+mass loss was not observed. These results were consistent with the
+results presented in <xref rid="fig1" ref-type="fig">Figure <xref rid="fig1" ref-type="fig">1</xref></xref>. Upon extracting PFOS from the reactors, we observed that
+sorption of PFOS to the reactor was greater in the enzyme-free control
+(40 ± 12% of total mass) relative to the TvL/HBT (14 ± 2%
+of total mass) and TvL (12 ± 1% of total mass) treatments (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Table S3</ext-link>), suggesting that sorption to the protein
+was more favorable. Sorption of PFOA to the reactor was more similar
+among the treatments and control (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">Table S2</ext-link>).</p><p>The difference in mass detected in the 0 and 24 hour subsample
+(Δsolution) can be reasonably attributed to enzyme sorption.
+For PFOA, a 13 ± 6% mass loss was observed in a solution treated
+with TvL/HBT, while a substantial mass loss was not observed in the
+TvL-treated or control reactors. For PFOS, a 20 ± 5% mass loss
+was observed in a solution treated with TvL/HBT, and a 19 ± 4%
+mass loss was observed in a solution treated with only TvL. As shown
+in <xref rid="fig2" ref-type="fig">Figure <xref rid="fig2" ref-type="fig">2</xref></xref>, the Δsolution
+mass (hashed bar) indicates a complete mass balance, within error,
+compared to the total mass extracted from the protein/buffer solution.</p><p>Both PFOA and PFOS have been shown to have a strong affinity for
+proteins, namely, human serum albumin (HSA)<sup><xref ref-type="bibr" rid="ref32">32</xref>−<xref ref-type="bibr" rid="ref34">34</xref></sup> and bovine
+serum albumin (BSA).<sup><xref ref-type="bibr" rid="ref35">35</xref>−<xref ref-type="bibr" rid="ref37">37</xref></sup> Proteins have in fact been investigated as sorbents
+for PFOA, including BSA, casein, egg white albumin, and lysozyme;
+it was found that these proteins could achieve ≤93% removal
+depending on the aqueous conditions. It was found that removal percentages
+for PFOA varied at different pHs, indicating that the charge of specific
+amino acid residues influenced the sorption affinity of PFOA.<sup><xref ref-type="bibr" rid="ref37">37</xref></sup></p><p>The affinity of PFAAs for BSA has also
+been shown to be influenced
+by PFAA chain length, and multiple binding mechanisms have been teased
+out, including binding at specific protein residues and nonspecific
+interactions (e.g., hydrophobic interactions).<sup><xref ref-type="bibr" rid="ref36">36</xref></sup> The study of BSA binding also indicated that PFOS could
+form multiple strong and weak associations with a single molecule
+of BSA, while shorter chain PFSAs and PFCAs showed lower affinity
+for BSA.</p><p>Our results indicated differences in the TvL and PFAA
+sorption
+mechanism with and without HBT, which alters the protein structure
+upon oxidation.<sup><xref ref-type="bibr" rid="ref38">38</xref></sup> Namely, PFOA sorption
+appeared substantial only in the solution where the mediator was present.
+This observation indicates that the sorption of PFOA may rely on specific
+side chain interactions or charges that are exposed upon oxidation
+of TvL, a mechanism previously reported to affect the sorption of
+PFOA to proteins.<sup><xref ref-type="bibr" rid="ref37">37</xref></sup> Comparatively, sorption
+of PFOS seems to be unaltered upon enzyme oxidation, perhaps because
+the interaction is driven by a side chain that remains structurally
+intact, and due to the hydrophobicity of PFOS.</p></sec><sec id="sec4"><title>Environmental Implications</title><p>Although attractive as a
+biobased treatment method for PFAS remediation,
+the LMS appears to be unable to detectably degrade the perfluorinated
+compounds PFOA and PFOS. We were unable to observe transformation
+with the high-redox species TvL, despite the multiple literature reports
+of contaminant degradation by TvL and HBT systems<sup><xref ref-type="bibr" rid="ref15">15</xref>,<xref ref-type="bibr" rid="ref29">29</xref></sup> and despite our own success with transforming the proxy compound
+CBZ. Investigation of the system by EPR analysis confirmed the generation
+of the expected radical species; however, no transformation of the
+target PFAAs was apparent across multiple treatment conditions.</p><p>Close examination of the mass of PFOA and PFOS contained in the
+reactors indicated that sorption of the substrate to the protein created
+an artifact that mimicked substrate loss under the treatment conditions.
+Variations in PFOA sorptive removal with and without the mediator
+suggest changes in enzyme conformation or residue exposure may alter
+protein–PFOA interactions; for PFOS, however, the affinity
+for the enzyme appears unaltered regardless of the presence or absence
+of the mediator. This result suggests that a host of specific and
+nonspecific interactions play a role in PFAA removal by the TvL protein.</p><p>The adsorption of PFAS to proteins is well-known and may be a viable
+remediation strategy in and of itself, although the quantity of enzyme
+needed may be prohibitive. However, the study of PFAS–protein
+binding mechanisms could provide insight into bioinspired adsorptive
+materials to selectively target the removal of PFAS from complex waste
+streams. Given the unique physicochemical properties and often surprising
+behavior of PFAS in aqueous matrices, it is particularly important
+for researchers to use rigorous controls when analyzing treatment
+and removal strategies with novel bioinspired technologies.</p></sec></body><back><notes id="notes1" notes-type="si"><title>Supporting Information Available</title><p>Details on additional experiments,
+analytical methods including LC-MS/MS, and data tables associated
+with the main text figures. The Supporting Information is available
+free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/10.1021/acs.estlett.3c00173?goto=supporting-info">https://pubs.acs.org/doi/10.1021/acs.estlett.3c00173</ext-link>.<list id="silist" list-type="simple"><list-item><p>(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="uri" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.estlett.3c00173/suppl_file/ez3c00173_si_001.pdf">PDF</ext-link>)</p></list-item></list></p></notes><sec sec-type="supplementary-material"><title>Supplementary Material</title><supplementary-material content-type="local-data" id="sifile1" position="float" orientation="portrait"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="ez3c00173_si_001.pdf" position="float" orientation="portrait"><?suppdata-name ez3c00173_si_001.pdf?><?suppdata-size 594281?><?suppdata-md5 a72904408ddd50fe7057462ee4062639?><?suppdata-image-server-status NEVER_LOAD?><?suppdata-mime-type application?><?suppdata-mime-sub-type pdf?><?suppdata-cloudpmc-urn urn:app:a7cc/10100556/a72904408ddd/ez3c00173_si_001.pdf?><caption><p>ez3c00173_si_001.pdf</p></caption></media></supplementary-material></sec><notes notes-type="COI-statement" id="NOTES-d14e565-autogenerated"><p>The
+authors declare no
+competing financial interest.</p></notes><ack><title>Acknowledgments</title><p>This work was supported by SERDP (Project ER 19-1410)
+and the National Science Foundation Graduate Research Fellowship under
+Grant 1752814. EPR spectroscopic studies were funded by the National
+Institutes of Health (R35 Grant 1R35GM126961 to R.D.B.).</p></ack><ref-list><title>References</title><ref id="ref1"><mixed-citation publication-type="journal" id="cit1"><name name-style="western"><surname>Wanninayake</surname><given-names>D. M.</given-names></name>
+<article-title>Comparison
+of Currently Available PFAS Remediation Technologies in Water: A Review</article-title>. <source>J. Environ. Manage.</source>
+<year>2021</year>, <volume>283</volume>, <fpage>111977</fpage><pub-id pub-id-type="doi">10.1016/j.jenvman.2021.111977</pub-id>.<pub-id pub-id-type="pmid">33517051</pub-id></mixed-citation></ref><ref id="ref2"><mixed-citation publication-type="journal" id="cit2"><name name-style="western"><surname>Salvatore</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Mok</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Garrett</surname><given-names>K. K.</given-names></name>; <name name-style="western"><surname>Poudrier</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Brown</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Birnbaum</surname><given-names>L. S.</given-names></name>; <name name-style="western"><surname>Goldenman</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Miller</surname><given-names>M. F.</given-names></name>; <name name-style="western"><surname>Patton</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Poehlein</surname><given-names>M.</given-names></name>; et al. <article-title>Presumptive Contamination: A New Approach to PFAS Contamination Based
+on Likely Sources</article-title>. <source>Environ. Sci. Technol. Lett.</source>
+<year>2022</year>, <volume>9</volume> (<issue>11</issue>), <fpage>983</fpage>–<lpage>990</lpage>. <pub-id pub-id-type="doi">10.1021/acs.estlett.2c00502</pub-id>.<pub-id pub-id-type="pmid">36398312</pub-id><pub-id pub-id-type="pmcid">PMC9648201</pub-id></mixed-citation></ref><ref id="ref3"><mixed-citation publication-type="journal" id="cit3"><name name-style="western"><surname>Li</surname><given-names>K.</given-names></name>; <name name-style="western"><surname>Xu</surname><given-names>F.</given-names></name>; <name name-style="western"><surname>Eriksson</surname><given-names>K. E. L.</given-names></name>
+<article-title>Comparison of Fungal Laccases and
+Redox Mediators in Oxidation of a Nonphenolic Lignin Model Compound</article-title>. <source>Appl. Environ. Microbiol.</source>
+<year>1999</year>, <volume>65</volume> (<issue>6</issue>), <fpage>2654</fpage>–<lpage>2660</lpage>. <pub-id pub-id-type="doi">10.1128/AEM.65.6.2654-2660.1999</pub-id>.<pub-id pub-id-type="pmid">10347057</pub-id><pub-id pub-id-type="pmcid">PMC91392</pub-id></mixed-citation></ref><ref id="ref4"><mixed-citation publication-type="journal" id="cit4"><name name-style="western"><surname>Jones</surname><given-names>S. M.</given-names></name>; <name name-style="western"><surname>Solomon</surname><given-names>E. I.</given-names></name>
+<article-title>Electron Transfer
+and Reaction Mechanism of Laccases</article-title>. <source>Cell. Mol.
+Life Sci.</source>
+<year>2015</year>, <volume>72</volume>, <fpage>869</fpage>–<lpage>883</lpage>. <pub-id pub-id-type="doi">10.1007/s00018-014-1826-6</pub-id>.<pub-id pub-id-type="pmid">25572295</pub-id><pub-id pub-id-type="pmcid">PMC4323859</pub-id></mixed-citation></ref><ref id="ref5"><mixed-citation publication-type="journal" id="cit5"><name name-style="western"><surname>Leonowicz</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Matuszewska</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Luterek</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Ziegenhagen</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Wojtaś-Wasilewska</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Cho</surname><given-names>N. S.</given-names></name>; <name name-style="western"><surname>Hofrichter</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Rogalski</surname><given-names>J.</given-names></name>
+<article-title>Biodegradation of Lignin by White Rot Fungi</article-title>. <source>Fungal Genet. Biol.</source>
+<year>1999</year>, <volume>27</volume> (<issue>2–3</issue>), <fpage>175</fpage>–<lpage>185</lpage>. <pub-id pub-id-type="doi">10.1006/fgbi.1999.1150</pub-id>.<pub-id pub-id-type="pmid">10441443</pub-id></mixed-citation></ref><ref id="ref6"><mixed-citation publication-type="journal" id="cit6"><name name-style="western"><surname>Zhu</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Liang</surname><given-names>N.</given-names></name>; <name name-style="western"><surname>Zhang</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Ahmad</surname><given-names>F.</given-names></name>; <name name-style="western"><surname>Zhang</surname><given-names>W.</given-names></name>; <name name-style="western"><surname>Yang</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Wu</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Geng</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Gabriel</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Sun</surname><given-names>J.</given-names></name>
+<article-title>Insight into Depolymerization
+Mechanism of Bacterial Laccase for
+Lignin</article-title>. <source>ACS Sustain. Chem. &amp; Eng.</source>
+<year>2020</year>, <volume>8</volume> (<issue>34</issue>), <fpage>12920</fpage>–<lpage>12933</lpage>. <pub-id pub-id-type="doi">10.1021/acssuschemeng.0c03457</pub-id>.</mixed-citation></ref><ref id="ref7"><mixed-citation publication-type="journal" id="cit7"><name name-style="western"><surname>Chauhan</surname><given-names>P. S.</given-names></name>; <name name-style="western"><surname>Goradia</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Saxena</surname><given-names>A.</given-names></name>
+<article-title>Bacterial Laccase: Recent Update
+on Production, Properties and Industrial Applications</article-title>. <source>3 Biotech</source>
+<year>2017</year>, <volume>7</volume> (<issue>5</issue>), <fpage>323</fpage><pub-id pub-id-type="doi">10.1007/s13205-017-0955-7</pub-id>.<pub-id pub-id-type="pmcid">PMC5602783</pub-id><pub-id pub-id-type="pmid">28955620</pub-id></mixed-citation></ref><ref id="ref8"><mixed-citation publication-type="journal" id="cit8"><name name-style="western"><surname>Mateljak</surname><given-names>I.</given-names></name>; <name name-style="western"><surname>Monza</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Lucas</surname><given-names>M. F.</given-names></name>; <name name-style="western"><surname>Guallar</surname><given-names>V.</given-names></name>; <name name-style="western"><surname>Aleksejeva</surname><given-names>O.</given-names></name>; <name name-style="western"><surname>Ludwig</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Leech</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Shleev</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Alcalde</surname><given-names>M.</given-names></name>
+<article-title>Increasing
+Redox Potential, Redox Mediator Activity, and Stability in a Fungal
+Laccase by Computer-Guided Mutagenesis and Directed Evolution</article-title>. <source>ACS Catal.</source>
+<year>2019</year>, <volume>9</volume> (<issue>5</issue>), <fpage>4561</fpage>–<lpage>4572</lpage>. <pub-id pub-id-type="doi">10.1021/acscatal.9b00531</pub-id>.</mixed-citation></ref><ref id="ref9"><mixed-citation publication-type="journal" id="cit9"><name name-style="western"><surname>Brogioni</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Biglino</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Sinicropi</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Reijerse</surname><given-names>E. J.</given-names></name>; <name name-style="western"><surname>Giardina</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Sannia</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Lubitz</surname><given-names>W.</given-names></name>; <name name-style="western"><surname>Basosi</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Pogni</surname><given-names>R.</given-names></name>
+<article-title>Characterization
+of Radical Intermediates in Laccase-Mediator Systems. A Multifrequency
+EPR, ENDOR and DFT/PCM Investigation</article-title>. <source>Phys.
+Chem. Chem. Phys.</source>
+<year>2008</year>, <volume>10</volume>, <fpage>7284</fpage>–<lpage>7292</lpage>. <pub-id pub-id-type="doi">10.1039/b812096j</pub-id>.<pub-id pub-id-type="pmid">19060974</pub-id></mixed-citation></ref><ref id="ref10"><mixed-citation publication-type="journal" id="cit10"><name name-style="western"><surname>Baiocco</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Barreca</surname><given-names>A. M.</given-names></name>; <name name-style="western"><surname>Fabbrini</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Galli</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Gentili</surname><given-names>P.</given-names></name>
+<article-title>Promoting
+Laccase Activity towards Non-Phenolic Substrates: A Mechanistic Investigation
+with Some Laccase–Mediator Systems</article-title>. <source>Org.
+Biomol. Chem.</source>
+<year>2003</year>, <volume>1</volume> (<issue>1</issue>), <fpage>191</fpage>–<lpage>197</lpage>. <pub-id pub-id-type="doi">10.1039/B208951C</pub-id>.<pub-id pub-id-type="pmid">12929410</pub-id></mixed-citation></ref><ref id="ref11"><mixed-citation publication-type="journal" id="cit11"><name name-style="western"><surname>Moilanen</surname><given-names>U.</given-names></name>; <name name-style="western"><surname>Kellock</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Várnai</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Andberg</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Viikari</surname><given-names>L.</given-names></name>
+<article-title>Mechanisms
+of Laccase-Mediator Treatments Improving the Enzymatic Hydrolysis
+of Pre-Treated Spruce</article-title>. <source>Biotechnol. Biofuels</source>
+<year>2014</year>, <volume>7</volume> (<issue>1</issue>), <fpage>177</fpage><pub-id pub-id-type="doi">10.1186/s13068-014-0177-8</pub-id>.<pub-id pub-id-type="pmid">25648942</pub-id><pub-id pub-id-type="pmcid">PMC4297466</pub-id></mixed-citation></ref><ref id="ref12"><mixed-citation publication-type="journal" id="cit12"><name name-style="western"><surname>Srebotnik</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Hammel</surname><given-names>K. E.</given-names></name>
+<article-title>Degradation of Nonphenolic
+Lignin by the Laccase/1-Hydroxybenzotriazole
+System</article-title>. <source>J. Biotechnol.</source>
+<year>2000</year>, <volume>81</volume> (<issue>2–3</issue>), <fpage>179</fpage>–<lpage>188</lpage>. <pub-id pub-id-type="doi">10.1016/S0168-1656(00)00303-5</pub-id>.<pub-id pub-id-type="pmid">10989177</pub-id></mixed-citation></ref><ref id="ref13"><mixed-citation publication-type="journal" id="cit13"><name name-style="western"><surname>Christopher</surname><given-names>L. P.</given-names></name>; <name name-style="western"><surname>Yao</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Ji</surname><given-names>Y.</given-names></name>
+<article-title>Lignin Biodegradation
+with Laccase-Mediator Systems</article-title>. <source>Front. Energy
+Res.</source>
+<year>2014</year>, <volume>2</volume>, <fpage>12</fpage><pub-id pub-id-type="doi">10.3389/fenrg.2014.00012</pub-id>.</mixed-citation></ref><ref id="ref14"><mixed-citation publication-type="journal" id="cit14"><name name-style="western"><surname>Kupski</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Salcedo</surname><given-names>G. M.</given-names></name>; <name name-style="western"><surname>Caldas</surname><given-names>S. S.</given-names></name>; <name name-style="western"><surname>de Souza</surname><given-names>T. D.</given-names></name>; <name name-style="western"><surname>Furlong</surname><given-names>E. B.</given-names></name>; <name name-style="western"><surname>Primel</surname><given-names>E. G.</given-names></name>
+<article-title>Optimization of
+a Laccase-Mediator System with Natural
+Redox-Mediating Compounds for Pesticide Removal</article-title>. <source>Environ. Sci. Pollut. Res.</source>
+<year>2019</year>, <volume>26</volume> (<issue>5</issue>), <fpage>5131</fpage>–<lpage>5139</lpage>. <pub-id pub-id-type="doi">10.1007/s11356-018-4010-y</pub-id>.<pub-id pub-id-type="pmid">30607853</pub-id></mixed-citation></ref><ref id="ref15"><mixed-citation publication-type="journal" id="cit15"><name name-style="western"><surname>Hata</surname><given-names>T.</given-names></name>; <name name-style="western"><surname>Shintate</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Kawai</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Okamura</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Nishida</surname><given-names>T.</given-names></name>
+<article-title>Elimination
+of Carbamazepine by Repeated Treatment with Laccase in the Presence
+of 1-Hydroxybenzotriazole</article-title>. <source>J. Hazard. Mater.</source>
+<year>2010</year>, <volume>181</volume> (<issue>1–3</issue>), <fpage>1175</fpage>–<lpage>1178</lpage>. <pub-id pub-id-type="doi">10.1016/j.jhazmat.2010.05.103</pub-id>.<pub-id pub-id-type="pmid">20619797</pub-id></mixed-citation></ref><ref id="ref16"><mixed-citation publication-type="journal" id="cit16"><name name-style="western"><surname>Luo</surname><given-names>Q.</given-names></name>; <name name-style="western"><surname>Lu</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Zhang</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Wang</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Feng</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Chiang</surname><given-names>S. Y. D.</given-names></name>; <name name-style="western"><surname>Woodward</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Huang</surname><given-names>Q.</given-names></name>
+<article-title>Laccase-Catalyzed Degradation
+of
+Perfluorooctanoic Acid</article-title>. <source>Environ. Sci. Technol.
+Lett.</source>
+<year>2015</year>, <volume>2</volume> (<issue>7</issue>), <fpage>198</fpage>–<lpage>203</lpage>. <pub-id pub-id-type="doi">10.1021/acs.estlett.5b00119</pub-id>.</mixed-citation></ref><ref id="ref17"><mixed-citation publication-type="journal" id="cit17"><name name-style="western"><surname>Luo</surname><given-names>Q.</given-names></name>; <name name-style="western"><surname>Yan</surname><given-names>X.</given-names></name>; <name name-style="western"><surname>Lu</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Huang</surname><given-names>Q.</given-names></name>
+<article-title>Perfluorooctanesulfonate
+Degrades
+in a Laccase-Mediator System</article-title>. <source>Environ. Sci.
+Technol.</source>
+<year>2018</year>, <volume>52</volume> (<issue>18</issue>), <fpage>10617</fpage>–<lpage>10626</lpage>. <pub-id pub-id-type="doi">10.1021/acs.est.8b00839</pub-id>.<pub-id pub-id-type="pmid">30146871</pub-id></mixed-citation></ref><ref id="ref18"><mixed-citation publication-type="journal" id="cit18"><name name-style="western"><surname>Zeng</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Qin</surname><given-names>X.</given-names></name>; <name name-style="western"><surname>Xia</surname><given-names>L.</given-names></name>
+<article-title>Degradation of the Herbicide Isoproturon by Laccase-Mediator
+Systems</article-title>. <source>Biochem. Eng. J.</source>
+<year>2017</year>, <volume>119</volume>, <fpage>92</fpage>–<lpage>100</lpage>. <pub-id pub-id-type="doi">10.1016/j.bej.2016.12.016</pub-id>.</mixed-citation></ref><ref id="ref19"><mixed-citation publication-type="journal" id="cit19"><name name-style="western"><surname>Kawai</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Nakagawa</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Ohashi</surname><given-names>H.</given-names></name>
+<article-title>Degradation
+Mechanisms of a Nonphenolic
+β-O-4 Lignin Model Dimer by Trametes Versicolor Laccase in the
+Presence of 1-Hydroxybenzotriazole</article-title>. <source>Enzyme Microb.
+Technol.</source>
+<year>2002</year>, <volume>30</volume> (<issue>4</issue>), <fpage>482</fpage>–<lpage>489</lpage>. <pub-id pub-id-type="doi">10.1016/S0141-0229(01)00523-3</pub-id>.</mixed-citation></ref><ref id="ref20"><mixed-citation publication-type="journal" id="cit20"><name name-style="western"><surname>Jin</surname><given-names>X.</given-names></name>; <name name-style="western"><surname>Yu</surname><given-names>X.</given-names></name>; <name name-style="western"><surname>Zhu</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Zheng</surname><given-names>Z.</given-names></name>; <name name-style="western"><surname>Feng</surname><given-names>F.</given-names></name>; <name name-style="western"><surname>Zhang</surname><given-names>Z.</given-names></name>
+<article-title>Conditions
+Optimizing and Application of Laccase-Mediator System (LMS) for the
+Laccase-Catalyzed Pesticide Degradation</article-title>. <source>Sci.
+Rep.</source>
+<year>2016</year>, <volume>6</volume>, <fpage>35787</fpage><pub-id pub-id-type="doi">10.1038/srep35787</pub-id>.<pub-id pub-id-type="pmid">27775052</pub-id><pub-id pub-id-type="pmcid">PMC5075893</pub-id></mixed-citation></ref><ref id="ref21"><mixed-citation publication-type="journal" id="cit21"><name name-style="western"><surname>Munk</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Punt</surname><given-names>A. M.</given-names></name>; <name name-style="western"><surname>Kabel</surname><given-names>M. A.</given-names></name>; <name name-style="western"><surname>Meyer</surname><given-names>A. S.</given-names></name>
+<article-title>Laccase Catalyzed
+Grafting Of-N-OH Type Mediators to Lignin via Radical-Radical Coupling</article-title>. <source>RSC Adv.</source>
+<year>2017</year>, <volume>7</volume> (<issue>6</issue>), <fpage>3358</fpage>–<lpage>3368</lpage>. <pub-id pub-id-type="doi">10.1039/C6RA26106J</pub-id>.</mixed-citation></ref><ref id="ref22"><mixed-citation publication-type="journal" id="cit22"><name name-style="western"><surname>Munk</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Andersen</surname><given-names>M. L.</given-names></name>; <name name-style="western"><surname>Meyer</surname><given-names>A. S.</given-names></name>
+<article-title>Influence
+of Mediators on Laccase
+Catalyzed Radical Formation in Lignin</article-title>. <source>Enzyme
+Microb. Technol.</source>
+<year>2018</year>, <volume>116</volume>, <fpage>48</fpage>–<lpage>56</lpage>. <pub-id pub-id-type="doi">10.1016/j.enzmictec.2018.05.009</pub-id>.<pub-id pub-id-type="pmid">29887016</pub-id></mixed-citation></ref><ref id="ref23"><mixed-citation publication-type="journal" id="cit23"><name name-style="western"><surname>Hilgers</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Van Dam</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Zuilhof</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Vincken</surname><given-names>J. P.</given-names></name>; <name name-style="western"><surname>Kabel</surname><given-names>M. A.</given-names></name>
+<article-title>Controlling
+the Competition: Boosting Laccase/HBT-Catalyzed Cleavage of a β-O-4′
+Linked Lignin Model</article-title>. <source>ACS Catal.</source>
+<year>2020</year>, <volume>10</volume> (<issue>15</issue>), <fpage>8650</fpage>–<lpage>8659</lpage>. <pub-id pub-id-type="doi">10.1021/acscatal.0c02154</pub-id>.</mixed-citation></ref><ref id="ref24"><mixed-citation publication-type="journal" id="cit24"><name name-style="western"><surname>Hilgers</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Van Erven</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Boerkamp</surname><given-names>V.</given-names></name>; <name name-style="western"><surname>Sulaeva</surname><given-names>I.</given-names></name>; <name name-style="western"><surname>Potthast</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Kabel</surname><given-names>M. A.</given-names></name>; <name name-style="western"><surname>Vincken</surname><given-names>J. P.</given-names></name>
+<article-title>Understanding Laccase/HBT-Catalyzed
+Grass Delignification at the Molecular Level</article-title>. <source>Green Chem.</source>
+<year>2020</year>, <volume>22</volume> (<issue>5</issue>), <fpage>1735</fpage>–<lpage>1746</lpage>. <pub-id pub-id-type="doi">10.1039/C9GC04341A</pub-id>.</mixed-citation></ref><ref id="ref25"><mixed-citation publication-type="journal" id="cit25"><name name-style="western"><surname>Astolfi</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Brandi</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Galli</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Gentili</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Gerini</surname><given-names>M. F.</given-names></name>; <name name-style="western"><surname>Greci</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Lanzalunga</surname><given-names>O.</given-names></name>
+<article-title>New Mediators for the Enzyme Laccase:
+Mechanistic Features and Selectivity in the Oxidation of Non-Phenolic
+Substrates</article-title>. <source>New J. Chem.</source>
+<year>2005</year>, <volume>29</volume> (<issue>10</issue>), <fpage>1308</fpage>–<lpage>1317</lpage>. <pub-id pub-id-type="doi">10.1039/b507657a</pub-id>.</mixed-citation></ref><ref id="ref26"><mixed-citation publication-type="journal" id="cit26"><name name-style="western"><surname>Stoll</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Schweiger</surname><given-names>A.</given-names></name>
+<article-title>EasySpin,
+a comprehensive software package for spectral
+simulation and analysis in EPR</article-title>. <source>J. Magn. Reson.</source>
+<year>2006</year>, <volume>178</volume> (<issue>1</issue>), <fpage>42</fpage>–<lpage>55</lpage>. <pub-id pub-id-type="doi">10.1016/j.jmr.2005.08.013</pub-id>.<pub-id pub-id-type="pmid">16188474</pub-id></mixed-citation></ref><ref id="ref27"><mixed-citation publication-type="journal" id="cit27"><name name-style="western"><surname>Baldrian</surname><given-names>P.</given-names></name>
+<article-title>Fungal Laccases
+– Occurrence and Properties</article-title>. <source>FEMS Microbiol.
+Rev.</source>
+<year>2006</year>, <volume>30</volume> (<issue>2</issue>), <fpage>215</fpage>–<lpage>242</lpage>. <pub-id pub-id-type="doi">10.1111/j.1574-4976.2005.00010.x</pub-id>.<pub-id pub-id-type="pmid">16472305</pub-id></mixed-citation></ref><ref id="ref28"><mixed-citation publication-type="journal" id="cit28"><name name-style="western"><surname>Garzillo</surname><given-names>A. M.</given-names></name>; <name name-style="western"><surname>Colao</surname><given-names>M. C.</given-names></name>; <name name-style="western"><surname>Buonocore</surname><given-names>V.</given-names></name>; <name name-style="western"><surname>Oliva</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Falcigno</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Saviano</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Santoro</surname><given-names>A. M.</given-names></name>; <name name-style="western"><surname>Zappala</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Bonomo</surname><given-names>R. P.</given-names></name>; <name name-style="western"><surname>Bianco</surname><given-names>C.</given-names></name>; et al. <article-title>Structural
+and Kinetic Characterization of Native Laccases
+from Pleurotus Ostreatus, Rigidoporus Lignosus, and Trametes Trogii</article-title>. <source>J. Protein Chem.</source>
+<year>2001</year>, <volume>20</volume> (<issue>3</issue>), <fpage>191</fpage>–<lpage>201</lpage>. <pub-id pub-id-type="doi">10.1023/A:1010954812955</pub-id>.<pub-id pub-id-type="pmid">11565899</pub-id></mixed-citation></ref><ref id="ref29"><mixed-citation publication-type="journal" id="cit29"><name name-style="western"><surname>Naghdi</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Taheran</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Brar</surname><given-names>S. K.</given-names></name>; <name name-style="western"><surname>Kermanshahi-pour</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Verma</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Surampalli</surname><given-names>R. Y.</given-names></name>
+<article-title>Biotransformation
+of Carbamazepine
+by Laccase-Mediator System: Kinetics, by-Products and Toxicity Assessment</article-title>. <source>Process Biochem.</source>
+<year>2018</year>, <volume>67</volume>, <fpage>147</fpage>–<lpage>154</lpage>. <pub-id pub-id-type="doi">10.1016/j.procbio.2018.02.009</pub-id>.</mixed-citation></ref><ref id="ref30"><mixed-citation publication-type="journal" id="cit30"><name name-style="western"><surname>Galli</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Gentili</surname><given-names>P.</given-names></name>; <name name-style="western"><surname>Lanzalunga</surname><given-names>O.</given-names></name>; <name name-style="western"><surname>Lucarini</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Pedulli</surname><given-names>G. F.</given-names></name>
+<article-title>Spectrophotometric,
+EPR and Kinetic Characterisation of the &gt; N-O* Radical from 1-Hydroxybenzotriazole,
+a Key Reactive Species in Mediated Enzymatic Oxidations</article-title>. <source>Chem. Commun.</source>
+<year>2004</year>, <volume>20</volume>, <fpage>2356</fpage>–<lpage>2357</lpage>. <pub-id pub-id-type="doi">10.1039/B407835G</pub-id>.<pub-id pub-id-type="pmid">15490018</pub-id></mixed-citation></ref><ref id="ref31"><mixed-citation publication-type="journal" id="cit31"><name name-style="western"><surname>Luft</surname><given-names>C. M.</given-names></name>; <name name-style="western"><surname>Schutt</surname><given-names>T. C.</given-names></name>; <name name-style="western"><surname>Shukla</surname><given-names>M. K.</given-names></name>
+<article-title>Properties and Mechanisms for PFAS
+Adsorption to Aqueous Clay and Humic Soil Components</article-title>. <source>Environ. Sci. Technol.</source>
+<year>2022</year>, <volume>56</volume> (<issue>14</issue>), <fpage>10053</fpage>–<lpage>10061</lpage>. <pub-id pub-id-type="doi">10.1021/acs.est.2c00499</pub-id>.<pub-id pub-id-type="pmid">35763709</pub-id></mixed-citation></ref><ref id="ref32"><mixed-citation publication-type="journal" id="cit32"><name name-style="western"><surname>Maso</surname><given-names>L.</given-names></name>; <name name-style="western"><surname>Trande</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Liberi</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Moro</surname><given-names>G.</given-names></name>; <name name-style="western"><surname>Daems</surname><given-names>E.</given-names></name>; <name name-style="western"><surname>Linciano</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Sobott</surname><given-names>F.</given-names></name>; <name name-style="western"><surname>Covaceuszach</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Cassetta</surname><given-names>A.</given-names></name>; <name name-style="western"><surname>Fasolato</surname><given-names>S.</given-names></name>; et al. <article-title>Unveiling
+the Binding
+Mode of Perfluorooctanoic Acid to Human Serum Albumin</article-title>. <source>Protein Sci.</source>
+<year>2021</year>, <volume>30</volume>, <fpage>830</fpage>–<lpage>841</lpage>. <pub-id pub-id-type="doi">10.1002/pro.4036</pub-id>.<pub-id pub-id-type="pmid">33550662</pub-id><pub-id pub-id-type="pmcid">PMC7980502</pub-id></mixed-citation></ref><ref id="ref33"><mixed-citation publication-type="journal" id="cit33"><name name-style="western"><surname>Salvalaglio</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Muscionico</surname><given-names>I.</given-names></name>; <name name-style="western"><surname>Cavallotti</surname><given-names>C.</given-names></name>
+<article-title>Determination of Energies and Sites
+of Binding of PFOA and PFOS to Human Serum Albumin</article-title>. <source>J. Phys. Chem. B</source>
+<year>2010</year>, <volume>114</volume> (<issue>46</issue>), <fpage>14860</fpage>–<lpage>14874</lpage>. <pub-id pub-id-type="doi">10.1021/jp106584b</pub-id>.<pub-id pub-id-type="pmid">21028884</pub-id></mixed-citation></ref><ref id="ref34"><mixed-citation publication-type="journal" id="cit34"><name name-style="western"><surname>Forsthuber</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Kaiser</surname><given-names>A. M.</given-names></name>; <name name-style="western"><surname>Granitzer</surname><given-names>S.</given-names></name>; <name name-style="western"><surname>Hassl</surname><given-names>I.</given-names></name>; <name name-style="western"><surname>Hengstschläger</surname><given-names>M.</given-names></name>; <name name-style="western"><surname>Stangl</surname><given-names>H.</given-names></name>; <name name-style="western"><surname>Gundacker</surname><given-names>C.</given-names></name>
+<article-title>Albumin Is the Major Carrier Protein
+for PFOS, PFOA, PFHxS, PFNA and PFDA in Human Plasma</article-title>. <source>Environ. Int.</source>
+<year>2020</year>, <volume>137</volume>, <fpage>105324</fpage><pub-id pub-id-type="doi">10.1016/j.envint.2019.105324</pub-id>.<pub-id pub-id-type="pmid">32109724</pub-id></mixed-citation></ref><ref id="ref35"><mixed-citation publication-type="journal" id="cit35"><name name-style="western"><surname>Xu</surname><given-names>D.</given-names></name>; <name name-style="western"><surname>Liu</surname><given-names>C.</given-names></name>; <name name-style="western"><surname>Yan</surname><given-names>X.</given-names></name>; <name name-style="western"><surname>Shen</surname><given-names>T.</given-names></name>
+<article-title>Study on the Interactions of PFOS
+and PFOA with Bovine Serum Albumin</article-title>. <source>2011 International
+Conference on Remote Sensing, Environment and Transportation Engineering</source>
+<year>2011</year>, <fpage>7168</fpage>–<lpage>7171</lpage>. <pub-id pub-id-type="doi">10.1109/RSETE.2011.5966019</pub-id>.</mixed-citation></ref><ref id="ref36"><mixed-citation publication-type="journal" id="cit36"><name name-style="western"><surname>Bischel</surname><given-names>H. N.</given-names></name>; <name name-style="western"><surname>MacManus-Spencer</surname><given-names>L. A.</given-names></name>; <name name-style="western"><surname>Luthy</surname><given-names>R. G.</given-names></name>
+<article-title>Noncovalent Interactions of Long-Chain
+Perfluoroalkyl Acids with Serum Albumin</article-title>. <source>Environ.
+Sci. Technol.</source>
+<year>2010</year>, <volume>44</volume> (<issue>13</issue>), <fpage>5263</fpage>–<lpage>5269</lpage>. <pub-id pub-id-type="doi">10.1021/es101334s</pub-id>.<pub-id pub-id-type="pmid">20540534</pub-id></mixed-citation></ref><ref id="ref37"><mixed-citation publication-type="journal" id="cit37"><name name-style="western"><surname>Hernandez</surname><given-names>E. T.</given-names></name>; <name name-style="western"><surname>Koo</surname><given-names>B.</given-names></name>; <name name-style="western"><surname>Sofen</surname><given-names>L. E.</given-names></name>; <name name-style="western"><surname>Amin</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Togashi</surname><given-names>R. K.</given-names></name>; <name name-style="western"><surname>Lall</surname><given-names>A. I.</given-names></name>; <name name-style="western"><surname>Gisch</surname><given-names>D. J.</given-names></name>; <name name-style="western"><surname>Kern</surname><given-names>B. J.</given-names></name>; <name name-style="western"><surname>Rickard</surname><given-names>M. A.</given-names></name>; <name name-style="western"><surname>Francis</surname><given-names>M. B.</given-names></name>
+<article-title>Proteins
+as Adsorbents for PFAS Removal from Water</article-title>. <source>Environ.
+Sci. Water Res. Technol.</source>
+<year>2022</year>, <volume>8</volume> (<issue>6</issue>), <fpage>1188</fpage>–<lpage>1194</lpage>. <pub-id pub-id-type="doi">10.1039/D1EW00501D</pub-id>.</mixed-citation></ref><ref id="ref38"><mixed-citation publication-type="journal" id="cit38"><name name-style="western"><surname>Mehra</surname><given-names>R.</given-names></name>; <name name-style="western"><surname>Muschiol</surname><given-names>J.</given-names></name>; <name name-style="western"><surname>Meyer</surname><given-names>A. S.</given-names></name>; <name name-style="western"><surname>Kepp</surname><given-names>K. P.</given-names></name>
+<article-title>A structural-chemical
+explanation of fungal laccase activity</article-title>. <source>Sci.
+Rep.</source>
+<year>2018</year>, <volume>8</volume> (<issue>1</issue>), <fpage>17285</fpage><pub-id pub-id-type="doi">10.1038/s41598-018-35633-8</pub-id>.<pub-id pub-id-type="pmid">30470810</pub-id><pub-id pub-id-type="pmcid">PMC6251875</pub-id></mixed-citation></ref></ref-list></back></article>

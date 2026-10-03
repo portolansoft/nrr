@@ -380,6 +380,33 @@
   "label": "Dabco",
   "source": "PubChem PUG REST name lookup"
  },
+ "compound:1-hydroxybenzotriazole": {
+  "fetchedAt": "2026-10-03T01:54:49Z",
+  "formula": "C6H5N3O",
+  "identifier": "pubchem:CID75771",
+  "inchikey": "ASOKPJOREAFHNY-UHFFFAOYSA-N",
+  "iupac": "1-hydroxybenzotriazole",
+  "label": "1-Hydroxybenzotriazole",
+  "source": "PubChem PUG REST name lookup"
+ },
+ "compound:2,6-dimethoxyphenol": {
+  "fetchedAt": "2026-10-03T01:54:50Z",
+  "formula": "C8H10O3",
+  "identifier": "pubchem:CID7041",
+  "inchikey": "KLIDCXVFHGNTTM-UHFFFAOYSA-N",
+  "iupac": "2,6-dimethoxyphenol",
+  "label": "2,6-Dimethoxyphenol",
+  "source": "PubChem PUG REST name lookup"
+ },
+ "compound:2-azaadamantane n-oxyl": {
+  "fetchedAt": "2026-10-03T01:54:52Z",
+  "formula": "C9H14NO",
+  "identifier": "pubchem:CID42643072",
+  "inchikey": "BCJCJALHNXSXKE-UHFFFAOYSA-N",
+  "iupac": null,
+  "label": "2-Azaadamantane-N-oxyl",
+  "source": "PubChem PUG REST name lookup"
+ },
  "compound:4-phenylbutyric acid": {
   "fetchedAt": "2026-09-25T19:40:00Z",
   "formula": "C10H12O2",
@@ -415,6 +442,15 @@
   "iupac": "(3S)-3-[[(2S)-2-[[(2S)-2-[[2-[[2-[[(2S)-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-6-amino-2-[[(2S)-2-[[(2S)-2-[[(2S)-2-[[(2S)-4-amino-2-[[(2S)-5-amino-2-[[(2S)-2-[[(2S)-2-[[(2S,3S)-2-[[(2S)-6-amino-2-[[(2S,3S)-2-[[(2S)-5-amino-2-[[(2S)-2-amino-5-carbamimidamidopentanoyl]amino]-5-oxopentanoyl]amino]-3-methylpentanoyl]amino]hexanoyl]amino]-3-methylpentanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]-3-phenylpropanoyl]amino]-5-oxopentanoyl]amino]-4-oxobutanoyl]amino]-5-carbamimidamidopentanoyl]amino]-5-carbamimidamidopentanoyl]amino]-4-methylsulfanylbutanoyl]amino]hexanoyl]amino]-3-(1H-indol-3-yl)propanoyl]amino]hexanoyl]amino]hexanoyl]amino]-3-hydroxypropanoyl]amino]-3-carboxypropanoyl]amino]acetyl]amino]acetyl]amino]-3-(4-phosphonooxyphenyl)propanoyl]amino]-4-methylsulfanylbutanoyl]amino]-4-[[(2S)-1-[[(1S)-1-carboxy-2-hydroxyethyl]amino]-4-methylsulfanyl-1-oxobutan-2-yl]amino]-4-oxobutanoic acid",
   "label": "Pdgfr 740Y-P",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:acetonitrile": {
+  "fetchedAt": "2026-10-03T01:54:57Z",
+  "formula": "C2H3N",
+  "identifier": "pubchem:CID6342",
+  "inchikey": "WEVYAHXRMPXWCK-UHFFFAOYSA-N",
+  "iupac": "acetonitrile",
+  "label": "Acetonitrile",
+  "source": "PubChem PUG REST name lookup"
  },
  "compound:aicar": {
   "fetchedAt": "2026-09-25T19:40:00Z",
@@ -496,6 +532,15 @@
   "label": "Capsaicin",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
  },
+ "compound:carbamazepine": {
+  "fetchedAt": "2026-10-03T01:54:59Z",
+  "formula": "C15H12N2O",
+  "identifier": "pubchem:CID2554",
+  "inchikey": "FFGPTBGBLSHEPO-UHFFFAOYSA-N",
+  "iupac": "benzo[b][1]benzazepine-11-carboxamide",
+  "label": "Carbamazepine",
+  "source": "PubChem PUG REST name lookup"
+ },
  "compound:catecholborane": {
   "fetchedAt": "2026-10-03T01:46:23Z",
   "formula": "C6H5BO2",
@@ -522,6 +567,15 @@
   "iupac": "6-[2-[[4-(2,4-dichlorophenyl)-5-(5-methyl-1H-imidazol-2-yl)pyrimidin-2-yl]amino]ethylamino]pyridine-3-carbonitrile",
   "label": "Laduviglusib",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:copper(ii) sulfate": {
+  "fetchedAt": "2026-10-03T01:55:01Z",
+  "formula": "CuO4S",
+  "identifier": "pubchem:CID24462",
+  "inchikey": "ARUVKPQLZAKDPS-UHFFFAOYSA-L",
+  "iupac": "copper sulfate",
+  "label": "Copper Sulfate",
+  "source": "PubChem PUG REST name lookup"
  },
  "compound:cytochalasin d": {
   "fetchedAt": "2026-09-25T19:40:00Z",
@@ -766,6 +820,15 @@
   "label": "Metformin",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
  },
+ "compound:methanol": {
+  "fetchedAt": "2026-10-03T01:55:02Z",
+  "formula": "CH4O",
+  "identifier": "pubchem:CID887",
+  "inchikey": "OKKJLVBELUTLKV-UHFFFAOYSA-N",
+  "iupac": "methanol",
+  "label": "Methanol",
+  "source": "PubChem PUG REST name lookup"
+ },
  "compound:mfge8": {
   "fetchedAt": "2026-09-25T19:40:00Z",
   "unresolved": true
@@ -815,6 +878,15 @@
   "label": "Diisopropylethylamine",
   "source": "PubChem PUG REST name lookup"
  },
+ "compound:n-hydroxyphthalimide": {
+  "fetchedAt": "2026-10-03T01:54:54Z",
+  "formula": "C8H5NO3",
+  "identifier": "pubchem:CID10665",
+  "inchikey": "CFMZSMGAMPBRBE-UHFFFAOYSA-N",
+  "iupac": "2-hydroxyisoindole-1,3-dione",
+  "label": "N-Hydroxyphthalimide",
+  "source": "PubChem PUG REST name lookup"
+ },
  "compound:n-methylmorpholine": {
   "fetchedAt": "2026-10-03T01:46:18Z",
   "formula": "C5H11NO",
@@ -850,6 +922,24 @@
   "iupac": "N-[(4aS,6aR,6bS,8aR,12aS,14aR,14bS)-11-cyano-2,2,6a,6b,9,9,12a-heptamethyl-10,14-dioxo-1,3,4,5,6,7,8,8a,14a,14b-decahydropicen-4a-yl]-2,2-difluoropropanamide",
   "label": "N-(2-Cyano-3,12-dioxo-28-noroleana-1,9(11)-dien-17-yl)-2,2-difluoropropanamide",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:perfluorooctanesulfonic acid": {
+  "fetchedAt": "2026-10-03T01:55:04Z",
+  "formula": "C8HF17O3S",
+  "identifier": "pubchem:CID74483",
+  "inchikey": "YFSUTJLHUFNCNZ-UHFFFAOYSA-N",
+  "iupac": "1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-heptadecafluorooctane-1-sulfonic acid",
+  "label": "Perfluorooctanesulfonic acid",
+  "source": "PubChem PUG REST name lookup"
+ },
+ "compound:perfluorooctanoic acid": {
+  "fetchedAt": "2026-10-03T01:55:05Z",
+  "formula": "C8HF15O2",
+  "identifier": "pubchem:CID9554",
+  "inchikey": "SNGREZUHAYWORS-UHFFFAOYSA-N",
+  "iupac": "2,2,3,3,4,4,5,5,6,6,7,7,8,8,8-pentadecafluorooctanoic acid",
+  "label": "Perfluorooctanoic acid",
+  "source": "PubChem PUG REST name lookup"
  },
  "compound:pf-573228": {
   "fetchedAt": "2026-09-25T19:40:00Z",
@@ -984,6 +1074,24 @@
   "label": "Siponimod",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
  },
+ "compound:sodium acetate": {
+  "fetchedAt": "2026-10-03T01:55:07Z",
+  "formula": "C2H3NaO2",
+  "identifier": "pubchem:CID31372",
+  "inchikey": "VMHLLURERBWHNL-UHFFFAOYSA-M",
+  "iupac": "sodium acetate",
+  "label": "Sodium acetate",
+  "source": "PubChem PUG REST name lookup"
+ },
+ "compound:sodium malonate": {
+  "fetchedAt": "2026-10-03T01:55:08Z",
+  "formula": "C3H2Na2O4",
+  "identifier": "pubchem:CID8865",
+  "inchikey": "PRWXGRGLHYDWPS-UHFFFAOYSA-L",
+  "iupac": "disodium;propanedioate",
+  "label": "Malonic acid, disodium salt",
+  "source": "PubChem PUG REST name lookup"
+ },
  "compound:soraprazan": {
   "fetchedAt": "2026-09-25T19:40:00Z",
   "formula": "C21H25N3O3",
@@ -1038,6 +1146,15 @@
   "label": "Tauroursodeoxycholic acid",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
  },
+ "compound:tempo": {
+  "fetchedAt": "2026-10-03T01:54:55Z",
+  "formula": "C9H18NO",
+  "identifier": "pubchem:CID2724126",
+  "inchikey": "QYTDEUPAUMOIOP-UHFFFAOYSA-N",
+  "iupac": null,
+  "label": "Tempo",
+  "source": "PubChem PUG REST name lookup"
+ },
  "compound:toluene": {
   "fetchedAt": "2026-10-03T01:46:32Z",
   "formula": "C7H8",
@@ -1091,6 +1208,15 @@
   "iupac": "N-hydroxy-4-[(2-methyl-3,4-dihydro-1H-pyrido[4,3-b]indol-5-yl)methyl]benzamide",
   "label": "Tubastatin A",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:violuric acid": {
+  "fetchedAt": "2026-10-03T01:55:10Z",
+  "formula": "C4H3N3O4",
+  "identifier": "pubchem:CID66599",
+  "inchikey": "HRRVLSKRYVIEPR-UHFFFAOYSA-N",
+  "iupac": "6-hydroxy-5-nitroso-1H-pyrimidine-2,4-dione",
+  "label": "Violuric acid",
+  "source": "PubChem PUG REST name lookup"
  },
  "compound:vorinostat": {
   "fetchedAt": "2026-09-25T19:40:00Z",
@@ -1427,6 +1553,19 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1016/j.jhazmat.2010.05.103": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:55:17Z",
+  "container": "Journal of Hazardous Materials",
+  "fetchedAt": "2026-10-03T01:55:17Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Elimination of carbamazepine by repeated treatment with laccase in the presence of 1-hydroxybenzotriazole",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1016/j.jorganchem.2021.121924": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-10-03T01:47:02Z",
@@ -1602,6 +1741,51 @@
    9
   ],
   "title": "Lessons from Failed Attempts of Computationally Guided Synthesis of Aluminosilicate STF and IFR Zeolites in Hydroxide Media",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acs.est.8b00839": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:55:17Z",
+  "container": "Environmental Science &amp; Technology",
+  "fetchedAt": "2026-10-03T01:55:17Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2018,
+   8,
+   27
+  ],
+  "title": "Perfluorooctanesulfonate Degrades in a Laccase-Mediator System",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acs.estlett.3c00173": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:55:18Z",
+  "container": "Environmental Science &amp; Technology Letters",
+  "fetchedAt": "2026-10-03T01:55:18Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2023,
+   3,
+   24
+  ],
+  "title": "An Artifact of Perfluoroalkyl Acid (PFAA) Removal Attributed to Sorption Processes in a Laccase Mediator System",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acs.estlett.5b00119": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:55:19Z",
+  "container": "Environmental Science &amp; Technology Letters",
+  "fetchedAt": "2026-10-03T01:55:19Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2015,
+   6,
+   9
+  ],
+  "title": "Laccase-Catalyzed Degradation of Perfluorooctanoic Acid",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -1812,6 +1996,21 @@
    4
   ],
   "title": "The Role of Template Structure and Synergism between Inorganic and Organic Structure Directing Agents in the Synthesis of UTL Zeolite",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/es101334s": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:55:20Z",
+  "container": "Environmental Science &amp; Technology",
+  "fetchedAt": "2026-10-03T01:55:20Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2010,
+   6,
+   11
+  ],
+  "title": "Noncovalent Interactions of Long-Chain Perfluoroalkyl Acids with Serum Albumin",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -2157,6 +2356,19 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1039/b407835g": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:55:20Z",
+  "container": "Chem. Commun.",
+  "fetchedAt": "2026-10-03T01:55:20Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2004
+  ],
+  "title": "Spectrophotometric, EPR and kinetic characterisation of the &gt;N–O• radical from 1-hydroxybenzotriazole, a key reactive species in mediated enzymatic oxidations",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1039/c3ta10626h": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-10-03T01:36:55Z",
@@ -2219,6 +2431,19 @@
    2021
   ],
   "title": "Lithium compound catalyzed deoxygenative hydroboration of primary, secondary and tertiary amides",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1039/d1ew00501d": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:55:21Z",
+  "container": "Environmental Science: Water Research &amp; Technology",
+  "fetchedAt": "2026-10-03T01:55:21Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2022
+  ],
+  "title": "Proteins as adsorbents for PFAS removal from water",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -3535,6 +3760,24 @@
   "label": "Instituto de Tecnología Química",
   "source": "ROR v2 API"
  },
+ "org:university of california": {
+  "fetchedAt": "2026-10-03T01:55:14Z",
+  "identifier": "https://ror.org/00d9ah105",
+  "label": "University of California, Merced",
+  "source": "ROR v2 API"
+ },
+ "org:university of california, berkeley": {
+  "fetchedAt": "2026-10-03T01:55:36Z",
+  "identifier": "https://ror.org/01an7q238",
+  "label": "University of California, Berkeley",
+  "source": "ROR v2 API"
+ },
+ "org:university of california, davis": {
+  "fetchedAt": "2026-10-03T01:55:37Z",
+  "identifier": "https://ror.org/05rrcem69",
+  "label": "University of California, Davis",
+  "source": "ROR v2 API"
+ },
  "org:university of edinburgh": {
   "fetchedAt": "2026-10-03T01:46:36Z",
   "identifier": "https://ror.org/01nrxwf90",
@@ -3633,6 +3876,18 @@
   "label": "EnhancedVolcano",
   "source": "SciCrunch resolver"
  },
+ "taxon:Agaricus bisporus": {
+  "fetchedAt": "2026-10-03T01:55:12Z",
+  "identifier": "NCBITaxon:5341",
+  "label": "Agaricus bisporus",
+  "source": "NCBI Taxonomy esearch"
+ },
+ "taxon:Pleurotus ostreatus": {
+  "fetchedAt": "2026-10-03T01:55:12Z",
+  "identifier": "NCBITaxon:5322",
+  "label": "Pleurotus ostreatus",
+  "source": "NCBI Taxonomy esearch"
+ },
  "taxon:Saccharomyces cerevisiae": {
   "identifier": "NCBITaxon:4932",
   "label": "Saccharomyces cerevisiae",
@@ -3641,6 +3896,12 @@
  "taxon:Schizosaccharomyces pombe": {
   "identifier": "NCBITaxon:4896",
   "label": "Schizosaccharomyces pombe",
+  "source": "NCBI Taxonomy esearch"
+ },
+ "taxon:Trametes versicolor": {
+  "fetchedAt": "2026-10-03T01:55:11Z",
+  "identifier": "NCBITaxon:5325",
+  "label": "Trametes versicolor",
   "source": "NCBI Taxonomy esearch"
  }
 }

@@ -58,6 +58,22 @@ compounds:
   - toluene
   - diglyme
   - borane
+  # acs-laccase (Steffens et al. 2023)
+  - perfluorooctanoic acid
+  - perfluorooctanesulfonic acid
+  - carbamazepine
+  - 1-hydroxybenzotriazole
+  - N-hydroxyphthalimide
+  - violuric acid
+  - TEMPO
+  - 2-azaadamantane N-oxyl
+  - copper(II) sulfate
+  - sodium malonate
+  - sodium acetate
+  - 2,6-dimethoxyphenol
+  - ammonium cerium(IV) nitrate
+  - methanol
+  - acetonitrile
 proteins: [MFGE8, PROS1, GAS6, ABCA1]
 ontology:
   - dry age related macular degeneration
@@ -78,7 +94,8 @@ ontology:
 cellLines: [ARPE-19]
 genes: [ABCA1, MFGE8, PROS1, GAS6]
 organizations: [Edison Scientific, Arcadia Science, Astera Institute, FutureHouse, Chlamydomonas Resource Center, Eye-Bank for Sight Restoration,
-  Instituto de Tecnología Química, University of Edinburgh]
+  Instituto de Tecnología Química, University of Edinburgh, "University of California, Berkeley", "University of California, Davis"]
+taxa: [Trametes versicolor, Agaricus bisporus, Pleurotus ostreatus]
 rrids: [SCR_002285, SCR_015687, SCR_010519, SCR_015530, SCR_012919, SCR_001905, SCR_018931, SCR_002798, SCR_003070]
 dois:
   - 10.1038/s41586-026-10652-y
@@ -129,6 +146,14 @@ dois:
   - 10.1016/S0040-4039(00)91802-1
   - 10.1055/s-0036-1591719
   - 10.1021/jacs.9b10114
+  # acs-laccase (Steffens et al. 2023) and the prior reports its record contradicts
+  - 10.1021/acs.estlett.3c00173
+  - 10.1021/acs.estlett.5b00119
+  - 10.1021/acs.est.8b00839
+  - 10.1016/j.jhazmat.2010.05.103
+  - 10.1039/B407835G
+  - 10.1039/D1EW00501D
+  - 10.1021/es101334s
 citations:
   # acs-tmeda SI references 9 to 27: examples of papers using TMEDA inhibition as the test for hidden boron catalysis
   - "Shi Y.; Wang Y.; Huang Z.; Zhang F.; Shao Y. tBuOLi-Promoted Hydroboration of Esters and Epoxides. ACS Omega, 2022, 7, 18876-18886."

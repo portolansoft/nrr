@@ -1,0 +1,282 @@
+{
+ "europePmcCore": {
+  "id": "37064824",
+  "source": "MED",
+  "pmid": "37064824",
+  "pmcid": "PMC10100556",
+  "fullTextIdList": {
+   "fullTextId": [
+    "PMC10100556"
+   ]
+  },
+  "doi": "10.1021/acs.estlett.3c00173",
+  "title": "An Artifact of Perfluoroalkyl Acid (PFAA) Removal Attributed to Sorption Processes in a Laccase Mediator System.",
+  "authorString": "Steffens SD, Antell EH, Cook EK, Rao G, Britt RD, Sedlak DL, Alvarez-Cohen L.",
+  "authorList": {
+   "author": [
+    {
+     "fullName": "Steffens SD",
+     "lastName": "Steffens",
+     "firstName": "Sophia D",
+     "initials": "SD",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0003-4663-8264"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Department of Chemistry, University of California, Berkeley, California 94720, United States."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Antell EH",
+     "lastName": "Antell",
+     "firstName": "Edmund H",
+     "initials": "EH",
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Department of Civil and Environmental Engineering, University of California, Berkeley, California 94720, United States."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Cook EK",
+     "lastName": "Cook",
+     "firstName": "Emily K",
+     "initials": "EK",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0002-4587-3097"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Department of Civil and Environmental Engineering, University of California, Berkeley, California 94720, United States."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Rao G",
+     "lastName": "Rao",
+     "firstName": "Guodong",
+     "initials": "G",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0001-8043-3436"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Department of Chemistry, University of California, Davis, California 95616, United States."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Britt RD",
+     "lastName": "Britt",
+     "firstName": "R David",
+     "initials": "RD",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0003-0889-8436"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Department of Chemistry, University of California, Davis, California 95616, United States."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Sedlak DL",
+     "lastName": "Sedlak",
+     "firstName": "David L",
+     "initials": "DL",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0003-1686-8464"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Department of Civil and Environmental Engineering, University of California, Berkeley, California 94720, United States."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Alvarez-Cohen L",
+     "lastName": "Alvarez-Cohen",
+     "firstName": "Lisa",
+     "initials": "L",
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Department of Civil and Environmental Engineering, University of California, Berkeley, California 94720, United States."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "authorIdList": {
+   "authorId": [
+    {
+     "type": "ORCID",
+     "value": "0000-0001-8043-3436"
+    },
+    {
+     "type": "ORCID",
+     "value": "0000-0002-4587-3097"
+    },
+    {
+     "type": "ORCID",
+     "value": "0000-0003-0889-8436"
+    },
+    {
+     "type": "ORCID",
+     "value": "0000-0003-1686-8464"
+    },
+    {
+     "type": "ORCID",
+     "value": "0000-0003-4663-8264"
+    }
+   ]
+  },
+  "dataLinksTagsList": {
+   "dataLinkstag": [
+    "altmetrics",
+    "supporting_data"
+   ]
+  },
+  "journalInfo": {
+   "issue": "4",
+   "volume": "10",
+   "journalIssueId": 3545290,
+   "dateOfPublication": "2023 Apr",
+   "monthOfPublication": 4,
+   "yearOfPublication": 2023,
+   "journal": {
+    "medlineAbbreviation": "Environ Sci Technol Lett",
+    "title": "Environmental science & technology letters",
+    "essn": "2328-8930",
+    "issn": "2328-8930",
+    "isoabbreviation": "Environ Sci Technol Lett",
+    "nlmid": "101628367"
+   },
+   "printPublicationDate": "2023-04-01"
+  },
+  "pubYear": "2023",
+  "pageInfo": "337-342",
+  "abstractText": "Fungi and laccase mediator systems (LMSs) have a proven track record of oxidizing recalcitrant organic compounds. There has been considerable interest in applying LMSs to the treatment of perfluoroalkyl acids (PFAAs), a class of ubiquitous and persistent environmental contaminants. Some laboratory experiments have indicated modest losses of PFAAs over extended periods, but there have been no clear demonstrations of a transformation mechanism or the kinetics that would be needed for remediation applications. We set out to determine if this was a question of identifying and optimizing a rate-limiting step but discovered that observed losses of PFAAs were experimental artifacts. While unable to replicate the oxidation of PFAAs, we show that interactions of the PFAA compounds with laccase and laccase mediator mixtures could cause an artifact that mimics transformation (≲60%) of PFAAs. Furthermore, we employed a surrogate compound, carbamazepine (CBZ), and electron paramagnetic resonance spectroscopy to probe the formation of the radical species that had been proposed to be responsible for contaminant oxidation. We confirmed that under conditions where sufficient radical concentrations were produced to oxidize CBZ, no PFAA removal took place.",
+  "affiliation": "Department of Chemistry, University of California, Berkeley, California 94720, United States.",
+  "publicationStatus": "epublish",
+  "language": "eng",
+  "pubModel": "Electronic-eCollection",
+  "pubTypeList": {
+   "pubType": [
+    "rapid-communication",
+    "Journal Article"
+   ]
+  },
+  "grantsList": {
+   "grant": [
+    {
+     "agency": "Division of Graduate Education",
+     "grantId": "1752814",
+     "orderIn": 0
+    },
+    {
+     "agency": "U.S. Department of Defense",
+     "grantId": "ER 19-1410",
+     "orderIn": 0
+    },
+    {
+     "agency": "National Institute of General Medical Sciences",
+     "grantId": "1R35GM126961",
+     "orderIn": 0
+    }
+   ]
+  },
+  "fullTextUrlList": {
+   "fullTextUrl": [
+    {
+     "availability": "Subscription required",
+     "availabilityCode": "S",
+     "documentStyle": "doi",
+     "site": "DOI",
+     "url": "https://doi.org/10.1021/acs.estlett.3c00173"
+    },
+    {
+     "availability": "Open access",
+     "availabilityCode": "OA",
+     "documentStyle": "html",
+     "site": "Europe_PMC",
+     "url": "https://europepmc.org/articles/PMC10100556"
+    },
+    {
+     "availability": "Open access",
+     "availabilityCode": "OA",
+     "documentStyle": "pdf",
+     "site": "Europe_PMC",
+     "url": "https://europepmc.org/articles/PMC10100556?pdf=render"
+    }
+   ]
+  },
+  "isOpenAccess": "Y",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 9,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "Y",
+  "hasLabsLinks": "Y",
+  "hasData": "Y",
+  "license": "cc by",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCreation": "2023-04-17",
+  "dateOfRevision": "2023-04-18",
+  "electronicPublicationDate": "2023-03-24",
+  "firstPublicationDate": "2023-03-24",
+  "firstIndexDate": "2023-04-18",
+  "fullTextReceivedDate": "2025-02-04",
+  "hasEvaluations": "N"
+ },
+ "fetched": {
+  "date": "2026-10-02",
+  "fullTextXML": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10100556/fullTextXML",
+  "supplementaryFiles": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10100556/supplementaryFiles",
+  "files": {
+   "europepmc/PMC10100556.fullTextXML.xml": {
+    "sha256": "b76b9e54669f7f66553d4caa2f9f779d37de489166c7a6a08a41fb4f0bd642b8",
+    "size": 75736
+   },
+   "si/ez3c00173_si_001.pdf": {
+    "sha256": "94d0c1f8982a6015ad6667433f4cc653bfca2848a6f91b9fdb55dc985ced151b",
+    "size": 594281
+   },
+   "si/tableS2_pfoa_page9_image0.png": {
+    "sha256": "5a6830bed4dd4b0acb9e1acf2b692172b48a2f7c26ec01a8a22769ce82509d9a",
+    "size": 65506
+   },
+   "si/tableS3_pfos_page9_image1.png": {
+    "sha256": "a4c1b2218c6c25fc1b55c86862264e31abd09d9bd6ce5f1544abe3604d50d617",
+    "size": 68662
+   }
+  }
+ }
+}

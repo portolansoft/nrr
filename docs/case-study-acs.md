@@ -149,3 +149,62 @@ list so a Supporting Information reference list without DOIs can be resolved onc
 
 The paper reports yields as the average of two runs with no error estimate, so `replicates.technical: 2` is all the record
 can say. Schemes S3 and S4 give their yields only in images and were not transcribed; the record says so.
+
+## 3. Laccase and PFAS: a replication failure with the artefact explained
+
+*Steffens, Antell, Cook, Rao, Britt, Sedlak and Alvarez-Cohen 2023, "An Artifact of Perfluoroalkyl Acid (PFAA) Removal
+Attributed to Sorption Processes in a Laccase Mediator System", Environ. Sci. Technol. Lett. 10, 337-342,
+doi:10.1021/acs.estlett.3c00173, PMC10100556. Study id `acs-laccase`.*
+
+### Why this one
+
+The research note called it the cleanest fit to the rule in the set, and it was chosen to check that the rule can pass a
+chemistry negative, not only diagnose one. The authors set out to optimise a reported enzymatic degradation of PFOA and
+PFOS, could not reproduce it, showed the system was alive (carbamazepine transformed, radical seen by EPR, enzyme active),
+then showed by mass balance that the loss other people would have reported as degradation was sorption to the enzyme and
+the glass. The positive control is a different substrate rather than a different reagent, which is a shape the rule had
+not met.
+
+### What the record looks like
+
+| Record | Kind | Headline | Findings |
+|---|---|---|---|
+| `acs-laccase-path` | path, experiment | `negative-not-replicated` | 4 attempts; `contradicts` the two prior reports by DOI |
+| `acs-laccase-mediator-screen` | wet-lab | `inconclusive-no-positive-control` | 2: two laccases by five mediators, 28 days, p = 0.58 and 0.24 |
+| `acs-laccase-system-checks` | wet-lab | `positive` | 3: carbamazepine 35 % removed (p < 0.001), BTNO radical by EPR, activity retained |
+| `acs-laccase-pfaa-degradation` | wet-lab | `negative-not-replicated` | 3: PFOA over two weeks (p = 0.29, informative); 64 % and 67 % apparent losses at 0.1 µM, `refuted` by 99 ± 14 % and 111 ± 11 % mass recovery |
+| `acs-laccase-sorption` | wet-lab | `positive` | 3: 18 ± 2 % PFOA and 34 ± 4 % PFOS to the protein, 40 ± 12 % PFOS to the glass without enzyme |
+
+Tables S2 and S3 are images inside the SI PDF. All 24 cells were read from the images into a CSV and each is an evidence
+item; the main text's "18 ± 2 %" is 100 minus the 82 % subsample recovery.
+
+### The judgement calls, and where they are written
+
+**A surrogate substrate as the designated positive control.** Carbamazepine was run in a separate reactor set with the
+same enzyme, mediator and buffer. The ingest counts it as a `designated` positive control for the TvL/HBT findings and
+says in the control's `note` that it is not an arm of the same experiment. With the untreated reactors as the negative
+control and the LC-MS/MS quantification range plus the expected effect size as the sensitivity statement, the two-week
+PFOA finding is `negative-not-replicated` and informative, the first chemistry negative to pass and the first informative
+instance of that class in the corpus. The same control is *not* counted for the mediator screen, which used two other
+laccases, so the screen is `inconclusive-no-positive-control`, the Alcalase diagnosis in chemistry. Both decisions are in
+`provenanceNotes`.
+
+**The apparent loss is `refuted`, with the artefact as its failure mode.** A less careful study would have published
+"64 % PFOA removal in 24 h". The record keeps that number as a finding of class `refuted`, judged on the mass balance, and
+links it to the sorption finding that explains it. This forced the one change of the study.
+
+**What counts as a sensitivity statement.** There is no power analysis. The ingest reads the quantification range
+(0.2 to 10 µg/L, isotope dilution, triplicates with standard deviations) together with the stated expected effect
+(>20 % at 10 days) as the sensitivity statement, and says so in the finding and in `provenanceNotes`.
+
+### What it broke
+
+One vocabulary term, `measurement-artifact` as a failure mode (change 29), for an apparent effect produced by the
+sampling pathway rather than by the process under test. Nothing else. `contradicts` already existed for the relation to
+the two prior reports; `nearestPriorResult` carries their claims. Tooling gained a `taxon` resolver so the three fungi
+carry NCBI Taxonomy ids from the cache rather than from memory.
+
+### What it did not test
+
+No deposit; the SI PDF is the only place the data lives, and two of its tables are pictures. No author-contribution
+statement. PFOS with TvL was tested only at 0.1 µM over 96 h and 24 h, never over two weeks, and the record says so.
