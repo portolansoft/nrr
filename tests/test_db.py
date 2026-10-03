@@ -11,6 +11,7 @@ from nrr.ingest.raman import build_raman_records
 from nrr.ingest.robin import build_robin_records
 from nrr.ingest.laccase import build_laccase_records
 from nrr.ingest.tmeda import build_tmeda_records
+from nrr.ingest.xef6 import build_xef6_records
 from nrr.ingest.zeolite import build_zeolite_records
 from nrr.resolve import Resolver
 
@@ -24,7 +25,8 @@ def db(tmp_path_factory):
     records = (build_robin_records(ROOT, resolver) + build_alcalase_records(ROOT, resolver)
                + build_neuroimaging_records(ROOT, resolver) + build_raman_records(ROOT, resolver)
                + build_dfa_records(ROOT, resolver) + build_zeolite_records(ROOT, resolver)
-               + build_tmeda_records(ROOT, resolver) + build_laccase_records(ROOT, resolver))
+               + build_tmeda_records(ROOT, resolver) + build_laccase_records(ROOT, resolver)
+               + build_xef6_records(ROOT, resolver))
     path = tmp_path_factory.mktemp("db") / "portolan.sqlite"
     load(records, path)
     return path
@@ -166,3 +168,27 @@ def test_a_surrogate_substrate_counts_as_a_designated_positive_control(db):
     assert any(r["outcome_class"] == "negative-not-replicated" and r["informativeness"] == "informative" for r in rows)
     rows = query(db, "prior_art_by_identifier", identifier="pubchem:CID9554")
     assert {r["outcome_class"] for r in rows} >= {"negative-not-replicated", "refuted", "positive"}
+
+
+def test_a_negative_path_can_carry_a_positive_by_product_with_its_deposit(db):
+    """XeF6: the failed oxidation produced a new compound; it is a positive attempt derived from the negative one,
+    queryable by CCDC id, while the path and the oxidation findings stay inconclusive negatives."""
+    rows = query(db, "by_entity", entity_id="ccdc:2477117")
+    assert {r["study_id"] for r in rows} == {"acs-xef6"}
+    assert any(r["slug"] == "acs-xef6-xe2f11-ruf6" and r["outcome_class"] == "positive" for r in rows)
+    unin = [r for r in query(db, "uninformative_negatives") if r["study_id"] == "acs-xef6"]
+    assert len(unin) == 5 and all(r["informativeness_reason"].startswith("no positive control") for r in unin)
+
+
+def test_the_four_chemistry_studies_split_across_the_rule(db):
+    """Across the ACS studies the rule both passes negatives (TMEDA, laccase) and refuses them (zeolite, XeF6),
+    which is the behaviour that makes it a diagnosis rather than a filter on domain."""
+    import sqlite3
+    con = sqlite3.connect(db)
+    rows = con.execute("select r.study_id, f.informativeness, count(*) from findings f join records r on r.id = f.record_id where r.study_id like 'acs-%' and (f.outcome_class like 'negative-%' or f.outcome_class like 'inconclusive%') group by 1, 2").fetchall()
+    by = {}
+    for study, inf, n in rows:
+        by.setdefault(study, {})[inf] = n
+    assert by["acs-tmeda"].get("informative", 0) >= 7 and "uninformative" not in by["acs-tmeda"]
+    assert by["acs-laccase"] == {"informative": 1, "uninformative": 2}
+    assert "informative" not in by["acs-zeolite"] and "informative" not in by["acs-xef6"]

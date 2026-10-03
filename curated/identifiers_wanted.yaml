@@ -74,6 +74,14 @@ compounds:
   - ammonium cerium(IV) nitrate
   - methanol
   - acetonitrile
+  # acs-xef6 (Koch et al. 2026)
+  - xenon hexafluoride
+  - ruthenium hexafluoride
+  - hydrogen fluoride
+  - fluorine
+  - potassium iodide
+  - iodine
+  - ruthenium pentafluoride
 proteins: [MFGE8, PROS1, GAS6, ABCA1]
 ontology:
   - dry age related macular degeneration
@@ -94,7 +102,7 @@ ontology:
 cellLines: [ARPE-19]
 genes: [ABCA1, MFGE8, PROS1, GAS6]
 organizations: [Edison Scientific, Arcadia Science, Astera Institute, FutureHouse, Chlamydomonas Resource Center, Eye-Bank for Sight Restoration,
-  Instituto de Tecnología Química, University of Edinburgh, "University of California, Berkeley", "University of California, Davis"]
+  Instituto de Tecnología Química, University of Edinburgh, "University of California, Berkeley", "University of California, Davis", University of Bonn, Aalto University]
 taxa: [Trametes versicolor, Agaricus bisporus, Pleurotus ostreatus]
 rrids: [SCR_002285, SCR_015687, SCR_010519, SCR_015530, SCR_012919, SCR_001905, SCR_018931, SCR_002798, SCR_003070]
 dois:
@@ -154,6 +162,24 @@ dois:
   - 10.1039/B407835G
   - 10.1039/D1EW00501D
   - 10.1021/es101334s
+  # acs-xef6 (Koch et al. 2026) and the prior dead ends and comparators its record cites
+  - 10.1021/acs.inorgchem.6c02072
+  - 10.1016/0022-1902(70)80296-2
+  - 10.1021/ic50046a026
+  - 10.1021/ic901956g
+  - 10.1016/S0010-8545(02)00202-3
+  - 10.1021/ic00314a008
+  - 10.1021/ja00145a013
+  - 10.1021/ic50126a002
+  - 10.1039/c39730000131
+  - 10.1021/ic50134a003
+  - 10.1016/0022-1902(80)80325-3
+  - 10.1021/jp1022949
+  - 10.1021/ic001024+
+  - 10.1002/ejic.201700097
+  - 10.3390/molecules28083370
+  - 10.1021/ja00034a033
+  - 10.1016/S1387-1609(99)80073-5
 citations:
   # acs-tmeda SI references 9 to 27: examples of papers using TMEDA inhibition as the test for hidden boron catalysis
   - "Shi Y.; Wang Y.; Huang Z.; Zhang F.; Shao Y. tBuOLi-Promoted Hydroboration of Esters and Epoxides. ACS Omega, 2022, 7, 18876-18886."

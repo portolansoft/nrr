@@ -1,7 +1,7 @@
-# Portolan NRR pilot: two published studies as Negative-Results Records
+# Portolan NRR pilot: nine published studies as Negative-Results Records
 
 This folder holds the first machine-readable version of the Portolan Negative-Results Record (NRR v0.2) and a pilot that
-encodes two published studies against it, end to end: source artefacts, curated tables with provenance, converters,
+encodes nine published studies against it, five in biology and four in chemistry, end to end: source artefacts, curated tables with provenance, converters,
 validated records, RO-Crates, a SQLite store with agent-style queries, and MCP deposit payloads prepared for the
 server that does not exist yet.
 
@@ -15,8 +15,9 @@ server that does not exist yet.
 | Altundal et al. 2025, *Lessons from Failed Attempts of Computationally Guided Synthesis of Aluminosilicate STF and IFR Zeolites in Hydroxide Media*, Chem. Mater. 37:9689-9702, doi:10.1021/acs.chemmater.5c01751 (CC BY 4.0, via Europe PMC PMC12747119) | JATS full text, Supporting Information PDF (tables S7-S22 transcribed) | 1 path + 4 attempts |
 | Macleod, Bage, Meyer and Thomas 2024, *Hidden Boron Catalysis: A Cautionary Tale on TMEDA Inhibition*, Org. Lett. 26:9564-9567, doi:10.1021/acs.orglett.4c03591 (CC BY 4.0, via Europe PMC PMC11555781) | JATS full text, Supporting Information PDF (Tables S1-S3, Section S4 transcribed), Table 1 image | 1 path + 4 attempts |
 | Steffens et al. 2023, *An Artifact of Perfluoroalkyl Acid (PFAA) Removal Attributed to Sorption Processes in a Laccase Mediator System*, Environ. Sci. Technol. Lett. 10:337-342, doi:10.1021/acs.estlett.3c00173 (CC BY 4.0, via Europe PMC PMC10100556) | JATS full text, Supporting Information PDF (Tables S2 and S3 read from images) | 1 path + 4 attempts |
+| Koch, Hoß, Schnakenburg, Karttunen and Kraus 2026, *Failed Attempts at Oxidation of XeF6: Synthesis and Characterization of [Xe2F11][RuF6]*, Inorg. Chem. 65:15126-15135, doi:10.1021/acs.inorgchem.6c02072 (CC BY 4.0, via Europe PMC PMC13343514) | JATS full text, Supporting Information PDF, CCDC 2477117 | 1 path + 3 attempts |
 
-Build output (`out/`): 45 records, 204 findings, 155 screened items, 0 validation errors across eight studies.
+Build output (`out/`): 49 records, 217 findings, 159 screened items, 0 validation errors across nine studies.
 
 ## Run
 
@@ -24,7 +25,7 @@ Build output (`out/`): 45 records, 204 findings, 155 screened items, 0 validatio
 git clone https://github.com/portolansoft/nrr && cd nrr
 uv sync                                              # Python >= 3.12
 uv run python scripts/fetch_sources.py --study robin-damd   # network: Robin sample runs (Apache-2.0) + Nature workbook (local use only)
-uv run pytest -q                                     # 186 tests; Robin tests skip themselves if raw/robin is absent
+uv run pytest -q                                     # 196 tests; Robin tests skip themselves if raw/robin is absent
 uv run python build.py                               # out/records, out/crates, out/mcp, out/portolan.sqlite, out/validation-report.md
 uv run python demo_queries.py                        # asks the store eleven agent-style questions
 uv run python scripts/export_records.py --study arcadia-alcalase --dest ../nrr-records      # dataset repo content
@@ -34,10 +35,11 @@ uv run python scripts/export_records.py --study arcadia-dfa --dest ../nrr-record
 uv run python scripts/export_records.py --study acs-zeolite --dest ../nrr-records
 uv run python scripts/export_records.py --study acs-tmeda --dest ../nrr-records
 uv run python scripts/export_records.py --study acs-laccase --dest ../nrr-records
+uv run python scripts/export_records.py --study acs-xef6 --dest ../nrr-records
 uv run python scripts/resolve_ids.py                 # only if you add names or DOIs; refreshes curated/identifiers.json
 ```
 
-The Arcadia inputs are vendored (CC BY 4.0). The Nature-derived inputs are fetched, not committed, because the article
+The Arcadia and ACS inputs are vendored (CC BY 4.0; the ACS full texts and Supporting Information come from Europe PMC). The Nature-derived inputs are fetched, not committed, because the article
 licence (CC BY-NC-ND 4.0) forbids redistributing adapted material; see `raw/README.md` and `NOTICE`. Records built from
 the Nature paper are therefore not published in `portolansoft/nrr-records`; the converter is, so they can be rebuilt locally.
 
@@ -47,7 +49,7 @@ the Nature paper are therefore not published in `portolansoft/nrr-records`; the 
 schema/        nrr-0.2.schema.json, vocabularies.json, README.md (human-readable), CHANGELOG.md (v0.1 -> v0.2, with reasons)
 src/nrr/       schema.py (validate), rules.py (informativeness), identity.py (content address), crate.py (RO-Crate),
                resolve.py (cached identifier resolution), db.py (SQLite + named queries), deposit.py (MCP payloads)
-src/nrr/ingest/robin.py, alcalase.py, neuroimaging.py, raman.py, dfa.py, zeolite.py, tmeda.py, laccase.py   the converters; common.py shared constructors
+src/nrr/ingest/robin.py, alcalase.py, neuroimaging.py, raman.py, dfa.py, zeolite.py, tmeda.py, laccase.py, xef6.py   the converters; common.py shared constructors
 raw/           inputs; alcalase/ vendored, robin/ fetched (see raw/README.md for origin and licence of each)
 curated/       hand-transcribed tables with a provenance column, plus identifiers.json (resolver cache)
 db/            schema.sql, queries.sql (the questions an agent asks)

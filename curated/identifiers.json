@@ -684,6 +684,15 @@
   "label": "Flubendazole",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
  },
+ "compound:fluorine": {
+  "fetchedAt": "2026-10-03T02:02:26Z",
+  "formula": "F2",
+  "identifier": "pubchem:CID24524",
+  "inchikey": "PXGOKWXKJXAPGV-UHFFFAOYSA-N",
+  "iupac": "molecular fluorine",
+  "label": "Fluorine",
+  "source": "PubChem PUG REST name lookup"
+ },
  "compound:g-1": {
   "fetchedAt": "2026-09-25T19:40:00Z",
   "formula": "C21H18BrNO3",
@@ -758,6 +767,24 @@
   "iupac": "2-(4-hydroxy-3-prop-2-enylphenyl)-4-prop-2-enylphenol",
   "label": "Honokiol",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:hydrogen fluoride": {
+  "fetchedAt": "2026-10-03T02:02:28Z",
+  "formula": "FH",
+  "identifier": "pubchem:CID14917",
+  "inchikey": "KRHYYFGTRYWZRS-UHFFFAOYSA-N",
+  "iupac": "fluorane",
+  "label": "Hydrofluoric Acid",
+  "source": "PubChem PUG REST name lookup"
+ },
+ "compound:iodine": {
+  "fetchedAt": "2026-10-03T02:02:30Z",
+  "formula": "I2",
+  "identifier": "pubchem:CID807",
+  "inchikey": "PNDPGZBMCMUPRI-UHFFFAOYSA-N",
+  "iupac": "molecular iodine",
+  "label": "Iodine",
+  "source": "PubChem PUG REST name lookup"
  },
  "compound:isoflurane": {
   "formula": "C3H2ClF5O",
@@ -980,6 +1007,15 @@
  "compound:polysorbate 80": {
   "unresolved": true
  },
+ "compound:potassium iodide": {
+  "fetchedAt": "2026-10-03T02:02:32Z",
+  "formula": "IK",
+  "identifier": "pubchem:CID4875",
+  "inchikey": "NLKNQRATVPKPDG-UHFFFAOYSA-M",
+  "iupac": "potassium iodide",
+  "label": "Potassium Iodide",
+  "source": "PubChem PUG REST name lookup"
+ },
  "compound:pre-084": {
   "fetchedAt": "2026-09-25T19:40:00Z",
   "formula": "C19H27NO3",
@@ -1055,6 +1091,24 @@
   "iupac": "4-(3-cyclopentyloxy-4-methoxyphenyl)pyrrolidin-2-one",
   "label": "Rolipram",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
+ },
+ "compound:ruthenium hexafluoride": {
+  "fetchedAt": "2026-10-03T02:02:35Z",
+  "formula": "F6Ru",
+  "identifier": "pubchem:CID21528530",
+  "inchikey": "NHWBVRAPBLSUQQ-UHFFFAOYSA-H",
+  "iupac": "hexafluororuthenium",
+  "label": "Ruthenium hexafluoride",
+  "source": "PubChem PUG REST name lookup"
+ },
+ "compound:ruthenium pentafluoride": {
+  "fetchedAt": "2026-10-03T02:02:37Z",
+  "formula": "F4Ru",
+  "identifier": "pubchem:CID167109",
+  "inchikey": "CBIYWHCPXHKZME-UHFFFAOYSA-J",
+  "iupac": "ruthenium(4+) tetrafluoride",
+  "label": "Ruthenium pentafluoride",
+  "source": "PubChem PUG REST name lookup"
  },
  "compound:simvastatin": {
   "fetchedAt": "2026-09-25T19:40:00Z",
@@ -1227,6 +1281,15 @@
   "label": "Vorinostat",
   "source": "PubChem PUG REST name lookup (curl, two-step)"
  },
+ "compound:xenon hexafluoride": {
+  "fetchedAt": "2026-10-03T02:02:39Z",
+  "formula": "F6Xe",
+  "identifier": "pubchem:CID139546",
+  "inchikey": "ARUUTJKURHLAMI-UHFFFAOYSA-N",
+  "iupac": "hexafluoroxenon",
+  "label": "Xenon hexafluoride",
+  "source": "PubChem PUG REST name lookup"
+ },
  "compound:y-27632": {
   "fetchedAt": "2026-09-25T19:40:00Z",
   "formula": "C14H21N3O",
@@ -1334,6 +1397,21 @@
    26
   ],
   "title": "Stem Cell–Derived Retinal Pigment Epithelial Layer Model from Adult Human Globes Donated for Corneal Transplants",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1002/ejic.201700097": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:42Z",
+  "container": "European Journal of Inorganic Chemistry",
+  "fetchedAt": "2026-10-03T02:02:42Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2017,
+   3,
+   29
+  ],
+  "title": "Crystal Growth and Characterization of the Mixed‐Cation Rb<sup>+</sup>/[XeF<sub>5</sub>]<sup>+</sup> and Cs<sup>+</sup>/[XeF<sub>5</sub>]<sup>+</sup> Salts",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -1446,6 +1524,32 @@
    2
   ],
   "title": "Computationally-Guided Synthesis of the 8-Ring Zeolite AEI",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/0022-1902(70)80296-2": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:43Z",
+  "container": "Journal of Inorganic and Nuclear Chemistry",
+  "fetchedAt": "2026-10-03T02:02:43Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "An examination of the possibility of the existence of xenon octafluoride",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/0022-1902(80)80325-3": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:44Z",
+  "container": "Journal of Inorganic and Nuclear Chemistry",
+  "fetchedAt": "2026-10-03T02:02:44Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Reactivity of transition metal fluorides—XI",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -1701,6 +1805,19 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1016/s0010-8545(02)00202-3": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:44Z",
+  "container": "Coordination Chemistry Reviews",
+  "fetchedAt": "2026-10-03T02:02:44Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "The chemistry of krypton",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1016/s0040-4039(00)91802-1": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-10-03T01:47:01Z",
@@ -1711,6 +1828,19 @@
    null
   ],
   "title": "Hydroboration reactions mediated by bis(mesityl)niobium: Beware of the trojan horse",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1016/s1387-1609(99)80073-5": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:45Z",
+  "container": "Comptes Rendus de l'Académie des Sciences - Series IIC - Chemistry",
+  "fetchedAt": "2026-10-03T02:02:45Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Protonic superacid anhydrous hydrogen fluoride as a solvent in the chemistry of high oxidation states",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -1816,6 +1946,21 @@
    18
   ],
   "title": "Aluminum-Hydride-Catalyzed Hydroboration of Carbon Dioxide",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acs.inorgchem.6c02072": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:46Z",
+  "container": "Inorganic Chemistry",
+  "fetchedAt": "2026-10-03T02:02:46Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2026,
+   6,
+   24
+  ],
+  "title": "Failed Attempts at Oxidation of XeF\n                    <sub>6</sub>\n                    : Synthesis and Characterization of [Xe\n                    <sub>2</sub>\n                    F\n                ",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -2029,6 +2174,21 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1021/ic001024+": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:47Z",
+  "container": "Inorganic Chemistry",
+  "fetchedAt": "2026-10-03T02:02:47Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2001,
+   4,
+   11
+  ],
+  "title": "Novel Synthesis of ClF<sub>6</sub><sup>+</sup>and BrF<sub>6</sub><sup>+</sup>Salts",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1021/ic00186a008": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-10-03T01:47:11Z",
@@ -2041,6 +2201,111 @@
    1
   ],
   "title": "Molecular addition compounds. 9. Effect of structure on the reactivities of representative borane-amine complexes in typical reactions such as hydrolysis, hydroboration, and reduction",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/ic00314a008": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:47Z",
+  "container": "Inorganic Chemistry",
+  "fetchedAt": "2026-10-03T02:02:47Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2002,
+   5,
+   1
+  ],
+  "title": "Synthesis and crystal structure of bis[undecafluorodixenon(1+)] hexafluoronickelate(2-)",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/ic50046a026": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:48Z",
+  "container": "Inorganic Chemistry",
+  "fetchedAt": "2026-10-03T02:02:48Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2002,
+   5,
+   1
+  ],
+  "title": "The Xenon-Fluorine System",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/ic50126a002": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:49Z",
+  "container": "Inorganic Chemistry",
+  "fetchedAt": "2026-10-03T02:02:49Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2002,
+   5,
+   1
+  ],
+  "title": "Crystal structures of [xenon fluoride(+)][ruthenium hexafluoride(-)] and [xenon pentafluoride(+)][ruthenium hexafluoride(-)]",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/ic50134a003": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:50Z",
+  "container": "Inorganic Chemistry",
+  "fetchedAt": "2026-10-03T02:02:50Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2002,
+   5,
+   1
+  ],
+  "title": "Crystal structure of .mu.-fluorodecafluorodixenon(1+) hexafluoroaurate(1-) and the Raman spectrum of .mu.-fluorodecafluorodixenon(1+)",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/ic901956g": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:50Z",
+  "container": "Inorganic Chemistry",
+  "fetchedAt": "2026-10-03T02:02:50Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2009,
+   12,
+   8
+  ],
+  "title": "Heats of Formation of XeF<sub>3</sub><sup>+</sup>, XeF<sub>3</sub><sup>−</sup>, XeF<sub>5</sub><sup>+</sup>, XeF<sub>7</sub><sup>+</sup>, XeF<sub>7</sub><sup>−</sup>, and XeF<sub>8</sub> from High Lev",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/ja00034a033": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:51Z",
+  "container": "Journal of the American Chemical Society",
+  "fetchedAt": "2026-10-03T02:02:51Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2002,
+   5,
+   1
+  ],
+  "title": "A quantitative scale for the oxidizing strength of oxidative fluorinators",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/ja00145a013": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:52Z",
+  "container": "Journal of the American Chemical Society",
+  "fetchedAt": "2026-10-03T02:02:52Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2002,
+   5,
+   1
+  ],
+  "title": "Thermodynamically Unstable Fluorides of Nickel: NiF4 and NiF3 Syntheses and Some Properties",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -2071,6 +2336,21 @@
    1
   ],
   "title": "Novel functional M1 selective muscarinic agonists. Synthesis and structure-activity relationships of 3-(1,2,5-thiadiazolyl)-1,2,5,6-tetrahydro-1-methylpyridines",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/jp1022949": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:52Z",
+  "container": "The Journal of Physical Chemistry A",
+  "fetchedAt": "2026-10-03T02:02:52Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2010,
+   6,
+   29
+  ],
+  "title": "Electron Affinities, Fluoride Affinities, and Heats of Formation of the Second Row Transition Metal Hexafluorides: MF<sub>6</sub>(M = Mo, Tc, Ru, Rh, Pd, Ag)",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -2366,6 +2646,19 @@
    2004
   ],
   "title": "Spectrophotometric, EPR and kinetic characterisation of the &gt;N–O• radical from 1-hydroxybenzotriazole, a key reactive species in mediated enzymatic oxidations",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1039/c39730000131": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:53Z",
+  "container": "Journal of the Chemical Society, Chemical Communications",
+  "fetchedAt": "2026-10-03T02:02:53Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Crystal structure of [Xe2F11]+[AuF6]",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -3179,6 +3472,21 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.3390/molecules28083370": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T02:02:54Z",
+  "container": "Molecules",
+  "fetchedAt": "2026-10-03T02:02:54Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2023,
+   4,
+   11
+  ],
+  "title": "Crystal Structures of Xenon(VI) Salts: XeF5Ni(AsF6)3, XeF5AF6 (A = Nb, Ta, Ru, Rh, Ir, Pt, Au), and XeF5A2F11 (A = Nb, Ta)",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.3892/ol.2018.8182": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:53:14Z",
@@ -3724,6 +4032,12 @@
   "ontology": "go",
   "source": "OLS4 exact search"
  },
+ "org:aalto university": {
+  "fetchedAt": "2026-10-03T02:02:41Z",
+  "identifier": "https://ror.org/020hwjq30",
+  "label": "Aalto University",
+  "source": "ROR v2 API"
+ },
  "org:arcadia science": {
   "fetchedAt": "2026-09-26T01:51:16Z",
   "identifier": "https://ror.org/052zd4v68",
@@ -3758,6 +4072,12 @@
   "fetchedAt": "2026-10-03T01:36:47Z",
   "identifier": "https://ror.org/038792a28",
   "label": "Instituto de Tecnología Química",
+  "source": "ROR v2 API"
+ },
+ "org:university of bonn": {
+  "fetchedAt": "2026-10-03T02:02:40Z",
+  "identifier": "https://ror.org/041nas322",
+  "label": "University of Bonn",
   "source": "ROR v2 API"
  },
  "org:university of california": {

@@ -1,0 +1,216 @@
+{
+ "europePmcCore": {
+  "id": "42342235",
+  "source": "MED",
+  "pmid": "42342235",
+  "pmcid": "PMC13343514",
+  "fullTextIdList": {
+   "fullTextId": [
+    "PMC13343514"
+   ]
+  },
+  "doi": "10.1021/acs.inorgchem.6c02072",
+  "title": "Failed Attempts at Oxidation of XeF&lt;sub&gt;6&lt;/sub&gt;: Synthesis and Characterization of [Xe&lt;sub&gt;2&lt;/sub&gt;F&lt;sub&gt;11&lt;/sub&gt;][RuF&lt;sub&gt;6&lt;/sub&gt;].",
+  "authorString": "Koch BN, Hoß G, Schnakenburg G, Karttunen AJ, Kraus F.",
+  "authorList": {
+   "author": [
+    {
+     "fullName": "Koch BN",
+     "lastName": "Koch",
+     "firstName": "Björn N",
+     "initials": "BN",
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Fluorchemie, Institut für Anorganische Chemie, Universität Bonn, Gerhard-Domagk-Strasse 1, 53121 Bonn, Germany."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Hoß G",
+     "lastName": "Hoß",
+     "firstName": "Giuliana",
+     "initials": "G",
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Fluorchemie, Institut für Anorganische Chemie, Universität Bonn, Gerhard-Domagk-Strasse 1, 53121 Bonn, Germany."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Schnakenburg G",
+     "lastName": "Schnakenburg",
+     "firstName": "Gregor",
+     "initials": "G",
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Fluorchemie, Institut für Anorganische Chemie, Universität Bonn, Gerhard-Domagk-Strasse 1, 53121 Bonn, Germany."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Karttunen AJ",
+     "lastName": "Karttunen",
+     "firstName": "Antti J",
+     "initials": "AJ",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0003-4187-5447"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Department of Chemistry and Materials Science, Aalto University, Kemistintie 1, Aalto Finland 00076."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Kraus F",
+     "lastName": "Kraus",
+     "firstName": "Florian",
+     "initials": "F",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0003-4368-8418"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Fluorchemie, Institut für Anorganische Chemie, Universität Bonn, Gerhard-Domagk-Strasse 1, 53121 Bonn, Germany."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "authorIdList": {
+   "authorId": [
+    {
+     "type": "ORCID",
+     "value": "0000-0003-4187-5447"
+    },
+    {
+     "type": "ORCID",
+     "value": "0000-0003-4368-8418"
+    }
+   ]
+  },
+  "journalInfo": {
+   "issue": "26",
+   "volume": "65",
+   "journalIssueId": 4227070,
+   "dateOfPublication": "2026 Jul",
+   "monthOfPublication": 7,
+   "yearOfPublication": 2026,
+   "journal": {
+    "medlineAbbreviation": "Inorg Chem",
+    "title": "Inorganic chemistry",
+    "essn": "1520-510X",
+    "issn": "0020-1669",
+    "nlmid": "0366543",
+    "isoabbreviation": "Inorg Chem"
+   },
+   "printPublicationDate": "2026-07-01"
+  },
+  "pubYear": "2026",
+  "pageInfo": "15126-15135",
+  "abstractText": "Herein we report our attempts to oxidize XeF<sub>6</sub> using RuF<sub>6</sub> in anhydrous HF (aHF) under various conditions. Contrary to expectations of forming a Xe(VIII) species such as [XeF<sub>7</sub>]<sup>+</sup>, the reactions consistently resulted in the formation of F<sub>2</sub> gas and, depending on the stoichiometric ratio, either the known compound [XeF<sub>5</sub>][RuF<sub>6</sub>] or the novel Xe(VI) compound [Xe<sub>2</sub>F<sub>11</sub>][RuF<sub>6</sub>]. The latter was characterized by single-crystal X-ray diffraction and vibrational spectroscopy and studied with quantum chemical calculations. These, together with the consideration of reaction and lattice energies, suggest that an ionic solid containing [XeF<sub>7</sub>]<sup>+</sup> cations may be stable. However, we did not observe its formation under our reaction conditions, as the decomposition of [XeF<sub>7</sub>]<sup>+</sup> cations may be too fast in our case.",
+  "affiliation": "Fluorchemie, Institut für Anorganische Chemie, Universität Bonn, Gerhard-Domagk-Strasse 1, 53121 Bonn, Germany.",
+  "publicationStatus": "ppublish",
+  "language": "eng",
+  "pubModel": "Print-Electronic",
+  "pubTypeList": {
+   "pubType": [
+    "research-article",
+    "Journal Article"
+   ]
+  },
+  "grantsList": {
+   "grant": [
+    {
+     "agency": "Deutsche Forschungsgemeinschaft",
+     "grantId": "KR3595/10-1",
+     "orderIn": 0
+    }
+   ]
+  },
+  "subsetList": {
+   "subset": [
+    {
+     "code": "IM",
+     "name": "Index Medicus"
+    }
+   ]
+  },
+  "fullTextUrlList": {
+   "fullTextUrl": [
+    {
+     "availability": "Subscription required",
+     "availabilityCode": "S",
+     "documentStyle": "doi",
+     "site": "DOI",
+     "url": "https://doi.org/10.1021/acs.inorgchem.6c02072"
+    },
+    {
+     "availability": "Open access",
+     "availabilityCode": "OA",
+     "documentStyle": "html",
+     "site": "Europe_PMC",
+     "url": "https://europepmc.org/articles/PMC13343514"
+    },
+    {
+     "availability": "Open access",
+     "availabilityCode": "OA",
+     "documentStyle": "pdf",
+     "site": "Europe_PMC",
+     "url": "https://europepmc.org/articles/PMC13343514?pdf=render"
+    }
+   ]
+  },
+  "isOpenAccess": "Y",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 0,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "Y",
+  "hasLabsLinks": "N",
+  "hasData": "Y",
+  "license": "cc by",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "N",
+  "dateOfCreation": "2026-06-24",
+  "dateOfRevision": "2026-08-13",
+  "electronicPublicationDate": "2026-06-24",
+  "firstPublicationDate": "2026-06-24",
+  "firstIndexDate": "2026-06-25",
+  "fullTextReceivedDate": "2026-09-03",
+  "hasEvaluations": "N"
+ },
+ "fetched": {
+  "date": "2026-10-02",
+  "fullTextXML": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13343514/fullTextXML",
+  "supplementaryFiles": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13343514/supplementaryFiles",
+  "files": {
+   "europepmc/PMC13343514.fullTextXML.xml": {
+    "sha256": "77c7b862e5742eda8afdd71f7d39ad8062416ac6850eb2f15c8ad455d5c01b9e",
+    "size": 191956
+   },
+   "si/ic6c02072_si_001.pdf": {
+    "sha256": "3b4b2283f080ee0c5199efcd9bb84e9cd64a6563f2718679b720d1cf7c8322f3",
+    "size": 589210
+   }
+  }
+ }
+}

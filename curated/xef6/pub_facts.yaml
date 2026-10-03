@@ -1,0 +1,114 @@
+# Statements transcribed from Koch, Hoß, Schnakenburg, Karttunen and Kraus 2026 (Inorg. Chem. 65, 15126-15135) with their
+# location in the article (Europe PMC JATS, PMC13343514) or its Supporting Information (ic6c02072_si_001.pdf, 11 pages).
+publication:
+  doi: 10.1021/acs.inorgchem.6c02072
+  pmcid: PMC13343514
+  pmid: "42342235"
+  title: "Failed Attempts at Oxidation of XeF6: Synthesis and Characterization of [Xe2F11][RuF6]"
+  journal: Inorganic Chemistry
+  volume: "65"
+  issue: "26"
+  pages: 15126-15135
+  published: "2026-06-24"
+  publisher: American Chemical Society
+  license: https://creativecommons.org/licenses/by/4.0/
+  licenseStatement: "This article is licensed under CC-BY 4.0 (JATS permissions element; Europe PMC license field 'cc by')"
+  url: https://doi.org/10.1021/acs.inorgchem.6c02072
+  europePmcFullText: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13343514/fullTextXML
+  supportingInformation: ic6c02072_si_001.pdf
+  dataAvailability: "Crystallographic data for [Xe2F11][RuF6] deposited as CCDC 2477117 (joint Cambridge Crystallographic Data Centre and FIZ Karlsruhe Access Structures service); everything else in the Supporting Information."
+  funding:
+    - "Deutsche Forschungsgemeinschaft KR3595/10-1 (F.K.)"
+    - "Finnish IT Center for Science (CSC) computational resources (A.J.K.)"
+operator:
+  name: University of Bonn
+  note: "Fluorchemie, Institut für Anorganische Chemie; quantum-chemical calculations at Aalto University"
+contributors:
+  # No CRediT or author-contribution statement in the article; every listed author is recorded as an author only.
+  - {name: Björn N. Koch, affiliation: University of Bonn}
+  - {name: Giuliana Hoß, affiliation: University of Bonn}
+  - {name: Gregor Schnakenburg, affiliation: University of Bonn}
+  - {name: Antti J. Karttunen, affiliation: Aalto University, orcid: "0000-0003-4187-5447"}
+  - {name: Florian Kraus, affiliation: University of Bonn, orcid: "0000-0003-4368-8418", corresponding: true}
+purpose: "Oxidise XeF6 with RuF6 in anhydrous HF to a xenon(VIII) fluoride species, XeF8 or a [XeF7]+ salt, which no fluoride-only route has ever produced."
+target:
+  species: "[XeF7]+ salt, for example [XeF7][Ru2F11] or [XeF7][RuF6], or XeF8"
+  rationale: "RuF6 is, with [KrF]+ and [NiF3]+, one of only three oxidisers able to oxidise BrF5 to [BrF6]+, and it is far less Lewis acidic than the two cations, so it should not simply abstract fluoride from XeF6 as they do"
+  stoichiometry: "RuF6 is a one-electron oxidiser, so a 2:1 RuF6:XeF6 ratio was supposed for a complete reaction (equation 3)"
+priorDeadEnds:
+  - {oxidant: F2, outcome: "XeF8 suggested by Slivnik and co-workers; attempts to make it from F2 and Xe failed; predicted thermodynamically unstable to F2 loss", dois: [10.1016/0022-1902(70)80296-2, 10.1021/ic50046a026, 10.1021/ic901956g]}
+  - {oxidant: "[KrF]+", outcome: "XeF6 is a fluoride ion donor; the reaction gives KrF2 and [XeF5]+ (equation 1)", dois: [10.1016/S0010-8545(02)00202-3]}
+  - {oxidant: "[NiF3]+", outcome: "gives [NiF6]2- and [XeF5]+ (equation 2); in aHF at -65 degrees C [XeF5]2[NiF6], or with excess XeF6 [Xe2F11]2[NiF6], with no F2 evolution", dois: [10.1021/ic00314a008, 10.1021/ja00145a013]}
+observations:
+  decolorisation: "the intensive brown RuF6 decolorised immediately when the HF melted, especially with XeF6 in excess; taken as first evidence of a complete reaction"
+  f2Detection: "the solution was cooled to -196 degrees C and the remaining gas phase pumped through KI powder, which turned brown from I2; since the other fluorinating agents are not volatile at -196 degrees C this was an unambiguous indication of F2 (vapour pressure about 370 mbar at that temperature)"
+  volatility: "RuF6 89 mbar at 17.6 degrees C and XeF6 38.5 mbar at 25 degrees C, so the exact stoichiometric ratio is hard to meet"
+  xef7Bands: "the most intense Raman bands of [XeF7]+ were quantum-chemically predicted at 588, 647 and 503 cm-1 and were not present"
+  ruf6Stability: "pure RuF6 decomposes slowly to RuF5 and F2 at room temperature (weeks in nickel); salt formation from RuF6 and XeF6 is essentially instantaneous, so RuF6 decomposition is not thought to be the decisive step"
+  neat: "[Xe2F11][RuF6] also forms without aHF, so the solvent does not seem to play a role"
+newCompound:
+  formula: "[Xe2F11][RuF6], mu-fluorido(bis(pentafluoridoxenonium(VI)) hexafluoridoruthenate(V)"
+  ccdc: "2477117"
+  ccdcUrl: https://www.ccdc.cam.ac.uk/structures/Search?Ccdcid=2477117
+  spaceGroup: "P2_1/n (no. 14)"
+  a: 8.4517
+  b: 8.9602
+  c: 15.4691
+  beta: 95.392
+  volume: 1166.27
+  z: 4
+  temperatureK: 100
+  rF: 0.0176
+  wR2: 0.0345
+  reflections: 48303
+  uniqueReflections: 3570
+  parameters: 182
+  colour: colourless needles
+  structureType: "[Xe2F11][VF6] type, like [Xe2F11][SbF6]; [Xe2F11][AuF6] is orthorhombic Pnma"
+  xeFxeAngle: 163.15
+  xeMuFBond: 2.2542
+  ruFRange: "1.823(2) to 1.879(2) A"
+  xeFAnionContacts: "2.605(2) A within the virtual [Xe2F11][RuF6] unit; 2.893(2) and 2.967(2) A linking units into strands along a"
+  vibrational: "Raman (532 nm) and IR (ATR, in an argon glovebox) bands in good overall agreement with DFT-PBE0/TZVP calculated positions (Table 2); no bands above 800 cm-1"
+  crystals: "colourless single crystals from the remaining solid dissolved in HF and cooled slowly to 243 K"
+  source: "Table 1; Figures 1 to 4; Experimental Section; SI Table S1, Figures S1 to S3"
+thermodynamics:
+  fia: "fluoride ion affinities recalculated at RIJK-PW6B95(D3BJ)-ATM/def2-QZVPP geometries with CCSD(T)/def2-QZVPP energies, with and without a CPCM solvent model for HF (epsilon 84): [XeF5]+ -367 (CP) / -662 kJ/mol; [XeF7]+ -379 / -865; RuF5 -462 / -514 (equations 10 to 12)"
+  reactionEnthalpies: "XeF6 + RuF5 to [XeF5]+[RuF6]-: -95 (CP) / +148 kJ/mol; XeF8 + RuF5 to [XeF7]+[RuF6]-: -83 (CP) / +351 kJ/mol (equations 13, 14): exothermic with the solvent model, endothermic without"
+  latticeEnergies: "Bartlett's formula U_L = 2329.1 (FUV)^-1/3 + 110.1: [XeF5][RuF6] -516 kJ/mol (FUV 188.6 A3); putative [XeF7][RuF6] -489 kJ/mol (FUV 232 A3, using the IF7 volume for the cation and 119 A3 for [RuF6]-)"
+  formationEnergies: "[XeF5][RuF6] overall -611 (CP) / -368 kJ/mol; [XeF7][RuF6] overall -572 (CP) / -138 kJ/mol, 'which indicates that [XeF7][RuF6] would be a feasible compound'"
+  instability: "XeF8 formation enthalpy about -172 kJ/mol but unstable to F2 loss by about 93 kJ/mol at 0 K; [XeF7]+ unstable to F2 loss by about 191 kJ/mol at 0 K (Grant et al. 2010); packing into a solid may stabilise it"
+  redoxPotentials: "no redox potentials or Galvanic series exist for anhydrous HF; the authors leave their calculation to others"
+  verdict: "So, why does RuF6 fail to oxidize XeF6? Well, it may be that our reaction conditions are not right, yet. ... Under the conditions investigated by us so far, we only observe F2 elimination and no evidence of any Xe(VIII) compound."
+  conclusionHypothesis: "quantum-chemical calculations and considerations of reaction and lattice energies suggest that an ionic solid containing [XeF7]+ cations may be stable; the decomposition of [XeF7]+ cations may be too fast in our case"
+  software: "CRYSTAL23 (DFT-PBE0, TZVP, 4x4x2 k-grid, spin-polarised, ferromagnetic Ru ordering, band gap 5.31 eV, local moment 2.30 muB); ORCA 6.1.1 for FIAs; CRYSPLOT for mode assignment"
+limitations:
+  - "The number of reactions per condition is not reported anywhere in the article or SI."
+  - "No positive control for the oxidation was run alongside: the oxidising power of RuF6 toward BrF5 is cited from the authors' earlier work, not re-demonstrated here."
+  - "Products of the excess-RuF6 reactions could not be quantified; the reaction equation (6) is marked hypothetical."
+  - "No detection limit for [XeF7]+ by Raman is stated; the predicted band positions are given."
+nextSteps:
+  - "Find conditions under which [XeF7]+ survives long enough to be trapped as an ionic solid, since the thermodynamic estimates do not rule out [XeF7][RuF6]."
+  - "Establish redox potentials or a Galvanic series for anhydrous HF."
+openQuestions:
+  - "Is [XeF7]+ formed transiently and lost by F2 elimination, or never formed at all under these conditions?"
+  - "Would a solvent other than aHF, or a different counter-anion, change the outcome, given that the salt also forms neat?"
+aiUse:
+  statement: "The article makes no statement about the use of AI tools."
+software:
+  - {name: CRYSTAL23, role: periodic DFT, vibrational spectra and Raman intensities}
+  - {name: ORCA, version: "6.1.1", role: fluoride ion affinity calculations}
+  - {name: SHELXT and SHELXL (Shelxle), role: structure solution and refinement}
+  - {name: APEX5, role: diffraction data evaluation and absorption correction (SADABS)}
+  - {name: Diamond, role: crystal structure representation}
+  - {name: FINDSYM, role: symmetry of the optimised structure}
+priorArt:
+  xef5ruf6Structure: 10.1021/ic50126a002
+  xe2f11Au: [10.1039/c39730000131, 10.1021/ic50134a003]
+  ruf6Redox: 10.1016/0022-1902(80)80325-3
+  mf6Affinities: 10.1021/jp1022949
+  clf6brf6: 10.1021/ic001024+
+  xef5MixedCation: 10.1002/ejic.201700097
+  xef5Salts2023: 10.3390/molecules28083370
+  oxidizerScale: 10.1021/ja00034a033
+  ahfSolvent: 10.1016/S1387-1609(99)80073-5

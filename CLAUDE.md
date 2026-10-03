@@ -1,6 +1,6 @@
 # Portolan NRR pipeline
 
-Turns published studies into validated Negative-Results Records. Eight studies are encoded. See `README.md` for what
+Turns published studies into validated Negative-Results Records. Nine studies are encoded, five in biology and four in chemistry. See `README.md` for what
 the project is and `docs/` for why decisions were made. This file is how to work in the code.
 
 ## Commands
@@ -98,5 +98,5 @@ What that means in the code:
 
 ## Schema change discipline
 
-Change count by study so far: 12, 8, 5, 2. Nothing structural since the first study. A new field or record level is
+Change count by study so far: 12, 8, 5, 2, then 1, 0, 1, 0 for the four ACS chemistry studies (`docs/case-study-acs.md`). Nothing structural since the first study. A new field or record level is
 a strong claim and needs a study that genuinely cannot be encoded without it. Vocabulary terms are cheap and expected.
