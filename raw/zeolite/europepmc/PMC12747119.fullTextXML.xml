@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?><article xml:lang="en" article-type="research-article"><front><journal-meta><journal-id journal-id-type="pmc-domain-id">822</journal-id><journal-id journal-id-type="pmc-domain">acssd</journal-id><journal-title-group><journal-title>Chemistry of Materials</journal-title><abbrev-journal-title>Chem Mater</abbrev-journal-title></journal-title-group></journal-meta><article-meta><article-id pub-id-type="pmcid">PMC12747119</article-id><article-id pub-id-type="pmcaid">12747119</article-id><article-id pub-id-type="pmcaiid">12747119</article-id><article-id pub-id-type="pmid">41472667</article-id><article-id pub-id-type="doi">10.1021/acs.chemmater.5c01751</article-id><title-group><article-title>Lessons from
+Failed Attempts of Computationally Guided
+Synthesis of Aluminosilicate STF and IFR Zeolites in Hydroxide Media</article-title></title-group><contrib-group content-type="author"><contrib><name name-style="western"><surname>Altundal</surname><given-names initials="OF">Omer F</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Galvez-Llompart</surname><given-names initials="M">Maria</given-names></name><xref ref-type="aff" rid="aff2">‡</xref></contrib><contrib><name name-style="western"><surname>Cantin</surname><given-names initials="A">Angel</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Valero</surname><given-names initials="J">José</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Valencia</surname><given-names initials="S">Susana</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Rey</surname><given-names initials="F">Fernando</given-names></name><xref ref-type="aff" rid="aff1">†</xref></contrib><contrib><name name-style="western"><surname>Kemp</surname><given-names initials="KC">Kingsley Christian</given-names></name><xref ref-type="aff" rid="aff3">§</xref></contrib><contrib><name name-style="western"><surname>Hong</surname><given-names initials="SB">Suk Bong</given-names></name><xref ref-type="aff" rid="aff3">§</xref></contrib><contrib><name name-style="western"><surname>Daeyaert</surname><given-names initials="F">Frits</given-names></name><xref ref-type="aff" rid="aff4">∥</xref><xref rid="cor2" ref-type="author-notes">*</xref></contrib><contrib><name name-style="western"><surname>Sastre</surname><given-names initials="G">German</given-names></name><xref ref-type="aff" rid="aff1">†</xref><xref rid="cor1" ref-type="author-notes">*</xref></contrib></contrib-group><aff id="aff1">
+<label>†</label>
+Instituto
+de Tecnología Química UPV-CSIC, Universidad Politécnica de Valencia, Valencia
+46022, Spain
+</aff><aff id="aff2">
+<label>‡</label>
+Molecular
+Topology and Drug Design Unit. Faculty of Pharmacy and Food Sciences,
+Department of Preventive Medicine and Public Health, Food Sciences,
+Toxicology and Forensic Medicine, University
+of Valencia, Valencia
+46100, Spain
+</aff><aff id="aff3">
+<label>§</label>
+Center
+for Ordered Nanoporous Materials Synthesis, Division of Environmental
+Science and Engineering, POSTECH, Pohang
+37673, South Korea
+</aff><aff id="aff4">
+<label>∥</label>
+SynopsisDeNovoDesign, Beerse
+2340, Belgium
+</aff><author-notes><fn id="cor1"><label>*</label><p>
+Email: <email>gsastre@itq.upv.es</email>.</p></fn><fn id="cor2"><label>*</label><p>
+Email: <email>frits@synopsisdenovodesign.be</email>.</p></fn></author-notes><pub-date><day>9</day><month>12</month><year>2025</year></pub-date><volume>37</volume><issue>24</issue><fpage>9689</fpage><page-range>9689–9702</page-range><pub-history><event event-type="pmc-release"><date><day>30</day><month>12</month><year>2025</year></date></event></pub-history><permissions><copyright-statement>© 2025 The Authors. Published by American Chemical Society</copyright-statement><license><license-p>This article is licensed under CC-BY 4.0</license-p></license></permissions><self-uri xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cm5c01751.pdf" content-type="pmc-pdf"><?cloudpmc-path 414c/12747119/875fdcdcd119/cm5c01751.pdf?><?cloudpmc-bucket app?><?size 5353666?></self-uri><abstract id="abstract1"><title>Abstract</title><p>Although zeolites are primarily aluminosilicates in terms
+of chemical
+composition, not all zeotypes have been successfully synthesized as
+aluminosilicates to date. This study aims to contribute answering
+the long-standing question of why some zeotypes cannot, or have not
+yet been, synthesized as aluminosilicates, using a computational approach
+that combines big data, artificial intelligence, accurate descriptors,
+and an algorithm for designing quaternary ammonium organic structure-directing
+agents (OSDAs) that help lower the total energy of the zeolite-OSDA
+system. The use of the synthesis energy descriptor enables evaluation
+of the reaction energy from gel monomers to the final zeolite product,
+including the occluded OSDA, while also accounting for the energetic
+contributions of framework aluminum, representing an improvement over
+previous models based on pure silica. The focus is on STF and IFR
+zeolites, whose synthesis in hydroxide media typically results in
+products with very high silicon to aluminum ratios. More than 10000
+OSDAs, either designed or retrieved from existing databases, were
+evaluated under conditions likely to favor the formation of STF or
+IFR, and the corresponding synthesis energies were calculated for
+STF, IFR, and approximately 20 other competing zeolite phases. The
+computational results show that AEI, CHA, and a few other zeolites
+are consistently more energetically favorable, regardless of the OSDA
+used. This is explained by the increasing stability of phases as the
+aluminum content increases. Experimental synthesis using a shortlist
+of OSDAs predicted to favor STF or IFR, in addition to AEI or CHA,
+did not yield the expected aluminosilicate products, and instead,
+amorphous materials were obtained in most cases. While further refinement
+of computational tools is needed to better reflect experimental synthesis
+conditions, the results provide valuable insight and justification
+for the difficulty of synthesizing aluminosilicate STF and IFR in
+hydroxide media.</p></abstract><abstract id="abstract2" abstract-type="graphical"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="agr1" xlink:href="cm5c01751_0010.jpg"><?cloudpmc-path blobs/414c/12747119/30cff13dff87/cm5c01751_0010.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 500?><?original-width 883?><?scaled-height 333?><?scaled-width 588?></graphic></abstract><abstract id="abstract3" abstract-type="toc-graphic"><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="tgr1" xlink:href="cm5c01751_0008.jpg"><?cloudpmc-path blobs/414c/12747119/30cff13dff87/cm5c01751_0008.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 500?><?original-width 883?><?scaled-height 333?><?scaled-width 588?></graphic></abstract><custom-meta-group><custom-meta><meta-name>status</meta-name><meta-value>released</meta-value></custom-meta><custom-meta><meta-name>display-pdf</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-in-collection-domain</meta-name><meta-value>yes</meta-value></custom-meta><custom-meta><meta-name>is-olf</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-manuscript</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-preprint</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-journal-matter</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-scanned</meta-name><meta-value>no</meta-value></custom-meta><custom-meta><meta-name>is-retracted</meta-name><meta-value>no</meta-value></custom-meta></custom-meta-group></article-meta><notes notes-type="article-notes"><sec id="historyarticle-meta1" sec-type="history" disp-level="2"><p>Received 2025 Jul 4; Accepted 2025 Dec 2; Revised 2025 Nov 30; Collection date 2025 Dec 23.</p></sec></notes></front><body><sec id="sec1" disp-level="1"><label>1.</label><title>Introduction</title><p>Zeolites are one of the
+most influential materials in the chemical
+industry due to their unique chemical and structural properties, making
+them ideal candidates for gas separation, ion exchange, and catalysis.
+Zeolites were first discovered and applied in industry as aluminosilicates,<italic>
+,
+</italic> which continues to be one of the most important chemical composition
+targets for zeolites. For acid catalysis, one of the main applications
+of zeolites, a compromise between the number of Brønsted acid
+sites (lower Si/Al ratio, leading to more sites) and strength (larger
+Si/Al ratio, leading to stronger sites) is desired. In fact, considerable research has been devoted to controlling
+the number and strength of acid sites and their location for decades.<italic>
+−
+
+
+
+
+
+
+
+
+
+
+
+</italic>
+</p><p>Organic structure-directing agents (OSDAs) play an essential
+role
+in the phase determination of zeolite synthesis due to their short-range
+interactions with the zeolite micropores.<italic>
+−
+
+</italic> However, some
+other factors influence the synthesis outcome, such as the presence
+of fluoride<italic>
+−
+
+
+
+
+
+</italic> and aluminum<italic>
+−
+
+
+</italic> in the synthesis gel. Fluorides are extra-framework anions located
+inside the small pores of the zeolite, whereas aluminum replaces framework
+silicon atoms to generate [AlO<sub>4/2</sub>]<sup>−</sup> tetrahedra,
+and these negative charges are usually compensated by the cationic
+nature of most OSDAs. The match in size and shape between the OSDA
+and the zeolite micropores contributes to the strengthening of the
+short-range van der Waals stabilization which is one of the driving
+energetic terms partially controlling the zeolite phase outcome. This
+van der Waals zeolite-OSDA interaction plays a more prominent driving
+role in pure silica zeolites, while in the case of aluminosilicate
+zeolites the electrostatic [AlO<sub>4/2</sub>]<sup>−</sup>-OSDA<sup>+</sup> interactions also contribute significantly to drive the synthesis
+toward specific zeolite phases. In addition
+to framework Al, defects such as silanol nests may help compensate
+OSDA charge, especially in hydroxide media. These defects, that have
+been taken into account in a previous study, can shift the synthesis outcome due to changes in the framework
+energetics and the local charge balance around the OSDA. In this study,
+however, we did not explicitly consider defects in the computational
+analysis and focused only on framework Al as the source of charge
+compensation. Early computational studies were aimed to clarify how
+dominant OSDAs are to drive the synthesis of pure silica zeolites.<italic>
+−
+
+
+</italic> With the improvement of computational technologies and development
+of zeolite and OSDA databases, recent studies about pure silica zeolites
+have started making use of artificial intelligence and machine learning
+methods.<italic>
+−
+
+</italic> Schwalbe-Koda et al. calculated the binding affinity of 549 OSDA structures and 209 zeolites
+and created the Organic Structure-directing agent DataBase (OSDB). They also used energetic and physical descriptors
+in this database to propose an OSDA (tris­(dimethylamino)­(methyl)­phosphonium)
+for AEI, which successfully directed the synthesis of the desired
+zeolite phase. Daeyaert and Deem utilized their de novo algorithm
+to design putative OSDAs for zeolite *BEA. They found that among the hundreds of thousands of molecules they
+designed, 212 of them had stabilization energies lower than −15.0
+kJ (mol Si)<sup>−1</sup>, which is significantly lower than
+the lowest stabilization energy of the OSDAs used in the synthesis
+of *BEA (−14.1 kJ (mol Si)<sup>−1</sup>), while having
+at least +2.0 kJ (mol Si)<sup>−1</sup> higher stabilization
+energies in BEB. Aluminosilicate zeolites have also been included
+in recent computational studies.<italic>
+−
+
+
+</italic> Rojas et al. combined experimental and computational methods to investigate
+the structure direction of 1-benzyl-3-methylimidazolium (1B3MI) and
+1-benzyl-2,3-dimethylimidazolium (1B23DMI) cations. Both OSDAs can
+synthesize MTW at high H<sub>2</sub>O/Si ratios, while only 1B3MI
+can synthesize MFI at lower H<sub>2</sub>O/Si ratios, which is explained
+by the low stabilization energy of 1B23DMI cations inside the MFI
+10-ring channels calculated by molecular mechanics (−76.4 kcal
+mol<sup>–1</sup> for 1B23DMI and – 86.2 kcal mol<sup>–1</sup> for 1B3MI). Oishi et al. employed computational techniques to investigate the aluminum-directing
+effect of various OSDAs in FER and CHA. They concluded that the aluminum-directing
+effect is stronger for OSDAs with N–H moieties, i.e., tertiary
+ammonium cations, than quaternary ammonium cations due to the strong
+interaction between O­(−Al) and N–H groups.</p><p>Taking
+all factors that energetically influence the zeolite phase
+outcome into account, we have recently put forward an equation that
+includes a descriptor called synthesis energy (<italic>E</italic>
+<sub>syn</sub>). This equation is valid for pure silica and aluminosilicate
+compositions, with and without fluoride present, and so far has been
+able to predict the zeolites obtained in aluminosilicate and silicate
+synthesis gels when using specific OSDAs that give different zeolites
+in either of these chemical compositions.<italic>
+,
+</italic> These studies considered a small number of competing zeolites obtained
+from synthesis experiments for each OSDA. Employing molecular simulations,
+we determined the stabilization energy of each competing zeolite-OSDA
+pair and this was then used to calculate the <italic>E</italic>
+<sub>syn</sub>’s of zeo-OSDA systems. For each OSDA, considering
+all competing zeolites, the lowest <italic>E</italic>
+<sub>syn</sub> of zeo-OSDA pairs gives the computational prediction of the zeolite
+phase product. Notably, we could correlate the aluminosilicate phase
+formed with that for which the Si/Al ratio is lowest; hence, the larger
+the Al content, the larger the stability of the phase formed (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S1</ext-link>). For a given OSDA and a given aluminosilicate
+starting gel, the competing phase of lowest energy will be the one
+able to accommodate more OSDA cations per tetrahedral atom (T atom)
+since this leads to a larger Al content or lower Si/Al ratio and hence
+a lower energy. This correlation between aluminum content and energetic
+stabilization has also been consistently reported in previous studies.
+Thermochemical measurements showed that the enthalpy of formation
+becomes increasingly exothermic with higher framework Al substitution,
+reflecting stronger Coulombic interactions between the framework and
+the charge-compensating cations. Periodic
+DFT calculations further confirmed that the substitution of silicon
+by aluminum, together with charge-compensating cations, decreases
+the lattice energy and reduces framework strain, which makes structures
+with higher Al content more stable. In
+agreement, synthesis experiments in purely inorganic media revealed
+that zeolite topologies capable of hosting a larger number of cations
+per framework unit and therefore containing more aluminum are preferentially
+stabilized during crystallization. More
+recently, phase selection studies have shown that the way cations
+exchange and interact with the framework plays a key role in determining
+which zeolite structure forms and how stable it becomes.
+</p><p>In the present study, we aim to apply
+the predicting value of this
+computational tool to the synthesis of the aluminosilicate version
+of STF and IFR (AlSi-STF and AlSi-IFR, respectively) as our target
+zeolites. STF has not yet been obtained as an aluminosilicate, and
+although IFR has been synthesized as an aluminosilicate, it typically
+requires environmentally unfriendly fluoride-based media and expensive
+OSDAs. Hence, for our targets we will also impose the condition to
+the synthesis to be carried out in hydroxide media. STF is a one-dimensional
+medium pore zeolite, with 10-ring straight channels of approximate
+5.4 × 5.7 Å, which shows great potential as a catalyst in <italic>n</italic>-alkane isomerization processes, such as the case of ZSM-22
+(TON), also with monodimensional medium pore.<italic>
+,
+</italic> IFR is a large-pore zeolite with a monodimensional channel system
+consisting of undulating 12-ring channels of ca. 6.2 × 7.2 Å.
+Its framework contains the small <italic>bea</italic> ([4<sup>3</sup>5<sup>2</sup>6]) cavity, in which fluoride anions are located, which
+facilitates the synthesis under aluminosilicate chemical composition.
+Both frameworks are illustrated in <xref rid="fig1" ref-type="fig">Figure 
+</xref>.</p><fig id="fig1" position="float"><?disp-level 2?><label>1</label><caption><p>Unit cell representations of a) STF and b) IFR.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr1" xlink:href="cm5c01751_0001.jpg"><?cloudpmc-path blobs/414c/12747119/32034cc3ba22/cm5c01751_0001.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 821?><?original-width 1258?><?scaled-height 411?><?scaled-width 629?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="cm5c01751_0001.gif"><?cloudpmc-path blobs/414c/12747119/0c9004750f8d/cm5c01751_0001.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>Many OSDAs were reported in the literature to synthesize
+silica
+STF (Si-STF; 36 OSDAs reported in OSDB), which means we have abundant information on the characteristics
+that a good OSDA for STF should fulfill from the point of view of
+zeo-OSDA van der Waals interactions. IFR, on the other hand, has only
+been synthesized as aluminosilicate using expensive benzylquinuclidinium
+cations.<italic>
+,
+</italic> Thus, finding a novel and more accessible
+OSDA for the synthesis of aluminosilicate IFR in hydroxide media is
+an interesting target. Through these efforts, we seek to advance the
+rational design of OSDAs, making zeolite synthesis more efficient,
+cost-effective, and useful for catalytic applications.</p></sec><sec id="sec2" disp-level="1"><label>2.</label><title>Computational Methods</title><sec id="sec2.1" disp-level="2"><label>2.1.</label><title>Determination of Competing Zeolite Phases</title><p>To identify the competing zeolite phases for the target zeolites,
+we employed two strategies based on the availability (“High”
+or “Low”) of OSDAs used for their synthesis (<xref rid="fig2" ref-type="fig">Figure 
+</xref>).</p><fig id="fig2" position="float"><?disp-level 3?><label>2</label><caption><p>Two computational strategies
+used in this study in order to suggest
+candidate OSDAs for the synthesis of target aluminosilicate zeolites.
+For STF, Strategy-1 will be followed (<xref rid="fig5" ref-type="fig">Figure 
+</xref>), and for IFR, Strategy-2 will be followed
+(<xref rid="fig6" ref-type="fig">Figure 
+</xref>).</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr4" xlink:href="cm5c01751_0002.jpg"><?cloudpmc-path blobs/414c/12747119/ec50f771535f/cm5c01751_0002.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1539?><?original-width 1794?><?scaled-height 615?><?scaled-width 717?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="cm5c01751_0002.gif"><?cloudpmc-path blobs/414c/12747119/4a50360d2fd2/cm5c01751_0002.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>
+<underline>
+<bold>Strategy-1</bold>
+</underline>.
+High-silica STF
+is reported to have been synthesized with 36 OSDAs in OSDB. For these known, “active”, OSDAs,
+we calculated the stabilization energies in pure silica STF using
+the zeodock algorithm (see <xref rid="sec2.4" ref-type="sec">Section 
+</xref>). We performed the same calculation for all OSDAs
+reported in OSDB to generate alternative zeolites, which we term “inactives”.
+In <xref rid="fig3" ref-type="fig">Figure 
+</xref>, we plotted
+the calculated stabilization energies in STF of these “active”
+(green dots) and “inactive” (red dots) OSDAs against
+their molecular volume, and performed a linear regression to the set
+of actives. This regression line (black line in <xref rid="fig3" ref-type="fig">Figure 
+</xref>) coincides with the Pareto front and represents
+the optimum balance between stabilization energy and molecular volume
+for successful OSDAs for STF. Competing zeolite phases were identified
+as those, non-STF, phases formed by the OSDAs close to this Pareto
+front.</p><fig id="fig3" position="float"><?disp-level 3?><label>3</label><caption><p>Stabilization energy (score) in STF vs Gaussian volume (Å<sup>3</sup>) of OSDAs in OSDB. Green dots correspond to OSDAs reported
+in the literature for the synthesis of high silica STF. Red dots correspond
+to OSDAs reported in the OSDB to form alternative zeolite phases.
+The black line corresponds to the Pareto front for the active OSDAs
+for STF.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr2" xlink:href="cm5c01751_0003.jpg"><?cloudpmc-path blobs/414c/12747119/0b1030bce4f8/cm5c01751_0003.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1006?><?original-width 1267?><?scaled-height 503?><?scaled-width 633?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="cm5c01751_0003.gif"><?cloudpmc-path blobs/414c/12747119/97ebf1259ebb/cm5c01751_0003.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>To identify putative OSDAs for AlSi-STF we followed
+four approaches:
+(i) Initially, we selected OSDAs that are used to synthesize the pure
+silica target zeolite, as they are strong candidates for synthesizing
+its aluminosilicate version. (ii) From <xref rid="fig3" ref-type="fig">Figure 
+</xref>, we selected OSDAs not reported to template
+all-silica STF but close to the Pareto front, as these exhibit the
+optimal molecular volume. (iii) From OSDB, we selected OSDA structures
+for which no zeolite synthesis results have been reported and performed
+virtual screening using machine learning and AI models trained on
+reported zeolite syntheses in this database (<xref rid="sec2.2" ref-type="sec">Section 
+</xref>); and (iv) Finally, we used de novo design
+methods to generate putative OSDAs (<xref rid="sec2.3" ref-type="sec">Section 
+</xref>).</p><p>
+<underline>
+<bold>Strategy-2</bold>
+</underline>. High-silica IFR
+has been synthesized with only a few OSDAs, and therefore the available
+statistics are insufficient to construct a Pareto front from the plot
+of energy vs volume. Therefore, we identified competing zeolite phases
+as those zeolites obtained using the OSDAs that also produced high-silica
+IFR. To initially identify putative OSDAs for AlSi-IFR, we employ
+two approaches: (i) we extracted the “Shoebox” dimensions (XYZ) of OSDAs, defined as the length,
+width, and height of the smallest axis-aligned box containing the
+optimized cation, that successfully synthesized the all-silica target
+zeolite and used these parameters to search for structurally similar
+OSDAs in OSDB database; and (ii) Similarly to Strategy-1, we generated
+OSDAs using de novo design methods to expand the pool of potential
+candidates.</p><p>With the initial OSDA lists obtained from both strategies
+and having
+identified the competing zeolites for both target zeolites, we proceeded
+with the established workflow: calculating the <italic>E</italic>
+<sub>syn</sub>’s of these OSDAs with the target zeolites using
+zeoTsda (<xref rid="sec2.5" ref-type="sec">Section 
+</xref>) and evaluating their relative stabilities, considering an aluminosilicate
+composition, in order to assess their potential for zeolite synthesis.</p></sec><sec id="sec2.2" disp-level="2"><label>2.2.</label><title>Training of Machine Learning and Artificial
+Intelligence Models: STF-Templating OSDAs</title><p>To further explore
+whether there are promising candidates among the unpublished OSDAs
+in OSDB (subset that we call “OSDAs not in papers”),
+we trained machine learning (ML) and artificial intelligence (AI)
+models using the dataset of literature-reported OSDAs known to direct
+STF synthesis. These models were then applied to screen the unreported
+OSDA subset and identify potential candidates for experimental evaluation.</p><p>Both ML and AI models were implemented using StatSoft through linear discriminant analysis (LDA) and
+artificial neural networks (ANN). Different training strategies were
+employed within the three models. (a) LDA Model #1:25% of all available
+data was used for external validation of the model (external test
+set), while the remaining data was used to train the LDA model. (b)
+ANN Model #2:25% of the data was allocated to the external test set
+for model external validation. From the remaining, 80% was assigned
+for training the ANN, and the remaining 20% was set aside for internal
+validation (validation set). (c) ANN Model #3: This model was trained
+using all available OSDAs known to direct STF synthesis, while the
+inactive category comprised OSDAs that do not lead to STF zeolite
+formation and share chemical similarity with the active OSDAs. This
+model was trained using 80% of the available data and internally validated
+with the remaining 20% (validation set). Since all active OSDAs leading
+to STF zeolite formation were employed for training and internal validation
+of the model, the external test set consisted only of the remaining
+inactive compounds that were not used in training ANN Model #3 and
+did not share chemical similarity with active OSDAs.</p></sec><sec id="sec2.3" disp-level="2"><label>2.3.</label><title>Generation of Quaternary Ammonium OSDAs: de
+Novo Design, Stochastic Virtual Combinatorial Chemistry, and Stochastic
+Multiple Virtual Combinatorial Chemistry</title><p>Computational design
+of OSDAs for zeolites with de novo design was pioneered in the seminal
+1996 paper by Lewis et al. In recent
+years, de novo design, stochastic and exhaustive virtual combinatorial chemistry, and generative neural network algorithms have been developed for automated design of
+OSDAs for zeolites. In the present work, we used the Synopsis de novo
+design algorithm originally developed in drug design and adapted to
+and extensively applied to the design of OSDAs.
+</p><p>This algorithm generates synthesis routes to molecules
+to ensure their synthetic accessibility, and uses an independent,
+user-provided multiobjective scoring function to calculate the molecular
+properties that need to be optimized. For many zeolite frameworks,
+charged OSDAs containing a quaternary ammonium functionality have
+been found to be the most successful templating agents. The presence
+of this functionality in the de novo designed OSDAs has been enforced
+by introducing it as a filter in the scoring function of the de novo
+design algorithm.</p><p>A more direct way to ensure the presence of
+quaternary ammonium
+in designed OSDAs is by virtual combinatorial chemistry. Hereby, a
+fixed reaction scheme leading to a quaternary ammonium end product
+is chosen. The reaction scheme can consist of a single reaction or
+a reaction sequence. The reaction scheme and a set of available starting
+materials define a chemical search space consisting of all the end
+products that can be synthesized using all combinations of the starting
+materials. For reaction schemes consisting of multiple reactions and
+for which many starting materials are available, this search space
+becomes too large for an exhaustive evaluation or even enumeration.
+Therefore, a stochastic optimization algorithm is typically applied
+to search for the set of starting materials that generates high scoring
+molecules for the given reaction scheme. Documented examples of this
+approach use a genetic algorithm, or
+an ant-colonization algorithm. The reaction
+scheme used in this work to design quaternary ammonium OSDAs directed
+toward STF is shown in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Figure S1</ext-link>. Details
+of the stochastic virtual combinatorial chemistry and de novo design
+algorithms are described in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Section S3</ext-link>).</p><p>While the use of
+a fixed reaction scheme in stochastic virtual
+combinatorial chemistry ensures that the designed end products contain
+the required functionality, the search space covered, even when large,
+is limited by considering one single synthesis scheme. We have therefore
+devised a stochastic multiple combinatorial chemistry algorithm that
+simultaneously searches multiple reaction schemes. For this purpose,
+a number of reaction schemes are organized in a tree structure as
+shown in <xref rid="fig4" ref-type="fig">Figure 
+</xref>.
+The top of the tree corresponds to the end product, and the leaves
+of the tree correspond to the starting materials. The nodes of the
+trees are connected by edges that correspond to well-documented organic
+chemistry reactions. A virtual reaction route is defined by a path
+starting at one or several leaves leading toward the top of the tree
+through the available edges. The setup of the tree is chosen such
+that all possible paths lead to reaction products that contain the
+desired quaternary ammonium chemical functionality. A genetic algorithm
+is used to find the combination of reaction routes and starting materials
+within the tree structure that maximize the value of a scoring function
+as applied to the end product of the synthesis route. As with the
+combinatorial chemistry and de novo design algorithms, the scoring
+function is multiobjective and independent of the molecule generation.
+The scoring function used in this work is summarized in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S3</ext-link>, which calculates the stabilization
+energy of the designed molecules in a target zeolite, while applying
+filters to control the flexibility, size and chemical stability under
+zeolite synthesis conditions. Appropriate reagents to participate
+in the individual reactions with a listed price of no more than 100
+USD/gram were selected from ChemSpace. Based upon the number of reagents, and not taking into account identical
+molecules that can be generated by multiple routes in the synthesis
+tree, the chemical search space was estimated to contain 6.5•10<sup>10</sup> molecules. This space is searched by a genetic algorithm:
+a population of 100 random synthesis trees is generated and then evolved
+by applying selection, crossover and mutation operators. The selection
+operator is a tournament selection applied to the Pareto-sorted population.
+</p><fig id="fig4" position="float"><?disp-level 3?><label>4</label><caption><p>Multiple combinatorial chemistry tree used to generate
+quaternary
+ammonium cations in this work. Nodes and edges in green correspond
+to the reaction sequence in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Figure S1</ext-link>.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr3" xlink:href="cm5c01751_0004.jpg"><?cloudpmc-path blobs/414c/12747119/bfde7cc7f514/cm5c01751_0004.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 988?><?original-width 1362?><?scaled-height 494?><?scaled-width 681?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="cm5c01751_0004.gif"><?cloudpmc-path blobs/414c/12747119/d007747cdd0f/cm5c01751_0004.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig></sec><sec id="sec2.4" disp-level="2"><label>2.4.</label><title>The Zeodock Algorithm to Calculate Zeolite-OSDA
+van der Waals Interaction</title><p>The zeodock algorithm has been
+developed to efficiently and reproducibly estimate the short-range
+van der Waals stabilization energy of an OSDA in a pure silica zeolite
+framework. The algorithm is composed of four stages: random placement
+of single OSDA copies into the zeolite unit cell, selection of tuples
+of OSDA copies that do not overlap with one another, rigid optimization
+of the van der Waals energies of the selected tuples in rotation-translation
+space, and frozen pose molecular mechanics energy minimization of
+the OSDA-zeolite complexes. In contrast to the zeoTsda software suite,
+zeodock only considers the van der Waals contribution to zeolite-OSDA
+interaction in pure silica frameworks and therefore does not consider
+charged species. Due to its computational efficiency, however, it
+is well suited for initial rapid screening of large numbers of OSDAs.
+In this study, it was used in the de novo design and stochastic combinatorial
+chemistry algorithms to evaluate the zeolite-OSDA interactions. Details
+of the zeodock algorithm are given in the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Section S2</ext-link>).</p></sec><sec id="sec2.5" disp-level="2"><label>2.5.</label><title>
+<italic>E</italic>
+<sub>syn</sub> Calculations</title><p>To evaluate the stabilities of competing zeolite phases, we employed
+our <italic>E</italic>
+<sub>syn</sub> descriptor (synthesis energy),
+which accounts for the energies of all components in the synthesis
+equation, similarly to an enthalpy of reaction. Our previous studies
+have demonstrated the effectiveness of this method in accurately predicting
+the phase selectivity of aluminosilicate zeolites.<italic>
+,
+</italic>
+</p><p>Synthesis reactions to obtain two zeolites from the same initial
+gel are as follows:</p><disp-formula id="eq1"><label>1</label><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="d1e665" display="block"><mml:mrow><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:mi mathvariant="normal">OSDAOH</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:msub><mml:mrow><mml:mrow><mml:mi mathvariant="normal">Si</mml:mi></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mi mathvariant="normal">OH</mml:mi></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:msub><mml:mrow><mml:mrow><mml:mi mathvariant="normal">Al</mml:mi></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mi mathvariant="normal">OH</mml:mi></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo>→</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">zeo</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:mi mathvariant="normal">OSDA</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:msub><mml:mrow><mml:mrow><mml:mo>,</mml:mo></mml:mrow><mml:mrow><mml:mi>p</mml:mi></mml:mrow></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">H</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mi mathvariant="normal">O</mml:mi></mml:mrow></mml:math></disp-formula><disp-formula id="eq2"><label>2</label><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="d1e765" display="block"><mml:mrow><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:mi mathvariant="normal">OSDAOH</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:msub><mml:mrow><mml:mrow><mml:mi mathvariant="normal">Si</mml:mi></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mi mathvariant="normal">OH</mml:mi></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>1</mml:mn></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:msub><mml:mrow><mml:mrow><mml:mi mathvariant="normal">Al</mml:mi></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mi mathvariant="normal">OH</mml:mi></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo>→</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">zeo</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:mi mathvariant="normal">OSDA</mml:mi><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>,</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>w</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:msub><mml:mrow><mml:mi mathvariant="normal">H</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mi mathvariant="normal">O</mml:mi><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:msub><mml:mrow><mml:mrow><mml:mi mathvariant="normal">Si</mml:mi></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mi mathvariant="normal">OH</mml:mi></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub><mml:mo>·</mml:mo><mml:msub><mml:mrow><mml:mrow><mml:mi mathvariant="normal">Al</mml:mi></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mi mathvariant="normal">OH</mml:mi></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:math></disp-formula><p>
+<xref rid="eq1" ref-type="disp-formula">Eqs 
+</xref> and  represent the synthesis
+equations for different
+aluminosilicate zeolite phases starting from the same reactants. A
+zeolite (zeo<sub>1</sub>) with a Si/Al ratio of <italic>m</italic>
+<sub>1</sub>/<italic>p</italic>
+<sub>1</sub> was synthesized, generating
+water as a byproduct. In contrast, another zeolite (zeo<sub>2</sub>) with a Si/Al ratio of <italic>m</italic>
+<sub>2</sub>/<italic>p</italic>
+<sub>2</sub> was produced with a different quantity of water consequently,
+along with an excess of Si and Al monomers (<italic>m</italic>
+<sub>3</sub> and <italic>p</italic>
+<sub>3</sub>, respectively). This experimental
+design allows for a direct comparison of the energetic stability of
+the resulting products, as both reactions originate from the same
+set of reactants. A comprehensive analysis of the energies of both
+reactions leads to the derivation of an equation that quantitatively
+assesses the stability of zeolite-SDA pairs based on their synthesis
+processes.</p><disp-formula id="eq3"><label>3</label><mml:math xmlns:mml="http://www.w3.org/1998/Math/MathML" id="d1e943" display="block"><mml:mrow><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">syn</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">zeo</mml:mi><mml:mo>−</mml:mo><mml:mi mathvariant="normal">OSDA</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:mn>2</mml:mn><mml:mo>×</mml:mo><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mi mathvariant="normal">H</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn></mml:mrow></mml:msub><mml:mi mathvariant="normal">O</mml:mi></mml:mrow></mml:msub><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>p</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi><mml:mo>+</mml:mo><mml:mi>p</mml:mi></mml:mrow></mml:mfrac><mml:mo>×</mml:mo><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:mi mathvariant="normal">OSDAOH</mml:mi></mml:mrow></mml:msub><mml:mo>+</mml:mo><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mrow><mml:mi mathvariant="normal">Al</mml:mi></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mi mathvariant="normal">OH</mml:mi></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>3</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mo>−</mml:mo><mml:mfrac><mml:mrow><mml:mi>m</mml:mi></mml:mrow><mml:mrow><mml:mi>m</mml:mi><mml:mo>+</mml:mo><mml:mi>p</mml:mi></mml:mrow></mml:mfrac><mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:msub><mml:mrow><mml:mi>E</mml:mi></mml:mrow><mml:mrow><mml:msub><mml:mrow><mml:mrow><mml:mi mathvariant="normal">Si</mml:mi></mml:mrow><mml:mo stretchy="false">(</mml:mo><mml:mrow><mml:mi mathvariant="normal">OH</mml:mi></mml:mrow><mml:mo stretchy="false">)</mml:mo></mml:mrow><mml:mrow><mml:mn>4</mml:mn></mml:mrow></mml:msub></mml:mrow></mml:msub><mml:mo stretchy="false">)</mml:mo></mml:mrow></mml:mrow></mml:math></disp-formula><p>Here, <italic>E</italic>
+<sub>syn</sub> denotes the synthesis energy
+of the reaction, while <italic>E</italic>
+<sub>zeo‑OSDA</sub> represents the energy of a zeolite-OSDA pair with a specific Si/Al
+ratio. The term <italic>E</italic>
+<sub>OSDAOH</sub> corresponds to
+the energy of OSDA neutralized by hydroxide anions. The number of
+aluminum atoms is given by <italic>p</italic>, and <italic>m</italic> accounts for the silicon atoms, leading to <italic>m+p</italic> T
+atoms. Furthermore, to ensure the electroneutrality condition is fulfilled,
+the number of Al atoms (<italic>p</italic>) is counterbalanced by
+the number of OSDAs (<italic>p</italic>) resulting in net zero charge
+balance. Comparison between the stabilities of aluminosilicate zeolite
+phases for each OSDA was done based on the <italic>E</italic>
+<sub>syn</sub>’s by selecting the structure with the lowest <italic>E</italic>
+<sub>syn</sub> as the most stable structure. These energies
+were calculated by force field simulations implemented in zeoTsda
+software, using XYZ (for OSDA) and CIF
+(for zeolite) files as the only input, which calculates optimum OSDA
+loading using MC (Monte Carlo) and LEM (lattice energy minimization)
+techniques. The calculation, with the help of zeoTAl software, is
+performed on a large (user defined) number of randomly generated Al
+distributions, of which those resulting with the lowest energies are
+selected for the final calculation of <italic>E</italic>
+<sub>syn</sub>. The procedure is automatically repeated for a double entry (big
+data) list of OSDAs and zeolites. More details are given in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Section S4</ext-link>).</p></sec></sec><sec id="sec3" disp-level="1"><label>3.</label><title>Synthesis of OSDAs and Zeolites</title><p>The
+final list of candidate OSDAs resulting from the procedures
+described in <xref rid="fig4" ref-type="fig">Figures 
+</xref> (for STF) and  (for IFR) are summarized in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Section S7</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Tables S14–S17</ext-link>. These are the
+most promising OSDA candidates for the synthesis of AlSi-STF and AlSi-IFR.
+From these, 3 OSDAs were selected and synthesized. Zeolite synthesis
+was performed in the presence of these OSDAs, by varying and adjusting
+the synthesis conditions in hydroxide media expected to be more favorable
+to obtain the target aluminosilicate zeolites. A concise summary of
+the hydrothermal conditions evaluated is given in <xref rid="tbl1" ref-type="table">Table 
+</xref>. The final results are discussed
+in <xref rid="sec4.4" ref-type="sec">Section 
+</xref>. Full
+details of the synthesis of OSDAs and zeolites are described in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Sections S8 and S9</ext-link>).</p><fig id="fig5" position="float"><?disp-level 2?><label>5</label><caption><p>Computational “Strategy-1” (see <xref rid="fig2" ref-type="fig">Figure 
+</xref>) used in this study for designing
+OSDAs for targeted AlSi-STF synthesis.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr5" xlink:href="cm5c01751_0005.jpg"><?cloudpmc-path blobs/414c/12747119/dc92f91b7aa6/cm5c01751_0005.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1801?><?original-width 1408?><?scaled-height 901?><?scaled-width 704?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="cm5c01751_0005.gif"><?cloudpmc-path blobs/414c/12747119/53ac902fa4f1/cm5c01751_0005.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><table-wrap id="tbl1" position="float"><?disp-level 2?><label>1</label><caption><title>Summary of Hydrothermal Conditions
+Evaluated for STF and IFR Syntheses in Hydroxide Media</title></caption><table frame="hsides" rules="groups"><colgroup span="1"><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/><col align="left" span="1"/></colgroup><thead><tr><th align="center" colspan="1" rowspan="1">Target</th><th align="center" colspan="1" rowspan="1">Gel composition</th><th align="center" colspan="1" rowspan="1">Si/Al
+range</th><th align="center" colspan="1" rowspan="1">Inorganic cation</th><th align="center" colspan="1" rowspan="1">
+<italic>T</italic> (°C)</th><th align="center" colspan="1" rowspan="1">Time (days)</th></tr></thead><tbody><tr><td align="left" colspan="1" rowspan="1">STF</td><td align="left" colspan="1" rowspan="1">SiO<sub>2</sub>: <italic>x</italic> Al<sub>2</sub>O<sub>3</sub>:
+0.5 R(OH): 10 H<sub>2</sub>O</td><td align="left" colspan="1" rowspan="1">∞–50</td><td align="left" colspan="1" rowspan="1">none</td><td align="left" colspan="1" rowspan="1">150–200</td><td align="left" colspan="1" rowspan="1">14–18</td></tr><tr><td align="left" colspan="1" rowspan="1">IFR</td><td align="left" colspan="1" rowspan="1">SiO<sub>2</sub>: <italic>x</italic> Al<sub>2</sub>O<sub>3</sub>: 0.5 R(OH): 10 H<sub>2</sub>O</td><td align="left" colspan="1" rowspan="1">∞–50</td><td align="left" colspan="1" rowspan="1">none</td><td align="left" colspan="1" rowspan="1">175–200</td><td align="left" colspan="1" rowspan="1">14–28</td></tr><tr><td align="left" colspan="1" rowspan="1">IFR, Na-present (SSZ-42-type)</td><td align="left" colspan="1" rowspan="1">SiO<sub>2</sub>: <italic>x</italic> Al<sub>2</sub>O<sub>3</sub>: <italic>y</italic> Na<sub>2</sub>O: <italic>z</italic> R(OH): 43.3
+H<sub>2</sub>O</td><td align="left" colspan="1" rowspan="1">10–20</td><td align="left" colspan="1" rowspan="1">Na<sup>+</sup> (0–0.18)</td><td align="left" colspan="1" rowspan="1">150–165</td><td align="left" colspan="1" rowspan="1">14</td></tr><tr><td align="left" colspan="1" rowspan="1">IFR, K-present (MCM-58-type)</td><td align="left" colspan="1" rowspan="1">SiO<sub>2</sub>: <italic>w</italic> Al<sub>2</sub>O<sub>3</sub>: <italic>x</italic> K<sub>2</sub>O: <italic>y</italic> R(OH): <italic>z</italic> RI: 40 H<sub>2</sub>O</td><td align="left" colspan="1" rowspan="1">10–100</td><td align="left" colspan="1" rowspan="1">K<sup>+</sup> (0–0.29)</td><td align="left" colspan="1" rowspan="1">175</td><td align="left" colspan="1" rowspan="1">7</td></tr></tbody></table></table-wrap></sec><sec id="sec4" disp-level="1"><label>4.</label><title>Results and Discussion</title><sec id="sec4.1" disp-level="2"><label>4.1.</label><title>Selection of Competing Zeolite Phases for
+STF and IFR</title><p>The computational methods employed in this study
+are summarized in <xref rid="fig2" ref-type="fig">Figure 
+</xref>, which outlines two strategies to determine competing zeolite
+phases.</p><sec id="sec4.1.1" disp-level="3"><label>4.1.1.</label><title>Using Strategy 1: Identification of Competing
+Phases for STF</title><p>We utilized OSDB to identify competing zeolite phases for our target zeolite, STF.
+The workflow for determining competing phases and potential OSDAs
+for STF is depicted in <xref rid="fig5" ref-type="fig">Figure 
+</xref>.</p><p>In the first step, we calculated the van der Waals
+stabilization energies for 610 OSDAs from the updated OSDB that correspond
+to published synthesis data. These energies were computed using zeodock and plotted against OSDA molecular volume (<xref rid="fig3" ref-type="fig">Figure 
+</xref>). We classified
+these OSDAs into two categories: Active OSDAs, which successfully
+direct the synthesis of high-silica STF (marked as green points in <xref rid="fig3" ref-type="fig">Figure 
+</xref>), and inactive OSDAs
+which do not facilitate STF synthesis.</p><p>We then observed that
+all active OSDAs were clustered close to
+a straight-line fit in the stabilization energy vs volume plot. This
+line defines the Pareto front, representing the optimal balance between
+stabilization energy and molecular volume for synthesis of STF. After
+analyzing the points, we identified 42 OSDAs that were close to the
+linear fit (∓ 0.2 kJ/mol Si) but were classified as inactive.
+Although these OSDAs exhibit favorable stabilization energies for
+STF, they direct the synthesis of high-silica zeolites other than
+STF. The 18 pure silica zeolites that are synthesized with these “inactive-close”
+OSDAs were identified as potential competitors for STF: AEI, *BEA,
+BEC, CHA, DDR, DOH, EUO, IFR, ITE, LTA, MEL, MFI, MOR, MTW, NON, RTH,
+SFF, SGT. For AlSi-STF, additional energetic factors beyond van der
+Waals stabilization energy become important. Since all “inactive-close”
+OSDAs exhibit favorable stabilization energy within the pure silica
+STF (Si-STF) framework, they are potential candidates for AlSi-STF
+synthesis, competing against the 18 zeolite frameworks listed above.
+Additionally, the active OSDAs, which already facilitate high-silica
+STF synthesis, are also strong candidates for AlSi-STF, as their ability
+to stabilize the all-silica framework suggests they may successfully
+promote the aluminosilicate form.</p><p>To determine the most promising
+OSDAs for AlSi-STF, we employed
+aluminosilicate <italic>E</italic>
+<sub>syn</sub> calculations, to
+evaluate all OSDA-zeolite pairs (including STF and the 18 competing
+zeolites). This methodology provided a reliable prediction of which
+OSDAs minimize <italic>E</italic>
+<sub>syn</sub> for AlSi-STF. Details
+are included in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Section S7</ext-link>). The complete selection process for
+STF candidates is summarized in <xref rid="fig5" ref-type="fig">Figure 
+</xref>.</p></sec><sec id="sec4.1.2" disp-level="3"><label>4.1.2.</label><title>Using Strategy 2: Identification of Competing
+Phases for IFR</title><p>The identification of competing zeolite phases
+for IFR followed a different approach due to the limited number of
+known OSDAs known for IFR synthesis, as depicted in <xref rid="fig6" ref-type="fig">Figure 
+</xref>. Unlike STF, where a Pareto front could be constructed, the
+lack of a large number of OSDAs to synthesize IFR required an alternative
+strategy. Since IFR was already identified as a competing phase for
+STF, we included all STF competing phases as competitors for IFR as
+well. Additionally, we examined other zeolites synthesized using the
+active OSDAs from OSDB that were linked to IFR synthesis. This analysis
+identified three additional competing zeolite phases: AFI, CON, and
+*STO. Thus, the final list of competing phases for IFR included all
+19 competing STF phases, plus AFI, CON, and *STO.</p><fig id="fig6" position="float"><?disp-level 4?><label>6</label><caption><p>Computational “Strategy-2”
+(see <xref rid="fig2" ref-type="fig">Figure 
+</xref>) used
+in this study for designing
+OSDAs for targeted AlSi-IFR synthesis.</p></caption><alternatives><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr6" xlink:href="cm5c01751_0006.jpg"><?cloudpmc-path blobs/414c/12747119/c74e81249339/cm5c01751_0006.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1515?><?original-width 828?><?scaled-height 1010?><?scaled-width 552?></graphic><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="thumb" xlink:href="cm5c01751_0006.gif"><?cloudpmc-path blobs/414c/12747119/aafe29789782/cm5c01751_0006.gif?><?cloudpmc-bucket cdn?></graphic></alternatives></fig><p>With the competing zeolite phases identified for
+both STF and IFR,
+we proceeded to assess the stability of these zeolites when paired
+with candidate OSDAs. The complete selection process for IFR candidates
+is summarized in <xref rid="fig6" ref-type="fig">Figure 
+</xref>.</p></sec></sec><sec id="sec4.2" disp-level="2"><label>4.2.</label><title>Search of OSDAs from OSDB</title><sec id="sec4.2.1" disp-level="3"><label>4.2.1.</label><title>Search of OSDAs from OSDB for STF</title><p>OSDB contains 1190 OSDAs divided in two categories, that here are
+called “OSDAs in papers” and “OSDAs not in papers”.
+The first one consists of 610 OSDAs previously used in published studies
+to synthesize zeolites, with their synthesis data available in OSDB.
+The second set contains 580 molecules not yet described in the literature
+as OSDAs. The search methods for these two subsets are described separately.</p><sec id="sec4.2.1.1" disp-level="4"><label>4.2.1.1.</label><title>OSDAs in Papers</title><p>After selecting
+the competing phases, we proceeded with the analysis of a subset within
+OSDB, known as “OSDAs in papers”. From this subset,
+we focused on the 42 “inactive” OSDAs that are close
+to the Pareto front in <xref rid="fig3" ref-type="fig">Figure 
+</xref>, hence referred to as “inactive-close”, and
+on the 36 known active OSDAs for STF. The InChIKeys and SMILES representations
+of these OSDAs are included as <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S6</ext-link>). To assess their performance,
+we calculated the optimum loading of these OSDAs in the 18 competing
+zeolites along with the target zeolite STF and prepared the aluminosilicate
+models. We then calculated their <italic>E</italic>
+<sub>syn</sub>’s
+for the 18 competing zeolites and STF to evaluate the stability of
+each zeolite-OSDA combination.</p><p>None of the OSDAs tested resulted
+in STF being the most stable phase according to <italic>E</italic>
+<sub>syn</sub>’s. Instead, AEI and CHA consistently appeared
+as the most stable phases for the majority of OSDAs (AEI for 19 OSDAs
+and CHA for 38 OSDAs). The remaining cases included 17 OSDAs favoring
+BEC and 4 favoring *BEA as their most stable phase. This can be explained
+by the fact that zeolites capable of accommodating more OSDAs per
+T atom tend to incorporate more aluminum content. In a previous study,
+we demonstrated that zeolites with higher aluminum content exhibit
+more favorable synthesis energies, leading to increased stability. The loading for CHA is usually 3 OSDA per unit
+cell (36 T atoms), which corresponds to a Si/Al ratio of 11. Similarly,
+in AEI, the loading is usually 4 OSDAs per unit cell (48 T atoms)
+which again corresponds to a Si/Al = 11. Whereas, for STF, the optimum
+loading of OSDAs is usually 4 molecules per unit cell (64 T atoms)
+leading to a Si/Al ratio of 15. This explains why AEI and CHA, which
+can accommodate more aluminum, showed lower <italic>E</italic>
+<sub>syn</sub>’s and greater stability compared to STF. This suggests
+that for aluminosilicate phases van der Waals stabilization energies
+are in general less dominant than OSDA packing and Al incorporation.</p><p>Nevertheless, we identified 8 OSDAs (5 from “actives”
+and 3 from “inactives”) for which <italic>E</italic>
+<sub>syn</sub>’s for STF belong to the top 3 most stable zeolites
+among the competitors. Although STF is not the most stable phase for
+these OSDAs, their relatively favorable <italic>E</italic>
+<sub>syn</sub>’s (details are given in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link>, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S14</ext-link> in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Section S7</ext-link>) suggest that they may still be viable candidates for experimental
+STF synthesis.</p></sec><sec id="sec4.2.1.2" disp-level="4"><label>4.2.1.2.</label><title>OSDAs Not in Papers</title><p>To explore
+whether any promising candidates for STF exist within this untested
+space, we applied a machine learning-based QSAR (Quantitative Structure–Activity
+Relationship) approach to predict their potential as STF-directing
+agents.</p><p>Classification models were trained on a dataset of STF
+and non-STF OSDAs using molecular descriptors including volume, moment
+of inertia along the three axis vectors (Ia, Ib, Ic), and Rayleigh
+charge. Among these, volume and Ic emerged as the most significant
+predictors. The initial classification showed high sensitivity but
+limited specificity; however, introducing a volume filter (175–208
+Å<sup>3</sup>) improved the accuracy of correctly identifying
+non-STF OSDAs, increasing specificity from around 58% to 81%. A more
+detailed description of the models and the descriptors is given in
+the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Section S6</ext-link>).</p><p>Neural network-based models
+were also employed using the same descriptor
+set but with different training strategies. One model achieved high
+specificity (∼99%) but low sensitivity (∼21%), effectively
+filtering inactive compounds while being conservative on true positives.
+Another model, trained with a subset of chemically similar OSDAs,
+improved the sensitivity–specificity balance. External validation
+showed this model could retain specificity while better recognizing
+STF-capable OSDAs. A screening of 580 untested OSDAs was performed,
+and candidates were selected based on two criteria: being classified
+as active by at least two models and having a volume within the defined
+range. These OSDAs are reported in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S15</ext-link> as potential STF-directing agents.</p><p>To evaluate the viability
+of these machine learning-predicted candidates,
+we computed the optimum loading of each selected OSDA in STF and its
+18 competing zeolite phases, prepared the corresponding aluminosilicate
+models, and calculated the resulting synthesis energies. Details are
+included in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link> (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Section S7</ext-link>). Five OSDAs for which STF ranked
+among the top three most stable zeolite phases were identified.</p></sec></sec><sec id="sec4.2.2" disp-level="3"><label>4.2.2.</label><title>Search of OSDAs from OSDB for IFR</title><p>After the competing phases for IFR were selected, we evaluated potential
+OSDAs for IFR synthesis using a methodology applied to the entire
+OSDB. To identify promising candidates, we employed the shoebox algorithm, a geometry-based filtering technique that compares
+the molecular dimensions of candidate OSDAs to those OSDAs known to
+direct to IFR. Twelve OSDAs were identified to have similar shoebox
+dimensions with the reference sets. These OSDAs whose dimensions fit
+within this shoebox space were retained for further analysis.</p><p>For each OSDA, the optimum loading was calculated for IFR and its
+competing zeolite phases. Then, aluminosilicate models were generated
+and the corresponding <italic>E</italic>
+<sub>syn</sub>’s of
+each OSDA–zeolite combination were calculated. The goal was
+to determine whether any of these OSDAs could favor IFR as one of
+the most stable phases. Only one of them resulted in IFR appearing
+among the top three most stable frameworks, following AEI and CHA,
+which again exhibited more favorable <italic>E</italic>
+<sub>syn</sub> values due to their ability to accommodate a higher number of OSDAs
+and incorporate more aluminum atoms, leading to lower (more favorable) <italic>E</italic>
+<sub>syn</sub>.</p></sec></sec><sec id="sec4.3" disp-level="2"><label>4.3.</label><title>Design and Search of OSDAs for STF and IFR</title><p>For STF, novel OSDAs were designed using stochastic virtual combinatorial
+chemistry and de novo design. A combinatorial chemistry run was carried
+out based upon the reaction scheme depicted in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Figure S1</ext-link>. The highest scoring molecule found in this run
+is shown in the first row of <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S4</ext-link>.</p><p>A second set of novel OSDAs were obtained by a run of the Synopsis
+de novo design algorithm. The highest scoring molecule found in this
+run is depicted in the second row of <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S4</ext-link>. The proposed reaction scheme for generating this molecule is shown
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Figure S2</ext-link>. It may be noted that among
+the 1983 designed OSDAs generated during the de novo design run, several
+showed predicted stabilization energies that were comparable to or
+even more favorable than those of known OSDAs for STF. From this set,
+those located close to the Pareto front (∓ 0.2 kJ/mol Si) in
+the E–V plot (<xref rid="fig3" ref-type="fig">Figure 
+</xref>) were selected for further <italic>E</italic>
+<sub>syn</sub> calculations, following the procedure described in “Strategy-1”.</p><p>In total, 18 OSDAs that were close to the Pareto front for STF
+were selected for <italic>E</italic>
+<sub>syn</sub> calculations, considering
+19 competing zeolite phases. None of these OSDAs resulted in STF being
+among the top three most stable phases based on their calculated <italic>E</italic>
+<sub>syn</sub>’s. This suggests that, although they
+have favorable van der Waals interactions with STF, their packing
+within the aluminosilicate framework is insufficient to compete with
+phases like AEI and CHA under hydroxide conditions. In other words,
+the corresponding loading for STF leads to a Si/Al ratio larger than
+that for AEI and CHA, which in turn results in lower <italic>E</italic>
+<sub>syn</sub>’s for AEI and CHA.</p><p>For IFR, novel OSDAs
+were generated using the multiple stochastic
+combinatorial design algorithm described in the methods section using
+the synthesis tree depicted in <xref rid="fig4" ref-type="fig">Figure 
+</xref>. The algorithm was run using the score function shown
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S3</ext-link> until 10000 molecules were
+generated, of which 3226 passed the filters and were subjected to
+stabilization energy calculation. The two OSDAs with the highest scores
+based on their stabilization energies and molecular volumes are listed
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S5</ext-link>, and their suggested synthesis
+schemes are illustrated in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Figure S3</ext-link>. Among
+the OSDAs that were subjected to stabilization energy calculations,
+the three highest scoring molecules were selected for <italic>E</italic>
+<sub>syn</sub> calculations based on their stabilization scores and
+shoebox dimensions that matched those of known OSDAs used for IFR
+synthesis, as described in the previous section. In addition, three
+more OSDAs were manually designed as IFR candidates. One was based
+on quinuclidinium, a known structure-directing agent for AlSi-IFR,
+while the other two were modified versions of QG001780, one of the
+promising OSDAs generated by the multiple combinatorial chemistry
+algorithm. All six OSDA candidates for the synthesis of AlSi-IFR were
+evaluated using <italic>E</italic>
+<sub>syn</sub> calculations against
+22 competing zeolite phases. Among them, four OSDAs had IFR among
+their top three most stable phases, marking them as candidates for
+experimental testing. These OSDAs are listed in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S17</ext-link>.</p></sec><sec id="sec4.4" disp-level="2"><label>4.4.</label><title>Final Choice of OSDA for STF and IFR</title><p>The final selection of OSDAs (<xref rid="fig4" ref-type="fig">Figures 
+</xref> and ) was guided by both the
+computed synthesis energies and the practical feasibility of their
+preparation. For STF, among eight candidate OSDAs taken from papers
+(<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S14</ext-link>) and five hypothetical OSDA
+candidates (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S15</ext-link>), only one OSDA was
+finally chosen (QHGWEBIGEQBZPY, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S14</ext-link>), as its amine precursors were commercially available and it had
+previously been synthesized by Shvets et al., confirming its accessibility and stability in hydroxide medium.</p><p>For IFR, from one OSDA from OSDB (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S16</ext-link>) and four designed candidates (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S17</ext-link>), two structurally related OSDAs derived from the same parent compound
+were synthesized (QG001780m and QG001780m2, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S17</ext-link>). They combined low predicted <italic>E</italic>
+<sub>syn</sub> values with straightforward and inexpensive synthesis routes, offering
+the best compromise between computational favorability and experimental
+feasibility.</p><p>These selected OSDAs (<xref rid="tbl2" ref-type="table">Table 
+</xref>) were synthesized and subsequently employed
+in hydrothermal
+experiments to attempt the crystallization of Al-STF and Al-IFR. These
+synthesis attempts are discussed in <xref rid="sec4.5" ref-type="sec">Section 
+</xref>.</p><table-wrap id="tbl2" position="float"><?disp-level 3?><label>2</label><caption><title>OSDAs Synthesized and Results of Aluminosilicate
+Zeolite Synthesis, from Gels with Composition SiO<sub>2</sub>: <italic>x</italic> Al<sub>2</sub>O<sub>3</sub>: 0.5 OSDA­(OH): 10 H<sub>2</sub>O, with 0 &lt; <italic>x</italic> &lt; 0.05</title></caption><graphic xmlns:xlink="http://www.w3.org/1999/xlink" content-type="image" id="gr7" xlink:href="cm5c01751_0007.jpg"><?cloudpmc-path blobs/414c/12747119/077c208a2f92/cm5c01751_0007.jpg?><?cloudpmc-bucket cdn?><?image-server-status LOAD_COMPLETED?><?original-height 1111?><?original-width 1951?><?scaled-height 444?><?scaled-width 780?></graphic></table-wrap></sec><sec id="sec4.5" disp-level="2"><label>4.5.</label><title>Discussion</title><p>We have analyzed more
+than 1000 known OSDAs from OSDB and over 7000 designed OSDAs using
+computational strategies, to evaluate their potential to direct the
+synthesis of AlSi-STF and AlSi-IFR zeolites through a combination
+of stabilization and <italic>E</italic>
+<sub>syn</sub> calculations.
+To systematically identify promising OSDAs for STF and IFR zeolites,
+we applied two complementary workflows based on the availability of
+prior synthesis data for each target. For STF, which has been synthesized
+with a relatively large number of OSDAs as a pure silica composition,
+we followed Strategy 1. We employed the Pareto front that appears
+in the plot of stabilization energy versus molecular volume (<xref rid="fig3" ref-type="fig">Figure 
+</xref>). OSDAs that appeared
+close to this front were considered good candidates and were evaluated
+further using <italic>E</italic>
+<sub>syn</sub> calculations across
+STF and 18 competing zeolite phases. We then selected those for which
+STF ranked among the top three most stable phases, resulting in 8
+promising OSDAs from the literature. In parallel, we screened the
+unreported or “not in papers” subset from OSDB using
+machine learning models trained to distinguish between STF-directing
+and nondirecting OSDAs. This helped us identify a smaller set of candidates,
+which we also subjected to <italic>E</italic>
+<sub>syn</sub> calculations.
+From this group, 5 OSDAs were found to favor STF in the top three
+and were added to the final selection. These results are summarized
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Section S7</ext-link> of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link>, with <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S14</ext-link> listing the OSDAs from papers and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S15</ext-link> those predicted through the machine learning approach. From the
+final pool of candidates, we assessed the practicality of synthesizing
+each OSDA and selected the one that was most feasible to prepare using
+available methods and reagents. This OSDA (QHGWEBIGEQBZPY) was synthesized
+and tested in a hydrothermal synthesis experiment targeting AlSi-STF.
+The structure of the selected OSDA and the corresponding experimental
+results are presented in <xref rid="tbl2" ref-type="table">Table 
+</xref>.</p><p>For IFR, due to the limited number of known OSDAs,
+we applied Strategy 2, which uses the shoebox algorithm based on the
+geometric dimensions of known IFR-directing OSDAs. The entire OSDB
+database was screened using this approach to identify molecules with
+similar size and shape characteristics. The selected candidates were
+then evaluated through <italic>E</italic>
+<sub>syn</sub> calculations
+across IFR and its competing phases. From this, one OSDA from OSDB
+was found to favor IFR as one of the top three most stable phases.
+In addition to the database screening, we also examined a set of generated
+OSDAs, created using stochastic virtual combinatorial chemistry and
+de novo design methods. These molecules were first passed through
+the same shoebox filtering step and then evaluated using <italic>E</italic>
+<sub>syn</sub> calculations. This process led to the identification
+of four additional candidates that showed IFR among the most stable
+outcomes. These IFR candidates are presented in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Section S7</ext-link> of the <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Supporting Information</ext-link>, with <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S16</ext-link> listing the OSDA from
+OSDB and <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Table S17</ext-link> showing those obtained
+through molecular design strategies. From these candidates, we evaluated
+the feasibility of synthesizing each OSDA and selected two OSDAs,
+QG001780m and QG001780m2, which were prepared and both used in hydrothermal
+synthesis experiments targeting AlSi-IFR. These OSDAs are structural
+derivatives of the same parent compound, QG001780. The selected OSDAs
+and the outcomes of the synthesis are presented in <xref rid="tbl2" ref-type="table">Table 
+</xref>.</p><p>Despite the careful
+selection of candidate OSDAs based on computational
+predictions, the experimental outcomes did not align with expectations.
+Hydrothermal synthesis attempts were carried out using QHGWEBIGEQBZPY
+for STF and both QG001780m and QG001780m2 for IFR, employing aluminosilicate
+gels in hydroxide media and in the absence of inorganic cations. The
+synthesis using QHGWEBIGEQBZPY resulted in the formation of an amorphous
+phase.</p><p>For IFR, the use of QG001780m also led to an amorphous
+product,
+whereas QG001780m2 yielded a mixture of amorphous material and MTW,
+which is far from being a top-rank prediction (ranked 13th), rather
+than the targeted aluminosilicate IFR zeolite. More details are given
+in <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">Section S9</ext-link>.</p><p>The results of this
+work highlight the current limitations of computational
+approaches in predicting zeolite synthesis outcomes. Although methods
+such as the calculation of synthesis energy (<italic>E</italic>
+<sub>syn</sub>) provide valuable insights into the thermodynamic relation
+between an OSDA and a framework, they cannot fully capture the complex
+chemistry of crystallization in hydroxide media. Factors such as the
+stability of the OSDA under hydrothermal conditions and the kinetics
+of nucleation are not yet represented in these models.</p><p>A key
+lesson from this study is that not all zeolite topologies
+can be synthesized as aluminosilicates in hydroxide media, even when
+computational screening suggests a favorable host–guest interaction.
+The main driving force of the zeolite synthesis in aluminosilicate
+composition is not the short-range zeolite-OSDA interaction, but rather
+the ability of the zeolite micropore to pack a large charge density
+and promote frameworks with higher aluminum content (lower Si/Al ratio),
+which leads to an increased thermodynamic stability of the system.
+Frameworks that are stable in fluoride or pure-silica systems may
+remain inaccessible in hydroxide environments due to differences in
+charge compensation and solvation.</p><p>Moreover, our experimental
+observations from <sup>13</sup>C and <sup>1</sup>H NMR spectra of
+OSDAs confirm that all three OSDAs used in
+the zeolite synthesis were degraded or structurally modified during
+synthesis, which prevented the intended structure-directing effect.
+This helps explain why the computational predictions did not lead
+to successful crystallization of the target structures (aluminosilicate
+STF and IFR) and highlights the need for more comprehensive modeling
+approaches that also take into account OSDA stability and the specific
+chemistry of the synthesis media.</p></sec></sec><sec id="sec5" disp-level="1"><label>5.</label><title>Conclusions</title><p>Our calculations suggested
+that it is intrinsically difficult to
+obtain STF and IFR as aluminosilicates in hydroxide media, with competing
+phases having lower predicted values of <italic>E</italic>
+<sub>syn</sub>. While the synthesis of pure silica zeolites is considerably driven
+by the strength of the zeolite-OSDA van der Waals interactions, in
+the case of aluminosilicate composition, the larger is the number
+of OSDA cations (per Si+Al atom) than can be “packed”
+in the micropores, the smaller becomes the resulting Si/Al ratio.
+Along with previous publications in our group it was found that the
+lower predicted values of <italic>E</italic>
+<sub>syn</sub> correlate
+with decreasing values of Si/Al ratio and hence a larger Al content
+contributes to the overall stability of the system.</p><p>The difficulty
+in obtaining aluminosilicate STF and IFR was observed
+in the calculations of all ca. 600 OSDAs reported in the literature
+according to OSDB, along with an additional 580 unpublished (designed)
+OSDAs included in the OSDB, and also when designing candidate OSDAs
+based on quaternary ammonium structures using a software tool introduced
+in this work.</p><p>Nevertheless, three OSDAs were selected for which
+STF or IFR appeared
+among the top three most stable phases, and these were synthesized
+and tested in zeolite synthesis experiments. However, the experimental
+results showed no formation of either aluminosilicate STF or IFR under
+hydroxide conditions. While the failure to obtain STF is in line with
+the lack of reported successful syntheses in hydroxide media, the
+result for IFR suggests that successful crystallization may require
+very specific conditions, as it has only been synthesized in the presence
+of benzylquinuclidinium cations. The
+successful synthesis of AlSi-IFR in the presence of fluoride can be attributed to the stabilizing effect
+of zeolite-fluoride and fluoride-OSDA interactions in combination
+with the <italic>bea</italic> cavities ([4<sup>3</sup>5<sup>2</sup>6]) in IFR. If AlSi-STF and AlSi-IFR are to be useful in an industrial
+setting, their synthesis in hydroxide media is much more convenient,
+due to the well- known environmental problems of fluoride media, and
+hence the predictions in fluoride media have not been the subject
+of this study.</p><p>Our calculations did not model the presence of
+defects that may
+change the order of zeolite stability, but a recent computational
+study indicates that charge compensation
+of a positively charged OSDA by Al is energetically more favorable
+than the presence of defects. Hence, when there is sufficient Al in
+the synthesis gel, the number of defects in aluminosilicate zeolites
+is expected to be small, even in hydroxide media.</p><p>For the OSDAs
+we designed and synthesized, CHA and AEI were the
+frameworks with lower <italic>E</italic>
+<sub>syn</sub>. However, our
+experiments did not result in AEI or CHA being synthesized (neither
+STF nor IFR), and hence in this sense our predictions from calculations
+must be considered a failure.</p><p>Predicting zeolite synthesis outcomes
+remains an exceptionally
+difficult task because of the many thermodynamic, kinetic, and chemical
+factors involved in crystallization. This work represents a step forward
+by applying the <italic>E</italic>
+<sub>syn</sub> descriptor to predict
+and experimentally test challenging synthesis targets whose preparation
+as aluminosilicates in hydroxide media is known to be difficult. In
+our previous studies, we were able to explain the phase selectivity
+of aluminosilicate zeolites using the <italic>E</italic>
+<sub>syn</sub> descriptor. In this work, we extended the same approach to two challenging
+aluminosilicate systems, Al-STF and Al-IFR, which remain difficult
+to crystallize under hydroxide conditions. The results provide insight
+into why these frameworks are so hard to obtain and suggest ways to
+design more effective synthesis strategies in the future.</p><p>In
+future studies, we aim to make phase prediction more reliable
+by including solvent effects, especially how water and counter-cations
+influence framework stability and the interaction between OSDAs and
+the zeolite structure. We also plan to examine OSDA stability under
+hydrothermal conditions, as degradation or structural changes during
+synthesis can prevent them from guiding the formation of the desired
+framework. Although developing a fully comprehensive predictive model
+remains a long-term goal, the present results already show the importance
+of linking computational insight with experimental feedback to better
+understand and guide zeolite crystallization.</p></sec><sec id="sec22" disp-level="1"><title>Supplementary Material</title><supplementary-material id="sifile1" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cm5c01751_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 414c/12747119/943c3dfd8268/cm5c01751_si_001.pdf?><?cloudpmc-bucket app?><?size 1410380?></media></supplementary-material></sec><sec id="ack1" sec-type="ack" disp-level="1"><title>Acknowledgments</title><p>This work was supported by MICIU/AEI/10.13039/501100011033
+(projects CEX2021–001230-S), cofunded by the ERDF/EU (PID2022–136934OB-I00)
+and by the European Union NextGenerationEU/PRTR (TED2021–130191B–C41).
+Grant CIPROM/2024/050 funded by Generalitat Valenciana, EcoPro HN,
+and ASIC-UPV and SGAI-CSIC for computational facilities are also acknowledged.</p></sec><sec id="glossary1" sec-type="glossary" disp-level="1"><title>Glossary</title><def-list id="dl1"><title>Abbreviations</title><def-item><term>1B23DMI</term><def><p>1-benzyl-2,3-dimethylimidazolium</p></def></def-item><def-item><term>1B3MI</term><def><p>1-benzyl-3-methylimidazolium</p></def></def-item><def-item><term>1D</term><def><p>one-dimensional</p></def></def-item><def-item><term>AI</term><def><p>artificial intelligence</p></def></def-item><def-item><term>AlSi</term><def><p>aluminosilicate</p></def></def-item><def-item><term>ANN</term><def><p>artificial neural
+network</p></def></def-item><def-item><term>
+<italic>E</italic>
+<sub>syn</sub>
+</term><def><p>synthesis energy</p></def></def-item><def-item><term>LDA</term><def><p>linear discriminant analysis</p></def></def-item><def-item><term>LEM</term><def><p>lattice energy minimization</p></def></def-item><def-item><term>MC</term><def><p>Monte Carlo</p></def></def-item><def-item><term>ML</term><def><p>machine learning</p></def></def-item><def-item><term>OSDA</term><def><p>organic structure-directing
+agent</p></def></def-item><def-item><term>OSDB</term><def><p>Organic
+Structure DataBase</p></def></def-item><def-item><term>QSAR</term><def><p>Quantitative Structure–Activity Relationship</p></def></def-item><def-item><term>T atom</term><def><p>tetrahedral atom</p></def></def-item></def-list></sec><sec id="notes1" disp-level="1"><p>The Supporting Information is
+available free of charge at <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/10.1021/acs.chemmater.5c01751?goto=supporting-info" ext-link-type="uri">https://pubs.acs.org/doi/10.1021/acs.chemmater.5c01751</ext-link>.</p><list list-type="simple" id="silist1"><list-item><p>Synthesis energies of aluminosilicate zeolites; zeodock
+algorithm to calculate zeolite-OSDA van der Waals interaction; generation
+of quaternary ammonium OSDAs; force field simulation details; search
+for OSDAs for STF from “OSDAs in paper” in OSDB; machine
+learning AI-driven QSAR strategy; candidate OSDAs for STF and IFR
+according to synthesis energies; preparation of organic structure-directing
+agents (OSDAs); and synthesis of zeolites (<ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://pubs.acs.org/doi/suppl/10.1021/acs.chemmater.5c01751/suppl_file/cm5c01751_si_001.pdf" ext-link-type="uri">PDF</ext-link>)</p></list-item></list></sec><sec id="notes2" disp-level="1"><p>The manuscript
+was written through contributions of all authors. All authors have
+given approval to the final version of the manuscript.</p></sec><sec id="notes3" disp-level="1"><p>The authors
+declare no competing financial interest.</p></sec><sec id="ref-list1" sec-type="ref-list" disp-level="1"><title>References</title><sec id="ref-list1_sec2" disp-level="2"><ref-list><ref id="ref1"><mixed-citation id="cit1"><named-content content-type="citation-string">Cronstedt A. F.. Natural
+zeolite and minerals. Sven. Vetenskapsakad.
+Handl. Stockholm. 1756;17:120.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Sven. Vetenskapsakad. Handl. Stockholm&amp;title=Natural zeolite and minerals&amp;author=A. F. Cronstedt&amp;volume=17&amp;publication_year=1756&amp;pages=120&amp;"/></mixed-citation></ref><ref id="ref2"><mixed-citation id="cit2"><named-content content-type="citation-string">Coombs D. S., Alberti A., Armbruster T., Artioli G., Colella C., Galli E., Grice J. D., Liebau F., Mandarino J. A., Minato H.. et al. Recommended
+nomenclature for zeolite minerals; report
+of the Subcommittee on Zeolites of the International Mineralogical
+Association, Commission on New Minerals and Mineral Names. Can. Mineral. 1997;35(6):1571–1606.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Can. Mineral.&amp;title=Recommended nomenclature for zeolite minerals; report of the Subcommittee on Zeolites of the International Mineralogical Association, Commission on New Minerals and Mineral Names&amp;author=D. S. Coombs&amp;author=A. Alberti&amp;author=T. Armbruster&amp;author=G. Artioli&amp;author=C. Colella&amp;volume=35&amp;issue=6&amp;publication_year=1997&amp;pages=1571-1606&amp;"/></mixed-citation></ref><ref id="ref3"><mixed-citation id="cit3"><named-content content-type="citation-string">Barthomeuf D., Beaumont R. X. Y.. aluminum-deficient, and ultrastable
+faujasite-type
+zeolites: III. Catalytic activity. J. Catal. 1973;30(2):288–297. doi: 10.1016/0021-9517(73)90076-6.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/0021-9517(73)90076-6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Catal.&amp;title=aluminum-deficient, and ultrastable faujasite-type zeolites: III. Catalytic activity&amp;author=D. Barthomeuf&amp;author=R. X. Y. Beaumont&amp;volume=30&amp;issue=2&amp;publication_year=1973&amp;pages=288-297&amp;doi=10.1016/0021-9517(73)90076-6&amp;"/></mixed-citation></ref><ref id="ref4"><mixed-citation id="cit4"><named-content content-type="citation-string">Grifoni E., Piccini G., Lercher J. A., Glezakou V.-A., Rousseau R., Parrinello M.. Confinement effects and acid strength in zeolites. Nat. Commun. 2021;12(1):2630. doi: 10.1038/s41467-021-22936-0.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41467-021-22936-0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8113345"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="33976197"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Commun.&amp;title=Confinement effects and acid strength in zeolites&amp;author=E. Grifoni&amp;author=G. Piccini&amp;author=J. A. Lercher&amp;author=V.-A. Glezakou&amp;author=R. Rousseau&amp;volume=12&amp;issue=1&amp;publication_year=2021&amp;pages=2630&amp;pmid=33976197&amp;doi=10.1038/s41467-021-22936-0&amp;"/></mixed-citation></ref><ref id="ref5"><mixed-citation id="cit5"><named-content content-type="citation-string">Katada N., Suzuki K., Noda T., Sastre G., Niwa M.. Correlation
+between Brønsted acid strength and local structure in zeolites. J. Phys. Chem. C. 2009;113(44):19208–19217. doi: 10.1021/jp903788n.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/jp903788n"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Phys. Chem. C&amp;title=Correlation between Brønsted acid strength and local structure in zeolites&amp;author=N. Katada&amp;author=K. Suzuki&amp;author=T. Noda&amp;author=G. Sastre&amp;author=M. Niwa&amp;volume=113&amp;issue=44&amp;publication_year=2009&amp;pages=19208-19217&amp;doi=10.1021/jp903788n&amp;"/></mixed-citation></ref><ref id="ref6"><mixed-citation id="cit6"><named-content content-type="citation-string">Gounder R., Jones A. J., Carr R. T., Iglesia E.. Solvation and acid
+strength effects on catalysis by faujasite zeolites. J. Catal. 2012;286:214–223. doi: 10.1016/j.jcat.2011.11.002.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jcat.2011.11.002"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Catal.&amp;title=Solvation and acid strength effects on catalysis by faujasite zeolites&amp;author=R. Gounder&amp;author=A. J. Jones&amp;author=R. T. Carr&amp;author=E. Iglesia&amp;volume=286&amp;publication_year=2012&amp;pages=214-223&amp;doi=10.1016/j.jcat.2011.11.002&amp;"/></mixed-citation></ref><ref id="ref7"><mixed-citation id="cit7"><named-content content-type="citation-string">Jones A. J., Carr R. T., Zones S. I., Iglesia E.. Acid strength
+and solvation
+in catalysis by MFI zeolites and effects of the identity, concentration
+and location of framework heteroatoms. J. Catal. 2014;312:58–68. doi: 10.1016/j.jcat.2014.01.007.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jcat.2014.01.007"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Catal.&amp;title=Acid strength and solvation in catalysis by MFI zeolites and effects of the identity, concentration and location of framework heteroatoms&amp;author=A. J. Jones&amp;author=R. T. Carr&amp;author=S. I. Zones&amp;author=E. Iglesia&amp;volume=312&amp;publication_year=2014&amp;pages=58-68&amp;doi=10.1016/j.jcat.2014.01.007&amp;"/></mixed-citation></ref><ref id="ref8"><mixed-citation id="cit8"><named-content content-type="citation-string">Wang N., Zhang M., Yu Y.. Distribution
+of aluminum and its
+influence on the acid strength of Y zeolite. Microporous Mesoporous Mater. 2013;169:47–53. doi: 10.1016/j.micromeso.2012.10.019.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.micromeso.2012.10.019"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Microporous Mesoporous Mater.&amp;title=Distribution of aluminum and its influence on the acid strength of Y zeolite&amp;author=N. Wang&amp;author=M. Zhang&amp;author=Y. Yu&amp;volume=169&amp;publication_year=2013&amp;pages=47-53&amp;doi=10.1016/j.micromeso.2012.10.019&amp;"/></mixed-citation></ref><ref id="ref9"><mixed-citation id="cit9"><named-content content-type="citation-string">Williams B., Babitz S., Miller J., Snurr R., Kung H.. The roles
+of acid strength and pore diffusion in the enhanced cracking activity
+of steamed Y zeolites. Appl. Catal., A. 1999;177(2):161–175. doi: 10.1016/S0926-860X(98)00264-6.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0926-860X(98)00264-6"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Appl. Catal., A&amp;title=The roles of acid strength and pore diffusion in the enhanced cracking activity of steamed Y zeolites&amp;author=B. Williams&amp;author=S. Babitz&amp;author=J. Miller&amp;author=R. Snurr&amp;author=H. Kung&amp;volume=177&amp;issue=2&amp;publication_year=1999&amp;pages=161-175&amp;doi=10.1016/S0926-860X(98)00264-6&amp;"/></mixed-citation></ref><ref id="ref10"><mixed-citation id="cit10"><named-content content-type="citation-string">Lee K.-Y., Lee S.-W., Ihm S.-K.. Acid strength control in MFI zeolite
+for the methanol-to-hydrocarbons (MTH) reaction. Ind. Eng. Chem. Res. 2014;53(24):10072–10079. doi: 10.1021/ie5009037.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/ie5009037"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Ind. Eng. Chem. Res.&amp;title=Acid strength control in MFI zeolite for the methanol-to-hydrocarbons (MTH) reaction&amp;author=K.-Y. Lee&amp;author=S.-W. Lee&amp;author=S.-K. Ihm&amp;volume=53&amp;issue=24&amp;publication_year=2014&amp;pages=10072-10079&amp;doi=10.1021/ie5009037&amp;"/></mixed-citation></ref><ref id="ref11"><mixed-citation id="cit11"><named-content content-type="citation-string">Erichsen M. W., De Wispelaere K., Hemelsoet K., Moors S. L. C., Deconinck T., Waroquier M., Svelle S., Van Speybroeck V., Olsbye U.. How zeolitic acid strength and composition alter the
+reactivity of alkenes and aromatics towards methanol. J. Catal. 2015;328:186–196. doi: 10.1016/j.jcat.2015.01.013.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jcat.2015.01.013"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Catal.&amp;title=How zeolitic acid strength and composition alter the reactivity of alkenes and aromatics towards methanol&amp;author=M. W. Erichsen&amp;author=K. De Wispelaere&amp;author=K. Hemelsoet&amp;author=S. L. C. Moors&amp;author=T. Deconinck&amp;volume=328&amp;publication_year=2015&amp;pages=186-196&amp;doi=10.1016/j.jcat.2015.01.013&amp;"/></mixed-citation></ref><ref id="ref12"><mixed-citation id="cit12"><named-content content-type="citation-string">Muraoka K., Chaikittisilp W., Yanaba Y., Yoshikawa T., Okubo T.. Directing Aluminum
+Atoms into Energetically Favorable Tetrahedral
+Sites in a Zeolite Framework by Using Organic Structure-Directing
+Agents. Angew. Chem., Int. Ed. 2018;57(14):3742–3746. doi: 10.1002/anie.201713308.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/anie.201713308"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29405535"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Angew. Chem., Int. Ed.&amp;title=Directing Aluminum Atoms into Energetically Favorable Tetrahedral Sites in a Zeolite Framework by Using Organic Structure-Directing Agents&amp;author=K. Muraoka&amp;author=W. Chaikittisilp&amp;author=Y. Yanaba&amp;author=T. Yoshikawa&amp;author=T. Okubo&amp;volume=57&amp;issue=14&amp;publication_year=2018&amp;pages=3742-3746&amp;pmid=29405535&amp;doi=10.1002/anie.201713308&amp;"/></mixed-citation></ref><ref id="ref13"><mixed-citation id="cit13"><named-content content-type="citation-string">Yokoi T., Mochizuki H., Namba S., Kondo J. N., Tatsumi T.. Control of
+the Al distribution in the framework of ZSM-5 zeolite and its evaluation
+by solid-state NMR technique and catalytic properties. J. Phys. Chem. C. 2015;119(27):15303–15315. doi: 10.1021/acs.jpcc.5b03289.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jpcc.5b03289"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Phys. Chem. C&amp;title=Control of the Al distribution in the framework of ZSM-5 zeolite and its evaluation by solid-state NMR technique and catalytic properties&amp;author=T. Yokoi&amp;author=H. Mochizuki&amp;author=S. Namba&amp;author=J. N. Kondo&amp;author=T. Tatsumi&amp;volume=119&amp;issue=27&amp;publication_year=2015&amp;pages=15303-15315&amp;doi=10.1021/acs.jpcc.5b03289&amp;"/></mixed-citation></ref><ref id="ref14"><mixed-citation id="cit14"><named-content content-type="citation-string">Shantz D. F., Lobo R. F., Fild C., Koller H.. Controlling the distribution
+of framework aluminum in high-silica zeolites. Stud. Surf. Sci. Catal. 2000;130:845–850. doi: 10.1016/S0167-2991(00)81064-2.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0167-2991(00)81064-2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Stud. Surf. Sci. Catal.&amp;title=Controlling the distribution of framework aluminum in high-silica zeolites&amp;author=D. F. Shantz&amp;author=R. F. Lobo&amp;author=C. Fild&amp;author=H. Koller&amp;volume=130&amp;publication_year=2000&amp;pages=845-850&amp;doi=10.1016/S0167-2991(00)81064-2&amp;"/></mixed-citation></ref><ref id="ref15"><mixed-citation id="cit15"><named-content content-type="citation-string">Košová G., Ernst S., Hartmann M., Čejka J.. Incorporation
+of Aluminium and Iron into the Zeolite MCM-58. Eur. J. Inorg. Chem. 2005;2005:1154–1161. doi: 10.1002/ejic.200400743.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/ejic.200400743"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Eur. J. Inorg. Chem.&amp;title=Incorporation of Aluminium and Iron into the Zeolite MCM-58&amp;author=G. Košová&amp;author=S. Ernst&amp;author=M. Hartmann&amp;author=J. Čejka&amp;volume=2005&amp;publication_year=2005&amp;pages=1154-1161&amp;doi=10.1002/ejic.200400743&amp;"/></mixed-citation></ref><ref id="ref16"><mixed-citation id="cit16"><named-content content-type="citation-string">Lemishko T., Valencia S., Rey F., Jiménez-Ruiz M., Sastre G.. Inelastic neutron scattering study on the location
+of Brønsted acid sites in high silica LTA zeolite. J. Phys. Chem. C. 2016;120(43):24904–24909. doi: 10.1021/acs.jpcc.6b09012.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jpcc.6b09012"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Phys. Chem. C&amp;title=Inelastic neutron scattering study on the location of Brønsted acid sites in high silica LTA zeolite&amp;author=T. Lemishko&amp;author=S. Valencia&amp;author=F. Rey&amp;author=M. Jiménez-Ruiz&amp;author=G. Sastre&amp;volume=120&amp;issue=43&amp;publication_year=2016&amp;pages=24904-24909&amp;doi=10.1021/acs.jpcc.6b09012&amp;"/></mixed-citation></ref><ref id="ref17"><mixed-citation id="cit17"><named-content content-type="citation-string">Luan H., Wu Q., Wu J., Meng X., Xiao F.-S.. Templates for Synthesis
+of Zeolites. Chin. J. Struct. Chem. 2024;43:100252. doi: 10.1016/j.cjsc.2024.100252.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.cjsc.2024.100252"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chin. J. Struct. Chem.&amp;title=Templates for Synthesis of Zeolites&amp;author=H. Luan&amp;author=Q. Wu&amp;author=J. Wu&amp;author=X. Meng&amp;author=F.-S. Xiao&amp;volume=43&amp;publication_year=2024&amp;pages=100252&amp;doi=10.1016/j.cjsc.2024.100252&amp;"/></mixed-citation></ref><ref id="ref18"><mixed-citation id="cit18"><named-content content-type="citation-string">Wu Q., Luan H., Xiao F.-S.. Targeted
+synthesis of zeolites from
+calculated interaction between zeolite structure and organic template. Natl. Sci. Rev. 2022;9(9):nwac023. doi: 10.1093/nsr/nwac023.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1093/nsr/nwac023"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9477206"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36128457"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Natl. Sci. Rev.&amp;title=Targeted synthesis of zeolites from calculated interaction between zeolite structure and organic template&amp;author=Q. Wu&amp;author=H. Luan&amp;author=F.-S. Xiao&amp;volume=9&amp;issue=9&amp;publication_year=2022&amp;pages=nwac023&amp;pmid=36128457&amp;doi=10.1093/nsr/nwac023&amp;"/></mixed-citation></ref><ref id="ref19"><mixed-citation id="cit19"><named-content content-type="citation-string">Li Y., Cao H., Yu J.. Toward a new era of designed synthesis of nanoporous
+zeolitic materials. ACS Nano. 2018;12(5):4096–4104. doi: 10.1021/acsnano.8b02625.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acsnano.8b02625"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="29714474"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Nano&amp;title=Toward a new era of designed synthesis of nanoporous zeolitic materials&amp;author=Y. Li&amp;author=H. Cao&amp;author=J. Yu&amp;volume=12&amp;issue=5&amp;publication_year=2018&amp;pages=4096-4104&amp;pmid=29714474&amp;doi=10.1021/acsnano.8b02625&amp;"/></mixed-citation></ref><ref id="ref20"><mixed-citation id="cit20"><named-content content-type="citation-string">Bae J., Hong S. B.. Zeolite synthesis
+by the excess fluoride approach in
+the presence of piperidinium-based structure-directing agents. Microporous Mesoporous Mater. 2021;327:111422. doi: 10.1016/j.micromeso.2021.111422.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.micromeso.2021.111422"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Microporous Mesoporous Mater.&amp;title=Zeolite synthesis by the excess fluoride approach in the presence of piperidinium-based structure-directing agents&amp;author=J. Bae&amp;author=S. B. Hong&amp;volume=327&amp;publication_year=2021&amp;pages=111422&amp;doi=10.1016/j.micromeso.2021.111422&amp;"/></mixed-citation></ref><ref id="ref21"><mixed-citation id="cit21"><named-content content-type="citation-string">Camblor M. A., Corma A., Valencia S.. Synthesis
+in fluoride media and characterisation
+of aluminosilicate zeolite beta. J. Mater. Chem. 1998;8(9):2137–2145. doi: 10.1039/a804457k.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/a804457k"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Mater. Chem.&amp;title=Synthesis in fluoride media and characterisation of aluminosilicate zeolite beta&amp;author=M. A. Camblor&amp;author=A. Corma&amp;author=S. Valencia&amp;volume=8&amp;issue=9&amp;publication_year=1998&amp;pages=2137-2145&amp;doi=10.1039/a804457k&amp;"/></mixed-citation></ref><ref id="ref22"><mixed-citation id="cit22"><named-content content-type="citation-string">Arichi J., Louis B.. Toward microscopic
+design of zeolite crystals: advantages of the
+fluoride-mediated synthesis. Cryst. Growth Des. 2008;8(11):3999–4005. doi: 10.1021/cg800115q.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/cg800115q"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Cryst. Growth Des.&amp;title=Toward microscopic design of zeolite crystals: advantages of the fluoride-mediated synthesis&amp;author=J. Arichi&amp;author=B. Louis&amp;volume=8&amp;issue=11&amp;publication_year=2008&amp;pages=3999-4005&amp;doi=10.1021/cg800115q&amp;"/></mixed-citation></ref><ref id="ref23"><mixed-citation id="cit23"><named-content content-type="citation-string">
+
+Guth, J. L.
+; 
+Kessler, H.
+; 
+Higel, J.
+M.
+; 
+Lamblin, J. M.
+; 
+Patarin, J.
+; 
+Seive, A.
+; 
+Chezeau, J. M.
+; 
+Wey, R.
+. 
+Zeolite Synthesis in the Presence
+of Fluoride Ions. In Zeolite Synthesis; ACS Symposium Series, 
+Ocelli, M. L.
+; 
+Robson, H. E.
+, Eds.; American
+Chemical Society, 1989, Vol. 398, pp. 176–195.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=Zeolite Synthesis&amp;publication_year=1989&amp;"/></mixed-citation></ref><ref id="ref24"><mixed-citation id="cit24"><named-content content-type="citation-string">Zones S. I., Darton R. J., Morris R., Hwang S.-J.. Studies
+on the role
+of fluoride ion vs reaction concentration in zeolite synthesis. J. Phys. Chem. B. 2005;109(1):652–661. doi: 10.1021/jp0402434.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/jp0402434"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="16851058"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Phys. Chem. B&amp;title=Studies on the role of fluoride ion vs reaction concentration in zeolite synthesis&amp;author=S. I. Zones&amp;author=R. J. Darton&amp;author=R. Morris&amp;author=S.-J. Hwang&amp;volume=109&amp;issue=1&amp;publication_year=2005&amp;pages=652-661&amp;pmid=16851058&amp;doi=10.1021/jp0402434&amp;"/></mixed-citation></ref><ref id="ref25"><mixed-citation id="cit25"><named-content content-type="citation-string">Barrett P., Diaz-Cabanas M., Camblor M., Jones R.. Synthesis in fluoride
+and hydroxide media and structure of the extra-large pore pure silica
+zeolite CIT-5. J. Chem. Soc., Faraday Trans. 1998;94(16):2475–2481. doi: 10.1039/a803263g.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/a803263g"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Soc., Faraday Trans.&amp;title=Synthesis in fluoride and hydroxide media and structure of the extra-large pore pure silica zeolite CIT-5&amp;author=P. Barrett&amp;author=M. Diaz-Cabanas&amp;author=M. Camblor&amp;author=R. Jones&amp;volume=94&amp;issue=16&amp;publication_year=1998&amp;pages=2475-2481&amp;doi=10.1039/a803263g&amp;"/></mixed-citation></ref><ref id="ref26"><mixed-citation id="cit26"><named-content content-type="citation-string">Jo D., Zhao J., Cho J., Lee J. H., Liu Y., Liu C., Zou X., Hong S. B.. PST-24: A Zeolite with Varying Intracrystalline
+Channel Dimensionality. Angew. Chem., Int. Ed. 2020;59(40):17691–17696. doi: 10.1002/anie.202007804.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/anie.202007804"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC7540362"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32609403"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Angew. Chem., Int. Ed.&amp;title=PST-24: A Zeolite with Varying Intracrystalline Channel Dimensionality&amp;author=D. Jo&amp;author=J. Zhao&amp;author=J. Cho&amp;author=J. H. Lee&amp;author=Y. Liu&amp;volume=59&amp;issue=40&amp;publication_year=2020&amp;pages=17691-17696&amp;pmid=32609403&amp;doi=10.1002/anie.202007804&amp;"/></mixed-citation></ref><ref id="ref27"><mixed-citation id="cit27"><named-content content-type="citation-string">Liu X.-D., Wang Y.-P., Cui X.-M., He Y., Mao J.. Influence
+of synthesis parameters on NaA zeolite crystals. Powder Technol. 2013;243:184–193. doi: 10.1016/j.powtec.2013.03.048.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.powtec.2013.03.048"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Powder Technol.&amp;title=Influence of synthesis parameters on NaA zeolite crystals&amp;author=X.-D. Liu&amp;author=Y.-P. Wang&amp;author=X.-M. Cui&amp;author=Y. He&amp;author=J. Mao&amp;volume=243&amp;publication_year=2013&amp;pages=184-193&amp;doi=10.1016/j.powtec.2013.03.048&amp;"/></mixed-citation></ref><ref id="ref28"><mixed-citation id="cit28"><named-content content-type="citation-string">Ali M., Brisdon B., Thomas W.. Synthesis, characterization and catalytic
+activity of ZSM-5 zeolites having variable silicon-to-aluminum ratios. Appl. Catal., A. 2003;252(1):149–162. doi: 10.1016/S0926-860X(03)00413-7.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0926-860X(03)00413-7"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Appl. Catal., A&amp;title=Synthesis, characterization and catalytic activity of ZSM-5 zeolites having variable silicon-to-aluminum ratios&amp;author=M. Ali&amp;author=B. Brisdon&amp;author=W. Thomas&amp;volume=252&amp;issue=1&amp;publication_year=2003&amp;pages=149-162&amp;doi=10.1016/S0926-860X(03)00413-7&amp;"/></mixed-citation></ref><ref id="ref29"><mixed-citation id="cit29"><named-content content-type="citation-string">Pinar A. B., Gómez-Hortigüela L., McCusker L. B., Pérez-Pariente J.. Controlling
+the aluminum distribution in the zeolite ferrierite via the organic
+structure directing agent. Chem. Mater. 2013;25(18):3654–3661. doi: 10.1021/cm4018024.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/cm4018024"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Mater.&amp;title=Controlling the aluminum distribution in the zeolite ferrierite via the organic structure directing agent&amp;author=A. B. Pinar&amp;author=L. Gómez-Hortigüela&amp;author=L. B. McCusker&amp;author=J. Pérez-Pariente&amp;volume=25&amp;issue=18&amp;publication_year=2013&amp;pages=3654-3661&amp;doi=10.1021/cm4018024&amp;"/></mixed-citation></ref><ref id="ref30"><mixed-citation id="cit30"><named-content content-type="citation-string">Wagner P., Nakagawa Y., Lee G. S., Davis M. E., Elomari S., Medrud R. C., Zones S.. Guest/host
+relationships in the synthesis
+of the novel cage-based zeolites SSZ-35, SSZ-36, and SSZ-39. J. Am. Chem. Soc. 2000;122(2):263–273. doi: 10.1021/ja990722u.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/ja990722u"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Am. Chem. Soc.&amp;title=Guest/host relationships in the synthesis of the novel cage-based zeolites SSZ-35, SSZ-36, and SSZ-39&amp;author=P. Wagner&amp;author=Y. Nakagawa&amp;author=G. S. Lee&amp;author=M. E. Davis&amp;author=S. Elomari&amp;volume=122&amp;issue=2&amp;publication_year=2000&amp;pages=263-273&amp;doi=10.1021/ja990722u&amp;"/></mixed-citation></ref><ref id="ref31"><mixed-citation id="cit31"><named-content content-type="citation-string">Knott B. C., Nimlos C. T., Robichaud D. J., Nimlos M. R., Kim S., Gounder R.. Consideration of the
+Aluminum Distribution in Zeolites
+in Theoretical and Experimental Catalysis Research. ACS Catal. 2018;8(2):770–784. doi: 10.1021/acscatal.7b03676.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acscatal.7b03676"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ACS Catal.&amp;title=Consideration of the Aluminum Distribution in Zeolites in Theoretical and Experimental Catalysis Research&amp;author=B. C. Knott&amp;author=C. T. Nimlos&amp;author=D. J. Robichaud&amp;author=M. R. Nimlos&amp;author=S. Kim&amp;volume=8&amp;issue=2&amp;publication_year=2018&amp;pages=770-784&amp;doi=10.1021/acscatal.7b03676&amp;"/></mixed-citation></ref><ref id="ref32"><mixed-citation id="cit32"><named-content content-type="citation-string">Kemp K. C., Altundal Ö. F., Jo D., Huang W., Wang Q., Deng F., Sastre G., Hong S. B.. The role
+of structural
+defects in the fluoride-mediated synthesis of aluminosilicate zeolites. Chem. Sci. 2025;16:7579–7589. doi: 10.1039/D5SC00899A.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/D5SC00899A"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC11956030"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40171031"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Sci.&amp;title=The role of structural defects in the fluoride-mediated synthesis of aluminosilicate zeolites&amp;author=K. C. Kemp&amp;author=Ö. F. Altundal&amp;author=D. Jo&amp;author=W. Huang&amp;author=Q. Wang&amp;volume=16&amp;publication_year=2025&amp;pages=7579-7589&amp;pmid=40171031&amp;doi=10.1039/D5SC00899A&amp;"/></mixed-citation></ref><ref id="ref33"><mixed-citation id="cit33"><named-content content-type="citation-string">Bell R. G., Lewis D. W., Voigt P., Freeman C. M., Thomas J. M., Catlow C. R. A.. Computer Modelling of Sorbates and Templates in Microporous
+Materials. Stud. Surf. Sci. Catal. 1994;84:2075–2082. doi: 10.1016/S0167-2991(08)63768-4.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/S0167-2991(08)63768-4"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Stud. Surf. Sci. Catal.&amp;title=Computer Modelling of Sorbates and Templates in Microporous Materials&amp;author=R. G. Bell&amp;author=D. W. Lewis&amp;author=P. Voigt&amp;author=C. M. Freeman&amp;author=J. M. Thomas&amp;volume=84&amp;publication_year=1994&amp;pages=2075-2082&amp;doi=10.1016/S0167-2991(08)63768-4&amp;"/></mixed-citation></ref><ref id="ref34"><mixed-citation id="cit34"><named-content content-type="citation-string">Stevens A. P., Gorman A. M., Freeman C. M., Cox P. A.. Prediction of template
+location via a combined Monte Carlo–simulated annealing approach. J. Chem. Soc., Faraday Trans. 1996;92(12):2065–2073. doi: 10.1039/FT9969202065.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/FT9969202065"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Chem. Soc., Faraday Trans.&amp;title=Prediction of template location via a combined Monte Carlo–simulated annealing approach&amp;author=A. P. Stevens&amp;author=A. M. Gorman&amp;author=C. M. Freeman&amp;author=P. A. Cox&amp;volume=92&amp;issue=12&amp;publication_year=1996&amp;pages=2065-2073&amp;doi=10.1039/FT9969202065&amp;"/></mixed-citation></ref><ref id="ref35"><mixed-citation id="cit35"><named-content content-type="citation-string">Schmidt J. E., Deem M. W., Lew C., Davis T. M.. Computationally-guided
+synthesis of the 8-ring zeolite AEI. Top. Catal. 2015;58:410–415. doi: 10.1007/s11244-015-0381-1.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1007/s11244-015-0381-1"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Top. Catal.&amp;title=Computationally-guided synthesis of the 8-ring zeolite AEI&amp;author=J. E. Schmidt&amp;author=M. W. Deem&amp;author=C. Lew&amp;author=T. M. Davis&amp;volume=58&amp;publication_year=2015&amp;pages=410-415&amp;doi=10.1007/s11244-015-0381-1&amp;"/></mixed-citation></ref><ref id="ref36"><mixed-citation id="cit36"><named-content content-type="citation-string">Davis T. M., Liu A. T., Lew C. M., Xie D., Benin A. I., Elomari S., Zones S. I., Deem M. W.. Computationally
+guided synthesis of SSZ-52: a zeolite for engine exhaust clean-up. Chem. Mater. 2016;28(3):708–711. doi: 10.1021/acs.chemmater.5b04578.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.chemmater.5b04578"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Mater.&amp;title=Computationally guided synthesis of SSZ-52: a zeolite for engine exhaust clean-up&amp;author=T. M. Davis&amp;author=A. T. Liu&amp;author=C. M. Lew&amp;author=D. Xie&amp;author=A. I. Benin&amp;volume=28&amp;issue=3&amp;publication_year=2016&amp;pages=708-711&amp;doi=10.1021/acs.chemmater.5b04578&amp;"/></mixed-citation></ref><ref id="ref37"><mixed-citation id="cit37"><named-content content-type="citation-string">
+
+Chaikittisilp, W.
+
+Data-Driven
+Approach for Rational Synthesis of Zeolites and Other Nanoporous Materials. In AI-Guided Design and Property Prediction for Zeolites
+and Nanoporous Materials; 
+Sastre, G.
+; 
+Daeyaert, F.
+ eds.; Wiley, 2023, pp. 233–250; 10.1002/9781119819783.ch9.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/9781119819783.ch9"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=AI-Guided Design and Property Prediction for Zeolites and Nanoporous Materials&amp;publication_year=2023&amp;"/></mixed-citation></ref><ref id="ref38"><mixed-citation id="cit38"><named-content content-type="citation-string">
+
+Schwalbe-Koda, D.
+; 
+Gómez-Bombarelli, R.
+. 
+Generating,
+managing, and mining big data in zeolite simulations. AI-Guided Design and Property Prediction for Zeolites and
+Nanoporous Materials. 
+Sastre, G.
+; 
+Daeyaert, F.
+eds.; Wiley, 2023.  pp. 81–111.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=AI-Guided Design and Property Prediction for Zeolites and Nanoporous Materials&amp;publication_year=2023&amp;"/></mixed-citation></ref><ref id="ref39"><mixed-citation id="cit39"><named-content content-type="citation-string">Tang X., Altundal O. F., Daeyaert F., Liu Z., Sastre G.. Computational
+insights on the role of structure-directing agents (SDAs) in the synthesis
+of zeolites. Chem. Soc. Rev. 2025;54:7067. doi: 10.1039/D5CS00306G.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/D5CS00306G"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40462720"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Soc. Rev.&amp;title=Computational insights on the role of structure-directing agents (SDAs) in the synthesis of zeolites&amp;author=X. Tang&amp;author=O. F. Altundal&amp;author=F. Daeyaert&amp;author=Z. Liu&amp;author=G. Sastre&amp;volume=54&amp;publication_year=2025&amp;pages=7067&amp;pmid=40462720&amp;doi=10.1039/D5CS00306G&amp;"/></mixed-citation></ref><ref id="ref40"><mixed-citation id="cit40"><named-content content-type="citation-string">Schwalbe-Koda D., Kwon S., Paris C., Bello-Jurado E., Jensen Z., Olivetti E., Willhammar T., Corma A., Roman-Leshkov Y., Moliner M.. et al. A priori
+control of zeolite phase competition and intergrowth with high-throughput
+simulations. Science. 2021;374(6565):308–315. doi: 10.1126/science.abh3350.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1126/science.abh3350"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34529493"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Science&amp;title=A priori control of zeolite phase competition and intergrowth with high-throughput simulations&amp;author=D. Schwalbe-Koda&amp;author=S. Kwon&amp;author=C. Paris&amp;author=E. Bello-Jurado&amp;author=Z. Jensen&amp;volume=374&amp;issue=6565&amp;publication_year=2021&amp;pages=308-315&amp;pmid=34529493&amp;doi=10.1126/science.abh3350&amp;"/></mixed-citation></ref><ref id="ref41"><mixed-citation id="cit41"><named-content content-type="citation-string">
+Organic Structure Database; 2025, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://zeodb.mit.edu/index" ext-link-type="uri">https://zeodb.mit.edu/index</ext-link>. (accessed 4 Nov 2025).</named-content></mixed-citation></ref><ref id="ref42"><mixed-citation id="cit42"><named-content content-type="citation-string">Daeyaert F., Deem M. W.. Design of organic
+structure directing agents for polymorph
+A zeolite beta. J. Mater. Chem. A. 2019;7(16):9854–9866. doi: 10.1039/C8TA11913A.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/C8TA11913A"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Mater. Chem. A&amp;title=Design of organic structure directing agents for polymorph A zeolite beta&amp;author=F. Daeyaert&amp;author=M. W. Deem&amp;volume=7&amp;issue=16&amp;publication_year=2019&amp;pages=9854-9866&amp;doi=10.1039/C8TA11913A&amp;"/></mixed-citation></ref><ref id="ref43"><mixed-citation id="cit43"><named-content content-type="citation-string">Chitac R.
+G., Bradley J., McNamara N. D., Mayoral A., Turrina A., Wright P. A.. Designed
+synthesis of STA-30: a small-pore zeolite
+catalyst with topology type SWY. Chem. Mater. 2021;33(13):5242–5256. doi: 10.1021/acs.chemmater.1c01329.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.chemmater.1c01329"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Mater.&amp;title=Designed synthesis of STA-30: a small-pore zeolite catalyst with topology type SWY&amp;author=R. G. Chitac&amp;author=J. Bradley&amp;author=N. D. McNamara&amp;author=A. Mayoral&amp;author=A. Turrina&amp;volume=33&amp;issue=13&amp;publication_year=2021&amp;pages=5242-5256&amp;doi=10.1021/acs.chemmater.1c01329&amp;"/></mixed-citation></ref><ref id="ref44"><mixed-citation id="cit44"><named-content content-type="citation-string">Muraoka K., Chaikittisilp W., Okubo T.. Energy analysis of aluminosilicate
+zeolites with comprehensive ranges of framework topologies, chemical
+compositions, and aluminum distributions. J.
+Am. Chem. Soc. 2016;138(19):6184–6193. doi: 10.1021/jacs.6b01341.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/jacs.6b01341"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="27097121"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Am. Chem. Soc.&amp;title=Energy analysis of aluminosilicate zeolites with comprehensive ranges of framework topologies, chemical compositions, and aluminum distributions&amp;author=K. Muraoka&amp;author=W. Chaikittisilp&amp;author=T. Okubo&amp;volume=138&amp;issue=19&amp;publication_year=2016&amp;pages=6184-6193&amp;pmid=27097121&amp;doi=10.1021/jacs.6b01341&amp;"/></mixed-citation></ref><ref id="ref45"><mixed-citation id="cit45"><named-content content-type="citation-string">Muraoka K., Sada Y., Miyazaki D., Chaikittisilp W., Okubo T.. Linking synthesis and structure descriptors
+from a large collection
+of synthetic records of zeolite materials. Nat.
+Commun. 2019;10(1):4459. doi: 10.1038/s41467-019-12394-0.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/s41467-019-12394-0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC6773695"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="31575862"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nat. Commun.&amp;title=Linking synthesis and structure descriptors from a large collection of synthetic records of zeolite materials&amp;author=K. Muraoka&amp;author=Y. Sada&amp;author=D. Miyazaki&amp;author=W. Chaikittisilp&amp;author=T. Okubo&amp;volume=10&amp;issue=1&amp;publication_year=2019&amp;pages=4459&amp;pmid=31575862&amp;doi=10.1038/s41467-019-12394-0&amp;"/></mixed-citation></ref><ref id="ref46"><mixed-citation id="cit46"><named-content content-type="citation-string">Bickel E. E., Nimlos C. T., Gounder R.. Developing
+quantitative synthesis-structure-function
+relations for framework aluminum arrangement effects in zeolite acid
+catalysis. J. Catal. 2021;399:75–85. doi: 10.1016/j.jcat.2021.04.027.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.jcat.2021.04.027"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Catal.&amp;title=Developing quantitative synthesis-structure-function relations for framework aluminum arrangement effects in zeolite acid catalysis&amp;author=E. E. Bickel&amp;author=C. T. Nimlos&amp;author=R. Gounder&amp;volume=399&amp;publication_year=2021&amp;pages=75-85&amp;doi=10.1016/j.jcat.2021.04.027&amp;"/></mixed-citation></ref><ref id="ref47"><mixed-citation id="cit47"><named-content content-type="citation-string">Rojas A., Gómez-Hortigüela L., Camblor M. A.. Benzylimidazolium
+cations as zeolite structure-directing agents. Differences in performance
+brought about by a small change in size. Dalton
+Trans. 2013;42(7):2562–2571. doi: 10.1039/C2DT32230G.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/C2DT32230G"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="23212408"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Dalton Trans.&amp;title=Benzylimidazolium cations as zeolite structure-directing agents. Differences in performance brought about by a small change in size&amp;author=A. Rojas&amp;author=L. Gómez-Hortigüela&amp;author=M. A. Camblor&amp;volume=42&amp;issue=7&amp;publication_year=2013&amp;pages=2562-2571&amp;pmid=23212408&amp;doi=10.1039/C2DT32230G&amp;"/></mixed-citation></ref><ref id="ref48"><mixed-citation id="cit48"><named-content content-type="citation-string">Oishi K., Muraoka K., Nakayama A.. Analysis of Al site-directing ability
+of organic structure-directing agents in FER and CHA zeolites: a computational
+exploration of energetic preferences. Chem.
+Commun. 2023;59(58):8953–8956. doi: 10.1039/D3CC01779F.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/D3CC01779F"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="37376997"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Commun.&amp;title=Analysis of Al site-directing ability of organic structure-directing agents in FER and CHA zeolites: a computational exploration of energetic preferences&amp;author=K. Oishi&amp;author=K. Muraoka&amp;author=A. Nakayama&amp;volume=59&amp;issue=58&amp;publication_year=2023&amp;pages=8953-8956&amp;pmid=37376997&amp;doi=10.1039/D3CC01779F&amp;"/></mixed-citation></ref><ref id="ref49"><mixed-citation id="cit49"><named-content content-type="citation-string">Altundal O. F., Leon S., Sastre G.. Different Zeolite Phases Obtained
+with the Same Organic Structure Directing Agent in the Presence and
+Absence of Aluminum: The Directing Role of Aluminum in the Synthesis
+of Zeolites. J. Phys. Chem. C. 2023;127(22):10797–10805. doi: 10.1021/acs.jpcc.3c01567.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jpcc.3c01567"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Phys. Chem. C&amp;title=Different Zeolite Phases Obtained with the Same Organic Structure Directing Agent in the Presence and Absence of Aluminum: The Directing Role of Aluminum in the Synthesis of Zeolites&amp;author=O. F. Altundal&amp;author=S. Leon&amp;author=G. Sastre&amp;volume=127&amp;issue=22&amp;publication_year=2023&amp;pages=10797-10805&amp;doi=10.1021/acs.jpcc.3c01567&amp;"/></mixed-citation></ref><ref id="ref50"><mixed-citation id="cit50"><named-content content-type="citation-string">Altundal O. F., Sastre G.. The Directing Role of Aluminum in the Synthesis of
+PST-21 (PWO), PST-22 (PWW), and ERS-7 (ESV) Zeolites. J. Phys. Chem. C. 2023;127(31):15648–15656. doi: 10.1021/acs.jpcc.3c03640.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jpcc.3c03640"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Phys. Chem. C&amp;title=The Directing Role of Aluminum in the Synthesis of PST-21 (PWO), PST-22 (PWW), and ERS-7 (ESV) Zeolites&amp;author=O. F. Altundal&amp;author=G. Sastre&amp;volume=127&amp;issue=31&amp;publication_year=2023&amp;pages=15648-15656&amp;doi=10.1021/acs.jpcc.3c03640&amp;"/></mixed-citation></ref><ref id="ref51"><mixed-citation id="cit51"><named-content content-type="citation-string">Navrotsky A., Trofymluk O., Levchenko A. A.. Thermochemistry of microporous and
+mesoporous materials. Chem. Rev. 2009;109(9):3885–3902. doi: 10.1021/cr800495t.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/cr800495t"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="19637927"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Rev.&amp;title=Thermochemistry of microporous and mesoporous materials&amp;author=A. Navrotsky&amp;author=O. Trofymluk&amp;author=A. A. Levchenko&amp;volume=109&amp;issue=9&amp;publication_year=2009&amp;pages=3885-3902&amp;pmid=19637927&amp;doi=10.1021/cr800495t&amp;"/></mixed-citation></ref><ref id="ref52"><mixed-citation id="cit52"><named-content content-type="citation-string">Zwijnenburg M. A., Bromley S. T.. Zeolite
+synthesis: an energetic perspective. Phys. Chem.
+Chem. Phys. 2010;12(43):14579–14584. doi: 10.1039/c0cp01045f.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/c0cp01045f"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="20938518"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Phys. Chem. Chem. Phys.&amp;title=Zeolite synthesis: an energetic perspective&amp;author=M. A. Zwijnenburg&amp;author=S. T. Bromley&amp;volume=12&amp;issue=43&amp;publication_year=2010&amp;pages=14579-14584&amp;pmid=20938518&amp;doi=10.1039/c0cp01045f&amp;"/></mixed-citation></ref><ref id="ref53"><mixed-citation id="cit53"><named-content content-type="citation-string">Asselman K., Vandenabeele D., Pellens N., Doppelhammer N., Kirschhock C. E., Breynaert E.. Structural aspects affecting phase
+selection in inorganic zeolite synthesis. Chem.
+Mater. 2022;34(24):11081–11092. doi: 10.1021/acs.chemmater.2c03204.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.chemmater.2c03204"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC9798827"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="36590702"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Mater.&amp;title=Structural aspects affecting phase selection in inorganic zeolite synthesis&amp;author=K. Asselman&amp;author=D. Vandenabeele&amp;author=N. Pellens&amp;author=N. Doppelhammer&amp;author=C. E. Kirschhock&amp;volume=34&amp;issue=24&amp;publication_year=2022&amp;pages=11081-11092&amp;pmid=36590702&amp;doi=10.1021/acs.chemmater.2c03204&amp;"/></mixed-citation></ref><ref id="ref54"><mixed-citation id="cit54"><named-content content-type="citation-string">Rais A., Vandenabeele D., Doppelhammer N., Asselman K., Wangermez W., Kirschhock C. E. A., Breynaert E.. Ion exchange selectivity governs
+phase selection in zeolite synthesis. Mater.
+Horiz. 2025;12(22):9601–9607. doi: 10.1039/D5MH01044F.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/D5MH01044F"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC12337820"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40787950"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mater. Horiz.&amp;title=Ion exchange selectivity governs phase selection in zeolite synthesis&amp;author=A. Rais&amp;author=D. Vandenabeele&amp;author=N. Doppelhammer&amp;author=K. Asselman&amp;author=W. Wangermez&amp;volume=12&amp;issue=22&amp;publication_year=2025&amp;pages=9601-9607&amp;pmid=40787950&amp;doi=10.1039/D5MH01044F&amp;"/></mixed-citation></ref><ref id="ref55"><mixed-citation id="cit55"><named-content content-type="citation-string">Zhang L., Fu W., He L., Cai G., Chen Q., Tang T.. Design and
+synthesis of Pt catalyst supported on ZSM-22 nanocrystals with increased
+accessible 10-MR pore mouths and acidic sites for long-chain n-alkane
+hydroisomerization. Microporous Mesoporous Mater. 2021;313:110834. doi: 10.1016/j.micromeso.2020.110834.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.micromeso.2020.110834"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Microporous Mesoporous Mater.&amp;title=Design and synthesis of Pt catalyst supported on ZSM-22 nanocrystals with increased accessible 10-MR pore mouths and acidic sites for long-chain n-alkane hydroisomerization&amp;author=L. Zhang&amp;author=W. Fu&amp;author=L. He&amp;author=G. Cai&amp;author=Q. Chen&amp;volume=313&amp;publication_year=2021&amp;pages=110834&amp;doi=10.1016/j.micromeso.2020.110834&amp;"/></mixed-citation></ref><ref id="ref56"><mixed-citation id="cit56"><named-content content-type="citation-string">Guo K., Ma A., Wang Z., Li J., Wu B., Liu T., Li D.. Investigation of n-heptane
+hydroisomerization over alkali-acid-treated
+hierarchical Pt/ZSM-22 zeolites. New J. Chem. 2022;46(35):16752–16763. doi: 10.1039/D2NJ02820D.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/D2NJ02820D"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=New J. Chem.&amp;title=Investigation of n-heptane hydroisomerization over alkali-acid-treated hierarchical Pt/ZSM-22 zeolites&amp;author=K. Guo&amp;author=A. Ma&amp;author=Z. Wang&amp;author=J. Li&amp;author=B. Wu&amp;volume=46&amp;issue=35&amp;publication_year=2022&amp;pages=16752-16763&amp;doi=10.1039/D2NJ02820D&amp;"/></mixed-citation></ref><ref id="ref57"><mixed-citation id="cit57"><named-content content-type="citation-string">
+
+Valyocsik, E. W.
+
+Synthesis of Porous
+Crystalline MCM-58; US 5,441,721 A, 1995.</named-content></mixed-citation></ref><ref id="ref58"><mixed-citation id="cit58"><named-content content-type="citation-string">
+STF Literature; 2025, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://zeodb.mit.edu/framework/STF" ext-link-type="uri">https://zeodb.mit.edu/framework/STF</ext-link>. (accessed 4 Nov 2025).</named-content></mixed-citation></ref><ref id="ref59"><mixed-citation id="cit59"><named-content content-type="citation-string">León S., Sastre G.. Computational
+screening of structure-directing agents
+for the synthesis of pure silica ITE zeolite. J. Phys. Chem. Lett. 2020;11(15):6164–6167. doi: 10.1021/acs.jpclett.0c01734.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/acs.jpclett.0c01734"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="32659095"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Phys. Chem. Lett.&amp;title=Computational screening of structure-directing agents for the synthesis of pure silica ITE zeolite&amp;author=S. León&amp;author=G. Sastre&amp;volume=11&amp;issue=15&amp;publication_year=2020&amp;pages=6164-6167&amp;pmid=32659095&amp;doi=10.1021/acs.jpclett.0c01734&amp;"/></mixed-citation></ref><ref id="ref60"><mixed-citation id="cit60"><named-content content-type="citation-string">
+StatSoft Inc, STATISTICA (data analysis
+software system)version 12; 2014.</named-content></mixed-citation></ref><ref id="ref61"><mixed-citation id="cit61"><named-content content-type="citation-string">Lewis D. W., Willock D. J., Catlow C. R. A., Thomas J. M., Hutchings G. J.. De novo
+design of structure-directing agents for the synthesis of microporous
+solids. Nature. 1996;382(6592):604–606. doi: 10.1038/382604a0.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1038/382604a0"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Nature&amp;title=De novo design of structure-directing agents for the synthesis of microporous solids&amp;author=D. W. Lewis&amp;author=D. J. Willock&amp;author=C. R. A. Catlow&amp;author=J. M. Thomas&amp;author=G. J. Hutchings&amp;volume=382&amp;issue=6592&amp;publication_year=1996&amp;pages=604-606&amp;doi=10.1038/382604a0&amp;"/></mixed-citation></ref><ref id="ref62"><mixed-citation id="cit62"><named-content content-type="citation-string">Pophale R., Daeyaert F., Deem M. W.. Computational
+prediction of chemically
+synthesizable organic structure directing agents for zeolites. J. Mater. Chem. A. 2013;1(23):6750–6760. doi: 10.1039/c3ta10626h.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/c3ta10626h"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=J. Mater. Chem. A&amp;title=Computational prediction of chemically synthesizable organic structure directing agents for zeolites&amp;author=R. Pophale&amp;author=F. Daeyaert&amp;author=M. W. Deem&amp;volume=1&amp;issue=23&amp;publication_year=2013&amp;pages=6750-6760&amp;doi=10.1039/c3ta10626h&amp;"/></mixed-citation></ref><ref id="ref63"><mixed-citation id="cit63"><named-content content-type="citation-string">Muraoka K., Chaikittisilp W., Okubo T.. Multi-objective de novo molecular
+design of organic structure-directing agents for zeolites using nature-inspired
+ant colony optimization. Chem. Sci. 2020;11(31):8214–8223. doi: 10.1039/D0SC03075A.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1039/D0SC03075A"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmcid" xlink:href="PMC8163217"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="34094176"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Sci.&amp;title=Multi-objective de novo molecular design of organic structure-directing agents for zeolites using nature-inspired ant colony optimization&amp;author=K. Muraoka&amp;author=W. Chaikittisilp&amp;author=T. Okubo&amp;volume=11&amp;issue=31&amp;publication_year=2020&amp;pages=8214-8223&amp;pmid=34094176&amp;doi=10.1039/D0SC03075A&amp;"/></mixed-citation></ref><ref id="ref64"><mixed-citation id="cit64"><named-content content-type="citation-string">Xie M., Schwalbe-Koda D., Semanate-Esquivel Y.
+M., Bello-Jurado E., Hoffman A., Santiago-Reyes O., Paris C., Moliner M., Gómez-Bombarelli R.. An exhaustive mapping of zeolite-template
+chemical space. ChemRxiv. 2024 doi: 10.26434/chemrxiv-2024-d74sw.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.26434/chemrxiv-2024-d74sw"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="pmid" xlink:href="40775382"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=ChemRxiv&amp;title=An exhaustive mapping of zeolite-template chemical space&amp;author=M. Xie&amp;author=D. Schwalbe-Koda&amp;author=Y. M. Semanate-Esquivel&amp;author=E. Bello-Jurado&amp;author=A. Hoffman&amp;publication_year=2024&amp;pmid=40775382&amp;doi=10.26434/chemrxiv-2024-d74sw&amp;"/></mixed-citation></ref><ref id="ref65"><mixed-citation id="cit65"><named-content content-type="citation-string">Xu L., Peng X., Xi Z., Yuan Z., Zhong W.. Predicting
+organic structures directing agents for zeolites with conditional
+deep learning generative model. Chem. Eng. Sci. 2023;282:119188. doi: 10.1016/j.ces.2023.119188.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1016/j.ces.2023.119188"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Eng. Sci.&amp;title=Predicting organic structures directing agents for zeolites with conditional deep learning generative model&amp;author=L. Xu&amp;author=X. Peng&amp;author=Z. Xi&amp;author=Z. Yuan&amp;author=W. Zhong&amp;volume=282&amp;publication_year=2023&amp;pages=119188&amp;doi=10.1016/j.ces.2023.119188&amp;"/></mixed-citation></ref><ref id="ref66"><mixed-citation id="cit66"><named-content content-type="citation-string">
+
+Daeyaert, F.
+; 
+Deem, M.
+. 
+De Novo Design of Organic Structure
+Directing Agents for the Synthesis of Zeolites. In AI-Guided Design and Property Prediction for Zeolites and Nanoporous
+Materials; 
+Sastre, G.
+; 
+Daeyaert, F.
+ eds.; Wiley, 2023;
+pp. 33–59. 10.1002/9781119819783.ch2.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1002/9781119819783.ch2"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="title=AI-Guided Design and Property Prediction for Zeolites and Nanoporous Materials&amp;publication_year=2023&amp;"/></mixed-citation></ref><ref id="ref67"><mixed-citation id="cit67"><named-content content-type="citation-string">Daeyaert F., Deem M. W.. In silico design of chiral dimers
+to direct the synthesis
+of a chiral zeolite. Mol. Phys. 2018;116(21–22):2836–2855. doi: 10.1080/00268976.2018.1492747.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1080/00268976.2018.1492747"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Mol. Phys.&amp;title=In silico design of chiral dimers to direct the synthesis of a chiral zeolite&amp;author=F. Daeyaert&amp;author=M. W. Deem&amp;volume=116&amp;issue=21–22&amp;publication_year=2018&amp;pages=2836-2855&amp;doi=10.1080/00268976.2018.1492747&amp;"/></mixed-citation></ref><ref id="ref68"><mixed-citation id="cit68"><named-content content-type="citation-string">
+Chemical Search; 2025, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://chem-space.com/search" ext-link-type="uri">https://chem-space.com/search</ext-link>. (accessed 4 Nov 2025).</named-content></mixed-citation></ref><ref id="ref69"><mixed-citation id="cit69"><named-content content-type="citation-string">Gálvez-Llompart M., Cantín A., Rey F., Sastre G.. Computational screening
+of structure directing agents for the synthesis of zeolites. A simplified
+model. Z. Fur Kristallogr. - Cryst. Mater. 2019;234(7–8):451–460. doi: 10.1515/zkri-2018-2132.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1515/zkri-2018-2132"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Z. Fur Kristallogr. - Cryst. Mater.&amp;title=Computational screening of structure directing agents for the synthesis of zeolites. A simplified model&amp;author=M. Gálvez-Llompart&amp;author=A. Cantín&amp;author=F. Rey&amp;author=G. Sastre&amp;volume=234&amp;issue=7–8&amp;publication_year=2019&amp;pages=451-460&amp;doi=10.1515/zkri-2018-2132&amp;"/></mixed-citation></ref><ref id="ref70"><mixed-citation id="cit70"><named-content content-type="citation-string">Shvets O. V., Kasian N., Zukal A., Pinkas J., Čejka J.. The role of
+template structure and synergism between inorganic and organic structure
+directing agents in the synthesis of UTL zeolite. Chem. Mater. 2010;22(11):3482–3495. doi: 10.1021/cm1006108.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/cm1006108"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Mater.&amp;title=The role of template structure and synergism between inorganic and organic structure directing agents in the synthesis of UTL zeolite&amp;author=O. V. Shvets&amp;author=N. Kasian&amp;author=A. Zukal&amp;author=J. Pinkas&amp;author=J. Čejka&amp;volume=22&amp;issue=11&amp;publication_year=2010&amp;pages=3482-3495&amp;doi=10.1021/cm1006108&amp;"/></mixed-citation></ref><ref id="ref71"><mixed-citation id="cit71"><named-content content-type="citation-string">
+IFR
+Literature; 2025, <ext-link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="https://zeodb.mit.edu/framework/IFR" ext-link-type="uri">https://zeodb.mit.edu/framework/IFR</ext-link>. (accessed 4 Nov 2025)</named-content></mixed-citation></ref><ref id="ref72"><mixed-citation id="cit72"><named-content content-type="citation-string">Villaescusa L., Barrett P., Kalwei M., Koller H., Camblor M. A.. Synthesis
+and physicochemical characterization of an aluminosilicate zeolite
+with IFR topology, prepared by the fluoride route. Chem. Mater. 2001;13(7):2332–2341. doi: 10.1021/cm001180e.</named-content><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="doi" xlink:href="10.1021/cm001180e"/><ext-link xmlns:xlink="http://www.w3.org/1999/xlink" ext-link-type="google-scholar" xlink:href="journal=Chem. Mater.&amp;title=Synthesis and physicochemical characterization of an aluminosilicate zeolite with IFR topology, prepared by the fluoride route&amp;author=L. Villaescusa&amp;author=P. Barrett&amp;author=M. Kalwei&amp;author=H. Koller&amp;author=M. A. Camblor&amp;volume=13&amp;issue=7&amp;publication_year=2001&amp;pages=2332-2341&amp;doi=10.1021/cm001180e&amp;"/></mixed-citation></ref></ref-list></sec></sec><sec id="_ad93_" xml:lang="en" sec-type="associated-data" disp-level="1"><title>Associated Data</title><sec id="_adsm93_" xml:lang="en" sec-type="supplementary-materials" disp-level="2"><title>Supplementary Materials</title><supplementary-material id="db_ds_supplementary-material1_reqid_" position="float"><media xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="cm5c01751_si_001.pdf" mimetype="application" mime-subtype="pdf"><?cloudpmc-path 414c/12747119/943c3dfd8268/cm5c01751_si_001.pdf?><?cloudpmc-bucket app?><?size 1410380?></media></supplementary-material></sec></sec></body></article>

@@ -21,15 +21,18 @@ from nrr.ingest.alcalase import build_alcalase_records  # noqa: E402
 from nrr.ingest.neuroimaging import build_neuroimaging_records  # noqa: E402
 from nrr.ingest.dfa import build_dfa_records  # noqa: E402
 from nrr.ingest.raman import build_raman_records  # noqa: E402
+from nrr.ingest.zeolite import build_zeolite_records  # noqa: E402
 from nrr.resolve import Resolver  # noqa: E402
 from nrr.schema import PROFILE_URI, validate  # noqa: E402
 
 BUILDERS = {"arcadia-alcalase": build_alcalase_records, "arcadia-neuroimaging": build_neuroimaging_records,
-            "arcadia-raman": build_raman_records, "arcadia-dfa": build_dfa_records}
+            "arcadia-raman": build_raman_records, "arcadia-dfa": build_dfa_records,
+            "acs-zeolite": build_zeolite_records}
 LICENSES = {"arcadia-alcalase": "https://creativecommons.org/licenses/by/4.0/",
             "arcadia-neuroimaging": "https://creativecommons.org/licenses/by/4.0/",
             "arcadia-raman": "https://creativecommons.org/licenses/by/4.0/",
-            "arcadia-dfa": "https://creativecommons.org/licenses/by/4.0/"}
+            "arcadia-dfa": "https://creativecommons.org/licenses/by/4.0/",
+            "acs-zeolite": "https://creativecommons.org/licenses/by/4.0/"}
 
 
 def git_commit() -> str:

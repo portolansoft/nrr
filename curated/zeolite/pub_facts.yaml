@@ -1,0 +1,153 @@
+# Statements transcribed from Altundal et al. 2025 (Chem. Mater. 37, 9689-9702) with their location in the article
+# (Europe PMC JATS, PMC12747119) or its Supporting Information (cm5c01751_si_001.pdf, page numbers S1-S36).
+publication:
+  doi: 10.1021/acs.chemmater.5c01751
+  pmcid: PMC12747119
+  pmid: "41472667"
+  title: Lessons from Failed Attempts of Computationally Guided Synthesis of Aluminosilicate STF and IFR Zeolites in Hydroxide Media
+  journal: Chemistry of Materials
+  volume: "37"
+  issue: "24"
+  pages: 9689-9702
+  published: "2025-12-09"
+  publisher: American Chemical Society
+  license: https://creativecommons.org/licenses/by/4.0/
+  licenseStatement: "This article is licensed under CC-BY 4.0 (JATS permissions element; Europe PMC license field 'cc by')"
+  url: https://doi.org/10.1021/acs.chemmater.5c01751
+  europePmcFullText: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12747119/fullTextXML
+  supportingInformation: cm5c01751_si_001.pdf
+  dataAvailability: "No data deposit outside the Supporting Information was found. Table S13 says detailed screening classifications 'can be obtained from the authors upon request'."
+  funding:
+    - "MICIU/AEI/10.13039/501100011033 project CEX2021-001230-S"
+    - "ERDF/EU PID2022-136934OB-I00"
+    - "European Union NextGenerationEU/PRTR TED2021-130191B-C41"
+operator:
+  name: Instituto de Tecnología Química
+  note: "Joint institute of the Universitat Politècnica de València and CSIC (UPV-CSIC). Corresponding authors at ITQ (Sastre) and SynopsisDeNovoDesign (Daeyaert); zeolite syntheses with the Na- and K-containing gels were done at POSTECH"
+contributors:
+  # The article carries no CRediT or author-contribution statement; every listed author is recorded as an author only.
+  - {name: Omer F. Altundal, affiliation: Instituto de Tecnología Química UPV-CSIC}
+  - {name: Maria Galvez-Llompart, affiliation: University of Valencia}
+  - {name: Angel Cantin, affiliation: Instituto de Tecnología Química UPV-CSIC}
+  - {name: José Valero, affiliation: Instituto de Tecnología Química UPV-CSIC}
+  - {name: Susana Valencia, affiliation: Instituto de Tecnología Química UPV-CSIC}
+  - {name: Fernando Rey, affiliation: Instituto de Tecnología Química UPV-CSIC}
+  - {name: Kingsley Christian Kemp, affiliation: POSTECH}
+  - {name: Suk Bong Hong, affiliation: POSTECH}
+  - {name: Frits Daeyaert, affiliation: SynopsisDeNovoDesign}
+  - {name: German Sastre, affiliation: Instituto de Tecnología Química UPV-CSIC}
+purpose: "Use synthesis-energy calculations, machine-learning classifiers and de novo design over more than 10,000 organic structure-directing agents to find OSDAs that would crystallise the aluminosilicate forms of the STF and IFR zeolites in hydroxide media, then test the shortlist hydrothermally."
+targets:
+  STF: "one-dimensional medium-pore zeolite, 10-ring channels about 5.4 x 5.7 A; never obtained as an aluminosilicate"
+  IFR: "large-pore zeolite, undulating 12-ring channels about 6.2 x 7.2 A; obtained as an aluminosilicate only with benzylquinuclidinium cations, usually in fluoride media"
+  constraint: "synthesis in hydroxide media, without fluoride"
+screening:
+  osdbTotal: 1190
+  osdbInPapers: 610
+  osdbNotInPapers: 580
+  activeForStf: 36
+  inactiveCloseToPareto: 42
+  paretoTolerance: "within 0.2 kJ per mol Si of the linear fit to the active OSDAs in the stabilisation-energy versus volume plot"
+  competingPhasesStf: [AEI, BEA, BEC, CHA, DDR, DOH, EUO, IFR, ITE, LTA, MEL, MFI, MOR, MTW, NON, RTH, SFF, SGT]
+  competingPhasesIfrExtra: [AFI, CON, STO]
+  competingPhasesIfrCount: 22
+  esynMostStableAmongInPapers: {AEI: 19, CHA: 38, BEC: 17, BEA: 4}
+  stfNeverMostStable: "None of the OSDAs tested resulted in STF being the most stable phase according to synthesis energies"
+  stfCandidatesFromPapers: 8
+  stfCandidatesFromPapersSplit: "5 active and 3 inactive"
+  stfCandidatesFromMl: 5
+  deNovoDesignedForStf: 1983
+  deNovoNearPareto: 18
+  deNovoNearParetoTop3: 0
+  ifrShoeboxMatches: 12
+  ifrShoeboxTop3: 1
+  ifrGenerated: 10000
+  ifrPassedFilters: 3226
+  ifrEvaluatedByEsyn: 6
+  ifrTop3: 4
+  totalsStated: "more than 1000 known OSDAs from OSDB and over 7000 designed OSDAs"
+  searchSpace: "6.5e10 molecules estimated for the multiple combinatorial chemistry tree"
+  reagentPriceCap: "100 USD per gram on ChemSpace"
+  loadingExplanation: "CHA holds 3 OSDA per 36 T atoms and AEI 4 per 48, both Si/Al 11; STF holds 4 per 64 T atoms, Si/Al 15, so AEI and CHA incorporate more aluminium and have lower synthesis energies"
+  source: "Results and Discussion sections 4.1 to 4.4; SI Section S7"
+machineLearning:
+  descriptors: [heavies, volume, Ia, Ib, Ic, Rayleigh charge, eps, kappa]
+  model1: "LDA on 453 OSDAs (24 STF, 429 non-STF); DF_STF = 0.017 V - 0.001 Ic - 1.984; Wilks lambda 0.972, F 6.526, p 0.0016; volume filter 175-208 A3 raises non-STF accuracy from 58 to 81 percent (train) and 55 to 79 (test)"
+  model2: "MLP 8-3-2, BFGS 19 iterations; train N 368, internal validation N 85, external N 171; specificity 99 percent, sensitivity 21 percent; recognised 0 of 8 STF OSDAs in the external set"
+  model3: "MLP 8-5-2 trained on 63 OSDAs (all STF actives plus chemically similar inactives); train accuracy 60 percent, validation 79; external set of 547 inactives, 80 percent correct"
+  selectionRule: "classified active by at least two of three models and volume 175-208 A3"
+  source: "SI Section S6, Tables S7 to S13"
+hydrothermal:
+  table1:
+    - {target: STF, gel: "SiO2 : x Al2O3 : 0.5 R(OH) : 10 H2O", siAl: "inf to 50", cation: none, temperatureC: "150-200", days: "14-18"}
+    - {target: IFR, gel: "SiO2 : x Al2O3 : 0.5 R(OH) : 10 H2O", siAl: "inf to 50", cation: none, temperatureC: "175-200", days: "14-28"}
+    - {target: "IFR, Na-present (SSZ-42-type)", gel: "SiO2 : x Al2O3 : y Na2O : z R(OH) : 43.3 H2O", siAl: "10-20", cation: "Na+ (0-0.18)", temperatureC: "150-165", days: "14"}
+    - {target: "IFR, K-present (MCM-58-type)", gel: "SiO2 : w Al2O3 : x K2O : y R(OH) : z RI : 40 H2O", siAl: "10-100", cation: "K+ (0-0.29)", temperatureC: "175", days: "7"}
+  source: "Table 1 (machine-readable in the JATS XML); outcomes in Table 2 (image) and SI Tables S18, S20, S21, S22"
+  productIdentification: "powder X-ray diffraction (SI Figures S10, S12, S14); no detection limit for a minority crystalline phase is stated"
+  table2Note: "Table 2 (image in the XML) reports QG001780m2 as 'amorphous (Table S22) and amorphous + MTW (Table S21)'; Table S21 also lists MOR and dense phases and Table S22 lists MOR and a dense phase, which Table 2 and the Discussion do not mention"
+osdas:
+  QHGWEBIGEQBZPY:
+    name: 6-ethyl-1-methyl-5-azaspiro[4.5]decan-5-ium
+    inchiKey: QHGWEBIGEQBZPY-RWMBFGLXNA-N
+    origin: "OSDB 'OSDAs in papers', inactive for STF, close to the Pareto front; previously synthesised by Shvets et al."
+    prediction: [CHA, AEI, STF]
+    counterion: bromide
+    purity: "obtained as a mixture of four diastereomers (eight configurations); the computed isomer is about one quarter of the cations present; attempts to isolate single isomers failed (SI Section S9, Table S19)"
+    elementalAnalysis: "Anal. calcd C 54.96, H 9.23, N 5.34; found C 49.24, H 9.50, N 5.03 (SI Section S8)"
+    stability: "13C NMR of mother liquors after 30 and 50 days shows loss of the original resonances and new peaks near 160 and 127 ppm, consistent with enamine and olefinic species (SI Figure S9)"
+  QG001780m:
+    name: N-benzyl-N,N,2-trimethylpropan-2-aminium
+    origin: "manual modification of the designed OSDA QG001780 (Table S17): the pyridine was replaced by a phenyl because quaternisation of the pyridine-derived cation would give a dication"
+    prediction: [CHA, AEI, IFR]
+    counterion: iodide
+    purity: "obtained pure; 1H and 13C NMR consistent with the expected functional groups (SI Section S9)"
+    stability: "NMR of mother liquors after 29 and 40 days shows progressive disappearance of the intact cation and new peaks near 160 and 127 ppm (SI Figure S11)"
+    inconsistency: "SI Section S8 says 'the cyclohexyl-derived organic cation was synthesized as an alternative'; the compound made, named and characterised is the N-benzyl (phenyl) cation, as main-text Table 2 states"
+  QG001780m2:
+    name: N-benzyl-N,N-dimethylpropan-2-aminium
+    origin: "isopropyl version of QG001780m"
+    prediction: [CHA, AEI, IFR]
+    counterion: iodide
+    purity: "yield 97.2 percent; NMR consistent (SI Section S8)"
+    stability: "about 3 percent degradation in the presence of Na+ and K+ after 4 and 1 days respectively (SI Figures S13, S15)"
+    mtwRank: 13
+    mtwRankSource: "Discussion: 'a mixture of amorphous material and MTW, which is far from being a top-rank prediction (ranked 13th)'"
+results:
+  headline: "Experimental synthesis using a shortlist of OSDAs predicted to favor STF or IFR, in addition to AEI or CHA, did not yield the expected aluminosilicate products, and instead, amorphous materials were obtained in most cases."
+  verdict: "our experiments did not result in AEI or CHA being synthesized (neither STF nor IFR), and hence in this sense our predictions from calculations must be considered a failure"
+  explanation:
+    - "the driving force in aluminosilicate composition is OSDA packing and aluminium incorporation (lower Si/Al), not the short-range zeolite-OSDA van der Waals interaction, so AEI and CHA are predicted to dominate"
+    - "all three OSDAs degraded or were structurally modified during synthesis, which prevented the intended structure-directing effect"
+    - "OSDA stability under hydrothermal conditions and nucleation kinetics are not represented in the synthesis-energy model; defects and solvation were not modelled"
+  verdictSource: Conclusions
+limitations:
+  - "No known-good OSDA was run alongside as a positive control for the hydrothermal protocol, so an amorphous product cannot be separated from a protocol failure."
+  - "Product identification is by powder XRD; no detection limit for a minority crystalline phase is stated."
+  - "The STF OSDA was a mixture of stereoisomers of which the computed isomer was about one quarter."
+  - "The number of autoclaves per table entry is not stated; each SI entry lists two sampling times."
+nextSteps:
+  - "Include solvent effects, especially how water and counter-cations influence framework stability and OSDA-framework interaction, in the phase prediction."
+  - "Examine OSDA stability under hydrothermal conditions, since degradation during synthesis can prevent structure direction."
+  - "Link computational insight with experimental feedback to guide zeolite crystallisation."
+openQuestions:
+  - "Can aluminosilicate STF or IFR be crystallised in hydroxide media at all, given that CHA and AEI are predicted to be more stable for every OSDA screened?"
+  - "Would the predicted phases (CHA, AEI) have formed if the OSDAs had survived the hydrothermal conditions?"
+software:
+  - {name: zeodock, role: "van der Waals stabilisation energy of an OSDA in a pure-silica framework (rapid screening)"}
+  - {name: zeoTsda, role: "synthesis-energy (E_syn) calculation for aluminosilicate zeolite-OSDA systems"}
+  - {name: Synopsis de novo design, role: "de novo design and stochastic (multiple) virtual combinatorial chemistry of quaternary ammonium OSDAs"}
+  - {name: STATISTICA, version: "12", role: "linear discriminant analysis and artificial neural network classifiers", publisher: StatSoft}
+databases:
+  - {name: OSDB (Organic Structure-directing agent DataBase), url: "https://zeodb.mit.edu/index", role: "1190 OSDAs with stabilisation energies and literature synthesis outcomes", doi: 10.1126/science.abh3350}
+  - {name: ChemSpace, url: "https://chem-space.com/search", role: "reagent availability and price filter for designed OSDAs"}
+priorArt:
+  esynMethod: [10.1021/acs.jpcc.3c01567, 10.1021/acs.jpcc.3c03640]
+  osdb: 10.1126/science.abh3350
+  stfOsdaPreviousSynthesis: 10.1021/cm1006108
+  aluminosilicateIfrFluoride: 10.1021/cm001180e
+  deNovoDesign: [10.1038/382604a0, 10.1039/c3ta10626h, 10.1039/C8TA11913A]
+  computationallyGuidedSuccesses: [10.1007/s11244-015-0381-1, 10.1021/acs.chemmater.5b04578]
+  mcm58Patent: "US 5,441,721 A (1995), no DOI"
+aiUse:
+  statement: "The article makes no statement about the use of generative AI in writing; machine-learning classifiers are part of the method and are recorded as software, not as authors."

@@ -59,7 +59,8 @@ ontology:
   - homologous recombination
 cellLines: [ARPE-19]
 genes: [ABCA1, MFGE8, PROS1, GAS6]
-organizations: [Edison Scientific, Arcadia Science, Astera Institute, FutureHouse, Chlamydomonas Resource Center, Eye-Bank for Sight Restoration]
+organizations: [Edison Scientific, Arcadia Science, Astera Institute, FutureHouse, Chlamydomonas Resource Center, Eye-Bank for Sight Restoration,
+  Instituto de Tecnología Química]
 rrids: [SCR_002285, SCR_015687, SCR_010519, SCR_015530, SCR_012919, SCR_001905, SCR_018931, SCR_002798, SCR_003070]
 dois:
   - 10.1038/s41586-026-10652-y
@@ -89,3 +90,15 @@ dois:
   - 10.1093/plphys/kiab418
   - 10.1093/plphys/kiae427
   - 10.3389/fpls.2020.00306
+  # acs-zeolite (Altundal et al. 2025) and the prior art its record cites
+  - 10.1021/acs.chemmater.5c01751
+  - 10.1021/acs.jpcc.3c01567
+  - 10.1021/acs.jpcc.3c03640
+  - 10.1126/science.abh3350
+  - 10.1021/cm1006108
+  - 10.1021/cm001180e
+  - 10.1038/382604a0
+  - 10.1039/c3ta10626h
+  - 10.1039/C8TA11913A
+  - 10.1007/s11244-015-0381-1
+  - 10.1021/acs.chemmater.5b04578

@@ -9,6 +9,7 @@ from nrr.ingest.neuroimaging import build_neuroimaging_records
 from nrr.ingest.dfa import build_dfa_records
 from nrr.ingest.raman import build_raman_records
 from nrr.ingest.robin import build_robin_records
+from nrr.ingest.zeolite import build_zeolite_records
 from nrr.resolve import Resolver
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -20,7 +21,7 @@ def db(tmp_path_factory):
     resolver = Resolver(ROOT / "curated/identifiers.json", online=False)
     records = (build_robin_records(ROOT, resolver) + build_alcalase_records(ROOT, resolver)
                + build_neuroimaging_records(ROOT, resolver) + build_raman_records(ROOT, resolver)
-               + build_dfa_records(ROOT, resolver))
+               + build_dfa_records(ROOT, resolver) + build_zeolite_records(ROOT, resolver))
     path = tmp_path_factory.mktemp("db") / "portolan.sqlite"
     load(records, path)
     return path
@@ -124,3 +125,19 @@ def test_computational_controls_are_in_use_alongside_wet_lab_ones(db):
 def test_a_refuted_finding_is_not_counted_as_an_uninformative_negative(db):
     slugs_and_ids = {(r["slug"], r["finding_id"]) for r in query(db, "uninformative_negatives")}
     assert ("arcadia-raman-strain-classification", "strain-standard-cv") not in slugs_and_ids
+
+
+def test_a_refuted_prediction_points_at_the_experiment_that_refutes_it(db):
+    """Zeolite: the computational predictions are refuted by syntheses that are themselves uninformative negatives;
+    the registry keeps both verdicts and the link between them."""
+    import sqlite3
+    con = sqlite3.connect(db)
+    rows = con.execute("select f.finding_id, f.outcome_class, f.informativeness from findings f join records r on r.id = f.record_id where r.slug = 'acs-zeolite-osda-screen' and finding_id like 'prediction-%'").fetchall()
+    assert len(rows) == 3 and all(o == "refuted" and i == "not-applicable" for _, o, i in rows)
+    unin = {r["slug"] for r in query(db, "uninformative_negatives") if r["study_id"] == "acs-zeolite"}
+    assert "acs-zeolite-stf-synthesis" in unin and "acs-zeolite-ifr-synthesis-qg001780m2" in unin
+
+
+def test_materials_entities_are_queryable_by_framework_code(db):
+    rows = query(db, "by_entity", entity_id="iza:STF")
+    assert rows and all(r["study_id"] == "acs-zeolite" for r in rows)
