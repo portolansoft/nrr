@@ -1,0 +1,19 @@
+sda_name,target,rank_of_target,activity_for_target,competing_phase_1,competing_phase_2,origin,synthesized,source
+cgqmgluhxvexsg-rnjobuhina-n,STF,3,active,AEI,CHA,OSDB OSDAs in papers,no,SI Table S14
+fxjtwougulwimg-gmtapvotna-n,STF,3,active,AEI,CHA,OSDB OSDAs in papers,no,SI Table S14
+qupnwqbgkwgrpi-mnovxskena-n,STF,3,active,CHA,BEA,OSDB OSDAs in papers,no,SI Table S14
+uiqhuhpirrylde-ghmzboclna-n,STF,3,active,CHA,IFR,OSDB OSDAs in papers,no,SI Table S14
+uiryawvsbuzmbf-lbprgkrzna-n,STF,2,active,CHA,IFR,OSDB OSDAs in papers,no,SI Table S14
+dmbilwvuaapkhw-fopumgahna-n,STF,2,inactive,AEI,RTH,OSDB OSDAs in papers,no,SI Table S14
+hgachmqvwwzpcx-dtorhvgona-n,STF,3,inactive,CHA,AEI,OSDB OSDAs in papers,no,SI Table S14
+qhgwebigeqbzpy-rwmbfglxna-n,STF,3,inactive,CHA,AEI,OSDB OSDAs in papers,yes,SI Table S14
+hejvksjbfvlvbd-mdzlaqpjna-n,STF,3,untested,CHA,AEI,OSDB OSDAs not in papers via machine-learning screen,no,SI Table S15
+iqjlosscagcham-ijlutslnna-n,STF,3,untested,AEI,CHA,OSDB OSDAs not in papers via machine-learning screen,no,SI Table S15
+jfllrckfjnjnta-foscpwqona-n,STF,3,untested,AEI,CHA,OSDB OSDAs not in papers via machine-learning screen,no,SI Table S15
+owufmqfwihwpkf-qwrguyrkna-n,STF,3,untested,CHA,LTA,OSDB OSDAs not in papers via machine-learning screen,no,SI Table S15
+rpntwzaqibhwgt-uhfffaoyna-n,STF,3,untested,CHA,AEI,OSDB OSDAs not in papers via machine-learning screen,no,SI Table S15
+vtksrdvidrqpcp-wopdtqhzna-n,IFR,3,untested,AEI,CHA,OSDB via shoebox filter,no,SI Table S16
+syn000079,IFR,3,designed,CHA,AEI,designed (de novo or combinatorial),no,SI Table S17
+qg001780,IFR,3,designed,CHA,AEI,designed (multiple combinatorial chemistry),no,SI Table S17
+qg001780m,IFR,3,designed,CHA,AEI,"designed, manual modification of qg001780 (pyridine replaced by phenyl)",yes,SI Table S17
+qg001780m2,IFR,3,designed,CHA,AEI,"designed, isopropyl version of qg001780m",yes,SI Table S17

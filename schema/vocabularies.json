@@ -221,6 +221,7 @@
   "anatomicalStructure",
   "gene",
   "protein",
+  "material",
   "compound",
   "reagent",
   "assay",

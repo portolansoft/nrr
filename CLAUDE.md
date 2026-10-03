@@ -1,6 +1,6 @@
 # Portolan NRR pipeline
 
-Turns published studies into validated Negative-Results Records. Five studies are encoded. See `README.md` for what
+Turns published studies into validated Negative-Results Records. Six studies are encoded. See `README.md` for what
 the project is and `docs/` for why decisions were made. This file is how to work in the code.
 
 ## Commands

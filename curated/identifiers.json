@@ -962,6 +962,21 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1007/s11244-015-0381-1": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:36:48Z",
+  "container": "Topics in Catalysis",
+  "fetchedAt": "2026-10-03T01:36:48Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2015,
+   4,
+   2
+  ],
+  "title": "Computationally-Guided Synthesis of the 8-Ring Zeolite AEI",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1016/j.algal.2024.103435": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:52:46Z",
@@ -1188,6 +1203,96 @@
   "type": "journal-article",
   "version": "VoR"
  },
+ "doi:10.1021/acs.chemmater.5b04578": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:36:49Z",
+  "container": "Chemistry of Materials",
+  "fetchedAt": "2026-10-03T01:36:49Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2016,
+   1,
+   20
+  ],
+  "title": "Computationally Guided Synthesis of SSZ-52: A Zeolite for Engine Exhaust Clean-up",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acs.chemmater.5c01751": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:36:49Z",
+  "container": "Chemistry of Materials",
+  "fetchedAt": "2026-10-03T01:36:49Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2025,
+   12,
+   9
+  ],
+  "title": "Lessons from Failed Attempts of Computationally Guided Synthesis of Aluminosilicate STF and IFR Zeolites in Hydroxide Media",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acs.jpcc.3c01567": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:36:50Z",
+  "container": "The Journal of Physical Chemistry C",
+  "fetchedAt": "2026-10-03T01:36:50Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2023,
+   5,
+   30
+  ],
+  "title": "Different Zeolite Phases Obtained with the Same Organic Structure Directing Agent in the Presence and Absence of Aluminum: The Directing Role of Aluminum in the Synthesis of Zeolites",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/acs.jpcc.3c03640": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:36:51Z",
+  "container": "The Journal of Physical Chemistry C",
+  "fetchedAt": "2026-10-03T01:36:51Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2023,
+   7,
+   31
+  ],
+  "title": "The Directing Role of Aluminum in the Synthesis of PST-21 (PWO), PST-22 (PWW), and ERS-7 (ESV) Zeolites",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/cm001180e": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:36:52Z",
+  "container": "Chemistry of Materials",
+  "fetchedAt": "2026-10-03T01:36:52Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2001,
+   6,
+   7
+  ],
+  "title": "Synthesis and Physicochemical Characterization of an Aluminosilicate Zeolite with IFR Topology, Prepared by the Fluoride Route",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1021/cm1006108": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:36:52Z",
+  "container": "Chemistry of Materials",
+  "fetchedAt": "2026-10-03T01:36:52Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2010,
+   5,
+   4
+  ],
+  "title": "The Role of Template Structure and Synergism between Inorganic and Organic Structure Directing Agents in the Synthesis of UTL Zeolite",
+  "type": "journal-article",
+  "version": "VoR"
+ },
  "doi:10.1021/jm00090a019": {
   "assertedBy": "crossref-relation",
   "checkedAt": "2026-09-26T01:52:52Z",
@@ -1200,6 +1305,19 @@
    1
   ],
   "title": "Novel functional M1 selective muscarinic agonists. Synthesis and structure-activity relationships of 3-(1,2,5-thiadiazolyl)-1,2,5,6-tetrahydro-1-methylpyridines",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1038/382604a0": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:36:53Z",
+  "container": "Nature",
+  "fetchedAt": "2026-10-03T01:36:53Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "De novo design of structure-directing agents for the synthesis of microporous solids",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -1469,6 +1587,32 @@
    19
   ],
   "title": "Laminin-defined mechanical status modulates retinal pigment epithelium phagocytosis",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1039/c3ta10626h": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:36:55Z",
+  "container": "Journal of Materials Chemistry A",
+  "fetchedAt": "2026-10-03T01:36:55Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "Computational prediction of chemically synthesizable organic structure directing agents for zeolites",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1039/c8ta11913a": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:36:54Z",
+  "container": "Journal of Materials Chemistry A",
+  "fetchedAt": "2026-10-03T01:36:54Z",
+  "integrity": "none",
+  "publishedOnline": [
+   2019
+  ],
+  "title": "Design of organic structure directing agents for polymorph A zeolite beta",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -1744,6 +1888,19 @@
    null
   ],
   "title": "Identification of Small Molecule Activators of Cryptochrome",
+  "type": "journal-article",
+  "version": "VoR"
+ },
+ "doi:10.1126/science.abh3350": {
+  "assertedBy": "crossref-relation",
+  "checkedAt": "2026-10-03T01:36:55Z",
+  "container": "Science",
+  "fetchedAt": "2026-10-03T01:36:55Z",
+  "integrity": "none",
+  "publishedOnline": [
+   null
+  ],
+  "title": "A priori control of zeolite phase competition and intergrowth with high-throughput simulations",
   "type": "journal-article",
   "version": "VoR"
  },
@@ -2698,6 +2855,12 @@
  "org:futurehouse": {
   "fetchedAt": "2026-09-26T01:51:17Z",
   "unresolved": true
+ },
+ "org:instituto de tecnología química": {
+  "fetchedAt": "2026-10-03T01:36:47Z",
+  "identifier": "https://ror.org/038792a28",
+  "label": "Instituto de Tecnología Química",
+  "source": "ROR v2 API"
  },
  "protein:ABCA1:9606": {
   "fetchedAt": "2026-09-26T01:51:03Z",

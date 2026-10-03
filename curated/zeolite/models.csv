@@ -1,0 +1,20 @@
+model,method,dataset,class,accuracy_pct,classified_stf,classified_non_stf,n,source
+Model 1,linear discriminant analysis on volume and Ic,train,STF OSDA,92,22,2,24,SI Table S7
+Model 1,linear discriminant analysis on volume and Ic,train,non-STF OSDA,58,179,250,429,SI Table S7
+Model 1,linear discriminant analysis on volume and Ic,test,STF OSDA,88,7,1,8,SI Table S7
+Model 1,linear discriminant analysis on volume and Ic,test,non-STF OSDA,55,74,89,163,SI Table S7
+Model 1 + volume filter,discriminant function plus volume 175-208 A3,train,STF OSDA,92,22,2,24,SI Table S8
+Model 1 + volume filter,discriminant function plus volume 175-208 A3,train,non-STF OSDA,81,82,347,429,SI Table S8
+Model 1 + volume filter,discriminant function plus volume 175-208 A3,test,STF OSDA,88,7,1,8,SI Table S8
+Model 1 + volume filter,discriminant function plus volume 175-208 A3,test,non-STF OSDA,79,34,129,163,SI Table S8
+Model 2,multilayer perceptron 8-3-2 on eight descriptors,train,STF OSDA,21,4,15,19,SI Table S10
+Model 2,multilayer perceptron 8-3-2 on eight descriptors,train,non-STF OSDA,99,3,346,349,SI Table S10
+Model 2,multilayer perceptron 8-3-2 on eight descriptors,validation,STF OSDA,20,1,4,5,SI Table S10
+Model 2,multilayer perceptron 8-3-2 on eight descriptors,validation,non-STF OSDA,100,0,80,80,SI Table S10
+Model 2,multilayer perceptron 8-3-2 on eight descriptors,external,STF OSDA,0,0,8,8,"SI Section S6 text: unable to recognize any STF OSDAs (N=8)"
+Model 2,multilayer perceptron 8-3-2 on eight descriptors,external,non-STF OSDA,98,,,163,"SI Section S6 text: external set N=171, 98% for non-STF OSDAs"
+Model 3,multilayer perceptron 8-5-2 trained on chemically similar inactives,train,STF OSDA,42,12,16,28,SI Table S12
+Model 3,multilayer perceptron 8-5-2 trained on chemically similar inactives,train,non-STF OSDA,74,9,26,35,SI Table S12
+Model 3,multilayer perceptron 8-5-2 trained on chemically similar inactives,validation,STF OSDA,75,3,1,4,SI Table S12
+Model 3,multilayer perceptron 8-5-2 trained on chemically similar inactives,validation,non-STF OSDA,80,2,8,10,SI Table S12
+Model 3,multilayer perceptron 8-5-2 trained on chemically similar inactives,external,non-STF OSDA,80,111,436,547,"SI Section S6 text: 436 of 547 correctly classified; external set contains no STF OSDAs"

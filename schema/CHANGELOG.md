@@ -126,3 +126,37 @@ The last row is a new combination rather than a new clause. It is also the only 
 the authors do not list: they attribute their null to trait coverage and to errors in calling the protein absent, and do
 not note that without a positive control a null result cannot be separated from a method that would not have detected an
 association at these sample sizes.
+
+## v0.2.4 (2026-10-02) — changes forced by four ACS chemistry studies
+
+The first studies outside biology, all American Chemical Society articles under CC BY 4.0, chosen from the screen in
+`../research/acs-negative-results-candidates-2026-10-02.md` to exercise the materials profile sketched in v0.1 and never
+used against a real paper. Encoded one at a time; the change count per study is appended to the series 12, 8, 5, 2.
+
+### Study 6: Altundal et al. 2025, computationally guided synthesis of aluminosilicate STF and IFR zeolites
+
+Driven by encoding Altundal, Galvez-Llompart, Cantin et al. 2025, *Lessons from Failed Attempts of Computationally Guided
+Synthesis of Aluminosilicate STF and IFR Zeolites in Hydroxide Media* (Chem. Mater. 37, 9689-9702,
+doi:10.1021/acs.chemmater.5c01751). A whole pipeline: machine-learning classifiers, de novo design and synthesis-energy
+ranking over more than 10,000 organic structure-directing agents, three taken to the bench, every hydrothermal synthesis
+amorphous or the wrong phase.
+
+| # | Change | Forced by |
+|---|---|---|
+| 28 | **`material` entity type.** | The study's targets and products are zeolite framework types (STF, IFR, AEI, CHA, MTW, MOR), identified by IZA three-letter codes. A framework is neither a compound nor a reagent: it is a crystalline topology that many compositions can adopt. The v0.1 materials profile anticipated this and v0.2 had no type for it. |
+
+**Change count for this study: 1.** Nothing structural.
+
+**What did not need to change.** Three failure modes written for materials in v0.1 and never used (`phase-not-formed`,
+`impurity-phase`, `decomposition`) fired for the first time, on real syntheses. `refuted` carried the computational
+predictions, judged on the authors' own verdict in the Conclusions, with `relatedFindings` pointing at the syntheses that
+refute them. `screened` with `score.rank` carried the 18 shortlisted OSDAs and which three were synthesised. `Stage`
+with `stage: ranking` and `sourcesSearched` carried a 1,190-entry chemistry database as naturally as it carried PubMed.
+
+**Judgement recorded, not resolved by code.** The synthesis negatives are `inconclusive-no-positive-control`: no OSDA known
+to crystallise a zeolite was run through the same hydroxide protocol, no XRD detection limit is stated, and the classifier
+sensitivity and specificity in SI Tables S7 to S12 describe the screen, not the synthesis, so they do not count as a
+sensitivity statement. The predictions are therefore refuted by experiments that are themselves uninformative negatives
+for their own targets, and two of the three OSDAs degraded during synthesis. Both verdicts are kept and the link between
+them is recorded; the record says in `provenanceNotes` that what is refuted is the pipeline's prediction of the outcome
+under the conditions actually run, not the thermodynamic ranking as such.

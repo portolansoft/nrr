@@ -1,0 +1,348 @@
+{
+ "europePmcCore": {
+  "id": "41472667",
+  "source": "MED",
+  "pmid": "41472667",
+  "pmcid": "PMC12747119",
+  "fullTextIdList": {
+   "fullTextId": [
+    "PMC12747119"
+   ]
+  },
+  "doi": "10.1021/acs.chemmater.5c01751",
+  "title": "Lessons from Failed Attempts of Computationally Guided Synthesis of Aluminosilicate STF and IFR Zeolites in Hydroxide Media.",
+  "authorString": "Altundal OF, Galvez-Llompart M, Cantin A, Valero J, Valencia S, Rey F, Kemp KC, Hong SB, Daeyaert F, Sastre G.",
+  "authorList": {
+   "author": [
+    {
+     "fullName": "Altundal OF",
+     "lastName": "Altundal",
+     "firstName": "Omer F",
+     "initials": "OF",
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Instituto de Tecnología Química UPV-CSIC, Universidad Politécnica de Valencia, Valencia 46022, Spain."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Galvez-Llompart M",
+     "lastName": "Galvez-Llompart",
+     "firstName": "Maria",
+     "initials": "M",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0002-0718-4143"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Molecular Topology and Drug Design Unit. Faculty of Pharmacy and Food Sciences, Department of Preventive Medicine and Public Health, Food Sciences, Toxicology and Forensic Medicine, University of Valencia, Valencia 46100, Spain."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Cantin A",
+     "lastName": "Cantin",
+     "firstName": "Angel",
+     "initials": "A",
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Instituto de Tecnología Química UPV-CSIC, Universidad Politécnica de Valencia, Valencia 46022, Spain."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Valero J",
+     "lastName": "Valero",
+     "firstName": "José",
+     "initials": "J",
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Instituto de Tecnología Química UPV-CSIC, Universidad Politécnica de Valencia, Valencia 46022, Spain."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Valencia S",
+     "lastName": "Valencia",
+     "firstName": "Susana",
+     "initials": "S",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0001-7160-2795"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Instituto de Tecnología Química UPV-CSIC, Universidad Politécnica de Valencia, Valencia 46022, Spain."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Rey F",
+     "lastName": "Rey",
+     "firstName": "Fernando",
+     "initials": "F",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0003-3227-5669"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Instituto de Tecnología Química UPV-CSIC, Universidad Politécnica de Valencia, Valencia 46022, Spain."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Kemp KC",
+     "lastName": "Kemp",
+     "firstName": "Kingsley Christian",
+     "initials": "KC",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0002-1478-3515"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Center for Ordered Nanoporous Materials Synthesis, Division of Environmental Science and Engineering, POSTECH, Pohang 37673, South Korea."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Hong SB",
+     "lastName": "Hong",
+     "firstName": "Suk Bong",
+     "initials": "SB",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0002-2855-1600"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Center for Ordered Nanoporous Materials Synthesis, Division of Environmental Science and Engineering, POSTECH, Pohang 37673, South Korea."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Daeyaert F",
+     "lastName": "Daeyaert",
+     "firstName": "Frits",
+     "initials": "F",
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "SynopsisDeNovoDesign, Beerse 2340, Belgium."
+       }
+      ]
+     }
+    },
+    {
+     "fullName": "Sastre G",
+     "lastName": "Sastre",
+     "firstName": "German",
+     "initials": "G",
+     "authorId": {
+      "type": "ORCID",
+      "value": "0000-0003-0496-6331"
+     },
+     "authorAffiliationDetailsList": {
+      "authorAffiliation": [
+       {
+        "affiliation": "Instituto de Tecnología Química UPV-CSIC, Universidad Politécnica de Valencia, Valencia 46022, Spain."
+       }
+      ]
+     }
+    }
+   ]
+  },
+  "authorIdList": {
+   "authorId": [
+    {
+     "type": "ORCID",
+     "value": "0000-0001-7160-2795"
+    },
+    {
+     "type": "ORCID",
+     "value": "0000-0002-0718-4143"
+    },
+    {
+     "type": "ORCID",
+     "value": "0000-0002-1478-3515"
+    },
+    {
+     "type": "ORCID",
+     "value": "0000-0002-2855-1600"
+    },
+    {
+     "type": "ORCID",
+     "value": "0000-0003-0496-6331"
+    },
+    {
+     "type": "ORCID",
+     "value": "0000-0003-3227-5669"
+    }
+   ]
+  },
+  "dataLinksTagsList": {
+   "dataLinkstag": [
+    "altmetrics",
+    "supporting_data"
+   ]
+  },
+  "journalInfo": {
+   "issue": "24",
+   "volume": "37",
+   "journalIssueId": 4080534,
+   "dateOfPublication": "2025 Dec",
+   "monthOfPublication": 12,
+   "yearOfPublication": 2025,
+   "journal": {
+    "medlineAbbreviation": "Chem Mater",
+    "title": "Chemistry of materials : a publication of the American Chemical Society",
+    "essn": "1520-5002",
+    "issn": "0897-4756",
+    "isoabbreviation": "Chem Mater",
+    "nlmid": "9884133"
+   },
+   "printPublicationDate": "2025-12-01"
+  },
+  "pubYear": "2025",
+  "pageInfo": "9689-9702",
+  "abstractText": "Although zeolites are primarily aluminosilicates in terms of chemical composition, not all zeotypes have been successfully synthesized as aluminosilicates to date. This study aims to contribute answering the long-standing question of why some zeotypes cannot, or have not yet been, synthesized as aluminosilicates, using a computational approach that combines big data, artificial intelligence, accurate descriptors, and an algorithm for designing quaternary ammonium organic structure-directing agents (OSDAs) that help lower the total energy of the zeolite-OSDA system. The use of the synthesis energy descriptor enables evaluation of the reaction energy from gel monomers to the final zeolite product, including the occluded OSDA, while also accounting for the energetic contributions of framework aluminum, representing an improvement over previous models based on pure silica. The focus is on STF and IFR zeolites, whose synthesis in hydroxide media typically results in products with very high silicon to aluminum ratios. More than 10000 OSDAs, either designed or retrieved from existing databases, were evaluated under conditions likely to favor the formation of STF or IFR, and the corresponding synthesis energies were calculated for STF, IFR, and approximately 20 other competing zeolite phases. The computational results show that AEI, CHA, and a few other zeolites are consistently more energetically favorable, regardless of the OSDA used. This is explained by the increasing stability of phases as the aluminum content increases. Experimental synthesis using a shortlist of OSDAs predicted to favor STF or IFR, in addition to AEI or CHA, did not yield the expected aluminosilicate products, and instead, amorphous materials were obtained in most cases. While further refinement of computational tools is needed to better reflect experimental synthesis conditions, the results provide valuable insight and justification for the difficulty of synthesizing aluminosilicate STF and IFR in hydroxide media.",
+  "affiliation": "Instituto de Tecnología Química UPV-CSIC, Universidad Politécnica de Valencia, Valencia 46022, Spain.",
+  "publicationStatus": "epublish",
+  "language": "eng",
+  "pubModel": "Electronic-eCollection",
+  "pubTypeList": {
+   "pubType": [
+    "research-article",
+    "Journal Article"
+   ]
+  },
+  "grantsList": {
+   "grant": [
+    {
+     "agency": "European Regional Development Fund",
+     "grantId": "PID2022136934OB-I00",
+     "orderIn": 0
+    },
+    {
+     "agency": "NextGenerationEU",
+     "grantId": "TED2021130191B-C41",
+     "orderIn": 0
+    },
+    {
+     "agency": "Consejo Superior de Investigaciones Cient?ficas",
+     "orderIn": 0
+    },
+    {
+     "agency": "EcoPro HN",
+     "orderIn": 0
+    },
+    {
+     "agency": "Universitat Polit?cnica de Val?ncia",
+     "orderIn": 0
+    },
+    {
+     "agency": "Ministerio de Ciencia, Innovaci?n y Universidades",
+     "grantId": "CEX2021001230-S",
+     "orderIn": 0
+    },
+    {
+     "agency": "Ag?ncia Valenciana de la Innovaci?",
+     "grantId": "CIPROM/2024/050",
+     "orderIn": 0
+    }
+   ]
+  },
+  "fullTextUrlList": {
+   "fullTextUrl": [
+    {
+     "availability": "Subscription required",
+     "availabilityCode": "S",
+     "documentStyle": "doi",
+     "site": "DOI",
+     "url": "https://doi.org/10.1021/acs.chemmater.5c01751"
+    },
+    {
+     "availability": "Open access",
+     "availabilityCode": "OA",
+     "documentStyle": "html",
+     "site": "Europe_PMC",
+     "url": "https://europepmc.org/articles/PMC12747119"
+    },
+    {
+     "availability": "Open access",
+     "availabilityCode": "OA",
+     "documentStyle": "pdf",
+     "site": "Europe_PMC",
+     "url": "https://europepmc.org/articles/PMC12747119?pdf=render"
+    }
+   ]
+  },
+  "isOpenAccess": "Y",
+  "inEPMC": "Y",
+  "inPMC": "Y",
+  "citedByCount": 2,
+  "hasReferences": "Y",
+  "hasTextMinedTerms": "Y",
+  "hasDbCrossReferences": "N",
+  "hasPDF": "Y",
+  "hasBook": "N",
+  "hasSuppl": "Y",
+  "hasLabsLinks": "Y",
+  "hasData": "Y",
+  "license": "cc by",
+  "authMan": "N",
+  "epmcAuthMan": "N",
+  "nihAuthMan": "N",
+  "hasTMAccessionNumbers": "Y",
+  "tmAccessionTypeList": {
+   "accessionType": [
+    "doi"
+   ]
+  },
+  "dateOfCompletion": "2025-12-31",
+  "dateOfCreation": "2025-12-31",
+  "dateOfRevision": "2026-01-02",
+  "electronicPublicationDate": "2025-12-09",
+  "firstPublicationDate": "2025-12-09",
+  "firstIndexDate": "2026-01-02",
+  "fullTextReceivedDate": "2025-12-30",
+  "hasEvaluations": "N"
+ },
+ "fetched": {
+  "date": "2026-10-02",
+  "fullTextXML": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12747119/fullTextXML",
+  "supplementaryFiles": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12747119/supplementaryFiles",
+  "files": {
+   "europepmc/PMC12747119.fullTextXML.xml": {
+    "sha256": "bcd5861683213a8b961d4882d86de7bfc62dc0da182fbf3461014dc801a1b971",
+    "size": 152094
+   },
+   "si/cm5c01751_si_001.pdf": {
+    "sha256": "6dcd970fc3be803e63b2699eef714263cdcfbdd4ce66019f3502ccb8097e81b3",
+    "size": 1410380
+   },
+   "si/table2_cm5c01751_0007.jpg": {
+    "sha256": "09d0569ad1b25cc676744c79fe4ab8003621690bc6e01c6e48f855b998b3e5c6",
+    "size": 108739
+   }
+  }
+ }
+}

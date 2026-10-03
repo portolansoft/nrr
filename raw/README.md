@@ -18,3 +18,5 @@ Robin converter or its tests; the tests skip themselves when the folder is absen
 | raman/pub/ | text extracted from the Stacks publication HTML (doi:10.57844/arcadia-xdmk-yq0w). | CC BY 4.0 |
 | dfa/zenodo/ | Zenodo records 10211653 (ProteinCartography inputs and outputs, 1.6 GB, manifest only) and 10779267 (code and data), metadata JSON. | CC BY 4.0 |
 | dfa/pub/ | text extracted from the Stacks publication HTML (doi:10.57844/arcadia-9768-f6c5). | CC BY 4.0 |
+| zeolite/europepmc/ | JATS full text of Altundal et al. 2025 (Chem. Mater., doi:10.1021/acs.chemmater.5c01751) from `ebi.ac.uk/europepmc/webservices/rest/PMC12747119/fullTextXML`, with the Europe PMC core metadata and sha256 checksums in `record.json`. `pubs.acs.org` refuses scripted fetches; Europe PMC holds the CC BY deposit. | CC BY 4.0 |
+| zeolite/si/ | Supporting Information PDF `cm5c01751_si_001.pdf` (39 pages; synthesis tables S18 to S22 are text, transcribed into `curated/zeolite/`) and the Table 2 image `cm5c01751_0007.jpg`, both from the Europe PMC supplementary-files bundle. | CC BY 4.0 |
