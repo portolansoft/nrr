@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Discourse graph: {{title}} — Portolan Software</title>
+<meta name="description" content="{{description}}">
+<link rel="canonical" href="https://portolansoft.com/graphs/{{study}}">
+<meta name="theme-color" content="#f7f2e8">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Portolan Software">
+<meta property="og:url" content="https://portolansoft.com/graphs/{{study}}">
+<meta property="og:title" content="Discourse graph: {{title}}">
+<meta property="og:description" content="{{description}}">
+<meta property="og:image" content="https://portolansoft.com/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Portolan Software: charts for AI agents doing science.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
+<link rel="stylesheet" href="/styles.css">
+<script src="/main.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<svg class="defs" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+<symbol id="mark" viewBox="0 0 32 32"><rect width="32" height="32" rx="4" fill="#14243b"/><g stroke="#f7f2e8" stroke-width="0.9" opacity="0.5"><line x1="16" y1="16" x2="31.0" y2="16.0"/><line x1="16" y1="16" x2="26.6" y2="26.6"/><line x1="16" y1="16" x2="16.0" y2="31.0"/><line x1="16" y1="16" x2="5.4" y2="26.6"/><line x1="16" y1="16" x2="1.0" y2="16.0"/><line x1="16" y1="16" x2="5.4" y2="5.4"/><line x1="16" y1="16" x2="16.0" y2="1.0"/><line x1="16" y1="16" x2="26.6" y2="5.4"/></g><circle cx="16" cy="16" r="9" fill="none" stroke="#f7f2e8" stroke-width="0.9" opacity="0.3"/><path d="M16 5 L18.4 13.6 L27 16 L18.4 18.4 L16 27 L13.6 18.4 L5 16 L13.6 13.6 Z" fill="#d0492a"/></symbol>
+<symbol id="hazard" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><circle cx="12" cy="12" r="8.4"/><path d="M8.6 8.6l6.8 6.8M15.4 8.6l-6.8 6.8"/></g></symbol>
+</svg>
+
+<header class="site-header">
+  <div class="wrap site-header__inner">
+    <a class="wordmark" href="/">
+      <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#mark"></use></svg>
+      <b>Portolan</b> <span>Software</span>
+    </a>
+    <nav class="nav" id="site-nav" aria-label="Sections">
+      <ul>
+        <li><a href="/#problem">Problem</a></li>
+        <li><a href="/#build">What we build</a></li>
+        <li><a href="/#how">How it works</a></li>
+        <li><a href="/#standards">Standards</a></li>
+        <li><a href="/proposal">Proposal</a></li>
+        <li><a href="/schema">Schema</a></li>
+        <li><a href="/pilot" aria-current="page">Pilot</a></li>
+        <li><a href="/#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-tools">
+      <button class="icon-btn theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false" class="sun">
+          <circle cx="12" cy="12" r="4.4"></circle>
+          <path d="M12 1.8v2.6M12 19.6v2.6M22.2 12h-2.6M4.4 12H1.8M19.2 4.8l-1.8 1.8M6.6 17.4l-1.8 1.8M19.2 19.2l-1.8-1.8M6.6 6.6L4.8 4.8" stroke-linecap="round"></path>
+        </svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false" class="moon">
+          <path d="M20.5 14.2A8.7 8.7 0 0 1 9.8 3.5a8.7 8.7 0 1 0 10.7 10.7z" stroke-linejoin="round"></path>
+        </svg>
+      </button>
+      <button class="icon-btn nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false">
+          <path d="M3.5 7h17M3.5 12h17M3.5 17h17" stroke-linecap="round"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <div class="doc-head">
+    <div class="wrap doc-head__inner">
+      <p class="draft-flag"><svg class="hazard" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#hazard"></use></svg> Discourse graph view &mdash; a rendering of record fields, no schema change</p>
+      <h1>{{title}}</h1>
+      <p class="lede">{{question}}</p>
+      <p class="dg-meta">Source: {{source}}. Path record: {{path_record}}. Headline outcome <code>{{outcome}}</code>. {{outcome_summary}} <a href="/graphs/">All graphs</a> &middot; <a href="/pilot#studies">Back to the pilot</a></p>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <section class="dg-section" id="graph">
+      <h2>The graph</h2>
+      <p>Read left to right. The question (QUE) is addressed by {{n_exp}} experiments (EXP), each of which produces results (RES), and each result bears on the hypothesis (HYP) with one of four edges. <strong>{{n_supports}}</strong> support it, <strong>{{n_opposes}}</strong> oppose it, <strong>{{n_informs}}</strong> inform it, and <strong>{{n_consistent}}</strong> are merely consistent with it because the informativeness rule would not count them as evidence either way. Click a node to jump to its full text below.</p>
+      <div class="dg-scroll">{{svg}}</div>
+      <ul class="dg-legend" aria-label="Legend">
+        <li><span class="dg-edge-tag dg-edge-tag--supports">supports</span> positive finding</li>
+        <li><span class="dg-edge-tag dg-edge-tag--opposes">opposes</span> informative negative, or refutation</li>
+        <li><span class="dg-edge-tag dg-edge-tag--informs">informs</span> partial finding</li>
+        <li><span class="dg-edge-tag dg-edge-tag--consistent-with">consistent with</span> inconclusive or uninformative: no positive control passed, or no sensitivity statement</li>
+        <li><span class="dg-edge-tag dg-edge-tag--relation">thin grey</span> a relation the record itself states between two attempts</li>
+        <li><span class="dg-tag dg-tag--iss">dashed box</span> a result the informativeness rule marks uninformative, or an issue</li>
+      </ul>
+      <p class="dg-note"><small>The grammar is that of <a href="https://discoursegraphs.com/">Discourse Graphs</a> (Chan and Akamatsu): QUE, HYP, EXP, RES and ISS nodes with supports, opposes and informs edges. Every node and edge is derived from fields already in the Negative-Results Record; the edge a finding earns is decided by its <code>outcomeClass</code> and <code>informativeness</code>. Issues (ISS) hang below the graph as a strip: the open questions and untried branches the path leaves for someone else to pick up.</small></p>
+    </section>
+
+    <section class="dg-section" id="nodes">
+      <h2>Nodes</h2>
+
+      <h3 id="que">Question and hypothesis</h3>
+      <dl class="dg-qh">
+        <dt><span class="dg-tag dg-tag--que">QUE</span></dt><dd>{{question}}</dd>
+        <dt id="hyp"><span class="dg-tag dg-tag--hyp">HYP</span></dt><dd>{{hypothesis}}{{hyp_note}}</dd>
+      </dl>
+
+      <h3>Experiments ({{n_exp}} attempts)</h3>
+      <div class="table-scroll">
+        <table class="dg-table">
+          <thead><tr><th scope="col">Node</th><th scope="col">Attempt</th><th scope="col">Type</th><th scope="col">Headline</th><th scope="col"></th><th scope="col">JSON</th></tr></thead>
+          <tbody>
+{{exp_rows}}
+          </tbody>
+        </table>
+      </div>
+
+      <h3>Results ({{n_res}} findings)</h3>
+      <div class="table-scroll">
+        <table class="dg-table">
+          <thead><tr><th scope="col">Node</th><th scope="col">Finding</th><th scope="col">Id</th><th scope="col">Outcome and informativeness</th><th scope="col">Edge</th><th scope="col">JSON</th></tr></thead>
+          <tbody>
+{{res_rows}}
+          </tbody>
+        </table>
+      </div>
+
+      {{rel_section}}
+
+      <h3>Issues ({{n_iss}} open questions and untried branches)</h3>
+      <ul class="dg-issues">
+{{iss_items}}
+      </ul>
+    </section>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap site-footer__inner">
+    <p>&copy; 2026 Portolan Software. Records CC BY 4.0, attributed to their authors.</p>
+    <div class="spacer footer-tools">
+      <button class="icon-btn theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false" class="sun">
+          <circle cx="12" cy="12" r="4.4"></circle>
+          <path d="M12 1.8v2.6M12 19.6v2.6M22.2 12h-2.6M4.4 12H1.8M19.2 4.8l-1.8 1.8M6.6 17.4l-1.8 1.8M19.2 19.2l-1.8-1.8M6.6 6.6L4.8 4.8" stroke-linecap="round"></path>
+        </svg>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false" class="moon">
+          <path d="M20.5 14.2A8.7 8.7 0 0 1 9.8 3.5a8.7 8.7 0 1 0 10.7 10.7z" stroke-linejoin="round"></path>
+        </svg>
+      </button>
+      <nav aria-label="Footer">
+        <ul>
+          <li><a href="/proposal">Proposal</a></li>
+          <li><a href="/schema">Schema</a></li>
+          <li><a href="/pilot">Pilot</a></li>
+          <li><a href="/graphs/">Graphs</a></li>
+          <li><a href="/#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

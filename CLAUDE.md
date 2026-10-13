@@ -15,6 +15,7 @@ uv run python demo_queries.py              # the questions an agent would ask
 uv run python scripts/export_records.py --study <s> --dest ../nrr-records   # publishable studies only
 uv run python scripts/resolve_ids.py       # network; only when adding new names or DOIs
 uv run python scripts/emit_capture.py robin|datahub <run> ...   # capture-time records; offline; see docs/capture-profile.md
+uv run python scripts/render_graphs.py     # discourse-graph pages for the site (../portolansoft/site/graphs); publishable studies only
 ```
 
 `build.py` must stay offline. If it needs the network, something is wrong.
