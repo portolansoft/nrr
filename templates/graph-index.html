@@ -88,6 +88,32 @@
 {{items}}
       </ol>
     </section>
+
+    <section class="dg-section" id="mapping">
+      <h2>How the two models line up</h2>
+      <p>Discourse Graphs is a grammar for arguing: typed one-sentence notes, linked by whether they support or oppose one another. The Negative-Results Record is a format for recording an attempt: what was tried, under what conditions, with which controls, and whether the negative counts. The graphs on this page are the first drawn over the second. Every node and edge comes from a field the record already holds, and nothing was added to the schema to draw them.</p>
+      <div class="table-scroll">
+        <table class="dg-table">
+          <caption>Discourse Graph node and edge types, and the NRR fields they are read from.</caption>
+          <thead><tr><th scope="col">Discourse Graph</th><th scope="col">Negative-Results Record</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Question (QUE)</th><td><code>question</code> on the path; attempts and findings carry their own</td></tr>
+            <tr><th scope="row">Hypothesis (HYP)</th><td><code>hypothesis</code> on the path</td></tr>
+            <tr><th scope="row">Experiment (EXP)</th><td>an attempt record, with <code>stages[]</code> and the performer of each stage</td></tr>
+            <tr><th scope="row">Result or Evidence (RES, EVD)</th><td>a finding, with <code>effect</code>, <code>controls</code>, <code>sensitivity</code> and <code>evidence[]</code> pointing into the source</td></tr>
+            <tr><th scope="row">Claim or Conclusion (CLM, CON)</th><td><code>outcomeClass</code> plus <code>outcomeSummary</code>; there is no separate claim node</td></tr>
+            <tr><th scope="row">Source</th><td><code>sources[]</code>, each with a role, a licence and its version status at the time of ingest</td></tr>
+            <tr><th scope="row">Issue (ISS)</th><td><code>openQuestions</code>, <code>untriedBranches</code>, <code>nextSteps</code></td></tr>
+            <tr><th scope="row">supports, opposes</th><td><code>confirms</code>, <code>refutes</code>, <code>contradicts</code> between records; between a finding and the hypothesis, derived from <code>outcomeClass</code> and <code>informativeness</code></td></tr>
+            <tr><th scope="row">informs</th><td><code>informs</code>, <code>informedBy</code></td></tr>
+            <tr><th scope="row">produces</th><td><code>wasGeneratedBy</code></td></tr>
+            <tr><th scope="row">consistent with</th><td>no field; it is what the informativeness rule yields when a negative does not qualify as evidence of absence</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>The last row is the interesting one. The Discourse Graphs lab conventions say a claim is <em>supported by</em> a result only if certain conditions hold, and otherwise the result is merely <em>consistent with</em> it, and the conditions are left as placeholders for each lab to fill in. The record fills them in with code: a negative supports the absence of an effect only if a positive control passed, the negative control stayed clean, and a sensitivity or power statement exists. That rule is what decides, on every graph here, whether a red edge is drawn or a dashed grey one.</p>
+      <p class="dg-note"><small>The Discourse Graphs grammar is described at <a href="https://discoursegraphs.com/">discoursegraphs.com</a> and in Chan and Akamatsu&rsquo;s 2024 preprint, <a href="https://arxiv.org/abs/2407.20666">arXiv:2407.20666</a>. The schema is at <a href="/schema">portolansoft.com/schema</a>.</small></p>
+    </section>
   </div>
 
 </main>
