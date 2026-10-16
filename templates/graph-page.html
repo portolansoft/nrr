@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Discourse graph: {{title}} — Portolan Software</title>
 <meta name="description" content="{{description}}">
-<link rel="canonical" href="https://portolansoft.com/graphs/{{study}}">
+<link rel="canonical" href="https://portolansoft.com{{url}}">
 <meta name="theme-color" content="#f7f2e8">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Portolan Software">
-<meta property="og:url" content="https://portolansoft.com/graphs/{{study}}">
+<meta property="og:url" content="https://portolansoft.com{{url}}">
 <meta property="og:title" content="Discourse graph: {{title}}">
 <meta property="og:description" content="{{description}}">
 <meta property="og:image" content="https://portolansoft.com/og-image.png">
@@ -17,12 +17,12 @@
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="Portolan Software: charts for AI agents doing science.">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+{{head_extra}}<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="manifest" href="/site.webmanifest">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
-<link rel="stylesheet" href="/styles.css?v=20261013">
+<link rel="stylesheet" href="/styles.css?v=20261015">
 <script src="/main.js"></script>
 </head>
 <body>
@@ -48,6 +48,7 @@
         <li><a href="/proposal">Proposal</a></li>
         <li><a href="/schema">Schema</a></li>
         <li><a href="/pilot" aria-current="page">Pilot</a></li>
+        <li><a href="/explained">Explained</a></li>
         <li><a href="/#contact">Contact</a></li>
       </ul>
     </nav>
@@ -77,7 +78,7 @@
       <p class="draft-flag"><svg class="hazard" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#hazard"></use></svg> Discourse graph view &mdash; a rendering of record fields, no schema change</p>
       <h1>{{title}}</h1>
       <p class="lede">{{question}}</p>
-      <p class="dg-meta">Source: {{source}}. Path record: {{path_record}}. Headline outcome <code>{{outcome}}</code>. {{outcome_summary}} <a href="/graphs/">All graphs</a> &middot; <a href="/pilot#studies">Back to the pilot</a></p>
+      <p class="dg-meta">Source: {{source}}. Path record: {{path_record}}. Headline outcome <code>{{outcome}}</code>. {{outcome_summary}}{{notice}} <a href="/graphs/">All graphs</a> &middot; <a href="/pilot#studies">Back to the pilot</a></p>
     </div>
   </div>
 
@@ -155,6 +156,7 @@
           <li><a href="/proposal">Proposal</a></li>
           <li><a href="/schema">Schema</a></li>
           <li><a href="/pilot">Pilot</a></li>
+          <li><a href="/explained">Explained</a></li>
           <li><a href="/graphs/">Graphs</a></li>
           <li><a href="/#contact">Contact</a></li>
         </ul>
