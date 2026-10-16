@@ -280,11 +280,13 @@ def _node_row(n: dict) -> str:
         reason = f"<br><small>{_esc(n['informativenessReason'])}</small>" if n.get("informativenessReason") else ""
         cells.append(f"<td><code>{_esc(n['outcomeClass'])}</code><br><small>{_esc(info)}</small>{reason}</td>")
         cells.append(f'<td><span class="dg-edge-tag dg-edge-tag--{n["valence"]}">{_esc(n["valence"])}</span> HYP</td>')
-    cells.append(f"<td>{_link(n.get('record'), 'record')}</td>")
+    cells.append(f"<td>{_link(n['record'], 'record') if n.get('record') else 'withheld'}</td>")
     return "<tr>" + "".join(cells) + "</tr>"
 
 
-def render_page(graph: dict) -> str:
+def render_page(graph: dict, url: str | None = None, notice: str = "", head_extra: str = "") -> str:
+    """`url` is the page's path on the site (default /graphs/<studyId>). `notice` is HTML appended to the meta line,
+    and `head_extra` is HTML added to <head>; both exist so a restricted rendering can say so and ask not to be indexed."""
     tpl = _load_template("graph-page.html")
     nodes = graph["nodes"]
     que = next(n for n in nodes if n["kind"] == "QUE")
@@ -324,7 +326,8 @@ def render_page(graph: dict) -> str:
         "n_informs": str(counts["informs"]), "n_consistent": str(counts["consistent-with"]),
         "exp_rows": exp_rows, "res_rows": res_rows, "iss_items": iss_items or "<li>None recorded.</li>",
         "rel_section": (f'<h3>Relations between attempts</h3><ul class="dg-rels">{rel_items}</ul>' if rel_items else ""),
-        "path_record": _link(que.get("record"), graph["slug"] + ".json"),
+        "path_record": _link(que["record"], graph["slug"] + ".json") if que.get("record") else "withheld",
+        "url": _esc(url or f"/graphs/{graph['studyId']}"), "notice": notice, "head_extra": head_extra,
         "profile": _esc(graph.get("profile") or ""),
     }
     page = tpl

@@ -121,3 +121,17 @@ def test_script_renders_eight_pages_and_never_robin(tmp_path):
     assert pages == ["acs-laccase.html", "acs-tmeda.html", "acs-xef6.html", "acs-zeolite.html", "arcadia-alcalase.html",
                      "arcadia-dfa.html", "arcadia-neuroimaging.html", "arcadia-raman.html", "index.html"]
     assert not any("robin" in p.read_text() for p in out.glob("*.html") if p.name != "index.html")
+
+
+def test_restricted_render_has_no_record_links_and_is_not_indexed(alcalase):
+    path, attempts = alcalase
+    g = build_graph(path, attempts, record_base=None)
+    page = render_page(g, url="/graphs/restricted/", notice=" Shown to named reviewers only.",
+                       head_extra='<meta name="robots" content="noindex, nofollow">\n')
+    assert "nrr-records" not in page
+    assert "withheld" in page
+    assert 'rel="canonical" href="https://portolansoft.com/graphs/restricted/"' in page
+    assert '<meta name="robots" content="noindex, nofollow">' in page
+    assert "Shown to named reviewers only." in page
+    default = render_page(build_graph(path, attempts, record_base=RECORD_BASE))
+    assert "noindex" not in default and "withheld" not in default
