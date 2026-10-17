@@ -29,7 +29,8 @@ from nrr.schema import validate  # noqa: E402
 RECORD_BASE = "https://github.com/portolansoft/nrr-records/blob/main"
 NOTE = ("Eight of the nine pilot studies are drawn here. The ninth, Ghareeb et al. 2026 in Nature, is encoded but not "
         "published: its licence is CC BY-NC-ND 4.0 and a graph of its records would be adapted material. A rendering of it "
-        "exists for named reviewers, behind a login and not indexed.")
+        "exists for named reviewers, behind a login and not indexed. Eight open-access SAGE papers, drawn from their full "
+        "text rather than from records, are at <a href=\"/graphs/sage/\">/graphs/sage/</a>.")
 RESTRICTED = {"robin-damd": {
     "url": "/graphs/robin/",
     "notice": (" This page is shown to named reviewers only. The source is CC BY-NC-ND 4.0, so the records it is drawn from "
