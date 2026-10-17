@@ -109,6 +109,7 @@ def test_page_is_deterministic_and_links_records(alcalase):
     assert a == b
     assert "https://github.com/portolansoft/nrr-records/blob/main/arcadia-alcalase/records/arcadia-alcalase-hdr-knockin.json" in a
     assert "<title>" in a and "Alcalase" in a
+    assert 'id="key"' in a and a.index('id="key"') < a.index('id="graph"')  # the vocabulary comes before the drawing
     assert "<script" not in a.split("<body>")[1].split("<footer")[0]  # body carries no inline script
 
 
@@ -121,6 +122,7 @@ def test_script_renders_eight_pages_and_never_robin(tmp_path):
     assert pages == ["acs-laccase.html", "acs-tmeda.html", "acs-xef6.html", "acs-zeolite.html", "arcadia-alcalase.html",
                      "arcadia-dfa.html", "arcadia-neuroimaging.html", "arcadia-raman.html", "index.html"]
     assert not any("robin" in p.read_text() for p in out.glob("*.html") if p.name != "index.html")
+    assert all('id="key"' in p.read_text() for p in out.glob("*.html"))
 
 
 def test_restricted_render_has_no_record_links_and_is_not_indexed(alcalase):
