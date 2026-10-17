@@ -330,12 +330,37 @@ def render_page(graph: dict, url: str | None = None, notice: str = "", head_extr
         "url": _esc(url or f"/graphs/{graph['studyId']}"), "notice": notice, "head_extra": head_extra,
         "profile": _esc(graph.get("profile") or ""),
     }
+    fill["key"] = KEY_HTML
     page = tpl
     for k, v in fill.items():
         page = page.replace("{{" + k + "}}", v)
     leftover = re.findall(r"{{[a-z_]+}}", page)
     assert not leftover, leftover
     return page
+
+
+KEY_HTML = '''    <section class="dg-section dg-key" id="key">
+      <h2>How to read these graphs</h2>
+      <p>A discourse graph breaks a piece of research into typed one-sentence nodes and draws how they bear on one another. The grammar is that of <a href="https://discoursegraphs.com/">Discourse Graphs</a> (Chan and Akamatsu). Read each graph left to right: a question, the experiments that addressed it, the results they produced, and the hypothesis every result is drawn against.</p>
+      <dl class="dg-key-list">
+        <dt><span class="dg-tag dg-tag--que">QUE</span> Question</dt><dd>What the work set out to answer.</dd>
+        <dt><span class="dg-tag dg-tag--hyp">HYP</span> Hypothesis</dt><dd>The answer the authors expected. Every result earns one edge against it.</dd>
+        <dt><span class="dg-tag dg-tag--exp">EXP</span> Experiment</dt><dd>One attempt at the question: a trial arm, an assay, a survey, an analysis.</dd>
+        <dt><span class="dg-tag dg-tag--res">RES</span> Result</dt><dd>One finding from an experiment, with where in the source it comes from.</dd>
+        <dt><span class="dg-tag dg-tag--iss">ISS</span> Issue</dt><dd>An open question or untried branch the work leaves for someone else.</dd>
+      </dl>
+      <dl class="dg-key-list">
+        <dt><span class="dg-edge-tag">addresses</span></dt><dd>An experiment addresses the question.</dd>
+        <dt><span class="dg-edge-tag">produces</span></dt><dd>An experiment produces a result.</dd>
+        <dt><span class="dg-edge-tag dg-edge-tag--supports">supports</span></dt><dd>A positive result that backs the hypothesis.</dd>
+        <dt><span class="dg-edge-tag dg-edge-tag--opposes">opposes</span></dt><dd>A negative result that counts as evidence against the hypothesis, or a refutation of an earlier claim.</dd>
+        <dt><span class="dg-edge-tag dg-edge-tag--informs">informs</span></dt><dd>A partial or mixed result that bears on the hypothesis without settling it.</dd>
+        <dt><span class="dg-edge-tag dg-edge-tag--consistent-with">consistent with</span></dt><dd>A negative or inconclusive result that does not count either way: no positive control passed, or there is no sensitivity or power statement, so the absence of an effect cannot be told from a measurement that failed.</dd>
+        <dt><span class="dg-edge-tag dg-edge-tag--relation">relation</span></dt><dd>A thin dotted line: a link the source itself states between two experiments, such as one being derived from another.</dd>
+      </dl>
+      <p class="dg-note"><small>A dashed box marks a result the rule above counts as uninformative, or an issue. In the drawing, click a node to jump to its text below.</small></p>
+    </section>
+'''
 
 
 def render_index(graphs: list[dict], note: str = "") -> str:
@@ -347,6 +372,7 @@ def render_index(graphs: list[dict], note: str = "") -> str:
         sp = g["sourcePublication"]
         items.append(f'<li><a href="/graphs/{_esc(g["studyId"])}">{_esc(g["title"])}</a><br>'
                      f'<small>{_esc(sp.get("label") or "")} · {n_exp} attempts, {n_res} findings · headline <code>{_esc(g["outcomeClass"])}</code></small></li>')
-    page = tpl.replace("{{items}}", "\n".join(items)).replace("{{note}}", note).replace("{{count}}", str(len(graphs)))
+    page = (tpl.replace("{{items}}", "\n".join(items)).replace("{{note}}", note).replace("{{count}}", str(len(graphs)))
+            .replace("{{key}}", KEY_HTML))
     assert "{{" not in page
     return page

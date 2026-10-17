@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
-<link rel="stylesheet" href="/styles.css?v=20261015">
+<link rel="stylesheet" href="/styles.css?v=20261017">
 <script src="/main.js"></script>
 </head>
 <body>
@@ -83,6 +83,7 @@
   </div>
 
   <div class="wrap">
+{{key}}
     <section class="dg-section" id="graph">
       <h2>The graph</h2>
       <p>Read left to right. The question (QUE) is addressed by {{n_exp}} experiments (EXP), each of which produces results (RES), and each result bears on the hypothesis (HYP) with one of four edges. <strong>{{n_supports}}</strong> support it, <strong>{{n_opposes}}</strong> oppose it, <strong>{{n_informs}}</strong> inform it, and <strong>{{n_consistent}}</strong> are merely consistent with it because the informativeness rule would not count them as evidence either way. Click a node to jump to its full text below.</p>
