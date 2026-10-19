@@ -31,7 +31,7 @@ NOTE = ("Eight of the nine pilot studies are drawn here. The ninth, Ghareeb et a
         "published: its licence is CC BY-NC-ND 4.0 and a graph of its records would be adapted material. A rendering of it "
         "exists for named reviewers, behind a login and not indexed. Eight open-access SAGE papers, drawn from their full "
         "text rather than from records, are at <a href=\"/graphs/sage/\">/graphs/sage/</a>, and seven CC BY papers on "
-        "physics-informed neural networks at <a href=\"/graphs/pinns-karniadakis/\">/graphs/pinns-karniadakis/</a>, and eight CC BY "
+        "physics-informed neural networks at <a href=\"/graphs/pinns-karniadakis/\">/graphs/pinns-karniadakis/</a>, and eleven CC BY "
         "ACM papers, positive and negative, at <a href=\"/graphs/acm/\">/graphs/acm/</a>.")
 RESTRICTED = {"robin-damd": {
     "url": "/graphs/robin/",
