@@ -270,3 +270,59 @@ time; the rest of the materials profile sketched in v0.1 was not needed.
 
 The last row is new to this log: before this round no chemistry negative had passed the rule. Two of the four now do,
 and two do not, for reasons the records state.
+
+## v0.2.5 (2026-10-21) — vocabulary terms forced by proposed experiments, not by an encoded study
+
+The first release not driven by encoding a publication. `../docs/vocabulary-gaps-sage-2026-10-20.md` measured, over
+31 machine-designed experiments on eight open-access SAGE papers, that 26 designs could not label their `attemptType` and
+38 of 104 controls could not label their `kind`. A second round of designs on six NEJM papers (two null trials and four
+mechanistic studies, CC BY author manuscripts in PubMed Central; `../../research/nejm-cc-by-demo-candidates-2026-10-20.md`)
+would have repeated the result. The terms below are option 2 of the three the gaps report set out. They are additive,
+nothing structural changed, and no existing record uses any of them, so the corpus is unchanged.
+
+This is a weaker kind of evidence than the nine studies before it: a design is something a machine proposed, not
+something a laboratory deposited. The terms are therefore recorded as forced by proposals, and the first deposit that
+uses one of them is the test of whether it was named correctly.
+
+**Change count for this release: 14, all vocabulary terms.**
+
+| # | Change | Forced by |
+|---|---|---|
+| 30 | **`clinical-trial` attempt type.** | Eight SAGE designs and the two NEJM null trials (BCG revaccination, PRoMPT BOLUS fluids) are prospective interventional studies in people. `wet-lab` had been the fallback for any physical experiment, so a psilocybin trial and a steel fatigue test carried the same label. |
+| 31 | **`observational-study` attempt type.** | Four SAGE designs are cohorts or cross-sectional studies with nothing assigned; the NEJM mechanistic papers (IL-10 autoantibodies, VITT, tumour-infiltrating clonal haematopoiesis) each open with a patient cohort before any bench work. Split from `clinical-trial` because the informativeness rule reads a comparator differently from an assigned control. |
+| 32 | **`bench-measurement` attempt type.** | Three SAGE designs are physical measurements on a tyre rig, a vehicle and a welded specimen. Nothing in them is wet or biological. |
+| 33 | **`secondary-analysis` attempt type.** | Seven SAGE designs re-analyse existing survey microdata or trial data under new specifications; `computational` had been used because the work happens in a statistics package, which describes the tooling and not the inquiry. |
+| 34 | **`mixed` attempt type.** | Three SAGE designs pair a synthesis or data arm with a bench or field arm under one pre-registered decision rule and could not be split without losing the rule. `pathType` already had `mixed`; `attemptType` did not. |
+| 35 | **`active-comparator` positive control kind.** | A trial's assay-sensitivity control is a treatment already shown to move the outcome, not a task with a known answer. Used under `known-positive-task` in the TENERE design; PRoMPT BOLUS compares against 0.9% saline as standard care. |
+| 36 | **`reference-case` positive control kind.** | Engineering and reanalysis designs lean on a case with a published answer that the method must recover (a parameter set with known eigenvalues, a replication target). `designated` had absorbed these because it was the vaguest value available. |
+| 37 | **`placebo` negative control kind.** | An inert capsule in a human trial is not a pharmacological `vehicle`. Flagged in all three psilocybin designs. |
+| 38 | **`active-placebo` negative control kind.** | A comparator chosen to mimic sensation or side effects without the mechanism. Distinct from `placebo` because it rules out a different explanation, unblinding. |
+| 39 | **`genetic-background` negative control kind.** | A littermate or strain-matched wild type. Used under `background` in the microglia design, where `background` means an assay signal level. |
+| 40 | **`non-targeting-construct` negative control kind.** | A scrambled hairpin or empty vector in the same vector at the same titre. Used under `vehicle` in the microglia design; needed by any knockdown design in the NEJM mechanistic round. |
+| 41 | **`permutation-null` negative control kind.** | Labels shuffled to give the distribution under no effect. Used under `adversarial-label` in a survey design, where that kind means a corrupted training label. |
+| 42 | **`instrument-noise-floor` negative control kind.** | The measurement's own repeatability or drift, against which a difference must be read. Used under `background` in three bicycle designs. |
+| 43 | **`blinding-check` negative control kind.** | Allocation guessed no better than chance. Used under `adversarial-label` in two designs. A manipulation check rather than a sample, and the least conventional entry here; recorded as a negative control because what it must show is an absence. |
+
+**What did not change.** No field, no record level, no change to the shape of a finding, a control or an effect. The
+convergence criterion from v0.2.3 (two or fewer additive changes, nothing structural, per study) is not applied here
+because no study was encoded; the count is reported against the designs instead. The informativeness rule is untouched:
+a trial's placebo is a negative control and its active comparator a positive control in exactly the sense the rule
+already uses.
+
+**Still open.** Whether control kinds should instead be extensible per profile (option 3 in the gaps report). Fourteen
+terms in one release is the argument for it; the counter-argument is that a flat vocabulary is what a federated query
+can match across nodes.
+
+### The series after this release
+
+| Study or round | Domain | Changes |
+|---|---|---|
+| Robin dAMD and Arcadia Alcalase (v0.2) | biology | 12 |
+| Arcadia neuroimaging (v0.2.1) | biology | 8 |
+| Arcadia Raman (v0.2.2) | biology, computation | 5 |
+| Arcadia divergent fungal actin (v0.2.3) | biology | 2 |
+| ACS zeolite STF/IFR (v0.2.4) | chemistry, materials | 1 |
+| ACS TMEDA inhibition (v0.2.4) | chemistry | 0 |
+| ACS laccase PFAS (v0.2.4) | chemistry | 1 |
+| ACS XeF6 oxidation (v0.2.4) | chemistry | 0 |
+| 31 SAGE designs and 6 NEJM papers, proposals not deposits (v0.2.5) | medicine, engineering, social science | 14 |
