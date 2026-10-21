@@ -153,3 +153,18 @@ These are machine-written designs, not published studies, so the misfits are rep
 cleanly rather than observed failures of a real deposit. The value is that each one names the field, the value it was
 forced to use, and what the field actually needed. Every design is in `outreach/sage-experiments/<paper>.json` and is
 checked by `outreach/check_sage_experiments.py`, which also prints this evidence with `--gaps`.
+
+## Decision, 2026-10-21
+
+Option 2 was taken. Fourteen vocabulary terms were added in schema v0.2.5 (`../schema/CHANGELOG.md`): five attempt
+types (`clinical-trial`, `observational-study`, `bench-measurement`, `secondary-analysis`, `mixed`), two positive
+control kinds (`active-comparator`, `reference-case`) and seven negative control kinds (`placebo`, `active-placebo`,
+`genetic-background`, `non-targeting-construct`, `permutation-null`, `instrument-noise-floor`, `blinding-check`).
+Nothing structural changed and no existing record uses any of them, so the corpus is unchanged.
+
+The release records them as forced by proposals rather than by deposits, which is a weaker kind of evidence than the
+nine encoded studies and is stated as such. Option 3, per-profile extensible control kinds, remains open; fourteen
+terms in one release is the argument for it.
+
+The designs written against the six NEJM papers on 2026-10-21 are the first use of the new terms, and the misfit notes
+they produce are the test of whether these fourteen were named correctly.
