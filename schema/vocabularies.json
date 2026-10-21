@@ -8,7 +8,12 @@
   "computational",
   "evidence-synthesis",
   "hypothesis-generation",
-  "evaluation"
+  "evaluation",
+  "clinical-trial",
+  "observational-study",
+  "bench-measurement",
+  "secondary-analysis",
+  "mixed"
  ],
  "pathType": [
   "literature",
@@ -203,7 +208,9 @@
   "designated",
   "internal-positive",
   "known-positive-task",
-  "none"
+  "none",
+  "active-comparator",
+  "reference-case"
  ],
  "negativeControlKind": [
   "vehicle",
@@ -212,7 +219,14 @@
   "within-subject",
   "isotype",
   "adversarial-label",
-  "none"
+  "none",
+  "placebo",
+  "active-placebo",
+  "genetic-background",
+  "non-targeting-construct",
+  "permutation-null",
+  "instrument-noise-floor",
+  "blinding-check"
  ],
  "entityType": [
   "organism",

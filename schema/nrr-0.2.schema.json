@@ -119,7 +119,12 @@
     "computational",
     "evidence-synthesis",
     "hypothesis-generation",
-    "evaluation"
+    "evaluation",
+    "clinical-trial",
+    "observational-study",
+    "bench-measurement",
+    "secondary-analysis",
+    "mixed"
    ]
   },
   "question": {
@@ -524,14 +529,23 @@
     "kind": {
      "type": "string",
      "enum": [
+      "active-comparator",
+      "active-placebo",
       "adversarial-label",
       "background",
+      "blinding-check",
       "designated",
+      "genetic-background",
+      "instrument-noise-floor",
       "internal-positive",
       "isotype",
       "known-positive-task",
       "no-treatment",
+      "non-targeting-construct",
       "none",
+      "permutation-null",
+      "placebo",
+      "reference-case",
       "vehicle",
       "within-subject"
      ]
