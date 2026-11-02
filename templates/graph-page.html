@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
-<link rel="stylesheet" href="/styles.css?v=20261021">
+<link rel="stylesheet" href="/styles.css?v=20261102">
 <script src="/main.js"></script>
 </head>
 <body>
@@ -39,17 +39,17 @@
       <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#mark"></use></svg>
       <b>Portolan</b> <span>Software</span>
     </a>
+    <a class="section-mark" href="/graphs/">Discourse graphs</a>
     <nav class="nav" id="site-nav" aria-label="Sections">
       <ul>
-        <li><a href="/#problem">Problem</a></li>
-        <li><a href="/#build">What we build</a></li>
-        <li><a href="/#how">How it works</a></li>
-        <li><a href="/#standards">Standards</a></li>
-        <li><a href="/proposal">Proposal</a></li>
-        <li><a href="/schema">Schema</a></li>
-        <li><a href="/pilot" aria-current="page">Pilot</a></li>
-        <li><a href="/explained">Explained</a></li>
+        <li><a href="/graphs/">Overview</a></li>
+        <li><a href="/graphs/nejm/">NEJM</a></li>
+        <li><a href="/graphs/sage/">SAGE</a></li>
+        <li><a href="/graphs/pinns-karniadakis/">PINNs</a></li>
+        <li><a href="/graphs/acm/">ACM</a></li>
+        <li><a href="/graphs/#pilot" aria-current="page">Pilot graphs</a></li>
         <li><a href="/#contact">Contact</a></li>
+        <li class="nav__switch"><a href="/nrr/">Negative-Results Record</a></li>
       </ul>
     </nav>
     <div class="header-tools">
@@ -78,7 +78,7 @@
       <p class="draft-flag"><svg class="hazard" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#hazard"></use></svg> Discourse graph view &mdash; a rendering of record fields, no schema change</p>
       <h1>{{title}}</h1>
       <p class="lede">{{question}}</p>
-      <p class="dg-meta">Source: {{source}}. Path record: {{path_record}}. Headline outcome <code>{{outcome}}</code>. {{outcome_summary}}{{notice}} <a href="/graphs/">All graphs</a> &middot; <a href="/pilot#studies">Back to the pilot</a></p>
+      <p class="dg-meta">Source: {{source}}. Path record: {{path_record}}. Headline outcome <code>{{outcome}}</code>. {{outcome_summary}}{{notice}} <a href="/graphs/">All graphs</a> &middot; <a href="/nrr/pilot#studies">Back to the pilot</a></p>
     </div>
   </div>
 
@@ -154,11 +154,12 @@
       </button>
       <nav aria-label="Footer">
         <ul>
-          <li><a href="/proposal">Proposal</a></li>
-          <li><a href="/schema">Schema</a></li>
-          <li><a href="/pilot">Pilot</a></li>
-          <li><a href="/explained">Explained</a></li>
-          <li><a href="/graphs/">Graphs</a></li>
+          <li><a href="/graphs/">Overview</a></li>
+          <li><a href="/graphs/nejm/">NEJM</a></li>
+          <li><a href="/graphs/sage/">SAGE</a></li>
+          <li><a href="/graphs/pinns-karniadakis/">PINNs</a></li>
+          <li><a href="/graphs/acm/">ACM</a></li>
+          <li><a href="/nrr/">Negative-Results Record</a></li>
           <li><a href="/#contact">Contact</a></li>
         </ul>
       </nav>

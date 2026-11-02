@@ -1,7 +1,8 @@
 """Render each publishable path as a discourse graph page for the website.
 
 Usage: uv run python scripts/render_graphs.py [--dest ../portolansoft/site/graphs] [--study arcadia-alcalase]
-Writes <dest>/<study>.html for every study whose records are published, plus <dest>/index.html. Offline and
+Writes <dest>/<study>.html for every study whose records are published, plus <dest>/index.html, the
+discourse-graphs section overview (templates/graph-index.html lists the paper-derived sets by hand). Offline and
 deterministic. Only the studies `export_records.py` publishes are rendered; the Nature-derived study is not, because
 its source licence (CC BY-NC-ND 4.0) forbids distributing adapted material and node titles would be exactly that.
 
@@ -29,10 +30,7 @@ from nrr.schema import validate  # noqa: E402
 RECORD_BASE = "https://github.com/portolansoft/nrr-records/blob/main"
 NOTE = ("Eight of the nine pilot studies are drawn here. The ninth, Ghareeb et al. 2026 in Nature, is encoded but not "
         "published: its licence is CC BY-NC-ND 4.0 and a graph of its records would be adapted material. A rendering of it "
-        "exists for named reviewers, behind a login and not indexed. Eight open-access SAGE papers, drawn from their full "
-        "text rather than from records, are at <a href=\"/graphs/sage/\">/graphs/sage/</a>, and seven CC BY papers on "
-        "physics-informed neural networks at <a href=\"/graphs/pinns-karniadakis/\">/graphs/pinns-karniadakis/</a>, and eleven CC BY "
-        "ACM papers, positive and negative, at <a href=\"/graphs/acm/\">/graphs/acm/</a>.")
+        "exists for named reviewers, behind a login and not indexed.")
 RESTRICTED = {"robin-damd": {
     "url": "/graphs/robin/",
     "notice": (" This page is shown to named reviewers only. The source is CC BY-NC-ND 4.0, so the records it is drawn from "

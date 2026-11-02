@@ -3,15 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Discourse graphs of the pilot studies — Portolan Software</title>
-<meta name="description" content="Each publishable pilot study drawn as a discourse graph: question, hypothesis, attempts and findings, with the edge each finding earns under the informativeness rule.">
+<title>Discourse graphs — Portolan Software</title>
+<meta name="description" content="Published papers drawn as discourse graphs: question, hypothesis, experiments, results and the issues each paper leaves open, every open issue checked for follow-up work and given a proposed experiment. Four sets drawn from papers and eight graphs drawn from Negative-Results Records.">
 <link rel="canonical" href="https://portolansoft.com/graphs/">
 <meta name="theme-color" content="#f7f2e8">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="Portolan Software">
 <meta property="og:url" content="https://portolansoft.com/graphs/">
-<meta property="og:title" content="Discourse graphs of the pilot studies">
-<meta property="og:description" content="Eight pilot studies drawn as discourse graphs over their Negative-Results Records.">
+<meta property="og:title" content="Discourse graphs — Portolan Software">
+<meta property="og:description" content="Papers drawn as discourse graphs, with their open issues checked for follow-up work and given a proposed experiment.">
 <meta property="og:image" content="https://portolansoft.com/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -22,7 +22,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap">
-<link rel="stylesheet" href="/styles.css?v=20261021">
+<link rel="stylesheet" href="/styles.css?v=20261102">
 <script src="/main.js"></script>
 </head>
 <body>
@@ -39,17 +39,17 @@
       <svg viewBox="0 0 32 32" aria-hidden="true" focusable="false"><use href="#mark"></use></svg>
       <b>Portolan</b> <span>Software</span>
     </a>
+    <a class="section-mark" href="/graphs/">Discourse graphs</a>
     <nav class="nav" id="site-nav" aria-label="Sections">
       <ul>
-        <li><a href="/#problem">Problem</a></li>
-        <li><a href="/#build">What we build</a></li>
-        <li><a href="/#how">How it works</a></li>
-        <li><a href="/#standards">Standards</a></li>
-        <li><a href="/proposal">Proposal</a></li>
-        <li><a href="/schema">Schema</a></li>
-        <li><a href="/pilot" aria-current="page">Pilot</a></li>
-        <li><a href="/explained">Explained</a></li>
+        <li><a href="/graphs/" aria-current="page">Overview</a></li>
+        <li><a href="/graphs/nejm/">NEJM</a></li>
+        <li><a href="/graphs/sage/">SAGE</a></li>
+        <li><a href="/graphs/pinns-karniadakis/">PINNs</a></li>
+        <li><a href="/graphs/acm/">ACM</a></li>
+        <li><a href="/graphs/#pilot">Pilot graphs</a></li>
         <li><a href="/#contact">Contact</a></li>
+        <li class="nav__switch"><a href="/nrr/">Negative-Results Record</a></li>
       </ul>
     </nav>
     <div class="header-tools">
@@ -75,17 +75,29 @@
 
   <div class="doc-head">
     <div class="wrap doc-head__inner">
-      <p class="draft-flag"><svg class="hazard" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#hazard"></use></svg> Discourse graph view &mdash; a rendering of record fields, no schema change</p>
-      <h1>The pilot studies as discourse graphs</h1>
-      <p class="lede">Each path in the pilot corpus drawn in the grammar of <a href="https://discoursegraphs.com/">Discourse Graphs</a>: the question, the hypothesis, the experiments that addressed it, the results they produced, and the edge each result earns against the hypothesis. A negative is drawn as opposing the hypothesis only when the informativeness rule counts it as evidence of absence; otherwise it is merely consistent with it.</p>
-      <p class="dg-meta">{{note}} <a href="/pilot#studies">Back to the pilot</a></p>
+      <p class="draft-flag"><svg class="hazard" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#hazard"></use></svg> Discourse graphs &mdash; drawn from published papers, and from pilot records</p>
+      <h1>Papers as discourse graphs, with their open issues made actionable</h1>
+      <p class="lede">A published paper, drawn in the grammar of <a href="https://discoursegraphs.com/">Discourse Graphs</a>: the question it asked, the hypothesis it held, the experiments it ran, the results each produced and the issues it left open. Every result carries the place in the paper it came from and a short quote. Every open issue is checked against the work that has cited the paper since, and then given a proposed experiment, with the control and the sensitivity statement a researcher would ask for first.</p>
+      <p class="dg-meta">Four sets drawn from papers, listed below, and <a href="#pilot">eight graphs</a> drawn from the Negative-Results Records of the <a href="/nrr/pilot">pilot studies</a>. The graphs are a view, not a record format: nothing here changes the <a href="/nrr/schema">schema</a>.</p>
     </div>
   </div>
 
   <div class="wrap">
+    <section class="dg-section" id="sets">
+      <h2>Four sets drawn from papers</h2>
+      <ol class="dg-index">
+        <li><a href="/graphs/nejm/">Six NEJM papers, each open issue checked and designed</a><br><small>Two null trials and four mechanistic papers, drawn from their CC BY author manuscripts in PubMed Central. Every open issue carries a follow-up check against the citing literature, a query of the registry, a proposed experiment and a mocked hand-off to a laboratory.</small></li>
+        <li><a href="/graphs/sage/">Eight open-access SAGE papers</a><br><small>One page per paper, from psilocybin to welded joints. Each open issue carries a proposed experiment and a panel for the researcher&rsquo;s objections; two pairs of papers are drawn together.</small></li>
+        <li><a href="/graphs/pinns-karniadakis/">Seven physics-informed neural network papers</a><br><small>CC BY papers by Karniadakis and co-authors, drawn from their full text.</small></li>
+        <li><a href="/graphs/acm/">Eleven ACM papers, positive and negative</a><br><small>CC BY papers from ACM venues, chosen to show that the grammar draws a confirmed result as readily as a failed one.</small></li>
+      </ol>
+    </section>
+
 {{key}}
-    <section class="dg-section" id="list">
-      <h2>{{count}} graphs</h2>
+    <section class="dg-section" id="pilot">
+      <h2>{{count}} graphs drawn from records: the pilot studies</h2>
+      <p>These graphs are drawn not from the papers but from the <a href="/nrr/pilot">Negative-Results Records</a> the pilot encoded from them. Every node and edge comes from a field the record already holds, and a negative is drawn as opposing the hypothesis only when the record&rsquo;s informativeness rule counts it as evidence of absence; otherwise it is merely consistent with it. <a href="#mapping">How the two models line up</a>.</p>
+      <p class="dg-meta">{{note}} <a href="/nrr/pilot#studies">Back to the pilot</a></p>
       <ol class="dg-index">
 {{items}}
       </ol>
@@ -114,7 +126,7 @@
         </table>
       </div>
       <p>The last row is the interesting one. The Discourse Graphs lab conventions say a claim is <em>supported by</em> a result only if certain conditions hold, and otherwise the result is merely <em>consistent with</em> it, and the conditions are left as placeholders for each lab to fill in. The record fills them in with code: a negative supports the absence of an effect only if a positive control passed, the negative control stayed clean, and a sensitivity or power statement exists. That rule is what decides, on every graph here, whether a red edge is drawn or a dashed grey one.</p>
-      <p class="dg-note"><small>The Discourse Graphs grammar is described at <a href="https://discoursegraphs.com/">discoursegraphs.com</a> and in Chan and Akamatsu&rsquo;s 2024 preprint, <a href="https://arxiv.org/abs/2407.20666">arXiv:2407.20666</a>. The schema is at <a href="/schema">portolansoft.com/schema</a>.</small></p>
+      <p class="dg-note"><small>The Discourse Graphs grammar is described at <a href="https://discoursegraphs.com/">discoursegraphs.com</a> and in Chan and Akamatsu&rsquo;s 2024 preprint, <a href="https://arxiv.org/abs/2407.20666">arXiv:2407.20666</a>. The schema is at <a href="/nrr/schema">portolansoft.com/nrr/schema</a>.</small></p>
     </section>
   </div>
 
@@ -135,11 +147,12 @@
       </button>
       <nav aria-label="Footer">
         <ul>
-          <li><a href="/proposal">Proposal</a></li>
-          <li><a href="/schema">Schema</a></li>
-          <li><a href="/pilot">Pilot</a></li>
-          <li><a href="/explained">Explained</a></li>
-          <li><a href="/graphs/">Graphs</a></li>
+          <li><a href="/graphs/">Overview</a></li>
+          <li><a href="/graphs/nejm/">NEJM</a></li>
+          <li><a href="/graphs/sage/">SAGE</a></li>
+          <li><a href="/graphs/pinns-karniadakis/">PINNs</a></li>
+          <li><a href="/graphs/acm/">ACM</a></li>
+          <li><a href="/nrr/">Negative-Results Record</a></li>
           <li><a href="/#contact">Contact</a></li>
         </ul>
       </nav>
